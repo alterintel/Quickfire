@@ -1,0 +1,4 @@
+To keep a persistent faction config throughout updates, rename the FactionConfigTemplate.xml in ./customFactionConfig to FactionConfig.xml 
+and edit it to your liking. 
+
+KEEP IN MIND THAT IF THERE ARE CONFIG VALUES ADDED YOU WILL HAVE TO ADAPT YOUR FILE TO MAKE IT COMPATIBLE  

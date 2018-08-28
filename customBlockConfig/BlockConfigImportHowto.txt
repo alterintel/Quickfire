@@ -1,0 +1,1 @@
+in ./customBlockConfig/ rename BlockConfigImportTemplate.xml into BlockConfigImport.xml and edit it like the example in that file

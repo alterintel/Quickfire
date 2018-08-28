@@ -1,0 +1,93 @@
+<!-- 
+<Config> 
+	<Element> 
+		all values must be here. 
+		It's also a good trick to create/edit a block in 
+		the block editor and copy&paste it in here. 
+		Then remove all the values that don't need to be changed 
+	</Element> 
+</Config> 
+-->
+
+<Config>
+	<Element>
+		<General>
+			<Hulls>
+				<Grey>
+					<Basic>
+
+						<!-- this will only replace the price of the grey hull in the config 
+							and leave any other value alone -->
+						<Block icon="530" name="Grey Hull" textureId="567" type="Grey_Hull">
+							<Price>100000</Price>
+						</Block>
+					</Basic>
+				</Grey>
+			</Hulls>
+			<!-- this is a full cusom block. the texture Ids for the custom texture 
+				sheet goes from [1792 to 2047] (256 values) -->
+			<!-- It will be placed in the decoration category on the shop -->
+			<Decoration>
+				<Block icon="767" name="My new block" textureId="1792" type="CUSTOM_ID_000">
+					<Price>100</Price>
+					<Description>This is my new awesome custom block</Description>
+					<BlockResourceType>2</BlockResourceType>
+					<ProducedInFactory>3</ProducedInFactory>
+					<BasicResourceFactory>0</BasicResourceFactory>
+					<Consistence>
+						<Item count="10">METAL_MESH</Item>
+					</Consistence>
+					<CubatomConsistence />
+					<FactoryBakeTime>5.0</FactoryBakeTime>
+					<CubatomRecipe>
+						<mass>medium</mass>
+						<spinning>anti_spin</spinning>
+						<thermal>plasma</thermal>
+					</CubatomRecipe>
+					<InventoryGroup>decopanel</InventoryGroup>
+					<Animated>false</Animated>
+					<Armour>0</Armour>
+					<Transparency>false</Transparency>
+					<InShop>true</InShop>
+					<Orientation>false</Orientation>
+					<Enterable>false</Enterable>
+					<Hitpoints>15</Hitpoints>
+					<Placable>true</Placable>
+					<InRecipe>true</InRecipe>
+					<CanActivate>false</CanActivate>
+					<IndividualSides>1</IndividualSides>
+					<HasActivationTexture>false</HasActivationTexture>
+					<MainCombinationController>false</MainCombinationController>
+					<SupportCombinationController>false
+					</SupportCombinationController>
+					<EffectCombinationController>false</EffectCombinationController>
+					<Physical>true</Physical>
+					<BlockStyle>0</BlockStyle>
+					<LightSource>false</LightSource>
+					<LightSourceColor>1.0,1.0,1.0,1.0</LightSourceColor>
+					<Door>false</Door>
+					<Deprecated>false</Deprecated>
+					<CubatomCompound>
+						<Cubatom>
+							<mass>light</mass>
+							<spinning>anti_spin</spinning>
+							<thermal>solid</thermal>
+							<conductivity>insulator</conductivity>
+						</Cubatom>
+						<Cubatom>
+							<mass>medium</mass>
+							<spinning>null_spin</spinning>
+							<thermal>gas</thermal>
+							<conductivity>insulator</conductivity>
+						</Cubatom>
+					</CubatomCompound>
+					<ResourceInjection>0</ResourceInjection>
+					<ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
+				</Block>
+			</Decoration>
+					
+		</General>
+
+
+	</Element>
+</Config>

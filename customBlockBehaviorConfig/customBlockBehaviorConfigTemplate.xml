@@ -1,0 +1,107 @@
+<BlockBehavior>
+	<Cannon>
+                <BasicValues>
+                        <Damage>1000</Damage>
+                        <Distance>0.3</Distance> <!-- 1 is equal to 100% sector radius -->
+                        <Speed>2.5</Speed> <!-- In relation % to server max speed  1 = 100% -->
+                        <ReloadMs>11</ReloadMs>
+                        <PowerConsumption>1</PowerConsumption>
+                        <AdditionalPowerConsumptionPerUnitMult>0.1</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
+                        <DefaultWeaponPenetrationWeight>1.5</DefaultWeaponPenetrationWeight> <!-- This weight will distribute the damage on the penetration depth path. The higher, the more damage is used in the first blocks -->
+ 						<DefaultWeaponPenetrationDeepnessMultiplier>1.5</DefaultWeaponPenetrationDeepnessMultiplier> <!-- how deep is the penetration potentially (depending on log10 of damage). A value of 0 defaults to the old system (full damage hits one block) -->
+	
+                </BasicValues>
+                <Combination>
+                        <Cannon>
+                                <Damage style="nerf" linear="true" value="10" />
+                                <Reload style="buff" inverse="true" value="10" />
+                                <Distance style="skip" />
+                                <Speed style="skip" />
+                                <Split style="skip" />
+                                <PowerConsumption style="nerf" linear="true" value="10" />
+                        </Cannon>
+                        <Missile>
+                                <Damage style="buff" linear="true" value="1" />
+                                <Reload style="nerf" inverse="true" value="1" /> 
+                                <Distance style="skip" />
+                                <Speed style="skip" />
+                                <Split style="buff" value="9" />
+                                <PowerConsumption style="nerf" inverse="true" linear="true" value="1"/>
+                        </Missile>
+                        <Beam>
+                                <Damage style="buff" linear="true" value="3" /><!-- 1+3 = 4x damage -->
+                                <Reload style="nerf" inverse="true" value="3" /><!-- 1+3 = 4000ms -->
+                                <Distance style="buff" value="2" />
+                                <Speed style="buff" value="1" />
+                                <Split style="skip" />
+                                <PowerConsumption linear="true" style="nerf" inverse="true" value="3"/> <!-- 1+3 = 4x power consumption -->
+                        </Beam>
+                        <Pulse>
+                                <Damage style="buff" value="15" linear="true" />
+                                <Reload style="nerf" inverse="true" value="15" />
+                                <Distance style="skip" />
+                                <Speed style="skip" />
+                                <Split style="skip" />
+                                <PowerConsumption style="buff" linear="true" value="15" />
+                        </Pulse>
+                </Combination>
+        </Cannon>
+        <DumbMissile>
+                <BasicValues>
+                        <Damage>300</Damage>
+                        <HpPerDamage>0</HpPerDamage>
+                        <Distance>3.3</Distance> <!-- 1 is equal to 100% sector radius -->
+                        <Radius>12</Radius> <!--this a maximum blast radius -->
+                        <Speed>0.48</Speed>               
+                        <ReloadMs>100</ReloadMs><!-- default 15000 -->
+                        <PowerConsumption>1</PowerConsumption> <!-- (defualt 1500) deviates from 10 power/1damage formula, missiles can easily be shot down -->
+                        <AdditionalPowerConsumptionPerUnitMult>0.025</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
+                        <ChasingTurnSpeedWithTargetInFront>0.8</ChasingTurnSpeedWithTargetInFront> 
+                        <ChasingTurnSpeedWithTargetInBack>0.7</ChasingTurnSpeedWithTargetInBack> 
+                         
+                        
+                </BasicValues>
+                <Combination>
+                        <Cannon>
+                                <Damage style="nerf" value="15" linear="true" />
+                                <Reload style="buff" inverse="true" value="15" />
+                                <Distance style="skip" />
+                                <BlastRadius style="nerf" value="2" />
+                                <Speed style="buff" value="2.0"/>
+                                <Split style="skip" />
+                                <Mode style="set" value="0"/> <!-- Dumb Missile -->
+                                <PowerConsumption style="nerf" value="15" linear="true" />
+                        </Cannon>
+                        <Missile>
+                                <Damage style="skip" linear="true" />
+                                <Reload style="skip" />
+                                <Distance style="skip" />
+                                <BlastRadius style="nerf" value="3" /> 
+                                <Speed style="nerf" value="2" />
+                                <Split style="buff" value="9" />
+                                <Mode style="set" value="1"/><!-- Heat Seeker Missile -->
+                                <PowerConsumption style="skip" linear="true" />
+                        </Missile>
+                        <Beam>
+                                <Damage style="buff" linear="true" value="2" />
+                                <Reload style="nerf" inverse="true" value="2" />
+                                <Distance style="buff" value="2" />
+                                <BlastRadius style="skip" />
+                                <Speed style="buff" value="1" />
+                                <Split style="skip" />
+                                <Mode style="set" value="2" /><!-- Smart Missile -->
+                                <PowerConsumption style="nerf" inverse="true" linear="true" value="2" />
+                        </Beam>
+                        <Pulse>
+                                <Damage style="buff" linear="true" value="5"/>
+                                <Reload style="nerf" inverse="true" value="5" />
+                                <Distance style="skip" />
+                                <BlastRadius style="buff" value="3" />
+                                <Speed style="nerf" value="3" />
+                                <Split style="skip" />
+                                <Mode style="set" value="2" /><!-- Smart Missile -->
+                                <PowerConsumption style="nerf" inverse="true" linear="true" value="5"/>
+                        </Pulse>
+                </Combination>
+        </DumbMissile>
+</BlockBehavior>

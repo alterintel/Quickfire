@@ -1,0 +1,1 @@
+Copy the startupConfig and folders over from ./data/npcConfigs to use them as your default npc configurations

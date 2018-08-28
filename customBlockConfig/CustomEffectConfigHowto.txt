@@ -1,0 +1,1 @@
+in ./customEffectConfig/ rename ConfigEffectConfigTemplate.xml into ConfigEffectConfig.xml and edit it like the example in that file

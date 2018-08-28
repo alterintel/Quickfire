@@ -1,0 +1,190 @@
+<GameConfig  version="1">
+
+
+<!-- IMPORTANT: to change the config, please edit ./GameConfig.xml, and NOT ./data/config/GameConfigDefault.xml
+	 as that is only a template that gets copied on first startup, so a server's config doesn't get replaced on update.
+	 Any new features of this config will have to be copied over manually first-->
+	<StartingGear>
+		<Credits>50000</Credits>
+		
+		<Block>
+			<Id>598</Id> <!-- grey basic hull -->
+			<Count>600</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+                <!-- old power
+		<Block>
+			<Id>2</Id> 
+			<Count>100</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+                -->
+                <Block>
+			<Id>1008</Id> <!-- reactor power -->
+			<Count>20</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+                <Block>
+			<Id>1009</Id> <!-- reactor stabilizer -->
+			<Count>20</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+                <Block>
+                        <Id>1010</Id> <!-- reactor conduit -->
+                        <Count>10</Count>
+                        <Slot>hotbar</Slot>
+                </Block>
+                <Block>
+                        <Id>1011</Id> <!-- reactor mobility chamber -->
+                        <Count>5</Count>
+                        <Slot>hotbar</Slot>
+                </Block>
+		<Block>
+			<Id>8</Id>  <!-- thruster -->
+			<Count>50</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+		<Block>
+			<Id>4</Id>  <!-- salvage computer -->
+			<Count>2</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+		<Block>
+			<Id>24</Id> <!-- salvage modules -->
+			<Count>20</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+                <Block>
+			<Id>478</Id> <!-- shield rechargers -->
+			<Count>5</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+                <Block>
+			<Id>3</Id> <!-- shield capacity -->
+			<Count>5</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+		<Block>
+			<Id>291</Id> <!-- faction modules -->
+			<Count>2</Count>
+			<Slot>hotbar</Slot>
+		</Block>
+		
+		<Block>
+			<Id>1</Id>  <!-- core -->
+			<Count>5</Count>
+			<Slot>inventory</Slot>
+		</Block>
+	
+		<Tool>
+			<SubId>1</SubId> <!-- laser -->
+			<Slot>inventory</Slot>
+		</Tool>
+		<Tool>
+			<SubId>2</SubId> <!-- heal -->
+			<Slot>inventory</Slot>
+		</Tool>
+		<Tool>
+			<SubId>3</SubId> <!-- power supply -->
+			<Slot>inventory</Slot>
+		</Tool>
+		<Tool>
+			<SubId>4</SubId> <!-- marker -->
+			<Slot>inventory</Slot>
+		</Tool>
+		
+		<Helmet>
+			<Slot>inventory</Slot>
+		</Helmet>
+		
+		<Flashlight>
+			<Slot>inventory</Slot>
+		</Flashlight>
+		
+		<Logbook>
+			<Message>Personal Logbook</Message>
+			<Slot>inventory</Slot>
+		</Logbook>
+		
+		<!-- uncomment and edit the following to give the player a blueprint at the start -->
+		<!-- 
+		<Blueprint>
+			<Name>Isanth Type-Zero C-</Name>
+			<Filled>true</Filled>
+			<Slot>inventory</Slot>
+		</Blueprint>
+		<BuildInhibiter>
+			<Slot>inventory</Slot>
+		</BuildInhibiter>
+		 -->
+		
+	</StartingGear>
+
+	<SunHeatDamage>
+		<DamagePerBlock>1.0</DamagePerBlock>
+		<MaxDelayBetweenHits>0.2</MaxDelayBetweenHits>
+		<SunDamageRadius>8.0</SunDamageRadius>
+		<SunDamageDelayInSecs>5.0</SunDamageDelayInSecs>
+		<SunDamageMin>100</SunDamageMin>
+		<SunDamageMax>1000000</SunDamageMax>
+	</SunHeatDamage>
+
+	<!-- IMPORTANT: to change the config, please edit ./GameConfig.xml, and NOT ./data/config/GameConfigDefault.xml
+	 as that is only a template that gets copied on first startup, so a server's config doesn't get replaced on update.
+	 Any new features of this config will have to be copied over manually first-->
+
+	<!-- uncomment and edit the following to have a ruleset on how many groups may be fired at once per computer.
+	And how many computers of a type are allowed at a ship 
+	Exiting entities will not activate that controller if there are too many groups
+	Use ID of the controller ('4' is salvage computer in the example)-->
+	<!-- 
+	<GroupLimits>
+		<Controller>
+			<ID>4</ID> 
+			<GroupMax>30</GroupMax>
+		</Controller> 
+		<Controller>
+			<ID>544</ID> 
+			<ComputerMax>2</ComputerMax> 
+		</Controller>  
+	</GroupLimits>
+	-->
+	<!-- uncomment and edit the following to have a ruleset on Ship/Station limitaions.
+		This will also apply to spawnable blueprints 
+		use a negative value to ignore (not limit) a dimension
+	 -->
+	<!-- 
+	<MaxDimensionShip>
+		<X>100</X>
+		<Y>400</Y>
+		<Z>-1</Z>
+	</MaxDimensionShip>
+	<MaxDimensionStation>
+		<X>600</X>
+		<Y>800</Y>
+		<Z>1000</Z>
+	</MaxDimensionStation>
+	-->
+	
+	<!-- uncomment and edit the following to have a ruleset on ship sizes 
+	(existing ships over that size become unusable) If you only need one limitation, remove the one you don't need -->
+	<!-- 
+	<ShipLimits>
+		<Mass>1000.0</Mass> 
+		<Blocks>100</Blocks> 
+	</ShipLimits>
+	<PlanetLimits>
+		<Mass>50000.0</Mass> 
+		<Blocks>2000000</Blocks> 
+	</PlanetLimits>
+	<StationLimits>
+		<Mass>5000.0</Mass> 
+		<Blocks>500</Blocks> 
+	</StationLimits>
+	-->
+	
+	
+
+</GameConfig>
+        
+        

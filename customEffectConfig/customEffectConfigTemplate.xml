@@ -1,0 +1,15 @@
+<!-- duplicate group ids with the orginal will be overwritten -->
+<Config>
+    <Group id="stealth - cloaking">
+        <E modtype="set" priority="10" type="stealth_cloak_capability">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="0" type="stealth_jammer_capability">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+</Config>
