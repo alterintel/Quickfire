@@ -1,0 +1,77 @@
+<BlockBehavior>
+        <General>
+                <BasicValues> 
+
+			<ShieldLocalCapacityPerBlock>500</ShieldLocalCapacityPerBlock>
+                        <ShieldLocalRechargePerBlock>50</ShieldLocalRechargePerBlock>
+                        <ShieldUpkeepPerSecondOfTotalCapacity>0.04</ShieldUpkeepPerSecondOfTotalCapacity>
+
+			<ReactorCalcStyle>LINEAR</ReactorCalcStyle> <!-- LINEAR, EXP, LOG, LOG_LEVELED -->	
+				<!-- LINEAR -->
+               			<ReactorStabilizerDistancePerMainReactorBlock>0.0</ReactorStabilizerDistancePerMainReactorBlock> <!-- ReactorStabilizerStartingDistance + blocks * ReactorStabilizerDistancePerMainReactorBlock -->
+		
+			<ReactorStabilizerStartingDistance>0.0</ReactorStabilizerStartingDistance> <!-- inital distance -->   
+			<ReactorStabilizerLinearFalloffOne>0.0</ReactorStabilizerLinearFalloffOne> <!-- percentage of distance at which or farther away the stabilizer counts as 1 -->
+			<ReactorStabilizerLinearFalloffZero>0.0</ReactorStabilizerLinearFalloffZero> <!-- percentage of distance at which or closer the stabilizer counts as 0 -->
+
+			<CollectionIntegrityStartValue>42</CollectionIntegrityStartValue> <!--hurr-->
+                        <CollectionIntegrityBaseTouching0>0</CollectionIntegrityBaseTouching0>
+                        <CollectionIntegrityBaseTouching1>0</CollectionIntegrityBaseTouching1>
+                        <CollectionIntegrityBaseTouching2>0</CollectionIntegrityBaseTouching2>
+                        <CollectionIntegrityBaseTouching3>0</CollectionIntegrityBaseTouching3>
+                        <CollectionIntegrityBaseTouching4>0</CollectionIntegrityBaseTouching4>
+                        <CollectionIntegrityBaseTouching5>0</CollectionIntegrityBaseTouching5>
+                        <CollectionIntegrityBaseTouching6>0</CollectionIntegrityBaseTouching6>
+                        <CollectionIntegrityMargin>0</CollectionIntegrityMargin> <!-- minimum integrity at which a structure is save -->
+                </BasicValues>
+        </General>
+        <TractorBeam>
+                <BasicValues>            
+                        <TractorMassPerBlock>10</TractorMassPerBlock> <!-- mass that can be moved per block -->
+                        <ReactorPowerConsumptionResting>10.0</ReactorPowerConsumptionResting>
+                        <Distance>1.0</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+                </BasicValues>
+        </TractorBeam>
+
+	<Cannon>
+                <BasicValues>
+			<Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
+			<Speed>75</Speed> <!-- In relation % to server max speed  1 = 100% -->
+			<Recoil>0.0</Recoil> <!-- (orig value is 4.0) Recoil in force per damage. Applied from the ship cannons point of origin in the opposite firing direction (multiplied with damage of projectile)-->                	
+			<!-- Horizontal Cursor Recoil -->
+                        <CursorRecoilX>0.0</CursorRecoilX> <!-- Cursor movement force multiplied with damage -->
+                        <CursorRecoilMinX>0.0</CursorRecoilMinX> <!-- Min cursor recoil value -->
+                        <CursorRecoilMaxX>0.0</CursorRecoilMaxX> <!-- Max cursor recoil value -->
+                        <CursorRecoilDirX>0.0</CursorRecoilDirX> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
+                        
+                	<!-- Vertical Cursor Recoil -->
+                        <CursorRecoilY>0.0</CursorRecoilY> <!-- Cursor movement force multiplied with damage -->
+                        <CursorRecoilMinY>0.0</CursorRecoilMinY> <!-- Min cursor recoil value -->
+                        <CursorRecoilMaxY>0.0</CursorRecoilMaxY> <!-- Max cursor recoil value -->
+                        <CursorRecoilDirY>0.0</CursorRecoilDirY> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
+                        
+
+                        <CursorRecoilSpeedIn>0.0</CursorRecoilSpeedIn> <!-- Velocity curser goes inwards -->
+                        <CursorRecoilSpeedInAddMod>0.0</CursorRecoilSpeedInAddMod> <!-- range of which pow is applied speed = pow(CursorRecoilSpeedIn, (PercentOfDistance + CursorRecoilSpeedInAddMod)*CursorRecoilSpeedInPowMult) -->
+                        <CursorRecoilSpeedInPowMult>0.0</CursorRecoilSpeedInPowMult>
+
+                        <CursorRecoilSpeedOut>0.0</CursorRecoilSpeedOut> <!-- Velocity curser goes outwards -->
+                        <CursorRecoilSpeedOutAddMod>0.0</CursorRecoilSpeedOutAddMod> <!-- 0=off; range of which pow is applied speed *= pow((1.0f-percentofRecoil)*speedPowMult + speedAdd, 2); -->
+                        <CursorRecoilSpeedOutPowMult>0.0</CursorRecoilSpeedOutPowMult>
+                </BasicValues>
+        </Cannon>
+
+	<Missile>
+                <BasicValues>
+                        <Distance>5.0</Distance> <!-- 1 is equal to 100% sector radius -->
+                        <Speed>12</Speed>               
+                </BasicValues>
+        </Missile>
+
+        <DamageBeam>
+                <BasicValues>
+			<Distance>2.0</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
+                </BasicValues>
+        </DamageBeam>
+
+</BlockBehavior>
