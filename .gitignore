@@ -8,6 +8,7 @@ StarMade-dedicated-server-windows.bat
 StarMade.jar
 admins.txt
 blacklist.txt
+blockBehaviorConfig.xml
 blockBehaviorConfigMergeResult.xml
 blueprints-default/
 blueprints-stations/
