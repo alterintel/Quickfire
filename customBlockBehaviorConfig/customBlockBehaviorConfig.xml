@@ -495,9 +495,7 @@
                 </BasicValues>
         </TractorBeam>
         <SalvageBeam>
-                <BasicValues>			
-                        <SalvageDamagePerHit version="noreactor">2</SalvageDamagePerHit> <!-- salvage damage done per tick to fill up SalvageDamageNeededPerBlock -->
-
+                <BasicValues>
                         <SalvageDamagePerHit>25</SalvageDamagePerHit> <!-- salvage damage done per tick to fill up SalvageDamageNeededPerBlock -->
                         <ReactorPowerConsumptionResting>5.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>25.0</ReactorPowerConsumptionCharging>
