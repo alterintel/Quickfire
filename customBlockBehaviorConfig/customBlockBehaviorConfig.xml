@@ -513,9 +513,7 @@
         </SalvageBeam>
       
         <RepairBeam>
-                <BasicValues>                        
-                        <RepairPerHit version="noreactor">60</RepairPerHit>
-                        
+                <BasicValues>                  
                         <RepairPerHit>1</RepairPerHit>
                         <ReactorPowerConsumptionResting>5.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>25.0</ReactorPowerConsumptionCharging>
@@ -616,7 +614,6 @@
                             <Speed style="buff" value = "0.25"/>
                             <Recoil style="skip"/>
                             <ImpactForce style="nerf" value="2" />
-                            <PowerConsumption style="buff" inverse="true" linear="true" value="10" version="noreactor"/>
                             <PowerConsumption style="skip" linear="true"/>
                             <AcidFormula style="set" value="1"/>
                             <ProjectileWidth style="skip"/>
@@ -646,7 +643,6 @@
                             <Speed style="skip"/>
                             <Recoil style="skip"/>
                             <ImpactForce style="buff" value="1.0"/>
-                            <PowerConsumption style="nerf" inverse="true" linear="true" value="10" version="noreactor"/>
                             <PowerConsumption style="skip" linear="true"/>
                             <ProjectileWidth style="skip"/>
                             <AcidFormula style="set" value="1"/>
@@ -676,7 +672,6 @@
                             <Speed style="nerf" value="1.33333334"/> <!-- 7.5 -->
                             <Recoil style="skip"/>
                             <ImpactForce style="buff" value="9" />
-                            <PowerConsumption style="nerf" inverse="true" linear="true" value="30" version="noreactor"/> <!-- 1+3 = 4x power consumption -->
                             <PowerConsumption style="skip" linear="true"/> 
                             <ProjectileWidth style="skip"/>
                             <AcidFormula style="set" value="2"/>
@@ -832,7 +827,6 @@
                             <Speed style="nerf" value="2"/>
                             <Split style="skip"/>
                             <Mode style="set" value="2"/><!-- Smart Missile -->
-                            <PowerConsumption style="nerf" inverse="true" linear="true" value="2" version="noreactor"/>
                             <PowerConsumption style="skip" linear="true"/>
                             
                             <AdditionalCapacityUsedPerDamage style="skip"/><!-- rounded down -->
@@ -886,8 +880,7 @@
                         <Cannon> <!-- unlatched beam -->
                             <HitSpeed style="skip"/> <!-- 0.1 tick rate-->
                             <Distance style="skip"/>
-
-                            <PowerConsumptionResting style="buff" inverse="true" linear="true" value="5" version="noreactor"/>
+							
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
@@ -946,8 +939,7 @@
                         <Beam> <!-- death beam -->
                             <HitSpeed style="nerf" value="2"/> <!-- 0.05 tick rate-->
                             <Distance style="skip"/>
-
-                            <PowerConsumptionResting style="nerf" inverse="true" linear="true" value="2" version="noreactor"/>                                
+							
                             <PowerConsumptionResting style="buff" value="2" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
