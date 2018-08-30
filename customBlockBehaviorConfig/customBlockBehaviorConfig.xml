@@ -212,6 +212,7 @@
                         <CollectionIntegrityUnderFireUpdateDelaySec>300.0</CollectionIntegrityUnderFireUpdateDelaySec> <!-- delay on integrity update when losing a module block (doesn't trigger on armor/deco). Resets on any block added -->
                         
                          <!-- NEW POWER -->
+						 <!--
                         <HpConditionTriggerList>              
                             <Item conditionhp="0.3">
                                 <Type>CONTROL_LOSS</Type>
@@ -232,7 +233,8 @@
                                 <Type>THRUST</Type>
                                 <Amount>0.0</Amount>
                             </Item>
-                        </HpConditionTriggerList> 	
+                        </HpConditionTriggerList> 
+						--> <!--This was throwing errors for some reason, so I'll just nuke it for now-->
 	
                 </BasicValues>
         </General>
