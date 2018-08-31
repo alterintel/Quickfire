@@ -1,6 +1,0 @@
-To keep a persistent faction config throughout updates, rename the customBlockBehaviorConfigTemplate.xml 
-in the directory ./customBlockBehaviorConfig to customBlockBehaviorConfig.xml 
-and edit it to your liking. 
-
-The result will be a merge of anything in your custom config with the default values 
-from the data/config dir for missing ones.
