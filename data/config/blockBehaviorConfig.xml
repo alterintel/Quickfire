@@ -102,7 +102,7 @@
                         <ArmorOverPenetrationMarginMultiplicator>20.0</ArmorOverPenetrationMarginMultiplicator> <!-- if(damage > totalArmorValue*ArmorOverPenetrationMarginMultiplicator) -> OVER PENETRATION -->
                         <NonArmorOverpenetrationMargin>2500.0</NonArmorOverpenetrationMargin> <!-- Minimum damage to cause overpenetration on non armor blocks -->
 
-                        <ExplosionShieldDamageBonus>-0.5</ExplosionShieldDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against shields-->
+                        <ExplosionShieldDamageBonus>0.0</ExplosionShieldDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against shields-->
                         <ExplosionHullDamageBonus>0.0</ExplosionHullDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against blocks (will also hurt armor more)-->
 
 
@@ -114,8 +114,8 @@
                   
                   <!-- NEW POWER -->
                         <!-- Shields -->
-                        <ShieldLocalCapacityPerBlock>500</ShieldLocalCapacityPerBlock>
-                        <ShieldLocalRechargePerBlock>50</ShieldLocalRechargePerBlock>
+                        <ShieldLocalCapacityPerBlock>250</ShieldLocalCapacityPerBlock>
+                        <ShieldLocalRechargePerBlock>25</ShieldLocalRechargePerBlock>
                         <ShieldLocalDefaultCapacity>0</ShieldLocalDefaultCapacity>
 
                         <ShieldLocalRadiusCalcStyle>EXP</ShieldLocalRadiusCalcStyle> <!-- LINEAR, EXP, LOG -->
@@ -132,7 +132,7 @@
                             <ShieldLocalRadiusLogFactor>20.0</ShieldLocalRadiusLogFactor>
                             <ShieldLocalRadiusLogOffset>0.0</ShieldLocalRadiusLogOffset>
 
-                        <ShieldUpkeepPerSecondOfTotalCapacity>0.04</ShieldUpkeepPerSecondOfTotalCapacity>
+                        <ShieldUpkeepPerSecondOfTotalCapacity>0.02</ShieldUpkeepPerSecondOfTotalCapacity>
                         
                         <ShieldLocalPowerConsumptionPerRechargePerSecondResting>0.4</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
                         <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>0.8</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
@@ -182,10 +182,10 @@
 
                         <ReactorModuleDischargeMargin>0.9</ReactorModuleDischargeMargin> <!-- at which percentage of resting consumption available a module (weapon) starts to discharge -->
 
-                        <ReactorCalcStyle>LINEAR</ReactorCalcStyle> <!-- LINEAR, EXP, LOG, LOG_LEVELED -->
+                        <ReactorCalcStyle>EXP</ReactorCalcStyle> <!-- LINEAR, EXP, LOG, LOG_LEVELED -->
 
                             <!-- LINEAR -->
-                            <ReactorStabilizerDistancePerMainReactorBlock>0.0</ReactorStabilizerDistancePerMainReactorBlock> <!-- ReactorStabilizerStartingDistance + blocks * ReactorStabilizerDistancePerMainReactorBlock -->
+                            <ReactorStabilizerDistancePerMainReactorBlock>0.5</ReactorStabilizerDistancePerMainReactorBlock> <!-- ReactorStabilizerStartingDistance + blocks * ReactorStabilizerDistancePerMainReactorBlock -->
 
                             <!-- EXP -->
                             <ReactorStabilizerDistanceExpMult>10.0</ReactorStabilizerDistanceExpMult> <!-- ReactorStabilizerStartingDistance + (blocks ^ ReactorStabilizerDistanceExp) * ReactorStabilizerDistanceExp -->
@@ -204,8 +204,8 @@
                             <ReactorStabilizerDistanceLogLeveledMultiplier>10</ReactorStabilizerDistanceLogLeveledMultiplier> <!-- ReactorStabilizerStartingDistance + (ReactorLevel^ReactorStabilizerDistanceLogLeveledExp * ReactorStabilizerDistanceLogLeveledMultiplier) -->
                             <ReactorStabilizerDistanceLogLeveledExp>2</ReactorStabilizerDistanceLogLeveledExp> <!-- ReactorStabilizerStartingDistance + (ReactorLevel^ReactorStabilizerDistanceLogLeveledExp * ReactorStabilizerDistanceLogLeveledMultiplier) -->
 
-                        <ReactorStabilizerStartingDistance>0.0</ReactorStabilizerStartingDistance> <!-- inital distance -->
-                        <ReactorStabilizerLinearFalloffOne>0.0</ReactorStabilizerLinearFalloffOne> <!-- percentage of distance at which or farther away the stabilizer counts as 1 -->
+                        <ReactorStabilizerStartingDistance>-7.5</ReactorStabilizerStartingDistance> <!-- inital distance -->
+                        <ReactorStabilizerLinearFalloffOne>1.0</ReactorStabilizerLinearFalloffOne> <!-- percentage of distance at which or farther away the stabilizer counts as 1 -->
                         <ReactorStabilizerLinearFalloffZero>0.0</ReactorStabilizerLinearFalloffZero> <!-- percentage of distance at which or closer the stabilizer counts as 0 -->
                         <ReactorStabilizerFreeMainReactorBlocks>10</ReactorStabilizerFreeMainReactorBlocks> <!-- amount of free stabilization added -->
                         <ReactorStabilizerDistanceTotalMult>2.0</ReactorStabilizerDistanceTotalMult>
@@ -302,14 +302,14 @@
                         <ReconDifferenceMinReactor>2</ReconDifferenceMinReactor> <!-- difference for target to display rector outline. min recon difference (own scan strength - target stealth strength) -->
 	
 
-                        <CollectionIntegrityStartValue>50</CollectionIntegrityStartValue>
-                        <CollectionIntegrityBaseTouching0>-1</CollectionIntegrityBaseTouching0>
-                        <CollectionIntegrityBaseTouching1>-1</CollectionIntegrityBaseTouching1>
-                        <CollectionIntegrityBaseTouching2>-1</CollectionIntegrityBaseTouching2>
-                        <CollectionIntegrityBaseTouching3>0</CollectionIntegrityBaseTouching3>
-                        <CollectionIntegrityBaseTouching4>0</CollectionIntegrityBaseTouching4>
-                        <CollectionIntegrityBaseTouching5>0</CollectionIntegrityBaseTouching5>
-                        <CollectionIntegrityBaseTouching6>1</CollectionIntegrityBaseTouching6>
+                        <CollectionIntegrityStartValue>400</CollectionIntegrityStartValue>
+                        <CollectionIntegrityBaseTouching0>-10</CollectionIntegrityBaseTouching0>
+                        <CollectionIntegrityBaseTouching1>-8.5</CollectionIntegrityBaseTouching1>
+                        <CollectionIntegrityBaseTouching2>-7</CollectionIntegrityBaseTouching2>
+                        <CollectionIntegrityBaseTouching3>-4</CollectionIntegrityBaseTouching3>
+                        <CollectionIntegrityBaseTouching4>-2</CollectionIntegrityBaseTouching4>
+                        <CollectionIntegrityBaseTouching5>0.5</CollectionIntegrityBaseTouching5>
+                        <CollectionIntegrityBaseTouching6>2</CollectionIntegrityBaseTouching6>
                         <CollectionIntegrityMargin>0</CollectionIntegrityMargin> <!-- minimum integrity at which a structure is save -->
 
                         <CollectionIntegrityExplosionAmount>3</CollectionIntegrityExplosionAmount> <!-- explosion if a block of an instable module gets killed-->
@@ -689,14 +689,14 @@
         </Factory>
         <TractorBeam>
                 <BasicValues>			
-                        <TractorMassPerBlock>10</TractorMassPerBlock> <!-- mass that can be moved per block -->
+                        <TractorMassPerBlock>5</TractorMassPerBlock> <!-- mass that can be moved per block -->
                         <ReactorPowerConsumptionResting>10.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>50.0</ReactorPowerConsumptionCharging>
 
                         <ForceToMassMax>10</ForceToMassMax> <!--  the maximum force applied, ForceToMassMax * target's mass -->
                         <TickRate>0.0249</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
-                        <Distance>2.25</Distance> <!-- 1 is equal to 100% sector radius -->
-                        <CoolDown>0</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
+                        <Distance>0.2</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+                        <CoolDown>5</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
                         <BurstTime>-1</BurstTime> <!-- Time the beam will fire -->
                         <InitialTicks>0</InitialTicks> <!-- Ticks to do at the initial contact of beam with a block -->
                         <RailHitMultiplierParent>0</RailHitMultiplierParent> <!-- Salvage Damage percent done to target in own Rail Chain when target is equal or closer to root than this entity -->
@@ -771,35 +771,35 @@
                         <ReactorPowerConsumptionResting>3.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>20.0</ReactorPowerConsumptionCharging>
                         
-                        <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
-                        <Speed>75</Speed> <!-- In relation % to server max speed  1 = 100% -->
+                        <Distance>2.0</Distance> <!-- 1 is equal to 100% sector radius -->
+                        <Speed>100</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>1000</ReloadMs>
                         <AdditionalPowerConsumptionPerUnitMult>0.1</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
 
-			<Recoil>0.0</Recoil> <!-- (orig value is 4.0) Recoil in force per damage. Applied from the ship cannons point of origin in the opposite firing direction (multiplied with damage of projectile)-->
+			<Recoil>4.0</Recoil> <!-- Recoil in force per damage. Applied from the ship cannons point of origin in the opposite firing direction (multiplied with damage of projectile)-->
                         <ImpactForce>1.0</ImpactForce> <!-- Impact force on target in force per damage.  (multiplied with damage of projectile)-->
                         
                         <!-- 5 times more vertical recoil, horizontal recoil can go left or right -->
                         <!-- Horizontal Cursor Recoil -->
-                        <CursorRecoilX>0.0</CursorRecoilX> <!-- Cursor movement force multiplied with damage -->
-                        <CursorRecoilMinX>0.0</CursorRecoilMinX> <!-- Min cursor recoil value -->
-                        <CursorRecoilMaxX>0.0</CursorRecoilMaxX> <!-- Max cursor recoil value -->
+                        <CursorRecoilX>0.000001</CursorRecoilX> <!-- Cursor movement force multiplied with damage -->
+                        <CursorRecoilMinX>0.000001</CursorRecoilMinX> <!-- Min cursor recoil value -->
+                        <CursorRecoilMaxX>0.01</CursorRecoilMaxX> <!-- Max cursor recoil value -->
                         <CursorRecoilDirX>0.0</CursorRecoilDirX> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                         
                         <!-- Vertical Cursor Recoil -->
-                        <CursorRecoilY>0.0</CursorRecoilY> <!-- Cursor movement force multiplied with damage -->
-                        <CursorRecoilMinY>0.0</CursorRecoilMinY> <!-- Min cursor recoil value -->
-                        <CursorRecoilMaxY>0.0</CursorRecoilMaxY> <!-- Max cursor recoil value -->
-                        <CursorRecoilDirY>0.0</CursorRecoilDirY> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
+                        <CursorRecoilY>0.000008</CursorRecoilY> <!-- Cursor movement force multiplied with damage -->
+                        <CursorRecoilMinY>0.000008</CursorRecoilMinY> <!-- Min cursor recoil value -->
+                        <CursorRecoilMaxY>0.08</CursorRecoilMaxY> <!-- Max cursor recoil value -->
+                        <CursorRecoilDirY>1.0</CursorRecoilDirY> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                         
 
                         <CursorRecoilSpeedIn>0.0</CursorRecoilSpeedIn> <!-- Velocity curser goes inwards -->
                         <CursorRecoilSpeedInAddMod>0.0</CursorRecoilSpeedInAddMod> <!-- range of which pow is applied speed = pow(CursorRecoilSpeedIn, (PercentOfDistance + CursorRecoilSpeedInAddMod)*CursorRecoilSpeedInPowMult) -->
                         <CursorRecoilSpeedInPowMult>0.0</CursorRecoilSpeedInPowMult>
 
-                        <CursorRecoilSpeedOut>0.0</CursorRecoilSpeedOut> <!-- Velocity curser goes outwards -->
-                        <CursorRecoilSpeedOutAddMod>0.0</CursorRecoilSpeedOutAddMod> <!-- 0=off; range of which pow is applied speed *= pow((1.0f-percentofRecoil)*speedPowMult + speedAdd, 2); -->
-                        <CursorRecoilSpeedOutPowMult>0.0</CursorRecoilSpeedOutPowMult>
+                        <CursorRecoilSpeedOut>1.5</CursorRecoilSpeedOut> <!-- Velocity curser goes outwards -->
+                        <CursorRecoilSpeedOutAddMod>0.5</CursorRecoilSpeedOutAddMod> <!-- 0=off; range of which pow is applied speed *= pow((1.0f-percentofRecoil)*speedPowMult + speedAdd, 2); -->
+                        <CursorRecoilSpeedOutPowMult>2.0</CursorRecoilSpeedOutPowMult>
 
                         <ProjectileWidth>1.0</ProjectileWidth> <!-- Projectile width multiplier per block built from the weapon output-->
                         
@@ -942,10 +942,10 @@
                         <ReactorPowerConsumptionResting>2</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>4</ReactorPowerConsumptionCharging>
 
-                        <MissileCapacityCalcStyle>LINEAR</MissileCapacityCalcStyle> <!-- LINEAR, EXP, DOUBLE_EXP, LOG -->
+                        <MissileCapacityCalcStyle>DOUBLE_EXP</MissileCapacityCalcStyle> <!-- LINEAR, EXP, DOUBLE_EXP, LOG -->
                         
                         <!-- LINEAR-->
-                        <MissileCapacityPerBlock>10</MissileCapacityPerBlock>
+                        <MissileCapacityPerBlock>0.5</MissileCapacityPerBlock>
                         
                         <!-- EXP -->
                         <MissileCapacityExp>0.5</MissileCapacityExp>
@@ -981,9 +981,9 @@
                         <LockOnTimeSec>15</LockOnTimeSec> <!-- how long it takes to lock on missiles -->
                         <LockedOnExpireTimeSec>3</LockedOnExpireTimeSec> <!-- how long it takes for target to expire when looking away after lock on -->
                         
-                        <Distance>4.0</Distance> <!-- 1 is equal to 100% sector radius -->
+                        <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Radius>12</Radius> <!--this a maximum blast radius -->
-                        <Speed>12</Speed>               
+                        <Speed>6</Speed>               
                         <ReloadMs>2000</ReloadMs><!-- default 15000 -->
                         <PowerConsumption>1500</PowerConsumption> <!-- (defualt 1500) deviates from 10 power/1damage formula, missiles can easily be shot down -->
                         <AdditionalPowerConsumptionPerUnitMult>0.025</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
