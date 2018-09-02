@@ -182,10 +182,10 @@
 
                         <ReactorModuleDischargeMargin>0.9</ReactorModuleDischargeMargin> <!-- at which percentage of resting consumption available a module (weapon) starts to discharge -->
 
-                        <ReactorCalcStyle>EXP</ReactorCalcStyle> <!-- LINEAR, EXP, LOG, LOG_LEVELED -->
+                        <ReactorCalcStyle>LINEAR</ReactorCalcStyle> <!-- LINEAR, EXP, LOG, LOG_LEVELED -->
 
                             <!-- LINEAR -->
-                            <ReactorStabilizerDistancePerMainReactorBlock>0.5</ReactorStabilizerDistancePerMainReactorBlock> <!-- ReactorStabilizerStartingDistance + blocks * ReactorStabilizerDistancePerMainReactorBlock -->
+                            <ReactorStabilizerDistancePerMainReactorBlock>0.0</ReactorStabilizerDistancePerMainReactorBlock> <!-- ReactorStabilizerStartingDistance + blocks * ReactorStabilizerDistancePerMainReactorBlock -->
 
                             <!-- EXP -->
                             <ReactorStabilizerDistanceExpMult>10.0</ReactorStabilizerDistanceExpMult> <!-- ReactorStabilizerStartingDistance + (blocks ^ ReactorStabilizerDistanceExp) * ReactorStabilizerDistanceExp -->
@@ -204,9 +204,9 @@
                             <ReactorStabilizerDistanceLogLeveledMultiplier>10</ReactorStabilizerDistanceLogLeveledMultiplier> <!-- ReactorStabilizerStartingDistance + (ReactorLevel^ReactorStabilizerDistanceLogLeveledExp * ReactorStabilizerDistanceLogLeveledMultiplier) -->
                             <ReactorStabilizerDistanceLogLeveledExp>2</ReactorStabilizerDistanceLogLeveledExp> <!-- ReactorStabilizerStartingDistance + (ReactorLevel^ReactorStabilizerDistanceLogLeveledExp * ReactorStabilizerDistanceLogLeveledMultiplier) -->
 
-                        <ReactorStabilizerStartingDistance>-7.5</ReactorStabilizerStartingDistance> <!-- inital distance -->
-                        <ReactorStabilizerLinearFalloffOne>1.0</ReactorStabilizerLinearFalloffOne> <!-- percentage of distance at which or farther away the stabilizer counts as 1 -->
-                        <ReactorStabilizerLinearFalloffZero>0.0</ReactorStabilizerLinearFalloffZero> <!-- percentage of distance at which or closer the stabilizer counts as 0 -->
+                        <ReactorStabilizerStartingDistance>0.0</ReactorStabilizerStartingDistance> <!-- inital distance -->
+                        <ReactorStabilizerLinearFalloffOne>0.0</ReactorStabilizerLinearFalloffOne> <!-- percentage of distance at which or farther away the stabilizer counts as 1 -->
+                        <ReactorStabilizerLinearFalloffZero>-1.0</ReactorStabilizerLinearFalloffZero> <!-- percentage of distance at which or closer the stabilizer counts as 0 -->
                         <ReactorStabilizerFreeMainReactorBlocks>10</ReactorStabilizerFreeMainReactorBlocks> <!-- amount of free stabilization added -->
                         <ReactorStabilizerDistanceTotalMult>2.0</ReactorStabilizerDistanceTotalMult>
                         <ReactorStabilizerGroupingProximity>3.0</ReactorStabilizerGroupingProximity>
