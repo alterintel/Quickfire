@@ -767,7 +767,7 @@
                         <PowerConsumption>100</PowerConsumption>
 
                         <!-- NEW -->
-                        <Damage>20</Damage>                        
+                        <Damage>15</Damage>                        
                         <ReactorPowerConsumptionResting>3.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>20.0</ReactorPowerConsumptionCharging>
                         
@@ -831,9 +831,9 @@
                         <PossibleZoom>0.5</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
                         <Aimable>1</Aimable> <!-- 1 = aimable with cursor. 0 = weapon only fires straight -->
 			<EffectConfiguration>
-                        	<Kinetic>1.5</Kinetic>
-                        	<Heat>0.5</Heat>
-                        	<EM>1.0</EM>
+                        	<Kinetic>2.1</Kinetic>
+                        	<Heat>0.3</Heat>
+                        	<EM>0.6</EM>
                         </EffectConfiguration>
                 </BasicValues>
                 <Combination>
@@ -1011,9 +1011,9 @@
                         
                         <!-- Dumb = 0, Heat = 1, TargetChasing = 2, Bomb = 3 -->        
                         <EffectConfiguration>
-                        	<Kinetic>0.5</Kinetic>
-                        	<Heat>1.0</Heat>
-                        	<EM>1.5</EM>
+                        	<Kinetic>0.3</Kinetic>
+                        	<Heat>0.6</Heat>
+                        	<EM>2.1</EM>
                         </EffectConfiguration>
                 </BasicValues>
                 <Combination>
@@ -1082,7 +1082,7 @@
                 <BasicValues>
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
-                        <DamagePerHit>5</DamagePerHit>  
+                        <DamagePerHit>2</DamagePerHit>
                         <ReactorPowerConsumptionResting>5.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>25.0</ReactorPowerConsumptionCharging>
                         
@@ -1113,9 +1113,9 @@
                         <PossibleZoom>0.5</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
                         
                         <EffectConfiguration>
-                        	<Kinetic>0.5</Kinetic>
-                        	<Heat>1.5</Heat>
-                        	<EM>1.0</EM>
+                        	<Kinetic>0.3</Kinetic>
+                        	<Heat>2.1</Heat>
+                        	<EM>0.6</EM>
                         </EffectConfiguration>
                 </BasicValues>
                 <Combination>
