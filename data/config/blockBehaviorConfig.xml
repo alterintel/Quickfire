@@ -102,7 +102,7 @@
                         <ArmorOverPenetrationMarginMultiplicator>20.0</ArmorOverPenetrationMarginMultiplicator> <!-- if(damage > totalArmorValue*ArmorOverPenetrationMarginMultiplicator) -> OVER PENETRATION -->
                         <NonArmorOverpenetrationMargin>2500.0</NonArmorOverpenetrationMargin> <!-- Minimum damage to cause overpenetration on non armor blocks -->
 
-                        <ExplosionShieldDamageBonus>0.0</ExplosionShieldDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against shields-->
+                        <ExplosionShieldDamageBonus>-0.5</ExplosionShieldDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against shields-->
                         <ExplosionHullDamageBonus>0.0</ExplosionHullDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against blocks (will also hurt armor more)-->
 
 
@@ -114,8 +114,8 @@
                   
                   <!-- NEW POWER -->
                         <!-- Shields -->
-                        <ShieldLocalCapacityPerBlock>250</ShieldLocalCapacityPerBlock>
-                        <ShieldLocalRechargePerBlock>25</ShieldLocalRechargePerBlock>
+                        <ShieldLocalCapacityPerBlock>500</ShieldLocalCapacityPerBlock>
+                        <ShieldLocalRechargePerBlock>50</ShieldLocalRechargePerBlock>
                         <ShieldLocalDefaultCapacity>0</ShieldLocalDefaultCapacity>
 
                         <ShieldLocalRadiusCalcStyle>EXP</ShieldLocalRadiusCalcStyle> <!-- LINEAR, EXP, LOG -->
@@ -132,7 +132,7 @@
                             <ShieldLocalRadiusLogFactor>20.0</ShieldLocalRadiusLogFactor>
                             <ShieldLocalRadiusLogOffset>0.0</ShieldLocalRadiusLogOffset>
 
-                        <ShieldUpkeepPerSecondOfTotalCapacity>0.02</ShieldUpkeepPerSecondOfTotalCapacity>
+                        <ShieldUpkeepPerSecondOfTotalCapacity>0.04</ShieldUpkeepPerSecondOfTotalCapacity>
                         
                         <ShieldLocalPowerConsumptionPerRechargePerSecondResting>0.4</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
                         <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>0.8</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
@@ -475,7 +475,7 @@
                 <BasicValues>
                 </BasicValues>
         </MainReactor>
-        <Cloaking>
+        <Cloaking> <!--PROBABLY OLD-->
                 <BasicValues>
                         <PowerConsumedPerSecondPerBlock>145</PowerConsumedPerSecondPerBlock>
                         
@@ -488,7 +488,7 @@
    
                 </BasicValues>
         </Cloaking>
-        <Jamming>
+        <Jamming> <!--PROBABLY OLD-->
                 <BasicValues>
                         <PowerConsumedPerSecondPerBlock>5</PowerConsumedPerSecondPerBlock>
                         
@@ -501,7 +501,7 @@
                 </BasicValues>
         </Jamming>
 
-        <JumpDrive>
+        <JumpDrive> <!--PROBABLY OLD-->
                 <BasicValues>
                		<RatioNeededToTotalBlockCount>0.05</RatioNeededToTotalBlockCount>
                         <ChargeNeededForJump>230000</ChargeNeededForJump>
@@ -514,7 +514,7 @@
                </BasicValues>
         </JumpDrive>
 		
-        <JumpInhibitor>
+        <JumpInhibitor> <!--PROBABLY OLD-->
                 <BasicValues>
                         <DischargePerSecond>10000</DischargePerSecond> 
                         <DischargePerSecondPerBlock>50</DischargePerSecondPerBlock> <!-- (in module blocks) -->
@@ -527,7 +527,7 @@
                 </BasicValues>
         </JumpInhibitor>
 		
-        <Scanner>
+        <Scanner> <!--OLD-->
                 <BasicValues>
                         <!-- OLD POWER -->
                		<RatioNeededToTotalBlockCount>0.05</RatioNeededToTotalBlockCount>
@@ -771,25 +771,25 @@
                         <ReactorPowerConsumptionResting>3.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>20.0</ReactorPowerConsumptionCharging>
                         
-                        <Distance>2.0</Distance> <!-- 1 is equal to 100% sector radius -->
+                        <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Speed>100</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>1000</ReloadMs>
                         <AdditionalPowerConsumptionPerUnitMult>0.1</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
 
-			<Recoil>4.0</Recoil> <!-- Recoil in force per damage. Applied from the ship cannons point of origin in the opposite firing direction (multiplied with damage of projectile)-->
+						<Recoil>0.0</Recoil> <!-- Recoil in force per damage. Applied from the ship cannons point of origin in the opposite firing direction (multiplied with damage of projectile)-->
                         <ImpactForce>1.0</ImpactForce> <!-- Impact force on target in force per damage.  (multiplied with damage of projectile)-->
                         
                         <!-- 5 times more vertical recoil, horizontal recoil can go left or right -->
                         <!-- Horizontal Cursor Recoil -->
-                        <CursorRecoilX>0.000001</CursorRecoilX> <!-- Cursor movement force multiplied with damage -->
-                        <CursorRecoilMinX>0.000001</CursorRecoilMinX> <!-- Min cursor recoil value -->
-                        <CursorRecoilMaxX>0.01</CursorRecoilMaxX> <!-- Max cursor recoil value -->
+                        <CursorRecoilX>0.0</CursorRecoilX> <!-- Cursor movement force multiplied with damage -->
+                        <CursorRecoilMinX>0.0</CursorRecoilMinX> <!-- Min cursor recoil value -->
+                        <CursorRecoilMaxX>0.0</CursorRecoilMaxX> <!-- Max cursor recoil value -->
                         <CursorRecoilDirX>0.0</CursorRecoilDirX> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                         
                         <!-- Vertical Cursor Recoil -->
-                        <CursorRecoilY>0.000008</CursorRecoilY> <!-- Cursor movement force multiplied with damage -->
-                        <CursorRecoilMinY>0.000008</CursorRecoilMinY> <!-- Min cursor recoil value -->
-                        <CursorRecoilMaxY>0.08</CursorRecoilMaxY> <!-- Max cursor recoil value -->
+                        <CursorRecoilY>0.0</CursorRecoilY> <!-- Cursor movement force multiplied with damage -->
+                        <CursorRecoilMinY>0.0</CursorRecoilMinY> <!-- Min cursor recoil value -->
+                        <CursorRecoilMaxY>0.0</CursorRecoilMaxY> <!-- Max cursor recoil value -->
                         <CursorRecoilDirY>1.0</CursorRecoilDirY> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                         
 
@@ -981,9 +981,9 @@
                         <LockOnTimeSec>15</LockOnTimeSec> <!-- how long it takes to lock on missiles -->
                         <LockedOnExpireTimeSec>3</LockedOnExpireTimeSec> <!-- how long it takes for target to expire when looking away after lock on -->
                         
-                        <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
+                        <Distance>4.0</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Radius>12</Radius> <!--this a maximum blast radius -->
-                        <Speed>6</Speed>               
+                        <Speed>12</Speed>               
                         <ReloadMs>2000</ReloadMs><!-- default 15000 -->
                         <PowerConsumption>1500</PowerConsumption> <!-- (defualt 1500) deviates from 10 power/1damage formula, missiles can easily be shot down -->
                         <AdditionalPowerConsumptionPerUnitMult>0.025</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
