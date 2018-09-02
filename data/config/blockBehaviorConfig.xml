@@ -302,14 +302,14 @@
                         <ReconDifferenceMinReactor>2</ReconDifferenceMinReactor> <!-- difference for target to display rector outline. min recon difference (own scan strength - target stealth strength) -->
 	
 
-                        <CollectionIntegrityStartValue>400</CollectionIntegrityStartValue>
-                        <CollectionIntegrityBaseTouching0>-10</CollectionIntegrityBaseTouching0>
-                        <CollectionIntegrityBaseTouching1>-8.5</CollectionIntegrityBaseTouching1>
-                        <CollectionIntegrityBaseTouching2>-7</CollectionIntegrityBaseTouching2>
-                        <CollectionIntegrityBaseTouching3>-4</CollectionIntegrityBaseTouching3>
-                        <CollectionIntegrityBaseTouching4>-2</CollectionIntegrityBaseTouching4>
-                        <CollectionIntegrityBaseTouching5>0.5</CollectionIntegrityBaseTouching5>
-                        <CollectionIntegrityBaseTouching6>2</CollectionIntegrityBaseTouching6>
+                        <CollectionIntegrityStartValue>50</CollectionIntegrityStartValue>
+                        <CollectionIntegrityBaseTouching0>-1</CollectionIntegrityBaseTouching0>
+                        <CollectionIntegrityBaseTouching1>-1</CollectionIntegrityBaseTouching1>
+                        <CollectionIntegrityBaseTouching2>-1</CollectionIntegrityBaseTouching2>
+                        <CollectionIntegrityBaseTouching3>0</CollectionIntegrityBaseTouching3>
+                        <CollectionIntegrityBaseTouching4>0</CollectionIntegrityBaseTouching4>
+                        <CollectionIntegrityBaseTouching5>0</CollectionIntegrityBaseTouching5>
+                        <CollectionIntegrityBaseTouching6>1</CollectionIntegrityBaseTouching6>
                         <CollectionIntegrityMargin>0</CollectionIntegrityMargin> <!-- minimum integrity at which a structure is save -->
 
                         <CollectionIntegrityExplosionAmount>3</CollectionIntegrityExplosionAmount> <!-- explosion if a block of an instable module gets killed-->
