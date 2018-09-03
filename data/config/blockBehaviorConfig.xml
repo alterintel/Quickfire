@@ -790,16 +790,16 @@
                         <CursorRecoilY>0.0</CursorRecoilY> <!-- Cursor movement force multiplied with damage -->
                         <CursorRecoilMinY>0.0</CursorRecoilMinY> <!-- Min cursor recoil value -->
                         <CursorRecoilMaxY>0.0</CursorRecoilMaxY> <!-- Max cursor recoil value -->
-                        <CursorRecoilDirY>1.0</CursorRecoilDirY> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
+                        <CursorRecoilDirY>0.0</CursorRecoilDirY> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                         
 
                         <CursorRecoilSpeedIn>0.0</CursorRecoilSpeedIn> <!-- Velocity curser goes inwards -->
                         <CursorRecoilSpeedInAddMod>0.0</CursorRecoilSpeedInAddMod> <!-- range of which pow is applied speed = pow(CursorRecoilSpeedIn, (PercentOfDistance + CursorRecoilSpeedInAddMod)*CursorRecoilSpeedInPowMult) -->
                         <CursorRecoilSpeedInPowMult>0.0</CursorRecoilSpeedInPowMult>
 
-                        <CursorRecoilSpeedOut>1.5</CursorRecoilSpeedOut> <!-- Velocity curser goes outwards -->
-                        <CursorRecoilSpeedOutAddMod>0.5</CursorRecoilSpeedOutAddMod> <!-- 0=off; range of which pow is applied speed *= pow((1.0f-percentofRecoil)*speedPowMult + speedAdd, 2); -->
-                        <CursorRecoilSpeedOutPowMult>2.0</CursorRecoilSpeedOutPowMult>
+                        <CursorRecoilSpeedOut>0.0</CursorRecoilSpeedOut> <!-- Velocity curser goes outwards -->
+                        <CursorRecoilSpeedOutAddMod>0.0</CursorRecoilSpeedOutAddMod> <!-- 0=off; range of which pow is applied speed *= pow((1.0f-percentofRecoil)*speedPowMult + speedAdd, 2); -->
+                        <CursorRecoilSpeedOutPowMult>0.0</CursorRecoilSpeedOutPowMult>
 
                         <ProjectileWidth>1.0</ProjectileWidth> <!-- Projectile width multiplier per block built from the weapon output-->
                         
