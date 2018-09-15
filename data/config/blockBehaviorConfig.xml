@@ -222,7 +222,7 @@
 
                         <ReactorStabilizerGroupsMax>20</ReactorStabilizerGroupsMax> <!-- max stabilizer groups used (ordered by size biggest first) -->
 
-                        <ReactorStabilizationPowerEffectiveFull>0.25</ReactorStabilizationPowerEffectiveFull> <!-- reactor stab% (or lower) at which power efficiency is falling -->
+                        <ReactorStabilizationPowerEffectiveFull>0.0</ReactorStabilizationPowerEffectiveFull> <!-- reactor stab% (or lower) at which power efficiency is falling -->
                        
                        <!-- <ReactorStabilizationShieldDamagePercentToReactorHpStart>1.0</ReactorStabilizationShieldDamagePercentToReactorHpStart> --><!-- reactor stab% (or lower) at which shield damage does reactor min hp damage (above does no damage)-->
                        <!-- <ReactorStabilizationShieldDamagePercentToReactorHpEnd>0.50</ReactorStabilizationShieldDamagePercentToReactorHpEnd> --><!-- reactor stab% (or lower) at which shield damage does reactor maximum hp damage -->
@@ -402,22 +402,22 @@
                         
                          <!-- NEW POWER -->
                         <HpConditionTriggerList>              
-                            <Item conditionhp="0.3">
+                            <Item conditionhp="0.65">
                                 <Type>CONTROL_LOSS</Type>
                             </Item>
 						   
-                            <Item conditionhp="0.25">
+                            <Item conditionhp="0.5">
                                 <Type>OVERHEATING</Type>
                             </Item>
-                            <Item conditionhp="0.25">
+                            <Item conditionhp="0.5">
                                 <Type>POWER</Type>
                                 <Amount>0.0</Amount>
                             </Item>
-                            <Item conditionhp="0.25">
+                            <Item conditionhp="0.5">
                                 <Type>SHIELD</Type>
                                 <Amount>0.0</Amount>
                             </Item>
-                            <Item conditionhp="0.25">
+                            <Item conditionhp="0.65">
                                 <Type>THRUST</Type>
                                 <Amount>0.0</Amount>
                             </Item>
@@ -463,8 +463,8 @@
                         <PowTotalThrust>0.85</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
                         <UnitCalcMult>1</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
                         
-                        <ReactorPowerPowerConsumptionPerBlockResting>0.0</ReactorPowerPowerConsumptionPerBlockResting> <!-- power used when no thrust is applied -->
-                        <ReactorPowerPowerConsumptionPerBlockInUse>4.0</ReactorPowerPowerConsumptionPerBlockInUse> <!-- power used when thrusters in use -->
+                        <ReactorPowerPowerConsumptionPerBlockResting>0.4</ReactorPowerPowerConsumptionPerBlockResting> <!-- power used when no thrust is applied -->
+                        <ReactorPowerPowerConsumptionPerBlockInUse>6.0</ReactorPowerPowerConsumptionPerBlockInUse> <!-- power used when thrusters in use -->
                      
                         <ThrusterMinReactorPower>0.05</ThrusterMinReactorPower> <!-- minimum power of thrusters (minimum value to be multiplied with thrust to not completely render ships without movement when power fails) -->
                         <MaxThrustToMassAcceleration>10.0</MaxThrustToMassAcceleration>
@@ -767,9 +767,9 @@
                         <PowerConsumption>100</PowerConsumption>
 
                         <!-- NEW -->
-                        <Damage>15</Damage>                        
-                        <ReactorPowerConsumptionResting>3.0</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>20.0</ReactorPowerConsumptionCharging>
+                        <Damage>20</Damage>                        
+                        <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
+                        <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
                         
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Speed>100</Speed> <!-- In relation % to server max speed  1 = 100% -->
@@ -970,8 +970,8 @@
                         <Damage version="noreactor">300</Damage>
                         
                         <Damage>100</Damage>
-                        <ReactorPowerConsumptionResting>4.0</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>20.0</ReactorPowerConsumptionCharging> 
+                        <ReactorPowerConsumptionResting>12.0</ReactorPowerConsumptionResting>
+                        <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging> 
                         <AdditionalCapacityUsedPerDamage>0</AdditionalCapacityUsedPerDamage> <!-- rounded down -->
                         <AdditionalCapacityUsedPerDamageMult>0</AdditionalCapacityUsedPerDamageMult> <!-- how much more missiles used per rounded down AdditionalCapacityUsedPerDamage value -->
 
@@ -1083,8 +1083,8 @@
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
                         <DamagePerHit>2</DamagePerHit>
-                        <ReactorPowerConsumptionResting>5.0</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>25.0</ReactorPowerConsumptionCharging>
+                        <ReactorPowerConsumptionResting>15.0</ReactorPowerConsumptionResting>
+                        <ReactorPowerConsumptionCharging>75.0</ReactorPowerConsumptionCharging>
                         
                         <PowerConsumptionPerTick>50</PowerConsumptionPerTick> 
                         <Distance>2.0</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
