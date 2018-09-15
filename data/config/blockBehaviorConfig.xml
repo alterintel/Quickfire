@@ -266,7 +266,7 @@
                         <ReactorStabilizerPathRadiusDefault>0.25</ReactorStabilizerPathRadiusDefault>
                         <ReactorStabilizerPathRadiusPerLevel>0.025</ReactorStabilizerPathRadiusPerLevel>
 	
-                        <ReactorChamberBlocksPerMainReactor>0.25</ReactorChamberBlocksPerMainReactor> <!-- main-to-chamber block relation per reactor level -->
+                        <ReactorChamberBlocksPerMainReactor>0.125</ReactorChamberBlocksPerMainReactor> <!-- main-to-chamber block relation per reactor level -->
 
                         <!-- Jumpdrive -->
                         <ReactorJumpPowerConsumptionRestingPerMass>0</ReactorJumpPowerConsumptionRestingPerMass> <!-- power consumption when not charging (multiplied by mass)-->
