@@ -453,8 +453,7 @@
                         <ThrustMassRatioMaxSpeedAddition>0.5</ThrustMassRatioMaxSpeedAddition> <!-- additional add to ratio -->
                         <ThrustMassRatioMaxSpeedMultiplier>1.0</ThrustMassRatioMaxSpeedMultiplier> <!-- additional multiplier of ratio -->
 
-                        <ThrustRotPercentMult>50.0</ThrustRotPercentMult> <!-- additional multiplier of ratio -->
-                        <InertiaPow>0.30</InertiaPow> <!-- additional multiplier of ratio -->
+                       
                         
                         <ThrustBalanceChangeApplyTimeInSecs>15.0</ThrustBalanceChangeApplyTimeInSecs> <!-- how much time it takes for a thrust balance change to take effect-->                       
                         
@@ -469,6 +468,30 @@
                         <ThrusterMinReactorPower>0.05</ThrusterMinReactorPower> <!-- minimum power of thrusters (minimum value to be multiplied with thrust to not completely render ships without movement when power fails) -->
                         <MaxThrustToMassAcceleration>10.0</MaxThrustToMassAcceleration>
                         
+                        <!-- ROTATIONAL VALUES -->
+                        
+                        <!-- Formula:
+                        
+                        float tRot = rotationBalanceFromThrustConfig * ThrustRotPercentMult;
+						float orientationForce = min(MaxRotationalForce, max(0.001f, ((BaseRotationalForce+tRot)/max(1f, pow(InertiaFromStructure, InertiaPow))))),
+                        
+                        //rotationBalanceFromThrustConfig is a value from 0 to 1 set by the player in the Thruster configuration dialog
+                        //InertiaFromStructure is calculated from mass and where that mass is located
+                        
+                         -->
+                        
+                        <ThrustRotPercentMult>50.0</ThrustRotPercentMult> <!-- additional multiplier of ratio -->
+                        <InertiaPow>0.30</InertiaPow> <!-- additional multiplier of ratio -->
+                        
+                        <MaxRotationalForceX>10.0</MaxRotationalForceX> <!-- Maximum rotational force -->
+                        <MaxRotationalForceY>10.0</MaxRotationalForceY> <!-- Maximum rotational force -->
+                        <MaxRotationalForceZ>10.0</MaxRotationalForceZ> <!-- Maximum rotational force -->
+                        
+                        <BaseRotationalForceX>10.0</BaseRotationalForceX> <!-- Base rotational force -->
+                        <BaseRotationalForceY>10.0</BaseRotationalForceY> <!-- Base rotational force -->
+                        <BaseRotationalForceZ>10.0</BaseRotationalForceZ> <!-- Base rotational force -->
+                        
+                        	
                 </BasicValues>
         </Thruster>
         <MainReactor>
@@ -770,7 +793,6 @@
                         <Damage>20</Damage>                        
                         <ReactorPowerConsumptionResting>3.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>20.0</ReactorPowerConsumptionCharging>
-                        
                         <Distance>2.0</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Speed>25</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>1000</ReloadMs>
@@ -980,7 +1002,7 @@
                         
                         <LockOnTimeSec>15</LockOnTimeSec> <!-- how long it takes to lock on missiles -->
                         <LockedOnExpireTimeSec>3</LockedOnExpireTimeSec> <!-- how long it takes for target to expire when looking away after lock on -->
-                        
+            
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Radius>12</Radius> <!--this a maximum blast radius -->
                         <Speed>6</Speed>               

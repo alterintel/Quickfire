@@ -35383,6 +35383,337 @@
             <OldHitpoints>100</OldHitpoints>
             <SystemBlock>false</SystemBlock>
           </Block>
+          <Block icon="967" name="Forcefield (Green)" textureId="651, 651, 651, 651, 651, 651" type="FORCEFIELD_GREEN">
+            <Consistence>
+              <Item count="30">BASTYN_CAPSULE</Item>
+              <Item count="30">ALLOYED_METAL_MESH</Item>
+              <Item count="30">CRYSTAL_COMPOSITE</Item>
+            </Consistence>
+            <CubatomConsistence/>
+            <ArmorValue>1000.0</ArmorValue>
+            <EffectArmor>
+              <Heat>0.0</Heat>
+              <Kinetic>0.0</Kinetic>
+              <EM>0.0</EM>
+            </EffectArmor>
+            <Price>1000</Price>
+            <Description>These forcefield modules can used to create doorways that can be opened or closed by the player, docking beams, and logic systems. Multiple adjacent blocks register as one door. Meaning that activating one will activate all other doors touching it. Quite useful for creating large doorways. Forcefields are significantly more durable than standard Plex or Glass Doors. Press $ACTIVATE to Open/Close. </Description>
+            <BlockResourceType>2</BlockResourceType>
+            <ProducedInFactory>5</ProducedInFactory>
+            <BasicResourceFactory>0</BasicResourceFactory>
+            <FactoryBakeTime>5.0</FactoryBakeTime>
+            <InventoryGroup>green force field</InventoryGroup>
+            <Animated>true</Animated>
+            <StructureHPContribution>0</StructureHPContribution>
+            <Transparency>true</Transparency>
+            <InShop>true</InShop>
+            <Orientation>false</Orientation>
+            <BlockComputerReference>0</BlockComputerReference>
+            <Slab>0</Slab>
+            <SlabIds>983, 982, 981</SlabIds>
+            <StyleIds>1130</StyleIds>
+            <SlabReference>0</SlabReference>
+            <GeneralChamber>false</GeneralChamber>
+            <ChamberCapacity>0.0</ChamberCapacity>
+            <ChamberRoot>0</ChamberRoot>
+            <ChamberParent>0</ChamberParent>
+            <ChamberUpgradesTo>0</ChamberUpgradesTo>
+            <ChamberPermission>0</ChamberPermission>
+            <ChamberPrerequisites>{}</ChamberPrerequisites>
+            <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
+            <ChamberChildren>{}</ChamberChildren>
+            <ChamberAppliesTo>0</ChamberAppliesTo>
+            <ReactorHp>0</ReactorHp>
+            <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
+            <Enterable>false</Enterable>
+            <Mass>0.25</Mass>
+            <Volume>0.25</Volume>
+            <Hitpoints>2000</Hitpoints>
+            <Placable>true</Placable>
+            <InRecipe>true</InRecipe>
+            <CanActivate>true</CanActivate>
+            <IndividualSides>1</IndividualSides>
+            <SideTexturesPointToOrientation>false</SideTexturesPointToOrientation>
+            <HasActivationTexture>false</HasActivationTexture>
+            <MainCombinationController>false</MainCombinationController>
+            <SupportCombinationController>false</SupportCombinationController>
+            <EffectCombinationController>false</EffectCombinationController>
+            <Physical>true</Physical>
+            <BlockStyle>0<!--normal: A normal 6 sided block--></BlockStyle>
+            <LightSource>true</LightSource>
+            <Door>true</Door>
+            <SensorInput>false</SensorInput>
+            <Deprecated>false</Deprecated>
+            <ResourceInjection>0<!--off--></ResourceInjection>
+            <ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
+            <LightSourceColor>0.0,1.0,0.0,0.05882353</LightSourceColor>
+            <ExtendedTexture4x4>false</ExtendedTexture4x4>
+            <OnlyDrawnInBuildMode>false</OnlyDrawnInBuildMode>
+            <LodShapeFromFar>0</LodShapeFromFar>
+            <LowHpSetting>false</LowHpSetting>
+            <OldHitpoints>100</OldHitpoints>
+            <SystemBlock>false</SystemBlock>
+          </Block>
+          <Block icon="968" name="Forcefield Wedge (Green)" textureId="651, 651, 651, 651, 651, 651" type="FORCEFIELD_GREEN_WEDGE">
+            <Consistence/>
+            <CubatomConsistence/>
+            <ArmorValue>1000.0</ArmorValue>
+            <EffectArmor>
+              <Heat>0.0</Heat>
+              <Kinetic>0.0</Kinetic>
+              <EM>0.0</EM>
+            </EffectArmor>
+            <Price>1000</Price>
+            <Description>These forcefield modules can used to create doorways that can be opened or closed by the player, docking beams, and logic systems. Multiple adjacent blocks register as one door. Meaning that activating one will activate all other doors touching it. Quite useful for creating large doorways. Forcefields are significantly more durable than standard Plex or Glass Doors. Press $ACTIVATE to Open/Close. </Description>
+            <BlockResourceType>2</BlockResourceType>
+            <ProducedInFactory>0</ProducedInFactory>
+            <BasicResourceFactory>0</BasicResourceFactory>
+            <FactoryBakeTime>5.0</FactoryBakeTime>
+            <InventoryGroup>green force field</InventoryGroup>
+            <Animated>true</Animated>
+            <StructureHPContribution>0</StructureHPContribution>
+            <Transparency>true</Transparency>
+            <InShop>false</InShop>
+            <Orientation>false</Orientation>
+            <BlockComputerReference>0</BlockComputerReference>
+            <Slab>0</Slab>
+            <SlabReference>1129</SlabReference>
+            <GeneralChamber>false</GeneralChamber>
+            <ChamberCapacity>0.0</ChamberCapacity>
+            <ChamberRoot>0</ChamberRoot>
+            <ChamberParent>0</ChamberParent>
+            <ChamberUpgradesTo>0</ChamberUpgradesTo>
+            <ChamberPermission>0</ChamberPermission>
+            <ChamberPrerequisites>{}</ChamberPrerequisites>
+            <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
+            <ChamberChildren>{}</ChamberChildren>
+            <ChamberAppliesTo>0</ChamberAppliesTo>
+            <ReactorHp>0</ReactorHp>
+            <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
+            <Enterable>false</Enterable>
+            <Mass>0.25</Mass>
+            <Volume>0.25</Volume>
+            <Hitpoints>2000</Hitpoints>
+            <Placable>true</Placable>
+            <InRecipe>false</InRecipe>
+            <CanActivate>true</CanActivate>
+            <IndividualSides>1</IndividualSides>
+            <SideTexturesPointToOrientation>false</SideTexturesPointToOrientation>
+            <HasActivationTexture>false</HasActivationTexture>
+            <MainCombinationController>false</MainCombinationController>
+            <SupportCombinationController>false</SupportCombinationController>
+            <EffectCombinationController>false</EffectCombinationController>
+            <Physical>true</Physical>
+            <BlockStyle>1<!--wedge: A wedged block--></BlockStyle>
+            <LightSource>true</LightSource>
+            <Door>true</Door>
+            <SensorInput>false</SensorInput>
+            <Deprecated>false</Deprecated>
+            <ResourceInjection>0<!--off--></ResourceInjection>
+            <ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
+            <LightSourceColor>0.0,1.0,0.0,0.05882353</LightSourceColor>
+            <ExtendedTexture4x4>false</ExtendedTexture4x4>
+            <OnlyDrawnInBuildMode>false</OnlyDrawnInBuildMode>
+            <LodShapeFromFar>0</LodShapeFromFar>
+            <LowHpSetting>false</LowHpSetting>
+            <OldHitpoints>100</OldHitpoints>
+            <SystemBlock>false</SystemBlock>
+          </Block>
+          <Block icon="972" name="Forcefield (Green) 1/4" textureId="651, 651, 651, 651, 651, 651" type="FORCEFIELD_GREEN_QUARTER_SLAB">
+            <Consistence/>
+            <CubatomConsistence/>
+            <ArmorValue>1000.0</ArmorValue>
+            <EffectArmor>
+              <Heat>0.0</Heat>
+              <Kinetic>0.0</Kinetic>
+              <EM>0.0</EM>
+            </EffectArmor>
+            <Price>1000</Price>
+            <Description>These forcefield modules can used to create doorways that can be opened or closed by the player, docking beams, and logic systems. Multiple adjacent blocks register as one door. Meaning that activating one will activate all other doors touching it. Quite useful for creating large doorways. Forcefields are significantly more durable than standard Plex or Glass Doors. Press $ACTIVATE to Open/Close. </Description>
+            <BlockResourceType>2</BlockResourceType>
+            <ProducedInFactory>0</ProducedInFactory>
+            <BasicResourceFactory>0</BasicResourceFactory>
+            <FactoryBakeTime>5.0</FactoryBakeTime>
+            <InventoryGroup>green force field</InventoryGroup>
+            <Animated>true</Animated>
+            <StructureHPContribution>0</StructureHPContribution>
+            <Transparency>true</Transparency>
+            <InShop>false</InShop>
+            <Orientation>true</Orientation>
+            <BlockComputerReference>0</BlockComputerReference>
+            <Slab>3</Slab>
+            <SlabReference>1129</SlabReference>
+            <GeneralChamber>false</GeneralChamber>
+            <ChamberCapacity>0.0</ChamberCapacity>
+            <ChamberRoot>0</ChamberRoot>
+            <ChamberParent>0</ChamberParent>
+            <ChamberUpgradesTo>0</ChamberUpgradesTo>
+            <ChamberPermission>0</ChamberPermission>
+            <ChamberPrerequisites>{}</ChamberPrerequisites>
+            <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
+            <ChamberChildren>{}</ChamberChildren>
+            <ChamberAppliesTo>0</ChamberAppliesTo>
+            <ReactorHp>0</ReactorHp>
+            <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
+            <Enterable>false</Enterable>
+            <Mass>0.25</Mass>
+            <Volume>0.25</Volume>
+            <Hitpoints>2000</Hitpoints>
+            <Placable>true</Placable>
+            <InRecipe>false</InRecipe>
+            <CanActivate>true</CanActivate>
+            <IndividualSides>1</IndividualSides>
+            <SideTexturesPointToOrientation>false</SideTexturesPointToOrientation>
+            <HasActivationTexture>false</HasActivationTexture>
+            <MainCombinationController>false</MainCombinationController>
+            <SupportCombinationController>false</SupportCombinationController>
+            <EffectCombinationController>false</EffectCombinationController>
+            <Physical>true</Physical>
+            <BlockStyle>0<!--normal: A normal 6 sided block--></BlockStyle>
+            <LightSource>true</LightSource>
+            <Door>true</Door>
+            <SensorInput>false</SensorInput>
+            <Deprecated>false</Deprecated>
+            <ResourceInjection>0<!--off--></ResourceInjection>
+            <ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
+            <LightSourceColor>0.0,1.0,0.0,0.05882353</LightSourceColor>
+            <ExtendedTexture4x4>false</ExtendedTexture4x4>
+            <OnlyDrawnInBuildMode>false</OnlyDrawnInBuildMode>
+            <LodShapeFromFar>0</LodShapeFromFar>
+            <LowHpSetting>false</LowHpSetting>
+            <OldHitpoints>100</OldHitpoints>
+            <SystemBlock>false</SystemBlock>
+          </Block>
+          <Block icon="959" name="Forcefield (Green) 1/2" textureId="651, 651, 651, 651, 651, 651" type="FORCEFIELD_GREEN_HALF_SLAB">
+            <Consistence/>
+            <CubatomConsistence/>
+            <ArmorValue>1000.0</ArmorValue>
+            <EffectArmor>
+              <Heat>0.0</Heat>
+              <Kinetic>0.0</Kinetic>
+              <EM>0.0</EM>
+            </EffectArmor>
+            <Price>1000</Price>
+            <Description>These forcefield modules can used to create doorways that can be opened or closed by the player, docking beams, and logic systems. Multiple adjacent blocks register as one door. Meaning that activating one will activate all other doors touching it. Quite useful for creating large doorways. Forcefields are significantly more durable than standard Plex or Glass Doors. Press $ACTIVATE to Open/Close. </Description>
+            <BlockResourceType>2</BlockResourceType>
+            <ProducedInFactory>0</ProducedInFactory>
+            <BasicResourceFactory>0</BasicResourceFactory>
+            <FactoryBakeTime>5.0</FactoryBakeTime>
+            <InventoryGroup>green force field</InventoryGroup>
+            <Animated>true</Animated>
+            <StructureHPContribution>0</StructureHPContribution>
+            <Transparency>true</Transparency>
+            <InShop>false</InShop>
+            <Orientation>true</Orientation>
+            <BlockComputerReference>0</BlockComputerReference>
+            <Slab>2</Slab>
+            <SlabReference>1129</SlabReference>
+            <GeneralChamber>false</GeneralChamber>
+            <ChamberCapacity>0.0</ChamberCapacity>
+            <ChamberRoot>0</ChamberRoot>
+            <ChamberParent>0</ChamberParent>
+            <ChamberUpgradesTo>0</ChamberUpgradesTo>
+            <ChamberPermission>0</ChamberPermission>
+            <ChamberPrerequisites>{}</ChamberPrerequisites>
+            <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
+            <ChamberChildren>{}</ChamberChildren>
+            <ChamberAppliesTo>0</ChamberAppliesTo>
+            <ReactorHp>0</ReactorHp>
+            <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
+            <Enterable>false</Enterable>
+            <Mass>0.25</Mass>
+            <Volume>0.25</Volume>
+            <Hitpoints>2000</Hitpoints>
+            <Placable>true</Placable>
+            <InRecipe>false</InRecipe>
+            <CanActivate>true</CanActivate>
+            <IndividualSides>1</IndividualSides>
+            <SideTexturesPointToOrientation>false</SideTexturesPointToOrientation>
+            <HasActivationTexture>false</HasActivationTexture>
+            <MainCombinationController>false</MainCombinationController>
+            <SupportCombinationController>false</SupportCombinationController>
+            <EffectCombinationController>false</EffectCombinationController>
+            <Physical>true</Physical>
+            <BlockStyle>0<!--normal: A normal 6 sided block--></BlockStyle>
+            <LightSource>true</LightSource>
+            <Door>true</Door>
+            <SensorInput>false</SensorInput>
+            <Deprecated>false</Deprecated>
+            <ResourceInjection>0<!--off--></ResourceInjection>
+            <ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
+            <LightSourceColor>0.0,1.0,0.0,0.05882353</LightSourceColor>
+            <ExtendedTexture4x4>false</ExtendedTexture4x4>
+            <OnlyDrawnInBuildMode>false</OnlyDrawnInBuildMode>
+            <LodShapeFromFar>0</LodShapeFromFar>
+            <LowHpSetting>false</LowHpSetting>
+            <OldHitpoints>100</OldHitpoints>
+            <SystemBlock>false</SystemBlock>
+          </Block>
+          <Block icon="971" name="Forcefield (Green) 3/4" textureId="651, 651, 651, 651, 651, 651" type="FORCEFIELD_GREEN_THREE_QUARTER_SLAB">
+            <Consistence/>
+            <CubatomConsistence/>
+            <ArmorValue>1000.0</ArmorValue>
+            <EffectArmor>
+              <Heat>0.0</Heat>
+              <Kinetic>0.0</Kinetic>
+              <EM>0.0</EM>
+            </EffectArmor>
+            <Price>1000</Price>
+            <Description>These forcefield modules can used to create doorways that can be opened or closed by the player, docking beams, and logic systems. Multiple adjacent blocks register as one door. Meaning that activating one will activate all other doors touching it. Quite useful for creating large doorways. Forcefields are significantly more durable than standard Plex or Glass Doors. Press $ACTIVATE to Open/Close. </Description>
+            <BlockResourceType>2</BlockResourceType>
+            <ProducedInFactory>0</ProducedInFactory>
+            <BasicResourceFactory>0</BasicResourceFactory>
+            <FactoryBakeTime>5.0</FactoryBakeTime>
+            <InventoryGroup>green force field</InventoryGroup>
+            <Animated>true</Animated>
+            <StructureHPContribution>0</StructureHPContribution>
+            <Transparency>true</Transparency>
+            <InShop>false</InShop>
+            <Orientation>true</Orientation>
+            <BlockComputerReference>0</BlockComputerReference>
+            <Slab>1</Slab>
+            <SlabReference>1129</SlabReference>
+            <GeneralChamber>false</GeneralChamber>
+            <ChamberCapacity>0.0</ChamberCapacity>
+            <ChamberRoot>0</ChamberRoot>
+            <ChamberParent>0</ChamberParent>
+            <ChamberUpgradesTo>0</ChamberUpgradesTo>
+            <ChamberPermission>0</ChamberPermission>
+            <ChamberPrerequisites>{}</ChamberPrerequisites>
+            <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
+            <ChamberChildren>{}</ChamberChildren>
+            <ChamberAppliesTo>0</ChamberAppliesTo>
+            <ReactorHp>0</ReactorHp>
+            <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
+            <Enterable>false</Enterable>
+            <Mass>0.25</Mass>
+            <Volume>0.25</Volume>
+            <Hitpoints>2000</Hitpoints>
+            <Placable>true</Placable>
+            <InRecipe>false</InRecipe>
+            <CanActivate>true</CanActivate>
+            <IndividualSides>1</IndividualSides>
+            <SideTexturesPointToOrientation>false</SideTexturesPointToOrientation>
+            <HasActivationTexture>false</HasActivationTexture>
+            <MainCombinationController>false</MainCombinationController>
+            <SupportCombinationController>false</SupportCombinationController>
+            <EffectCombinationController>false</EffectCombinationController>
+            <Physical>true</Physical>
+            <BlockStyle>0<!--normal: A normal 6 sided block--></BlockStyle>
+            <LightSource>true</LightSource>
+            <Door>true</Door>
+            <SensorInput>false</SensorInput>
+            <Deprecated>false</Deprecated>
+            <ResourceInjection>0<!--off--></ResourceInjection>
+            <ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
+            <LightSourceColor>0.0,1.0,0.0,0.05882353</LightSourceColor>
+            <ExtendedTexture4x4>false</ExtendedTexture4x4>
+            <OnlyDrawnInBuildMode>false</OnlyDrawnInBuildMode>
+            <LodShapeFromFar>0</LodShapeFromFar>
+            <LowHpSetting>false</LowHpSetting>
+            <OldHitpoints>100</OldHitpoints>
+            <SystemBlock>false</SystemBlock>
+          </Block>
         </Advanced>
       </Doors>
       <Decoration>
@@ -43246,6 +43577,7 @@
           <ProducedInFactory>3</ProducedInFactory>
           <BasicResourceFactory>0</BasicResourceFactory>
           <FactoryBakeTime>5.0</FactoryBakeTime>
+          <InventoryGroup>cascade</InventoryGroup>
           <Animated>true</Animated>
           <StructureHPContribution>0</StructureHPContribution>
           <Transparency>false</Transparency>
@@ -43312,6 +43644,74 @@
           <ProducedInFactory>3</ProducedInFactory>
           <BasicResourceFactory>0</BasicResourceFactory>
           <FactoryBakeTime>5.0</FactoryBakeTime>
+          <InventoryGroup>cascade</InventoryGroup>
+          <Animated>true</Animated>
+          <StructureHPContribution>0</StructureHPContribution>
+          <Transparency>false</Transparency>
+          <InShop>true</InShop>
+          <Orientation>true</Orientation>
+          <BlockComputerReference>0</BlockComputerReference>
+          <Slab>0</Slab>
+          <SlabReference>0</SlabReference>
+          <GeneralChamber>false</GeneralChamber>
+          <ChamberCapacity>0.0</ChamberCapacity>
+          <ChamberRoot>0</ChamberRoot>
+          <ChamberParent>0</ChamberParent>
+          <ChamberUpgradesTo>0</ChamberUpgradesTo>
+          <ChamberPermission>0</ChamberPermission>
+          <ChamberPrerequisites>{}</ChamberPrerequisites>
+          <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
+          <ChamberChildren>{}</ChamberChildren>
+          <ChamberAppliesTo>0</ChamberAppliesTo>
+          <ReactorHp>0</ReactorHp>
+          <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
+          <Enterable>false</Enterable>
+          <Mass>0.025</Mass>
+          <Volume>0.025</Volume>
+          <Hitpoints>15</Hitpoints>
+          <Placable>true</Placable>
+          <InRecipe>true</InRecipe>
+          <CanActivate>false</CanActivate>
+          <IndividualSides>6</IndividualSides>
+          <SideTexturesPointToOrientation>true</SideTexturesPointToOrientation>
+          <HasActivationTexture>false</HasActivationTexture>
+          <MainCombinationController>false</MainCombinationController>
+          <SupportCombinationController>false</SupportCombinationController>
+          <EffectCombinationController>false</EffectCombinationController>
+          <Physical>true</Physical>
+          <BlockStyle>0<!--normal: A normal 6 sided block--></BlockStyle>
+          <LightSource>false</LightSource>
+          <Door>false</Door>
+          <SensorInput>false</SensorInput>
+          <Deprecated>false</Deprecated>
+          <ResourceInjection>0<!--off--></ResourceInjection>
+          <ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
+          <LightSourceColor>1.0,1.0,1.0,1.0</LightSourceColor>
+          <ExtendedTexture4x4>false</ExtendedTexture4x4>
+          <OnlyDrawnInBuildMode>false</OnlyDrawnInBuildMode>
+          <LodShapeFromFar>0</LodShapeFromFar>
+          <LowHpSetting>false</LowHpSetting>
+          <OldHitpoints>15</OldHitpoints>
+          <SystemBlock>false</SystemBlock>
+        </Block>
+        <Block icon="969" name="Decorative Cascade (Green)" textureId="12, 12, 656, 656, 656, 656" type="DECORATIVE_CASCADE_GREEN">
+          <Consistence>
+            <Item count="10">CRYSTAL_COMPOSITE</Item>
+          </Consistence>
+          <CubatomConsistence/>
+          <ArmorValue>0.0</ArmorValue>
+          <EffectArmor>
+            <Heat>0.0</Heat>
+            <Kinetic>0.0</Kinetic>
+            <EM>0.0</EM>
+          </EffectArmor>
+          <Price>50</Price>
+          <Description>A decorative cascade.</Description>
+          <BlockResourceType>2</BlockResourceType>
+          <ProducedInFactory>3</ProducedInFactory>
+          <BasicResourceFactory>0</BasicResourceFactory>
+          <FactoryBakeTime>5.0</FactoryBakeTime>
+          <InventoryGroup>cascade</InventoryGroup>
           <Animated>true</Animated>
           <StructureHPContribution>0</StructureHPContribution>
           <Transparency>false</Transparency>
@@ -45747,7 +46147,7 @@
             <ChamberPermission>0</ChamberPermission>
             <ChamberPrerequisites>{}</ChamberPrerequisites>
             <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
-            <ChamberChildren>{19, 9, 988, 986, 1099, 989}</ChamberChildren>
+            <ChamberChildren>{19, 9, 988, 986, 989, 1099}</ChamberChildren>
             <ChamberConfigGroups>
               <Element>recon - base sr scanner</Element>
             </ChamberConfigGroups>
@@ -49567,7 +49967,7 @@
             <ChamberPermission>0</ChamberPermission>
             <ChamberPrerequisites>{1018}</ChamberPrerequisites>
             <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
-            <ChamberChildren>{1016, 1021}</ChamberChildren>
+            <ChamberChildren>{1021, 1016}</ChamberChildren>
             <ChamberConfigGroups>
               <Element>stealth - strength 1</Element>
             </ChamberConfigGroups>
@@ -53769,8 +54169,8 @@
           <Element>BASIC_FACTORY</Element>
           <Element>RAIL_BASIC</Element>
           <Element>RAIL_DOCKER</Element>
-          <Element>STORAGE</Element>
           <Element>CAPSULE_REFINERY</Element>
+          <Element>STORAGE</Element>
           <Element>SALVAGE_COMPUTER</Element>
           <Element>STANDARD_FACTORY</Element>
         </ControlledBy>
@@ -53783,8 +54183,8 @@
           <Element>ADVANCED_FACTORY</Element>
           <Element>BASIC_FACTORY</Element>
           <Element>SHOP_MODULE</Element>
-          <Element>STORAGE</Element>
           <Element>CAPSULE_REFINERY</Element>
+          <Element>STORAGE</Element>
           <Element>STANDARD_FACTORY</Element>
         </Controlling>
         <ArmorValue>0.0</ArmorValue>
@@ -53860,9 +54260,9 @@
           <Element>ADVANCED_FACTORY</Element>
           <Element>BASIC_FACTORY</Element>
           <Element>SHOP_MODULE</Element>
-          <Element>STORAGE</Element>
-          <Element>SHIPYARD_COMPUTER_0</Element>
           <Element>CAPSULE_REFINERY</Element>
+          <Element>SHIPYARD_COMPUTER_0</Element>
+          <Element>STORAGE</Element>
           <Element>STANDARD_FACTORY</Element>
         </ControlledBy>
         <ArmorValue>0.0</ArmorValue>
@@ -55144,6 +55544,70 @@
         <LodShapeFromFar>1</LodShapeFromFar>
         <LowHpSetting>false</LowHpSetting>
         <OldHitpoints>10</OldHitpoints>
+        <SystemBlock>false</SystemBlock>
+      </Block>
+      <Block icon="973" name="Cargo Space Buildmode" textureId="623, 623, 623, 623, 623, 623" type="CARGO_BUILDMODE">
+        <Consistence/>
+        <CubatomConsistence/>
+        <ArmorValue>0.0</ArmorValue>
+        <EffectArmor>
+          <Heat>0.0</Heat>
+          <Kinetic>0.0</Kinetic>
+          <EM>0.0</EM>
+        </EffectArmor>
+        <Price>100</Price>
+        <Description>undefined description</Description>
+        <BlockResourceType>2</BlockResourceType>
+        <ProducedInFactory>0</ProducedInFactory>
+        <BasicResourceFactory>0</BasicResourceFactory>
+        <FactoryBakeTime>5.0</FactoryBakeTime>
+        <Animated>false</Animated>
+        <StructureHPContribution>0</StructureHPContribution>
+        <Transparency>true</Transparency>
+        <InShop>false</InShop>
+        <Orientation>false</Orientation>
+        <BlockComputerReference>0</BlockComputerReference>
+        <Slab>0</Slab>
+        <SlabReference>0</SlabReference>
+        <GeneralChamber>false</GeneralChamber>
+        <ChamberCapacity>0.0</ChamberCapacity>
+        <ChamberRoot>0</ChamberRoot>
+        <ChamberParent>0</ChamberParent>
+        <ChamberUpgradesTo>0</ChamberUpgradesTo>
+        <ChamberPermission>0</ChamberPermission>
+        <ChamberPrerequisites>{}</ChamberPrerequisites>
+        <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
+        <ChamberChildren>{}</ChamberChildren>
+        <ChamberAppliesTo>0</ChamberAppliesTo>
+        <ReactorHp>0</ReactorHp>
+        <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
+        <Enterable>false</Enterable>
+        <Mass>0.1</Mass>
+        <Volume>0.1</Volume>
+        <Hitpoints>100</Hitpoints>
+        <Placable>true</Placable>
+        <InRecipe>false</InRecipe>
+        <CanActivate>false</CanActivate>
+        <IndividualSides>1</IndividualSides>
+        <SideTexturesPointToOrientation>false</SideTexturesPointToOrientation>
+        <HasActivationTexture>false</HasActivationTexture>
+        <MainCombinationController>false</MainCombinationController>
+        <SupportCombinationController>false</SupportCombinationController>
+        <EffectCombinationController>false</EffectCombinationController>
+        <Physical>false</Physical>
+        <BlockStyle>0<!--normal: A normal 6 sided block--></BlockStyle>
+        <LightSource>false</LightSource>
+        <Door>false</Door>
+        <SensorInput>false</SensorInput>
+        <Deprecated>false</Deprecated>
+        <ResourceInjection>0<!--off--></ResourceInjection>
+        <ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
+        <LightSourceColor>1.0,1.0,1.0,1.0</LightSourceColor>
+        <ExtendedTexture4x4>false</ExtendedTexture4x4>
+        <OnlyDrawnInBuildMode>true</OnlyDrawnInBuildMode>
+        <LodShapeFromFar>0</LodShapeFromFar>
+        <LowHpSetting>false</LowHpSetting>
+        <OldHitpoints>100</OldHitpoints>
         <SystemBlock>false</SystemBlock>
       </Block>
     </General>
@@ -60048,8 +60512,8 @@
           <Element>MICRO_ASSEMBLER</Element>
           <Element>ADVANCED_FACTORY</Element>
           <Element>BASIC_FACTORY</Element>
-          <Element>STORAGE</Element>
           <Element>CAPSULE_REFINERY</Element>
+          <Element>STORAGE</Element>
           <Element>STANDARD_FACTORY</Element>
         </ControlledBy>
         <Controlling>
@@ -60058,8 +60522,8 @@
           <Element>MICRO_ASSEMBLER</Element>
           <Element>ADVANCED_FACTORY</Element>
           <Element>BASIC_FACTORY</Element>
-          <Element>STORAGE</Element>
           <Element>CAPSULE_REFINERY</Element>
+          <Element>STORAGE</Element>
           <Element>STANDARD_FACTORY</Element>
         </Controlling>
         <ArmorValue>0.0</ArmorValue>
@@ -60135,8 +60599,8 @@
           <Element>MICRO_ASSEMBLER</Element>
           <Element>ADVANCED_FACTORY</Element>
           <Element>BASIC_FACTORY</Element>
-          <Element>STORAGE</Element>
           <Element>CAPSULE_REFINERY</Element>
+          <Element>STORAGE</Element>
           <Element>STANDARD_FACTORY</Element>
         </ControlledBy>
         <Controlling>
@@ -60145,8 +60609,8 @@
           <Element>MICRO_ASSEMBLER</Element>
           <Element>ADVANCED_FACTORY</Element>
           <Element>BASIC_FACTORY</Element>
-          <Element>STORAGE</Element>
           <Element>CAPSULE_REFINERY</Element>
+          <Element>STORAGE</Element>
           <Element>STANDARD_FACTORY</Element>
         </Controlling>
         <ArmorValue>0.0</ArmorValue>
@@ -60222,8 +60686,8 @@
           <Element>MICRO_ASSEMBLER</Element>
           <Element>ADVANCED_FACTORY</Element>
           <Element>BASIC_FACTORY</Element>
-          <Element>STORAGE</Element>
           <Element>CAPSULE_REFINERY</Element>
+          <Element>STORAGE</Element>
           <Element>STANDARD_FACTORY</Element>
         </ControlledBy>
         <Controlling>
@@ -60232,8 +60696,8 @@
           <Element>MICRO_ASSEMBLER</Element>
           <Element>ADVANCED_FACTORY</Element>
           <Element>BASIC_FACTORY</Element>
-          <Element>STORAGE</Element>
           <Element>CAPSULE_REFINERY</Element>
+          <Element>STORAGE</Element>
           <Element>STANDARD_FACTORY</Element>
         </Controlling>
         <ArmorValue>0.0</ArmorValue>
@@ -60309,8 +60773,8 @@
           <Element>MICRO_ASSEMBLER</Element>
           <Element>ADVANCED_FACTORY</Element>
           <Element>BASIC_FACTORY</Element>
-          <Element>STORAGE</Element>
           <Element>CAPSULE_REFINERY</Element>
+          <Element>STORAGE</Element>
           <Element>STANDARD_FACTORY</Element>
         </ControlledBy>
         <Controlling>
@@ -60319,8 +60783,8 @@
           <Element>MICRO_ASSEMBLER</Element>
           <Element>ADVANCED_FACTORY</Element>
           <Element>BASIC_FACTORY</Element>
-          <Element>STORAGE</Element>
           <Element>CAPSULE_REFINERY</Element>
+          <Element>STORAGE</Element>
           <Element>STANDARD_FACTORY</Element>
         </Controlling>
         <ArmorValue>0.0</ArmorValue>
@@ -60397,8 +60861,8 @@
           <Element>MICRO_ASSEMBLER</Element>
           <Element>ADVANCED_FACTORY</Element>
           <Element>BASIC_FACTORY</Element>
-          <Element>STORAGE</Element>
           <Element>CAPSULE_REFINERY</Element>
+          <Element>STORAGE</Element>
           <Element>STANDARD_FACTORY</Element>
         </ControlledBy>
         <Controlling>
@@ -60407,8 +60871,8 @@
           <Element>MICRO_ASSEMBLER</Element>
           <Element>ADVANCED_FACTORY</Element>
           <Element>BASIC_FACTORY</Element>
-          <Element>STORAGE</Element>
           <Element>CAPSULE_REFINERY</Element>
+          <Element>STORAGE</Element>
           <Element>STANDARD_FACTORY</Element>
         </Controlling>
         <ArmorValue>0.0</ArmorValue>

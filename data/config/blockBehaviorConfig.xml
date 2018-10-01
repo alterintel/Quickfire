@@ -453,8 +453,7 @@
                         <ThrustMassRatioMaxSpeedAddition>0.5</ThrustMassRatioMaxSpeedAddition> <!-- additional add to ratio -->
                         <ThrustMassRatioMaxSpeedMultiplier>1.0</ThrustMassRatioMaxSpeedMultiplier> <!-- additional multiplier of ratio -->
 
-                        <ThrustRotPercentMult>50.0</ThrustRotPercentMult> <!-- additional multiplier of ratio -->
-                        <InertiaPow>0.30</InertiaPow> <!-- additional multiplier of ratio -->
+                       
                         
                         <ThrustBalanceChangeApplyTimeInSecs>15.0</ThrustBalanceChangeApplyTimeInSecs> <!-- how much time it takes for a thrust balance change to take effect-->                       
                         
@@ -469,13 +468,37 @@
                         <ThrusterMinReactorPower>0.05</ThrusterMinReactorPower> <!-- minimum power of thrusters (minimum value to be multiplied with thrust to not completely render ships without movement when power fails) -->
                         <MaxThrustToMassAcceleration>10.0</MaxThrustToMassAcceleration>
                         
+                        <!-- ROTATIONAL VALUES -->
+                        
+                        <!-- Formula:
+                        
+                        float tRot = rotationBalanceFromThrustConfig * ThrustRotPercentMult;
+						float orientationForce = min(MaxRotationalForce, max(0.001f, ((BaseRotationalForce+tRot)/max(1f, pow(InertiaFromStructure, InertiaPow))))),
+                        
+                        //rotationBalanceFromThrustConfig is a value from 0 to 1 set by the player in the Thruster configuration dialog
+                        //InertiaFromStructure is calculated from mass and where that mass is located
+                        
+                         -->
+                        
+                        <ThrustRotPercentMult>50.0</ThrustRotPercentMult> <!-- additional multiplier of ratio -->
+                        <InertiaPow>0.30</InertiaPow> <!-- additional multiplier of ratio -->
+                        
+                        <MaxRotationalForceX>10.0</MaxRotationalForceX> <!-- Maximum rotational force -->
+                        <MaxRotationalForceY>10.0</MaxRotationalForceY> <!-- Maximum rotational force -->
+                        <MaxRotationalForceZ>10.0</MaxRotationalForceZ> <!-- Maximum rotational force -->
+                        
+                        <BaseRotationalForceX>10.0</BaseRotationalForceX> <!-- Base rotational force -->
+                        <BaseRotationalForceY>10.0</BaseRotationalForceY> <!-- Base rotational force -->
+                        <BaseRotationalForceZ>10.0</BaseRotationalForceZ> <!-- Base rotational force -->
+                        
+                        	
                 </BasicValues>
         </Thruster>
         <MainReactor>
                 <BasicValues>
                 </BasicValues>
         </MainReactor>
-        <Cloaking> <!--PROBABLY OLD-->
+        <Cloaking>
                 <BasicValues>
                         <PowerConsumedPerSecondPerBlock>145</PowerConsumedPerSecondPerBlock>
                         
@@ -488,7 +511,7 @@
    
                 </BasicValues>
         </Cloaking>
-        <Jamming> <!--PROBABLY OLD-->
+        <Jamming>
                 <BasicValues>
                         <PowerConsumedPerSecondPerBlock>5</PowerConsumedPerSecondPerBlock>
                         
@@ -501,7 +524,7 @@
                 </BasicValues>
         </Jamming>
 
-        <JumpDrive> <!--PROBABLY OLD-->
+        <JumpDrive>
                 <BasicValues>
                		<RatioNeededToTotalBlockCount>0.05</RatioNeededToTotalBlockCount>
                         <ChargeNeededForJump>230000</ChargeNeededForJump>
@@ -514,7 +537,7 @@
                </BasicValues>
         </JumpDrive>
 		
-        <JumpInhibitor> <!--PROBABLY OLD-->
+        <JumpInhibitor>
                 <BasicValues>
                         <DischargePerSecond>10000</DischargePerSecond> 
                         <DischargePerSecondPerBlock>50</DischargePerSecondPerBlock> <!-- (in module blocks) -->
@@ -527,7 +550,7 @@
                 </BasicValues>
         </JumpInhibitor>
 		
-        <Scanner> <!--OLD-->
+        <Scanner>
                 <BasicValues>
                         <!-- OLD POWER -->
                		<RatioNeededToTotalBlockCount>0.05</RatioNeededToTotalBlockCount>
@@ -770,7 +793,6 @@
                         <Damage>20</Damage>                        
                         <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
-                        
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Speed>100</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>1000</ReloadMs>
@@ -833,7 +855,7 @@
 			<EffectConfiguration>
                         	<Kinetic>2.1</Kinetic>
                         	<Heat>0.3</Heat>
-                        	<EM>0.6</EM>
+                         	<EM>0.6</EM>
                         </EffectConfiguration>
                 </BasicValues>
                 <Combination>
@@ -980,7 +1002,7 @@
                         
                         <LockOnTimeSec>15</LockOnTimeSec> <!-- how long it takes to lock on missiles -->
                         <LockedOnExpireTimeSec>3</LockedOnExpireTimeSec> <!-- how long it takes for target to expire when looking away after lock on -->
-                        
+            
                         <Distance>4.0</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Radius>12</Radius> <!--this a maximum blast radius -->
                         <Speed>12</Speed>               
@@ -1013,7 +1035,7 @@
                         <EffectConfiguration>
                         	<Kinetic>0.3</Kinetic>
                         	<Heat>0.6</Heat>
-                        	<EM>2.1</EM>
+							<EM>2.1</EM>
                         </EffectConfiguration>
                 </BasicValues>
                 <Combination>
@@ -1115,7 +1137,7 @@
                         <EffectConfiguration>
                         	<Kinetic>0.3</Kinetic>
                         	<Heat>2.1</Heat>
-                        	<EM>0.6</EM>
+							<EM>0.6</EM>
                         </EffectConfiguration>
                 </BasicValues>
                 <Combination>
