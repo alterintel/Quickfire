@@ -315,14 +315,14 @@
                 <value>true</value>
             </P>
         </E>
-        <E modtype="set" priority="-1" type="shield_hotspot_percentage"> <!--Relevant value-->
+        <E modtype="set" priority="-1" type="shield_hotspot_percentage">
             <P name="value" type="float">
-                <value>0.0</value>
+                <value>0.5</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="shield_hotspot_range">
             <P name="value" type="float">
-                <value>0.0</value>
+                <value>0.25</value>
             </P>
         </E>
     </Group>
@@ -787,7 +787,7 @@
     <Group id="defense - shield type dps 2">
         <E modtype="add" priority="0" type="shield_hotspot_range">
             <P name="value" type="float">
-                <value>0.0</value>
+                <value>0.25</value>
             </P>
         </E>
     </Group>
