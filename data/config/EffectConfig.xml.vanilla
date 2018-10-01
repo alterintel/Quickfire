@@ -1,0 +1,1581 @@
+<Config hash="-7611018716253121823">
+    <Group id="stealth - cloaking">
+        <E modtype="set" priority="0" type="stealth_cloak_capability">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="0" type="stealth_jammer_capability">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - jamming">
+        <E modtype="set" priority="0" type="stealth_jammer_capability">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - top speed 1">
+        <E modtype="set" priority="-1" type="thruster_top_speed">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="add" priority="0" type="thruster_top_speed">
+            <P name="value" type="float">
+                <value>0.1</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - top speed 2">
+        <E modtype="add" priority="0" type="thruster_top_speed">
+            <P name="value" type="float">
+                <value>0.2</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - top speed 3">
+        <E modtype="add" priority="0" type="thruster_top_speed">
+            <P name="value" type="float">
+                <value>0.3</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - turn rate 1">
+        <E modtype="set" priority="-1" type="thruster_turn_rate">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="add" priority="0" type="thruster_turn_rate">
+            <P name="value" type="float">
+                <value>0.125</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - turn rate 2">
+        <E modtype="add" priority="0" type="thruster_turn_rate">
+            <P name="value" type="float">
+                <value>0.125</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - turn rate 3">
+        <E modtype="add" priority="0" type="thruster_turn_rate">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - thrust change apply speed 1">
+        <E modtype="set" priority="-1" type="thruster_config_change_timeout">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="add" priority="0" type="thruster_config_change_timeout">
+            <P name="value" type="float">
+                <value>-0.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - thrust change apply speed 2">
+        <E modtype="add" priority="0" type="thruster_config_change_timeout">
+            <P name="value" type="float">
+                <value>-0.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warpgate distance 1">
+        <E modtype="mult" priority="0" type="warp_distance">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warpgate distance 2">
+        <E modtype="mult" priority="0" type="warp_distance">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warpgate free target">
+        <E modtype="set" priority="-1" type="warp_free_target">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - jump autocharge">
+        <E modtype="set" priority="0" type="jump_auto_charge">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - jump distance 1">
+        <E modtype="mult" priority="0" type="jump_distance">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - jump distance 2">
+        <E modtype="mult" priority="0" type="jump_distance">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - jump distance 3">
+        <E modtype="mult" priority="0" type="jump_distance">
+            <P name="value" type="float">
+                <value>2.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - base armor enhancement">
+        <E modtype="set" priority="-1" type="armor_defense_kinetic">
+            <P name="value" type="float">
+                <value>0.1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="armor_defense_heat">
+            <P name="value" type="float">
+                <value>0.1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="armor_defense_em">
+            <P name="value" type="float">
+                <value>0.1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="armor_defense_environmental">
+            <P name="value" type="float">
+                <value>0.1</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - armor hp absorption 1">
+        <E modtype="add" priority="0" type="armor_hp_absorption">
+            <P name="value" type="float">
+                <value>0.2</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - armor hp efficiency 1">
+        <E modtype="add" priority="0" type="armor_hp_efficiency">
+            <P name="value" type="float">
+                <value>-0.2</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - armor heat damage 1">
+        <E modtype="set" priority="0" type="hull_heat_damage_taken">
+            <P name="value" type="float">
+                <value>0.75</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - armor heat damage 2">
+        <E modtype="set" priority="1" type="hull_heat_damage_taken">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - armor powered 1">
+        <E modtype="set" priority="-1" type="armor_hp_regeneration">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="power_recharge_efficiency">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="add" priority="0" type="armor_hp_regeneration">
+            <P name="value" type="float">
+                <value>0.01</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="power_recharge_efficiency">
+            <P name="value" type="float">
+                <value>0.9</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - armor powered 2">
+        <E modtype="add" priority="0" type="armor_hp_regeneration">
+            <P name="value" type="float">
+                <value>0.04</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="power_recharge_efficiency">
+            <P name="value" type="float">
+                <value>0.8889</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - base shield enhancement">
+        <E modtype="set" priority="-1" type="shield_capacity">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="shield_under_fire_timeout">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="add" priority="0" type="shield_capacity">
+            <P name="value" type="float">
+                <value>0.1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="shield_recharge_rate">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="add" priority="0" type="shield_recharge_rate">
+            <P name="value" type="float">
+                <value>0.1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="shield_capacity_upkeep">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="shield_capacity_upkeep">
+            <P name="value" type="float">
+                <value>0.9090909</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - shield capacity 1">
+        <E modtype="add" priority="0" type="shield_capacity">
+            <P name="value" type="float">
+                <value>0.15</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="shield_capacity_upkeep">
+            <P name="value" type="float">
+                <value>0.88</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - shield outage 1">
+        <E modtype="add" priority="0" type="shield_under_fire_timeout">
+            <P name="value" type="float">
+                <value>-0.4</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - shield outage 2">
+        <E modtype="add" priority="0" type="shield_under_fire_timeout">
+            <P name="value" type="float">
+                <value>-0.4</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - shield type heat 1">
+        <E modtype="set" priority="0" type="shield_heat_damage_taken">
+            <P name="value" type="float">
+                <value>0.75</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - shield type alpha 1">
+        <E modtype="set" priority="-1" type="shield_hotspot_alpha">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="shield_hotspot_range">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="shield_hotspot_percentage">
+            <P name="value" type="float">
+                <value>0.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - shield type dps 1">
+        <E modtype="set" priority="-1" type="shield_hotspot_dps">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="shield_hotspot_percentage">
+            <P name="value" type="float">
+                <value>0.5</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="shield_hotspot_range">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - armor hp absorption 2">
+        <E modtype="add" priority="0" type="armor_hp_absorption">
+            <P name="value" type="float">
+                <value>0.2</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - armor hp efficiency 2">
+        <E modtype="add" priority="0" type="armor_hp_efficiency">
+            <P name="value" type="float">
+                <value>-0.2</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - jump multicharge 1">
+        <E modtype="add" priority="0" type="jump_multi_charge_count">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - jump multicharge 2">
+        <E modtype="add" priority="0" type="jump_multi_charge_count">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - scanner ore">
+        <E modtype="set" priority="0" type="ore_scanner">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - scanner cargo">
+        <E modtype="set" priority="0" type="cargo_scanner">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - scanner anomaly">
+        <E modtype="set" priority="0" type="anomaly_scanner">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - long range distance 1">
+        <E modtype="add" priority="0" type="scan_long_range_distance">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="scan_long_range_distance">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - long range distance 2">
+        <E modtype="add" priority="0" type="scan_long_range_distance">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - power efficiency 1">
+        <E modtype="mult" priority="0" type="scan_power_charge_rate">
+            <P name="value" type="float">
+                <value>0.8</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - power efficiency 2">
+        <E modtype="mult" priority="0" type="scan_power_charge_rate">
+            <P name="value" type="float">
+                <value>0.75</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - power efficiency 3">
+        <E modtype="mult" priority="0" type="scan_power_charge_rate">
+            <P name="value" type="float">
+                <value>0.3333</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - power efficiency 1">
+        <E modtype="mult" priority="0" type="stealth_power_charge_rate">
+            <P name="value" type="float">
+                <value>0.8</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - power efficiency 2">
+        <E modtype="mult" priority="0" type="stealth_power_charge_rate">
+            <P name="value" type="float">
+                <value>0.75</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - power efficiency 3">
+        <E modtype="mult" priority="0" type="stealth_power_charge_rate">
+            <P name="value" type="float">
+                <value>0.3333</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - charge speed 1">
+        <E modtype="mult" priority="0" type="stealth_charge_time">
+            <P name="value" type="float">
+                <value>0.8</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="stealth_power_charge_rate">
+            <P name="value" type="float">
+                <value>1.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - charge speed 2">
+        <E modtype="mult" priority="0" type="stealth_charge_time">
+            <P name="value" type="float">
+                <value>0.75</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="stealth_power_charge_rate">
+            <P name="value" type="float">
+                <value>1.3333</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - charge speed 3">
+        <E modtype="mult" priority="0" type="stealth_charge_time">
+            <P name="value" type="float">
+                <value>0.3333</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="stealth_power_charge_rate">
+            <P name="value" type="float">
+                <value>3.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mass - gravity override central">
+        <E modtype="set" priority="-1" type="gravity_override_entity_switch">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="0" type="gravity_override_entity_central">
+            <P name="value" type="float">
+                <value>9.89</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mass - gravity override -y">
+        <E modtype="set" priority="-1" type="gravity_override_entity_switch">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="0" type="gravity_override_entity_dir">
+            <P name="value" type="float">
+                <value>-9.89</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - shield capacity 2">
+        <E modtype="add" priority="0" type="shield_capacity">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="shield_capacity_upkeep">
+            <P name="value" type="float">
+                <value>0.8333333</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - anti gravity 1">
+        <E modtype="set" priority="-1" type="thruster_anti_gravity">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="add" priority="0" type="thruster_anti_gravity">
+            <P name="value" type="float">
+                <value>-0.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - anti gravity 2">
+        <E modtype="add" priority="0" type="thruster_anti_gravity">
+            <P name="value" type="float">
+                <value>-0.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - thrust blast multi charge 1">
+        <E modtype="add" priority="0" type="thruster_blast_multi_charge_count">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - thrust blast multi charge 2">
+        <E modtype="add" priority="0" type="thruster_blast_multi_charge_count">
+            <P name="value" type="int">
+                <value>2</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - anti lockon">
+        <E modtype="set" priority="-1" type="stealth_missile_lock_on_time">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="add" priority="1" type="stealth_missile_lock_on_time">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="power - reactor failsafe">
+        <E modtype="set" priority="-1" type="reactor_failsafe">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="reactor_failsafe_threshold">
+            <P name="value" type="float">
+                <value>0.4</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="reactor_failsafe_hppercent_min_target_threshold">
+            <P name="value" type="float">
+                <value>0.3</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="power - reactor enhancement">
+        <E modtype="mult" priority="0" type="power_recharge_efficiency">
+            <P name="value" type="float">
+                <value>1.1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="power_recharge_efficiency">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="power - reactor shield">
+        <E modtype="set" priority="0" type="reactor_shield">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="power - reactor booster 1">
+        <E modtype="set" priority="-1" type="reactor_boost">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="reactor_boost_strength">
+            <P name="value" type="float">
+                <value>0.5</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="reactor_boost_duration">
+            <P name="value" type="float">
+                <value>10.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="reactor_boost_cooldown">
+            <P name="value" type="float">
+                <value>30.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="power - reactor booster 2">
+        <E modtype="set" priority="0" type="reactor_boost_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="power - reactor booster 3">
+        <E modtype="mult" priority="0" type="reactor_boost_duration">
+            <P name="value" type="float">
+                <value>2.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="power - reactor supercharger 1">
+        <E modtype="set" priority="-1" type="reactor_explosiveness">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="power_recharge_efficiency">
+            <P name="value" type="float">
+                <value>1.0909091</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="power_recharge_efficiency">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="power - reactor supercharger 2">
+        <E modtype="mult" priority="0" type="power_recharge_efficiency">
+            <P name="value" type="float">
+                <value>1.0833334</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="reactor_explosiveness">
+            <P name="value" type="float">
+                <value>2.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="power - reactor supercharger 3">
+        <E modtype="mult" priority="0" type="power_recharge_efficiency">
+            <P name="value" type="float">
+                <value>1.1538461</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="reactor_explosiveness">
+            <P name="value" type="float">
+                <value>2.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="logistics - factory bake time 1">
+        <E modtype="set" priority="-1" type="factory_bake_time_mult">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="factory_bake_time_mult">
+            <P name="value" type="float">
+                <value>0.6</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="factories_power_charge_rate">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="factories_power_charge_rate">
+            <P name="value" type="float">
+                <value>1.6667</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="logistics - factory bake time 2">
+        <E modtype="mult" priority="0" type="factory_bake_time_mult">
+            <P name="value" type="float">
+                <value>0.3333</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="factories_power_charge_rate">
+            <P name="value" type="float">
+                <value>3.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="logistics - cargo volume reduction 1">
+        <E modtype="set" priority="-1" type="cargo_volume">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="add" priority="0" type="cargo_volume">
+            <P name="value" type="float">
+                <value>-0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="logistics - cargo volume reduction 2">
+        <E modtype="add" priority="0" type="cargo_volume">
+            <P name="value" type="float">
+                <value>-0.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="logistics - mobile factory">
+        <E modtype="set" priority="0" type="ship_factory">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="logistics - mineral to resource 1">
+        <E modtype="set" priority="-1" type="mineral_to_resource">
+            <P name="value" type="float">
+                <value>0.0</value>
+            </P>
+        </E>
+        <E modtype="add" priority="0" type="mineral_to_resource">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="logistics - mineral to resource 2">
+        <E modtype="add" priority="0" type="mineral_to_resource">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="logistics - mineral to resource 3">
+        <E modtype="add" priority="0" type="mineral_to_resource">
+            <P name="value" type="float">
+                <value>0.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="logistics - mining bonus 1">
+        <E modtype="set" priority="0" type="mining_bonus_active">
+            <P name="value" type="int">
+                <value>2</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="logistics - mining bonus 2">
+        <E modtype="set" priority="1" type="mining_bonus_active">
+            <P name="value" type="int">
+                <value>3</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="power - reactor shield strength 1"/>
+    <Group id="power - reactor shield strength 2"/>
+    <Group id="power - reactor shield pw eff 1"/>
+    <Group id="power - reactor shield pw eff 2"/>
+    <Group id="power - chamber shield">
+        <E modtype="set" priority="0" type="chamber_shield">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - shield type alpha 2">
+        <E modtype="add" priority="0" type="shield_hotspot_range">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - shield type dps 2">
+        <E modtype="add" priority="0" type="shield_hotspot_range">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - shield type heat 2">
+        <E modtype="set" priority="0" type="shield_heat_damage_taken">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="logistics - transporter shield outage 1">
+        <E modtype="add" priority="0" type="transporter_no_shield_down">
+            <P name="value" type="float">
+                <value>-0.5</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="transporter_no_shield_down">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="logistics - transporter shield outage 2">
+        <E modtype="add" priority="0" type="transporter_no_shield_down">
+            <P name="value" type="float">
+                <value>-0.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - jump multicharge 3">
+        <E modtype="add" priority="0" type="jump_multi_charge_count">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="logistics - factory power efficiency 1">
+        <E modtype="set" priority="-1" type="factories_power_charge_rate">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="factories_power_charge_rate">
+            <P name="value" type="float">
+                <value>0.6</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="logistics - factory power efficiency 2">
+        <E modtype="mult" priority="0" type="factories_power_charge_rate">
+            <P name="value" type="float">
+                <value>0.3333</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - thrust blast">
+        <E modtype="set" priority="-1" type="thruster_blast">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="thruster_blast_multi_charge_count">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="thruster_blast_cooldown">
+            <P name="value" type="float">
+                <value>20.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="thruster_blast_strength">
+            <P name="value" type="float">
+                <value>25.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="thruster_blast_power_consumption_charging">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - thrust blast strength 1">
+        <E modtype="add" priority="0" type="thruster_blast_strength">
+            <P name="value" type="float">
+                <value>25.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - thrust blast strength 2">
+        <E modtype="add" priority="0" type="thruster_blast_strength">
+            <P name="value" type="float">
+                <value>25.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - thrust blast charge speed 1">
+        <E modtype="mult" priority="0" type="thruster_blast_cooldown">
+            <P name="value" type="float">
+                <value>0.75</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="thruster_blast_power_consumption_charging">
+            <P name="value" type="float">
+                <value>1.3333334</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - thrust blast charge speed 2">
+        <E modtype="mult" priority="0" type="thruster_blast_cooldown">
+            <P name="value" type="float">
+                <value>0.6666667</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="thruster_blast_power_consumption_charging">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - charge speed 1">
+        <E modtype="mult" priority="0" type="scan_charge_time">
+            <P name="value" type="float">
+                <value>0.8</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="scan_power_charge_rate">
+            <P name="value" type="float">
+                <value>1.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - charge speed 2">
+        <E modtype="mult" priority="0" type="scan_charge_time">
+            <P name="value" type="float">
+                <value>0.75</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="scan_power_charge_rate">
+            <P name="value" type="float">
+                <value>1.3333</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - charge speed 3">
+        <E modtype="mult" priority="0" type="scan_charge_time">
+            <P name="value" type="float">
+                <value>0.3333</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="scan_power_charge_rate">
+            <P name="value" type="float">
+                <value>3.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - usage duration 1">
+        <E modtype="mult" priority="0" type="scan_usage_time">
+            <P name="value" type="float">
+                <value>1.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - usage duration 2">
+        <E modtype="mult" priority="0" type="scan_usage_time">
+            <P name="value" type="float">
+                <value>1.2</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - usage duration 3 permanent">
+        <E modtype="set" priority="1" type="scan_usage_time">
+            <P name="value" type="float">
+                <value>-1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="scan_active_resting_power_cons">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="scan_active_resting_power_cons_mult">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - jump charge speed 1">
+        <E modtype="mult" priority="0" type="jump_charge_time">
+            <P name="value" type="float">
+                <value>0.9</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="jump_power_charge_rate">
+            <P name="value" type="float">
+                <value>1.1111112</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - jump charge speed 2">
+        <E modtype="mult" priority="0" type="jump_charge_time">
+            <P name="value" type="float">
+                <value>0.7777778</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="jump_power_charge_rate">
+            <P name="value" type="float">
+                <value>1.2857143</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - jump charge speed 3">
+        <E modtype="mult" priority="0" type="jump_charge_time">
+            <P name="value" type="float">
+                <value>0.5714286</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="jump_power_charge_rate">
+            <P name="value" type="float">
+                <value>1.75</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - usage duration 1">
+        <E modtype="mult" priority="0" type="stealth_usage_time">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - usage duration 2">
+        <E modtype="mult" priority="0" type="stealth_usage_time">
+            <P name="value" type="float">
+                <value>1.3333334</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - usage duration 3">
+        <E modtype="mult" priority="0" type="stealth_usage_time">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - usage duration 4 permanent">
+        <E modtype="set" priority="1" type="stealth_usage_time">
+            <P name="value" type="float">
+                <value>-1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="stealth_active_resting_power_cons">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="stealth_active_resting_power_cons_mult">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warp interdiction distance 1 sector">
+        <E modtype="set" priority="2" type="warp_interdiction_distance">
+            <P name="value" type="int">
+                <value>2</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_active">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warp interdiction distance 2 sector">
+        <E modtype="set" priority="1" type="warp_interdiction_distance">
+            <P name="value" type="int">
+                <value>4</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_active">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - base jump drive">
+        <E modtype="set" priority="-2" type="jump_drive_enable">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="jump_power_charge_rate">
+            <P name="value" type="float">
+                <value>1.1111112</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="jump_power_topoff_rate">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="jump_charge_time">
+            <P name="value" type="float">
+                <value>0.9</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="jump_multi_charge_count">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="jump_distance">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - base warp gate">
+        <E modtype="set" priority="-1" type="warp_power_efficiency">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_distance">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="warp_distance">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - base jump interdiction">
+        <E modtype="set" priority="-1" type="warp_interdiction_active_resting_power_cons">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_inactive_resting_power_cons">
+            <P name="value" type="float">
+                <value>0.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_power_consumption">
+            <P name="value" type="float">
+                <value>0.5</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-2" type="warp_interdiction">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_cooldown">
+            <P name="value" type="float">
+                <value>5.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - jump drive power efficiency 1">
+        <E modtype="mult" priority="0" type="jump_power_charge_rate">
+            <P name="value" type="float">
+                <value>0.9</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="jump_power_topoff_rate">
+            <P name="value" type="float">
+                <value>0.9</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - jump drive power efficiency 2">
+        <E modtype="mult" priority="0" type="jump_power_charge_rate">
+            <P name="value" type="float">
+                <value>0.7777</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="jump_power_topoff_rate">
+            <P name="value" type="float">
+                <value>0.7777</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - jump drive power efficiency 3">
+        <E modtype="mult" priority="0" type="jump_power_charge_rate">
+            <P name="value" type="float">
+                <value>0.7143</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="jump_power_topoff_rate">
+            <P name="value" type="float">
+                <value>0.7143</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warp interdiction 0 sector">
+        <E modtype="set" priority="-1" type="warp_interdiction_strength">
+            <P name="value" type="int">
+                <value>5</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_distance">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_active">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warp interdiction 1 sector">
+        <E modtype="set" priority="0" type="warp_interdiction_strength">
+            <P name="value" type="int">
+                <value>10</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_distance">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_active">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warp interdiction 2 sector">
+        <E modtype="set" priority="1" type="warp_interdiction_strength">
+            <P name="value" type="int">
+                <value>15</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_distance">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_active">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warp interdiction 3 sector">
+        <E modtype="set" priority="2" type="warp_interdiction_strength">
+            <P name="value" type="int">
+                <value>20</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_distance">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_active">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warp interdiction 4 sector">
+        <E modtype="set" priority="3" type="warp_interdiction_strength">
+            <P name="value" type="int">
+                <value>25</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_distance">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_active">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warp interdiction 5 sector">
+        <E modtype="set" priority="4" type="warp_interdiction_strength">
+            <P name="value" type="int">
+                <value>30</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_distance">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_active">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warp interdiction 6 sector">
+        <E modtype="set" priority="5" type="warp_interdiction_strength">
+            <P name="value" type="int">
+                <value>35</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_distance">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_active">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warp interdiction 7 sector">
+        <E modtype="set" priority="6" type="warp_interdiction_strength">
+            <P name="value" type="int">
+                <value>40</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_distance">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_active">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warp interdiction 8 sector">
+        <E modtype="set" priority="-1" type="warp_interdiction_strength">
+            <P name="value" type="int">
+                <value>45</value>
+            </P>
+        </E>
+        <E modtype="set" priority="7" type="warp_interdiction_distance">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_active">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warp interdiction 9 sector">
+        <E modtype="set" priority="8" type="warp_interdiction_strength">
+            <P name="value" type="int">
+                <value>50</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_distance">
+            <P name="value" type="int">
+                <value>1</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="warp_interdiction_active">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - base lr scanner">
+        <E modtype="set" priority="0" type="scan_long_range_scanner">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - base stealth drive">
+        <E modtype="add" priority="0" type="stealth_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="stealth_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="stealth_power_charge_rate">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="stealth_charge_time">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="stealth_usage_time">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - strength 1">
+        <E modtype="add" priority="0" type="stealth_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - strength 2">
+        <E modtype="add" priority="0" type="stealth_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - strength 3">
+        <E modtype="add" priority="0" type="stealth_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - strength 4">
+        <E modtype="add" priority="0" type="stealth_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="stealth - strength 5">
+        <E modtype="add" priority="0" type="stealth_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - base sr scanner">
+        <E modtype="set" priority="-1" type="scan_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="add" priority="0" type="scan_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-2" type="scan_short_range_scanner_enable">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="scan_power_charge_rate">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="scan_charge_time">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="scan_power_charge_rate">
+            <P name="value" type="float">
+                <value>1.1111112</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="scan_charge_time">
+            <P name="value" type="float">
+                <value>0.9</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="scan_usage_time">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - strength 1">
+        <E modtype="add" priority="0" type="scan_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - strength 2">
+        <E modtype="add" priority="0" type="scan_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - strength 3">
+        <E modtype="add" priority="0" type="scan_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - strength 4">
+        <E modtype="add" priority="0" type="scan_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="recon - strength 5">
+        <E modtype="add" priority="0" type="scan_strength">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warpgate power efficiency 1">
+        <E modtype="mult" priority="0" type="warp_power_efficiency">
+            <P name="value" type="float">
+                <value>0.75</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warpgate power efficiency 2">
+        <E modtype="mult" priority="0" type="warp_power_efficiency">
+            <P name="value" type="float">
+                <value>0.6666</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="ftl - warpgate power efficiency 3">
+        <E modtype="mult" priority="0" type="warp_power_efficiency">
+            <P name="value" type="float">
+                <value>0.5</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - heat armor 1">
+        <E modtype="add" priority="0" type="armor_defense_heat">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - heat armor 2">
+        <E modtype="add" priority="0" type="armor_defense_heat">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - em armor 1">
+        <E modtype="add" priority="0" type="armor_defense_em">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - em armor 2">
+        <E modtype="add" priority="0" type="armor_defense_em">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - kinetic armor 1">
+        <E modtype="add" priority="0" type="armor_defense_kinetic">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - kinetic armor 2">
+        <E modtype="add" priority="0" type="armor_defense_kinetic">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - environmental armor 1">
+        <E modtype="add" priority="0" type="armor_defense_environmental">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="defense - environmental armor 2">
+        <E modtype="add" priority="0" type="armor_defense_environmental">
+            <P name="value" type="float">
+                <value>0.25</value>
+            </P>
+        </E>
+    </Group>
+</Config>
