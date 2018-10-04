@@ -251,7 +251,7 @@
                         <ReactorStabilizationEnergyStreamHitMinCooldownInSec>0.01</ReactorStabilizationEnergyStreamHitMinCooldownInSec> <!-- minimum  secs of reactor-nerf(cooldown)-->
                         <ReactorStabilizationEnergyStreamHitMaxCooldownInSec>15.0</ReactorStabilizationEnergyStreamHitMaxCooldownInSec> <!-- maximum  secs of reactor-nerf(cooldown)-->
                         <ReactorStabilizationEnergyStreamHitMaxCooldownReactorEfficiency>0.25</ReactorStabilizationEnergyStreamHitMaxCooldownReactorEfficiency> <!-- power regeneration percent the reactor runs at during reactor-nerf(cooldown) -->
-                        <ReactorStabilizationEnergyStreamDistance>-1</ReactorStabilizationEnergyStreamDistance> <!-- minimum distance at which stabilizer stream appears -->
+                        <ReactorStabilizationEnergyStreamDistance>100000</ReactorStabilizationEnergyStreamDistance> <!-- minimum distance at which stabilizer stream appears -->
                        
                       
 
