@@ -211,18 +211,18 @@
                         <ReactorStabilizerDistanceTotalMult>2.0</ReactorStabilizerDistanceTotalMult>
                         <ReactorStabilizerGroupingProximity>3.0</ReactorStabilizerGroupingProximity>
 
-                        <ReactorStablizationBonus2>1.0</ReactorStablizationBonus2> <!-- bonus stabilization stacking based on percentage of biggest in group -->
-                        <ReactorStablizationBonus3>1.0</ReactorStablizationBonus3> <!-- bonus stabilization stacking based on percentage of biggest in group -->
-                        <ReactorStablizationBonus4>0.8</ReactorStablizationBonus4> <!-- bonus stabilization stacking based on percentage of biggest in group -->
-                        <ReactorStablizationBonus5>0.6</ReactorStablizationBonus5> <!-- bonus stabilization stacking based on percentage of biggest in group -->
-                        <ReactorStablizationBonus6>0.5</ReactorStablizationBonus6> <!-- bonus stabilization stacking based on percentage of biggest in group -->
+                        <ReactorStablizationBonus2>1.25</ReactorStablizationBonus2> <!-- bonus stabilization stacking based on percentage of biggest in group -->
+                        <ReactorStablizationBonus3>1.5</ReactorStablizationBonus3> <!-- bonus stabilization stacking based on percentage of biggest in group -->
+                        <ReactorStablizationBonus4>1.75</ReactorStablizationBonus4> <!-- bonus stabilization stacking based on percentage of biggest in group -->
+                        <ReactorStablizationBonus5>2.0</ReactorStablizationBonus5> <!-- bonus stabilization stacking based on percentage of biggest in group -->
+                        <ReactorStablizationBonus6>2.25</ReactorStablizationBonus6> <!-- bonus stabilization stacking based on percentage of biggest in group -->
 
 
 
 
                         <ReactorStabilizerGroupsMax>20</ReactorStabilizerGroupsMax> <!-- max stabilizer groups used (ordered by size biggest first) -->
 
-                        <ReactorStabilizationPowerEffectiveFull>0.0</ReactorStabilizationPowerEffectiveFull> <!-- reactor stab% (or lower) at which power efficiency is falling -->
+                        <ReactorStabilizationPowerEffectiveFull>1.0</ReactorStabilizationPowerEffectiveFull> <!-- reactor stab% (or lower) at which power efficiency is falling -->
                        
                        <!-- <ReactorStabilizationShieldDamagePercentToReactorHpStart>1.0</ReactorStabilizationShieldDamagePercentToReactorHpStart> --><!-- reactor stab% (or lower) at which shield damage does reactor min hp damage (above does no damage)-->
                        <!-- <ReactorStabilizationShieldDamagePercentToReactorHpEnd>0.50</ReactorStabilizationShieldDamagePercentToReactorHpEnd> --><!-- reactor stab% (or lower) at which shield damage does reactor maximum hp damage -->
@@ -251,7 +251,7 @@
                         <ReactorStabilizationEnergyStreamHitMinCooldownInSec>0.01</ReactorStabilizationEnergyStreamHitMinCooldownInSec> <!-- minimum  secs of reactor-nerf(cooldown)-->
                         <ReactorStabilizationEnergyStreamHitMaxCooldownInSec>15.0</ReactorStabilizationEnergyStreamHitMaxCooldownInSec> <!-- maximum  secs of reactor-nerf(cooldown)-->
                         <ReactorStabilizationEnergyStreamHitMaxCooldownReactorEfficiency>0.25</ReactorStabilizationEnergyStreamHitMaxCooldownReactorEfficiency> <!-- power regeneration percent the reactor runs at during reactor-nerf(cooldown) -->
-                        <ReactorStabilizationEnergyStreamDistance>-1</ReactorStabilizationEnergyStreamDistance> <!-- minimum distance at which stabilizer stream appears -->
+                        <ReactorStabilizationEnergyStreamDistance>100000</ReactorStabilizationEnergyStreamDistance> <!-- minimum distance at which stabilizer stream appears -->
                        
                       
 
@@ -458,12 +458,12 @@
                         <ThrustBalanceChangeApplyTimeInSecs>15.0</ThrustBalanceChangeApplyTimeInSecs> <!-- how much time it takes for a thrust balance change to take effect-->                       
                         
                         <!-- NEW POWER -->
-                        <MulTotalThrust>8.0</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
-                        <PowTotalThrust>0.85</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+                        <MulTotalThrust>4.0</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+                        <PowTotalThrust>0.8</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
                         <UnitCalcMult>1</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
                         
                         <ReactorPowerPowerConsumptionPerBlockResting>0.4</ReactorPowerPowerConsumptionPerBlockResting> <!-- power used when no thrust is applied -->
-                        <ReactorPowerPowerConsumptionPerBlockInUse>6.0</ReactorPowerPowerConsumptionPerBlockInUse> <!-- power used when thrusters in use -->
+                        <ReactorPowerPowerConsumptionPerBlockInUse>4.0</ReactorPowerPowerConsumptionPerBlockInUse> <!-- power used when thrusters in use -->
                      
                         <ThrusterMinReactorPower>0.05</ThrusterMinReactorPower> <!-- minimum power of thrusters (minimum value to be multiplied with thrust to not completely render ships without movement when power fails) -->
                         <MaxThrustToMassAcceleration>10.0</MaxThrustToMassAcceleration>
@@ -794,8 +794,8 @@
                         <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
-                        <Speed>100</Speed> <!-- In relation % to server max speed  1 = 100% -->
-                        <ReloadMs>1000</ReloadMs>
+                        <Speed>200</Speed> <!-- In relation % to server max speed  1 = 100% -->
+                        <ReloadMs>200</ReloadMs>
                         <AdditionalPowerConsumptionPerUnitMult>0.1</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
 
 						<Recoil>0.0</Recoil> <!-- Recoil in force per damage. Applied from the ship cannons point of origin in the opposite firing direction (multiplied with damage of projectile)-->
@@ -855,7 +855,7 @@
 			<EffectConfiguration>
                         	<Kinetic>2.1</Kinetic>
                         	<Heat>0.3</Heat>
-                         	<EM>0.6</EM>
+                            <EM>0.6</EM>
                         </EffectConfiguration>
                 </BasicValues>
                 <Combination>

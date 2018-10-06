@@ -1,4 +1,4 @@
-<Config>
+﻿<Config>
   <Element>
     <!--autocreated by the starmade block editor-->
     <General>
@@ -27309,7 +27309,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -27595,7 +27595,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -27811,7 +27811,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -27881,7 +27881,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -27951,7 +27951,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -28021,7 +28021,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -28160,7 +28160,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -34088,9 +34088,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>true</InRecipe>
             <CanActivate>true</CanActivate>
@@ -34153,9 +34153,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -34219,9 +34219,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -34285,9 +34285,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -34351,9 +34351,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -34419,9 +34419,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -34485,9 +34485,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -34551,9 +34551,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -34617,9 +34617,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -34683,9 +34683,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -34749,9 +34749,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -34815,9 +34815,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -34881,9 +34881,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -34947,9 +34947,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -35018,9 +35018,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>true</InRecipe>
             <CanActivate>true</CanActivate>
@@ -35083,9 +35083,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -35154,9 +35154,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>true</InRecipe>
             <CanActivate>true</CanActivate>
@@ -35219,9 +35219,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -35290,9 +35290,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>true</InRecipe>
             <CanActivate>true</CanActivate>
@@ -35355,9 +35355,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -35426,9 +35426,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>true</InRecipe>
             <CanActivate>true</CanActivate>
@@ -35491,9 +35491,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -35556,9 +35556,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -35621,9 +35621,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -35686,9 +35686,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.25</Mass>
+            <Mass>0.05</Mass>
             <Volume>0.25</Volume>
-            <Hitpoints>2000</Hitpoints>
+            <Hitpoints>20000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>true</CanActivate>
@@ -36431,9 +36431,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>true</InRecipe>
             <CanActivate>false</CanActivate>
@@ -36496,9 +36496,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>false</CanActivate>
@@ -36561,9 +36561,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>false</CanActivate>
@@ -36626,9 +36626,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>false</CanActivate>
@@ -36691,9 +36691,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>false</CanActivate>
@@ -36761,9 +36761,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>true</InRecipe>
             <CanActivate>false</CanActivate>
@@ -36826,9 +36826,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>false</CanActivate>
@@ -36891,9 +36891,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>false</CanActivate>
@@ -36956,9 +36956,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>false</CanActivate>
@@ -37021,9 +37021,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>false</CanActivate>
@@ -37087,9 +37087,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>false</CanActivate>
@@ -37153,9 +37153,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>false</CanActivate>
@@ -37219,9 +37219,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>false</CanActivate>
@@ -37285,9 +37285,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>false</CanActivate>
@@ -37351,9 +37351,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>false</CanActivate>
@@ -37417,9 +37417,9 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.15</Mass>
+            <Mass>0.03</Mass>
             <Volume>0.15</Volume>
-            <Hitpoints>800</Hitpoints>
+            <Hitpoints>4000</Hitpoints>
             <Placable>true</Placable>
             <InRecipe>false</InRecipe>
             <CanActivate>false</CanActivate>
@@ -53857,7 +53857,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>40</ReactorHp>
+          <ReactorHp>60</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.2</Mass>
@@ -53991,7 +53991,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -54126,7 +54126,7 @@
         <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
         <ChamberChildren>{}</ChamberChildren>
         <ChamberAppliesTo>0</ChamberAppliesTo>
-        <ReactorHp>0</ReactorHp>
+        <ReactorHp>10</ReactorHp>
         <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
         <Enterable>true</Enterable>
         <Mass>0.1</Mass>
@@ -54218,7 +54218,7 @@
         <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
         <ChamberChildren>{}</ChamberChildren>
         <ChamberAppliesTo>0</ChamberAppliesTo>
-        <ReactorHp>0</ReactorHp>
+        <ReactorHp>10</ReactorHp>
         <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
         <Enterable>false</Enterable>
         <Mass>0.1</Mass>
@@ -54629,7 +54629,7 @@
         <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
         <ChamberChildren>{}</ChamberChildren>
         <ChamberAppliesTo>0</ChamberAppliesTo>
-        <ReactorHp>0</ReactorHp>
+        <ReactorHp>10</ReactorHp>
         <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
         <Enterable>false</Enterable>
         <Mass>0.1</Mass>
@@ -54833,7 +54833,7 @@
         <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
         <ChamberChildren>{}</ChamberChildren>
         <ChamberAppliesTo>0</ChamberAppliesTo>
-        <ReactorHp>0</ReactorHp>
+        <ReactorHp>10</ReactorHp>
         <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
         <Enterable>false</Enterable>
         <Mass>0.1</Mass>
@@ -54906,7 +54906,7 @@
         <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
         <ChamberChildren>{}</ChamberChildren>
         <ChamberAppliesTo>0</ChamberAppliesTo>
-        <ReactorHp>0</ReactorHp>
+        <ReactorHp>10</ReactorHp>
         <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
         <Enterable>false</Enterable>
         <Mass>0.1</Mass>
@@ -55381,7 +55381,7 @@
         <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
         <ChamberChildren>{}</ChamberChildren>
         <ChamberAppliesTo>0</ChamberAppliesTo>
-        <ReactorHp>0</ReactorHp>
+        <ReactorHp>10</ReactorHp>
         <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
         <Enterable>false</Enterable>
         <Mass>0.1</Mass>
@@ -55451,7 +55451,7 @@
         <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
         <ChamberChildren>{}</ChamberChildren>
         <ChamberAppliesTo>0</ChamberAppliesTo>
-        <ReactorHp>0</ReactorHp>
+        <ReactorHp>10</ReactorHp>
         <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
         <Enterable>false</Enterable>
         <Mass>0.1</Mass>
@@ -56273,7 +56273,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>true</Enterable>
           <Mass>0.1</Mass>
@@ -56343,7 +56343,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -56416,7 +56416,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>true</Enterable>
           <Mass>0.1</Mass>
@@ -56486,7 +56486,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -56559,7 +56559,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -56629,7 +56629,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -56839,7 +56839,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -56915,7 +56915,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>true</Enterable>
           <Mass>0.1</Mass>
@@ -56985,7 +56985,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -57058,7 +57058,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>true</Enterable>
           <Mass>0.1</Mass>
@@ -57128,7 +57128,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -57918,7 +57918,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -57989,7 +57989,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -59351,7 +59351,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -59421,7 +59421,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -59491,7 +59491,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -59561,7 +59561,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -59631,7 +59631,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -59701,7 +59701,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -59770,7 +59770,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -59837,7 +59837,7 @@
           <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
           <ChamberChildren>{}</ChamberChildren>
           <ChamberAppliesTo>0</ChamberAppliesTo>
-          <ReactorHp>0</ReactorHp>
+          <ReactorHp>10</ReactorHp>
           <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
           <Enterable>false</Enterable>
           <Mass>0.1</Mass>
@@ -59984,7 +59984,7 @@
         <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
         <ChamberChildren>{}</ChamberChildren>
         <ChamberAppliesTo>0</ChamberAppliesTo>
-        <ReactorHp>0</ReactorHp>
+        <ReactorHp>10</ReactorHp>
         <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
         <Enterable>false</Enterable>
         <Mass>0.1</Mass>
@@ -60259,7 +60259,7 @@
         <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
         <ChamberChildren>{}</ChamberChildren>
         <ChamberAppliesTo>0</ChamberAppliesTo>
-        <ReactorHp>0</ReactorHp>
+        <ReactorHp>10</ReactorHp>
         <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
         <Enterable>false</Enterable>
         <Mass>0.1</Mass>
@@ -60469,7 +60469,7 @@
         <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
         <ChamberChildren>{}</ChamberChildren>
         <ChamberAppliesTo>0</ChamberAppliesTo>
-        <ReactorHp>0</ReactorHp>
+        <ReactorHp>10</ReactorHp>
         <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
         <Enterable>false</Enterable>
         <Mass>0.1</Mass>
