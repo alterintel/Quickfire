@@ -794,7 +794,7 @@
                         <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
-                        <Speed>1000</Speed> <!-- In relation % to server max speed  1 = 100% -->
+                        <Speed>200</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>200</ReloadMs>
                         <AdditionalPowerConsumptionPerUnitMult>0.1</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
 
