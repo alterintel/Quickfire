@@ -948,7 +948,7 @@
                             <CursorRecoilDirY style="skip"/> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                             
                             <PossibleZoom style="nerf" value="2"/>
-                            <Aimable style="skip"/> <!-- 1 = aimable with cursor. 0 = weapon only fires straight --> <!--Orig.: style="set" value="0"-->
+                            <Aimable style="skip"/> <!-- 1 = aimable with cursor. 0 = weapon only fires straight -->
                         </Beam>
                 </Combination>
         </Cannon>
