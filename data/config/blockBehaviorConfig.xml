@@ -402,18 +402,18 @@
                         
                          <!-- NEW POWER -->
                         <HpConditionTriggerList>              
-                            <Item conditionhp="0.65">
+                            <Item conditionhp="0.50">
                                 <Type>CONTROL_LOSS</Type>
                             </Item>
 						   
                             <Item conditionhp="0.5">
                                 <Type>OVERHEATING</Type>
                             </Item>
-                            <Item conditionhp="0.5">
+                            <Item conditionhp="0.65">
                                 <Type>POWER</Type>
                                 <Amount>0.0</Amount>
                             </Item>
-                            <Item conditionhp="0.5">
+                            <Item conditionhp="0.65">
                                 <Type>SHIELD</Type>
                                 <Amount>0.0</Amount>
                             </Item>
@@ -796,7 +796,7 @@
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Speed>60</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>200</ReloadMs>
-                        <AdditionalPowerConsumptionPerUnitMult>0.1</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
+                        <AdditionalPowerConsumptionPerUnitMult>0.0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
 
 						<Recoil>0.0</Recoil> <!-- Recoil in force per damage. Applied from the ship cannons point of origin in the opposite firing direction (multiplied with damage of projectile)-->
                         <ImpactForce>1.0</ImpactForce> <!-- Impact force on target in force per damage.  (multiplied with damage of projectile)-->
@@ -1008,7 +1008,7 @@
                         <Speed>20</Speed>               
                         <ReloadMs>2000</ReloadMs><!-- default 15000 -->
                         <PowerConsumption>1500</PowerConsumption> <!-- (defualt 1500) deviates from 10 power/1damage formula, missiles can easily be shot down -->
-                        <AdditionalPowerConsumptionPerUnitMult>0.025</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
+                        <AdditionalPowerConsumptionPerUnitMult>0.0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
                         <ChasingTurnSpeedWithTargetInFront>3.5</ChasingTurnSpeedWithTargetInFront> 
                         <ChasingTurnSpeedWithTargetInBack>4.0</ChasingTurnSpeedWithTargetInBack> 
                         
@@ -1114,7 +1114,7 @@
                         <CoolDown>10.0</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
                         <BurstTime>7.5</BurstTime> <!-- Time the beam will fire -->
                         <InitialTicks>0</InitialTicks> <!-- Ticks to do at the initial contact of beam with a block -->
-                        <AdditionalPowerConsumptionPerUnitMult>0.1</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
+                        <AdditionalPowerConsumptionPerUnitMult>0.0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
                         <RailHitMultiplierParent>0</RailHitMultiplierParent> <!-- Damage percent done to target in own Rail Chain when target is equal or closer to root than this entitiy-->
                         <RailHitMultiplierChild>0</RailHitMultiplierChild> <!-- Damage percent done to target in own Rail Chain when target is further from root than this entity --> 						
                         
