@@ -794,7 +794,7 @@
                         <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
-                        <Speed>60</Speed> <!-- In relation % to server max speed  1 = 100% -->
+                        <Speed>35</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>200</ReloadMs>
                         <AdditionalPowerConsumptionPerUnitMult>0.0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
 
@@ -1126,7 +1126,7 @@
                         <Aimable>1</Aimable> <!-- 0 for off. not 0 for on -->
                         
                         <ChargeTime>0</ChargeTime> <!-- how long weapon must be charged before fire (0 for off) -->
-                        <DropShieldsOnCharging>true</DropShieldsOnCharging> <!-- drop shields when beam is charging -->
+                        <DropShieldsOnCharging>false</DropShieldsOnCharging> <!-- drop shields when beam is charging -->
                         <MinEffectiveValue>1.0</MinEffectiveValue> <!-- effectiveness (*damage) of beam at min efficiency range -->
                         <MinEffectiveRange>0.125</MinEffectiveRange> <!-- at what % of beam length or less the beam uses the MinEffectiveValue-->
                         
@@ -1163,7 +1163,7 @@
                             <Aimable style="set" value ="1"/>
 
                             <ChargeTime style="skip"/> <!-- how long weapon must be charged before fire (0 for off) -->
-                            <MinEffectiveValue style="skip"/>> <!-- effectiveness (*damage) of beam at min efficiency range -->
+                            <MinEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at min efficiency range -->
                             <MinEffectiveRange style="skip"/> <!-- at what % of beam length or less the beam uses the MinEffectiveValue-->
 
                             <MaxEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at max efficiency range -->
@@ -1201,15 +1201,15 @@
                             
                             <PossibleZoom style="set" value="0.0"/>
                         </Missile>
-                        <Beam> <!-- death beam -->
+                        <Beam> <!-- no more death beam but long range beam -->
                             <HitSpeed style="nerf" value="2"/> <!-- 0.05 tick rate-->
-                            <Distance style="skip"/>
+                            <Distance style="buff" value="0.5"/>
 
                             <PowerConsumptionResting style="nerf" inverse="true" linear="true" value="2" version="noreactor"/>                                
                             <PowerConsumptionResting style="buff" value="2" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="buff" value="5" linear="true"/>
+                            <PowerPerHit style="nerf" value="1" linear="true"/>
                             <CoolDown style="buff" value="6"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="buff" value="0.3333"/> <!-- Time the beam will fire -->
 
@@ -1217,19 +1217,19 @@
                             
                             <LatchOn style="set" value ="0"/>
                             <CheckLatchConnection style="set" value ="0"/>
-                            <Penetration style="set" value ="1"/>
+                            <Penetration style="set" value ="0"/>
                             <AcidDamagePercentage style="set" value="0.5"/>
                             <FriendlyFire style="set" value ="0"/>
-                            <Aimable style="set" value ="0"/>
+                            <Aimable style="set" value ="1"/>
                             
-                            <ChargeTime style="set" value="10"/> <!-- how long weapon must be charged before fire (0 for off) -->
-                            <MinEffectiveValue style="skip"/>> <!-- effectiveness (*damage) of beam at min efficiency range -->
+                            <ChargeTime style="set" value="0"/> <!-- how long weapon must be charged before fire (0 for off) -->
+                            <MinEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at min efficiency range -->
                             <MinEffectiveRange style="skip"/> <!-- at what % of beam length or less the beam uses the MinEffectiveValue-->
 
                             <MaxEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at max efficiency range -->
                             <MaxEffectiveRange style="skip"/> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
                             
-                            <PossibleZoom style="nerf" value="2"/>
+                            <PossibleZoom style="buff" value="0.5"/>
                         </Beam>
                 </Combination>
         </DamageBeam>
