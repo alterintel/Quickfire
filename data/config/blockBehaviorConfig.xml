@@ -1000,7 +1000,7 @@
                         <PercentagePowerUsageCharging>0</PercentagePowerUsageCharging> <!-- percentage of total reactor recharge used per block -->
                         <PercentagePowerUsageResting>0</PercentagePowerUsageResting> <!-- percentage of total reactor recharge used per block -->
                         
-                        <LockOnTimeSec>5</LockOnTimeSec> <!-- how long it takes to lock on missiles -->
+                        <LockOnTimeSec>2</LockOnTimeSec> <!-- how long it takes to lock on missiles -->
                         <LockedOnExpireTimeSec>3</LockedOnExpireTimeSec> <!-- how long it takes for target to expire when looking away after lock on -->
             
                         <Distance>4.0</Distance> <!-- 1 is equal to 100% sector radius -->
@@ -1039,7 +1039,7 @@
                         </EffectConfiguration>
                 </BasicValues>
                 <Combination>
-                        <Cannon> <!-- Heat -->
+                        <Cannon> <!-- Originally heat-seekers. Trying to see if they will work with lock-on mechanics. -->
                              <Damage style="buff" value="1.5" linear="true"/>
                              <Reload style="buff" value="4"/>
                              <Distance style="skip"/>
@@ -1047,8 +1047,8 @@
                              
                              <BlastRadius style="nerf" value="2"/> 
                              <Speed style="nerf" value="1.5"/>
-                             <Split style="buff" value="9"/>
-                             <Mode style="set" value="1"/><!-- Heat Seeker Missile -->
+                             <Split style="buff" value="9"/><!-- Spam spam spam spam. Lovely spam! Wonderful spam! (this is the original value) -->
+                             <Mode style="set" value="2"/><!-- Lock-on Missile - was originally 1 for heat seeking, but why would you have a useless weapon in the game? Possibilities are meaningless if they aren't usable possibilities. -->
                              <PowerConsumption style="skip" linear="true"/>
                              
                              <AdditionalCapacityUsedPerDamage style="skip"/><!-- rounded down -->
