@@ -1029,7 +1029,7 @@
                         <MissileHPLogOffset>0</MissileHPLogOffset>
                         <MissileHPLogFactor>1</MissileHPLogFactor>
 
-                        <BombActivationTimeSec>3.0</BombActivationTimeSec>  
+                        <BombActivationTimeSec>2.0</BombActivationTimeSec>  
                         
                         <!-- Dumb = 0, Heat = 1, TargetChasing = 2, Bomb = 3 -->        
                         <EffectConfiguration>
@@ -1059,7 +1059,7 @@
                              <PossibleZoom style="nerf" value="2"/>
                         </Cannon>
                         <Missile> <!-- Bomb -->
-                            <Damage style="buff" value="49" linear="true"/>
+                            <Damage style="buff" value="299" linear="true"/><!-- Originally 49 -->
                             <Reload style="buff" value="29"/>
                             <Distance style="nerf" value="6"/>
                             <LockOnTimeSec style="skip"/>
