@@ -790,7 +790,7 @@
                         <PowerConsumption>100</PowerConsumption>
 
                         <!-- NEW -->
-                        <Damage>20</Damage>                        
+                        <Damage>8.33</Damage>                        
                         <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
@@ -829,7 +829,7 @@
                         <PenetrationDepthExp>0.35</PenetrationDepthExp>
                         <PenetrationDepthExpMult>0.4</PenetrationDepthExpMult>
                         
-                        <AcidDamageMaxPropagation>50</AcidDamageMaxPropagation> <!-- How many blocks far a single propagation will go --> 
+                        <AcidDamageMaxPropagation>200</AcidDamageMaxPropagation> <!-- How many blocks far a single propagation will go --> 
                         
                          <!-- Factor between 0 and 1: Less damage up front, more towards the back -->
                          <!-- Factor between 1 and 2: More damage up front, less towards the back -->
@@ -864,10 +864,10 @@
                             <!-- PROS: Higher fire rate and faster projectile speed -->
                             <!-- CONS: Less damage per power consumed, less impact force per damage -->
 
-                            <Damage style="nerf" linear="true" value="10"/>
+                            <Damage style="set" value="16.7"/>
                             <Reload style="nerf" value= "5"/>
-                            <Distance style="skip"/>
-                            <Speed style="buff" value = "0.25"/>
+                            <Distance style="set"  value="1.5"/>
+                            <Speed style="skip"/>
                             <Recoil style="skip"/>
                             <ImpactForce style="nerf" value="2" />
                             <PowerConsumption style="buff" inverse="true" linear="true" value="10" version="noreactor"/>
@@ -894,17 +894,17 @@
                             <!-- Charge Cannon -->
                             <!-- PROS: High efficiency when fired at full charge, fire rate is changeable -->
                             <!-- CONS: Bad efficiency when fired at low charge -->        
-                            <Damage style="skip" linear="true"/>
+                            <Damage style="set" value ="50"/>
                             <Reload style="buff" value="2" /> 
-                            <Distance style="skip"/>
+                            <Distance style="set" value ="0.5"/>
                             <Speed style="skip"/>
                             <Recoil style="skip"/>
-                            <ImpactForce style="buff" value="1.0"/>
+                            <ImpactForce style="buff" value="4.0"/>
                             <PowerConsumption style="nerf" inverse="true" linear="true" value="10" version="noreactor"/>
                             <PowerConsumption style="skip" linear="true"/>
-                            <ProjectileWidth style="skip"/>
-                            <AcidFormula style="set" value="1"/>
-                            <ChargeMax style="set" value="15.0"/>
+                            <ProjectileWidth style="buff" value ="1"/>
+                            <AcidFormula style="set" value="2"/>
+                            <ChargeMax style="set" value="5.0"/>
                             <ChargeSpeed style="set" value="2.0"/>
                             
                             <CursorRecoilX style="skip"/> <!-- Cursor movement force multiplied with damage -->
@@ -924,16 +924,16 @@
                             <!-- Artillery Cannon -->
                             <!-- PROS: Highest dps, big hole on hit -->
                             <!-- CONS: slow to reload and slower projectile speed -->      
-                            <Damage style="buff" linear="true" value="29.0" /> <!-- 1 + 36.5 = 600 damage -->
-                            <Reload style="buff" value="14" /> <!-- 1 + 14 = 15000ms -->
-                            <Distance style="skip"  />
-                            <Speed style="nerf" value="1.33333334"/> <!-- 7.5 -->
+                            <Damage style="set" value="2.78" /> <!-- 1 + 36.5 = 600 damage -->
+                            <Reload style="buff" value="4" /> <!-- 1 + 14 = 15000ms -->
+                            <Distance style="set" value ="4.5" />
+                            <Speed style="skip"/> <!-- 7.5 -->
                             <Recoil style="skip"/>
                             <ImpactForce style="buff" value="9" />
                             <PowerConsumption style="nerf" inverse="true" linear="true" value="30" version="noreactor"/> <!-- 1+3 = 4x power consumption -->
-                            <PowerConsumption style="skip" linear="true"/> 
+                            <PowerConsumption style="nerf" linear="true" value="4.5"/> 
                             <ProjectileWidth style="skip"/>
-                            <AcidFormula style="set" value="2"/>
+                            <AcidFormula style="set" value="1"/>
                             <ChargeMax style="skip"/>
                             <ChargeSpeed style="skip"/>         
                                 
@@ -947,7 +947,7 @@
                             <CursorRecoilMaxY style="buff" value="2"/> <!-- Max cursor recoil value -->
                             <CursorRecoilDirY style="skip"/> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                             
-                            <PossibleZoom style="nerf" value="2"/>
+                            <PossibleZoom style="buff" value="2"/>
                             <Aimable style="skip"/> <!-- 1 = aimable with cursor. 0 = weapon only fires straight -->
                         </Beam>
                 </Combination>
@@ -1104,12 +1104,12 @@
                 <BasicValues>
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
-                        <DamagePerHit>3</DamagePerHit>
+                        <DamagePerHit>8.33</DamagePerHit>
                         <ReactorPowerConsumptionResting>15.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>75.0</ReactorPowerConsumptionCharging>
                         
                         <PowerConsumptionPerTick>50</PowerConsumptionPerTick> 
-                        <Distance>2.0</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
+                        <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
                         <TickRate>0.0999</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
                         <CoolDown>10.0</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
                         <BurstTime>7.5</BurstTime> <!-- Time the beam will fire -->
@@ -1118,7 +1118,7 @@
                         <RailHitMultiplierParent>0</RailHitMultiplierParent> <!-- Damage percent done to target in own Rail Chain when target is equal or closer to root than this entitiy-->
                         <RailHitMultiplierChild>0</RailHitMultiplierChild> <!-- Damage percent done to target in own Rail Chain when target is further from root than this entity --> 						
                         
-                        <LatchOn>1</LatchOn> <!-- 0 for off. not 0 for on -->
+                        <LatchOn>0</LatchOn> <!-- 0 for off. not 0 for on -->
                         <CheckLatchConnection>1</CheckLatchConnection> <!-- 0 for off. not 0 for on. If on, the beam checks for a direct line of sight to the latched-on block. If off, the beam will keep hitting that area even if the ship is turned around (arc beam)-->
                         <Penetration>0</Penetration> <!-- 0 for off. not 0 for on -->
                         <AcidDamagePercentage>0.5</AcidDamagePercentage> <!-- percentage of overflow damage into acid -->
@@ -1128,9 +1128,9 @@
                         <ChargeTime>0</ChargeTime> <!-- how long weapon must be charged before fire (0 for off) -->
                         <DropShieldsOnCharging>false</DropShieldsOnCharging> <!-- drop shields when beam is charging -->
                         <MinEffectiveValue>1.0</MinEffectiveValue> <!-- effectiveness (*damage) of beam at min efficiency range -->
-                        <MinEffectiveRange>0.125</MinEffectiveRange> <!-- at what % of beam length or less the beam uses the MinEffectiveValue-->
+                        <MinEffectiveRange>0.5</MinEffectiveRange> <!-- at what % of beam length or less the beam uses the MinEffectiveValue-->
                         
-                        <MaxEffectiveValue>0.25</MaxEffectiveValue> <!-- effectiveness (*damage) of beam at max efficiency range -->
+                        <MaxEffectiveValue>0.0</MaxEffectiveValue> <!-- effectiveness (*damage) of beam at max efficiency range -->
                         <MaxEffectiveRange>1.0</MaxEffectiveRange> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
                         <PossibleZoom>0.5</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
                         
@@ -1143,20 +1143,20 @@
                 <Combination>
                         <Cannon> <!-- unlatched beam -->
                             <HitSpeed style="skip"/> <!-- 0.1 tick rate-->
-                            <Distance style="skip"/>
+                            <Distance style="set" value = "1.5"/>
 
                             <PowerConsumptionResting style="buff" inverse="true" linear="true" value="5" version="noreactor"/>
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="skip" linear="true"/> <!-- 5 - This is the damage per hit -->
+                            <PowerPerHit style="set" linear="true" value="16.67"/> <!-- 5 - This is the damage per hit -->
                             <CoolDown style="nerf" value="6.6667"/> <!-- 1.5 - Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="7.5"/> <!-- Time the beam will fire -->
 
                             <InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 
-                            <LatchOn style="set" value ="0"/>
-                            <CheckLatchConnection style="set" value ="0"/>
+                            <LatchOn style="set" value ="1"/>
+                            <CheckLatchConnection style="set" value ="1"/>
                             <Penetration style="set" value ="0"/>
                             <AcidDamagePercentage style="set" value="0.5"/><!-- restdamage of a tick when a block was killed -->
                             <FriendlyFire style="set" value ="0"/>
@@ -1173,12 +1173,12 @@
                         </Cannon>
                         <Missile><!-- arc beam -->
                             <HitSpeed style="nerf" value="2"/> <!-- 0.05 tick rate-->
-                            <Distance style="nerf" value="4"/>
+                            <Distance style="nerf" value="0.5"/>
 
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
                             
-                            <PowerPerHit style="skip" linear="true"/> <!-- linear is needed here -->
+                            <PowerPerHit style="set" linear="true" value="50"/> <!-- linear is needed here -->
                             <CoolDown style="buff" value="1.5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="buff" value="1.6667"/> <!-- Time the beam will fire -->
 
@@ -1194,7 +1194,7 @@
                             
                             <ChargeTime style="skip"/> <!-- how long weapon must be charged before fire (0 for off) -->
                             <MinEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at min efficiency range -->
-                            <MinEffectiveRange style="set" value="0.2"/> <!-- at what % of beam length or less the beam uses the MinEffectiveValue-->
+                            <MinEffectiveRange style="skip"/> <!-- at what % of beam length or less the beam uses the MinEffectiveValue-->
 
                             <MaxEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at max efficiency range -->
                             <MaxEffectiveRange style="skip"/> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
@@ -1203,20 +1203,20 @@
                         </Missile>
                         <Beam> <!-- no more death beam but long range beam -->
                             <HitSpeed style="nerf" value="2"/> <!-- 0.05 tick rate-->
-                            <Distance style="buff" value="0.5"/>
+                            <Distance style="buff" value="4.5"/>
 
                             <PowerConsumptionResting style="nerf" inverse="true" linear="true" value="2" version="noreactor"/>                                
-                            <PowerConsumptionResting style="buff" value="2" linear="true"/>
-                            <PowerConsumptionCharging style="skip" linear="true"/>
+                            <PowerConsumptionResting style="set" linear="true" value="7.5"/>
+                            <PowerConsumptionCharging style="set" linear="true" value="37.5"/>
 
-                            <PowerPerHit style="nerf" value="1" linear="true"/>
-                            <CoolDown style="buff" value="6"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
+                            <PowerPerHit style="set" value="2.78" linear="true"/>
+                            <CoolDown style="buff" value="3"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="buff" value="0.3333"/> <!-- Time the beam will fire -->
 
                             <InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
                             
                             <LatchOn style="set" value ="0"/>
-                            <CheckLatchConnection style="set" value ="0"/>
+                            <CheckLatchConnection style="set" value ="1"/>
                             <Penetration style="set" value ="0"/>
                             <AcidDamagePercentage style="set" value="0.5"/>
                             <FriendlyFire style="set" value ="0"/>
@@ -1229,7 +1229,7 @@
                             <MaxEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at max efficiency range -->
                             <MaxEffectiveRange style="skip"/> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
                             
-                            <PossibleZoom style="buff" value="0.5"/>
+                            <PossibleZoom style="buff" value="2"/>
                         </Beam>
                 </Combination>
         </DamageBeam>
