@@ -864,9 +864,9 @@
                             <!-- PROS: Higher fire rate and faster projectile speed -->
                             <!-- CONS: Less damage per power consumed, less impact force per damage -->
 
-                            <Damage style="set" value="16.7"/>
+                            <Damage style="set" linear="true" value="16.7"/>
                             <Reload style="nerf" value="5"/>
-                            <Distance style="set"  value="1.5"/>
+                            <Distance style="set" linear="true" value="1.5"/>
                             <Speed style="skip"/>
                             <Recoil style="skip"/>
                             <ImpactForce style="nerf" value="2"/>
@@ -894,9 +894,9 @@
                             <!-- Charge Cannon -->
                             <!-- PROS: High efficiency when fired at full charge, fire rate is changeable -->
                             <!-- CONS: Bad efficiency when fired at low charge -->        
-                            <Damage style="set" value="50"/>
+                            <Damage style="set" linear="true" value="50"/>
                             <Reload style="buff" value="2"/> 
-                            <Distance style="set" value="0.5"/>
+                            <Distance style="set" linear="true" value="0.5"/>
                             <Speed style="skip"/>
                             <Recoil style="skip"/>
                             <ImpactForce style="buff" value="4.0"/>
@@ -924,9 +924,9 @@
                             <!-- Artillery Cannon -->
                             <!-- PROS: Highest dps, big hole on hit -->
                             <!-- CONS: slow to reload and slower projectile speed -->      
-                            <Damage style="set" value="2.78"/> <!-- 1 + 36.5 = 600 damage -->
+                            <Damage style="set" linear="true" value="2.78"/> <!-- 1 + 36.5 = 600 damage -->
                             <Reload style="buff" value="4"/> <!-- 1 + 14 = 15000ms -->
-                            <Distance style="set" value="4.5"/>
+                            <Distance style="set" linear="true" value="4.5"/>
                             <Speed style="skip"/> <!-- 7.5 -->
                             <Recoil style="skip"/>
                             <ImpactForce style="buff" value="9"/>
