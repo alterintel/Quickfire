@@ -790,7 +790,7 @@
                         <PowerConsumption>100</PowerConsumption>
 
                         <!-- NEW -->
-                        <Damage>8</Damage>                        
+                        <Damage>8.33</Damage>                        
                         <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
