@@ -711,14 +711,14 @@
         </Factory>
         <TractorBeam>
                 <BasicValues>
-                        <TractorMassPerBlock>5</TractorMassPerBlock> <!-- mass that can be moved per block -->
+                        <TractorMassPerBlock>10</TractorMassPerBlock> <!-- mass that can be moved per block -->
                         <ReactorPowerConsumptionResting>10.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>50.0</ReactorPowerConsumptionCharging>
 
                         <ForceToMassMax>10</ForceToMassMax> <!--  the maximum force applied, ForceToMassMax * target's mass -->
                         <TickRate>0.0249</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
-                        <Distance>0.2</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
-                        <CoolDown>5</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
+                        <Distance>1.0</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+                        <CoolDown>0</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
                         <BurstTime>-1</BurstTime> <!-- Time the beam will fire -->
                         <InitialTicks>0</InitialTicks> <!-- Ticks to do at the initial contact of beam with a block -->
                         <RailHitMultiplierParent>0</RailHitMultiplierParent> <!-- Salvage Damage percent done to target in own Rail Chain when target is equal or closer to root than this entity -->
