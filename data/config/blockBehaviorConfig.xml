@@ -1028,7 +1028,7 @@
                         <MissileHPLogOffset>0</MissileHPLogOffset>
                         <MissileHPLogFactor>1</MissileHPLogFactor>
 
-                        <BombActivationTimeSec>2.0</BombActivationTimeSec>
+                        <BombActivationTimeSec>1.25</BombActivationTimeSec>
 
                         <!-- Dumb = 0, Heat = 1, TargetChasing = 2, Bomb = 3 -->
                         <EffectConfiguration>
