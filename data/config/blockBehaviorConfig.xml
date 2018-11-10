@@ -114,7 +114,7 @@
                   <!-- NEW POWER -->
                         <!-- Shields -->
                         <ShieldLocalCapacityPerBlock>500</ShieldLocalCapacityPerBlock>
-                        <ShieldLocalRechargePerBlock>20</ShieldLocalRechargePerBlock> <!--Quickfire initial value was 50-->
+                        <ShieldLocalRechargePerBlock>10</ShieldLocalRechargePerBlock> <!--Quickfire initial value was 50-->
                         <ShieldLocalDefaultCapacity>0</ShieldLocalDefaultCapacity>
 
                         <ShieldLocalRadiusCalcStyle>EXP</ShieldLocalRadiusCalcStyle> <!-- LINEAR, EXP, LOG -->
