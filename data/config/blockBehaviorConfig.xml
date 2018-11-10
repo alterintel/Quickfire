@@ -114,7 +114,7 @@
                   <!-- NEW POWER -->
                         <!-- Shields -->
                         <ShieldLocalCapacityPerBlock>500</ShieldLocalCapacityPerBlock>
-                        <ShieldLocalRechargePerBlock>50</ShieldLocalRechargePerBlock>
+                        <ShieldLocalRechargePerBlock>20</ShieldLocalRechargePerBlock> <!--Quickfire initial value was 50-->
                         <ShieldLocalDefaultCapacity>0</ShieldLocalDefaultCapacity>
 
                         <ShieldLocalRadiusCalcStyle>EXP</ShieldLocalRadiusCalcStyle> <!-- LINEAR, EXP, LOG -->
@@ -1058,7 +1058,7 @@
                              <PossibleZoom style="nerf" value="2"/>
                         </Cannon>
                         <Missile> <!-- Bomb -->
-                            <Damage style="buff" value="4" linear="true"/><!-- Originally 49 -->
+                            <Damage style="buff" value="149" linear="true"/><!-- Originally 49 -->
                             <Reload style="buff" value="3"/>
                             <Distance style="nerf" value="6"/>
                             <LockOnTimeSec style="skip"/>
