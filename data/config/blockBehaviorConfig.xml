@@ -459,10 +459,10 @@
                         <!-- NEW POWER -->
                         <MulTotalThrust>4.0</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
                         <PowTotalThrust>0.8</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
-                        <UnitCalcMult>1</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
+                        <UnitCalcMult>2</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
 
-                        <ReactorPowerPowerConsumptionPerBlockResting>0.4</ReactorPowerPowerConsumptionPerBlockResting> <!-- power used when no thrust is applied -->
-                        <ReactorPowerPowerConsumptionPerBlockInUse>4.0</ReactorPowerPowerConsumptionPerBlockInUse> <!-- power used when thrusters in use -->
+                        <ReactorPowerPowerConsumptionPerBlockResting>0.8</ReactorPowerPowerConsumptionPerBlockResting> <!-- power used when no thrust is applied -->
+                        <ReactorPowerPowerConsumptionPerBlockInUse>8.0</ReactorPowerPowerConsumptionPerBlockInUse> <!-- power used when thrusters in use -->
 
                         <ThrusterMinReactorPower>0.05</ThrusterMinReactorPower> <!-- minimum power of thrusters (minimum value to be multiplied with thrust to not completely render ships without movement when power fails) -->
                         <MaxThrustToMassAcceleration>10.0</MaxThrustToMassAcceleration>

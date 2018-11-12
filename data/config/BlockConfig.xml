@@ -59987,7 +59987,7 @@
         <ReactorHp>10</ReactorHp>
         <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
         <Enterable>false</Enterable>
-        <Mass>0.1</Mass>
+        <Mass>0.2</Mass>
         <Volume>0.1</Volume>
         <Hitpoints>25</Hitpoints>
         <Placable>true</Placable>
