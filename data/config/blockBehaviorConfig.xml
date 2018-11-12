@@ -789,11 +789,11 @@
                         <PowerConsumption>100</PowerConsumption>
 
                         <!-- NEW -->
-                        <Damage>24</Damage>
+                        <Damage>72</Damage>
                         <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>70.0</ReactorPowerConsumptionCharging>
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
-                        <Speed>35</Speed> <!-- In relation % to server max speed  1 = 100% -->
+                        <Speed>50</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>2000</ReloadMs>
                         <AdditionalPowerConsumptionPerUnitMult>0.0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
 
@@ -990,7 +990,7 @@
                 <BasicValues>
                         <Damage version="noreactor">300</Damage>
 
-                        <Damage>100</Damage>
+                        <Damage>300</Damage>
                         <ReactorPowerConsumptionResting>12.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>70.0</ReactorPowerConsumptionCharging>
                         <AdditionalCapacityUsedPerDamage>0</AdditionalCapacityUsedPerDamage> <!-- rounded down -->
@@ -1058,7 +1058,7 @@
                              <PossibleZoom style="nerf" value="2"/>
                         </Cannon>
                         <Missile> <!-- Bomb -->
-                            <Damage style="buff" value="149" linear="true"/><!-- Originally 49 -->
+                            <Damage style="buff" value="4" linear="true"/><!-- Originally 49 -->
                             <Reload style="buff" value="3"/>
                             <Distance style="nerf" value="6"/>
                             <LockOnTimeSec style="skip"/>
@@ -1066,7 +1066,7 @@
                             <BlastRadius style="buff" value="1"/>
                             <Speed style="buff" value="1.0"/>
                             <Split style="skip"/>
-                            <Mode style="set" value="3"/> <!-- Bomb Missile -->
+                            <Mode style="set" value="99"/> <!-- Bomb Missile -->
                             <PowerConsumption style="skip" linear="true"/>
 
                             <AdditionalCapacityUsedPerDamage style="skip"/>  <!-- rounded down <AdditionalCapacityUsedPerDamage style="set" value="10000"/> -->
@@ -1104,7 +1104,7 @@
                 <BasicValues>
                         <DamagePerHit version="noreactor">10</DamagePerHit>
 
-                        <DamagePerHit>4.667</DamagePerHit>
+                        <DamagePerHit>14</DamagePerHit>
                         <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>70.0</ReactorPowerConsumptionCharging>
 
