@@ -789,9 +789,9 @@
                         <PowerConsumption>100</PowerConsumption>
 
                         <!-- NEW -->
-                        <Damage>72</Damage>
-                        <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>70.0</ReactorPowerConsumptionCharging>
+                        <Damage>144</Damage>
+                        <ReactorPowerConsumptionResting>18.0</ReactorPowerConsumptionResting>
+                        <ReactorPowerConsumptionCharging>140.0</ReactorPowerConsumptionCharging>
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Speed>50</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>2000</ReloadMs>
@@ -990,9 +990,9 @@
                 <BasicValues>
                         <Damage version="noreactor">300</Damage>
 
-                        <Damage>300</Damage>
-                        <ReactorPowerConsumptionResting>12.0</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>70.0</ReactorPowerConsumptionCharging>
+                        <Damage>600</Damage>
+                        <ReactorPowerConsumptionResting>24.0</ReactorPowerConsumptionResting>
+                        <ReactorPowerConsumptionCharging>140.0</ReactorPowerConsumptionCharging>
                         <AdditionalCapacityUsedPerDamage>0</AdditionalCapacityUsedPerDamage> <!-- rounded down -->
                         <AdditionalCapacityUsedPerDamageMult>0</AdditionalCapacityUsedPerDamageMult> <!-- how much more missiles used per rounded down AdditionalCapacityUsedPerDamage value -->
 
@@ -1104,9 +1104,9 @@
                 <BasicValues>
                         <DamagePerHit version="noreactor">10</DamagePerHit>
 
-                        <DamagePerHit>14</DamagePerHit>
-                        <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>70.0</ReactorPowerConsumptionCharging>
+                        <DamagePerHit>28</DamagePerHit>
+                        <ReactorPowerConsumptionResting>18.0</ReactorPowerConsumptionResting>
+                        <ReactorPowerConsumptionCharging>140.0</ReactorPowerConsumptionCharging>
 
                         <PowerConsumptionPerTick>50</PowerConsumptionPerTick>
                         <Distance>1.5</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
