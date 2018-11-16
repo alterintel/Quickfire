@@ -113,8 +113,8 @@
 
                   <!-- NEW POWER -->
                         <!-- Shields -->
-                        <ShieldLocalCapacityPerBlock>2500</ShieldLocalCapacityPerBlock> <!--Quickfire initial value was 500-->
-                        <ShieldLocalRechargePerBlock>30</ShieldLocalRechargePerBlock> <!--Quickfire initial value was 50-->
+                        <ShieldLocalCapacityPerBlock>1500</ShieldLocalCapacityPerBlock>
+                        <ShieldLocalRechargePerBlock>12.5</ShieldLocalRechargePerBlock>
                         <ShieldLocalDefaultCapacity>0</ShieldLocalDefaultCapacity>
 
                         <ShieldLocalRadiusCalcStyle>EXP</ShieldLocalRadiusCalcStyle> <!-- LINEAR, EXP, LOG -->
@@ -131,10 +131,10 @@
                             <ShieldLocalRadiusLogFactor>20.0</ShieldLocalRadiusLogFactor>
                             <ShieldLocalRadiusLogOffset>0.0</ShieldLocalRadiusLogOffset>
 
-                        <ShieldUpkeepPerSecondOfTotalCapacity>0.01</ShieldUpkeepPerSecondOfTotalCapacity> <!--Initial value was 0.04-->
+                        <ShieldUpkeepPerSecondOfTotalCapacity>0.04</ShieldUpkeepPerSecondOfTotalCapacity>
 
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>0.4</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>0.8</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>0.36</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>2.4</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
 
                         <ShieldLocalRechargeUnderFireModeSec>30.0</ShieldLocalRechargeUnderFireModeSec> <!-- how long after being hit a recharge nerf based on shield status applies -->
                         <ShieldLocalRechargeUnderFireMinPercent>0.5</ShieldLocalRechargeUnderFireMinPercent> <!-- minimum recharge under fire -->
@@ -210,11 +210,11 @@
                         <ReactorStabilizerDistanceTotalMult>2.0</ReactorStabilizerDistanceTotalMult>
                         <ReactorStabilizerGroupingProximity>3.0</ReactorStabilizerGroupingProximity>
 
-                        <ReactorStablizationBonus2>1.25</ReactorStablizationBonus2> <!-- bonus stabilization stacking based on percentage of biggest in group -->
-                        <ReactorStablizationBonus3>1.5</ReactorStablizationBonus3> <!-- bonus stabilization stacking based on percentage of biggest in group -->
-                        <ReactorStablizationBonus4>1.75</ReactorStablizationBonus4> <!-- bonus stabilization stacking based on percentage of biggest in group -->
-                        <ReactorStablizationBonus5>2.0</ReactorStablizationBonus5> <!-- bonus stabilization stacking based on percentage of biggest in group -->
-                        <ReactorStablizationBonus6>2.25</ReactorStablizationBonus6> <!-- bonus stabilization stacking based on percentage of biggest in group -->
+                        <ReactorStablizationBonus2>0.0</ReactorStablizationBonus2> <!-- bonus stabilization stacking based on percentage of biggest in group -->
+                        <ReactorStablizationBonus3>0.0</ReactorStablizationBonus3> <!-- bonus stabilization stacking based on percentage of biggest in group -->
+                        <ReactorStablizationBonus4>0.0</ReactorStablizationBonus4> <!-- bonus stabilization stacking based on percentage of biggest in group -->
+                        <ReactorStablizationBonus5>0.0</ReactorStablizationBonus5> <!-- bonus stabilization stacking based on percentage of biggest in group -->
+                        <ReactorStablizationBonus6>0.0</ReactorStablizationBonus6> <!-- bonus stabilization stacking based on percentage of biggest in group -->
 
 
 
@@ -325,7 +325,7 @@
 
 
                         <!-- OLD POWER -->
-						<HpConditionTriggerList version="noreactor">
+                        <HpConditionTriggerList version="noreactor">
                             <Item conditionhp="0.9">
                                 <Type>POWER</Type>
                                 <Amount>0.9</Amount>
@@ -398,7 +398,7 @@
                                 <Amount>0.5</Amount>
                             </Item>
                         </HpConditionTriggerList>
-						
+
                          <!-- NEW POWER -->
                         <HpConditionTriggerList>
                             <Item conditionhp="0.50">
@@ -439,7 +439,7 @@
         <Thruster>
                 <BasicValues>
                         <!-- OLD POWER -->
-                        <MulTotalThrust version="noreactor">0.75</MulTotalThrust> <!-- total = (total^PowTotalThrust)*MulTotalThrust -->
+                        <MulTotalThrust version="noreactor">0.75</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
                         <PowTotalThrust version="noreactor">0.87</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
                         <UnitCalcMult version="noreactor">5.5</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
 
@@ -459,10 +459,10 @@
                         <!-- NEW POWER -->
                         <MulTotalThrust>4.0</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
                         <PowTotalThrust>0.8</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
-                        <UnitCalcMult>2</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
+                        <UnitCalcMult>1</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
 
-                        <ReactorPowerPowerConsumptionPerBlockResting>0.8</ReactorPowerPowerConsumptionPerBlockResting> <!-- power used when no thrust is applied -->
-                        <ReactorPowerPowerConsumptionPerBlockInUse>8.0</ReactorPowerPowerConsumptionPerBlockInUse> <!-- power used when thrusters in use -->
+                        <ReactorPowerPowerConsumptionPerBlockResting>0.4</ReactorPowerPowerConsumptionPerBlockResting> <!-- power used when no thrust is applied -->
+                        <ReactorPowerPowerConsumptionPerBlockInUse>4.0</ReactorPowerPowerConsumptionPerBlockInUse> <!-- power used when thrusters in use -->
 
                         <ThrusterMinReactorPower>0.05</ThrusterMinReactorPower> <!-- minimum power of thrusters (minimum value to be multiplied with thrust to not completely render ships without movement when power fails) -->
                         <MaxThrustToMassAcceleration>10.0</MaxThrustToMassAcceleration>
@@ -727,7 +727,7 @@
         </TractorBeam>
         <SalvageBeam>
                 <BasicValues>
-						<SalvageDamagePerHit version="noreactor">2</SalvageDamagePerHit> <!-- salvage damage done per tick to fill up SalvageDamageNeededPerBlock -->
+                        <SalvageDamagePerHit version="noreactor">2</SalvageDamagePerHit> <!-- salvage damage done per tick to fill up SalvageDamageNeededPerBlock -->
 
                         <SalvageDamagePerHit>25</SalvageDamagePerHit> <!-- salvage damage done per tick to fill up SalvageDamageNeededPerBlock -->
                         <ReactorPowerConsumptionResting>5.0</ReactorPowerConsumptionResting>
@@ -789,12 +789,12 @@
                         <PowerConsumption>100</PowerConsumption>
 
                         <!-- NEW -->
-                        <Damage>144</Damage>
+                        <Damage>91.86</Damage>
                         <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>70.0</ReactorPowerConsumptionCharging>
+                        <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
-                        <Speed>40</Speed> <!-- In relation % to server max speed  1 = 100% -->
-                        <ReloadMs>2000</ReloadMs>
+                        <Speed>25</Speed> <!-- In relation % to server max speed  1 = 100% -->
+                        <ReloadMs>1000</ReloadMs>
                         <AdditionalPowerConsumptionPerUnitMult>0.0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
 
 						<Recoil>0.0</Recoil> <!-- Recoil in force per damage. Applied from the ship cannons point of origin in the opposite firing direction (multiplied with damage of projectile)-->
@@ -849,7 +849,7 @@
                         <DamageChargeMax>0.0</DamageChargeMax> <!-- value > 0 means the weapon charges its damage up to this value (damage multiplied by)-->
                         <DamageChargeSpeed>0.0</DamageChargeSpeed> <!-- Speed of charging. 1.0 equals 1.0 multiplier/sec -->
 
-                        <PossibleZoom>6</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
+                        <PossibleZoom>0.5</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
                         <Aimable>1</Aimable> <!-- 1 = aimable with cursor. 0 = weapon only fires straight -->
 			<EffectConfiguration>
                         	<Kinetic>2.1</Kinetic>
@@ -863,9 +863,9 @@
                             <!-- PROS: Higher fire rate and faster projectile speed -->
                             <!-- CONS: Less damage per power consumed, less impact force per damage -->
 
-                            <Damage style="nerf" value="9" linear="true"/>
+                            <Damage style="nerf" linear="true" value="1.92"/>
                             <Reload style="nerf" value="10"/>
-                            <Distance style="nerf" value="1.5"/>
+                            <Distance style="nerf" linear="true" value="3.0"/>
                             <Speed style="skip"/>
                             <Recoil style="skip"/>
                             <ImpactForce style="nerf" value="2"/>
@@ -893,9 +893,9 @@
                             <!-- Charge Cannon -->
                             <!-- PROS: High efficiency when fired at full charge, fire rate is changeable -->
                             <!-- CONS: Bad efficiency when fired at low charge -->
-                            <Damage style="buff" value="5.25" linear="true"/>
-                            <Reload style="buff" value="4"/>
-                            <Distance style="skip"/>
+                            <Damage style="buff" linear="true" value="4.14"/>
+                            <Reload style="buff" value="1"/>
+                            <Distance style="nerf" linear="true" value="1.5"/>
                             <Speed style="skip"/>
                             <Recoil style="skip"/>
                             <ImpactForce style="buff" value="4.0"/>
@@ -903,8 +903,8 @@
                             <PowerConsumption style="skip" linear="true"/>
                             <ProjectileWidth style="buff" value="1"/>
                             <AcidFormula style="set" value="2"/>
-                            <ChargeMax style="skip"/>
-                            <ChargeSpeed style="skip"/>
+                            <ChargeMax style="set" value="5.0"/>
+                            <ChargeSpeed style="set" value="2.0"/>
 
                             <CursorRecoilX style="skip"/> <!-- Cursor movement force multiplied with damage -->
                             <CursorRecoilMinX style="buff" value="2"/> <!-- Min cursor recoil value -->
@@ -923,14 +923,14 @@
                             <!-- Artillery Cannon -->
                             <!-- PROS: Highest dps, big hole on hit -->
                             <!-- CONS: slow to reload and slower projectile speed -->
-                            <Damage style="buff" value="3.17" linear="true"/> <!-- 1 + 36.5 = 600 damage -->
-                            <Reload style="buff" value="4"/> <!-- 1 + 14 = 15000ms -->
-                            <Distance style="buff" value=".6667"/>
+                            <Damage style="buff" linear="true" value="2.81"/> <!-- 1 + 36.5 = 600 damage -->
+                            <Reload style="buff" value="6"/> <!-- 1 + 14 = 15000ms -->
+                            <Distance style="buff" linear="true" value="0.5"/>
                             <Speed style="skip"/> <!-- 7.5 -->
                             <Recoil style="skip"/>
                             <ImpactForce style="buff" value="9"/>
                             <PowerConsumption style="nerf" inverse="true" linear="true" value="30" version="noreactor"/> <!-- 1+3 = 4x power consumption -->
-                            <PowerConsumption style="skip" linear="true"/>
+                            <PowerConsumption style="nerf" linear="true" value="4.5"/>
                             <ProjectileWidth style="skip"/>
                             <AcidFormula style="set" value="1"/>
                             <ChargeMax style="skip"/>
@@ -990,29 +990,29 @@
                 <BasicValues>
                         <Damage version="noreactor">300</Damage>
 
-                        <Damage>800</Damage>
+                        <Damage>551.14</Damage>
                         <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>70.0</ReactorPowerConsumptionCharging>
+                        <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
                         <AdditionalCapacityUsedPerDamage>0</AdditionalCapacityUsedPerDamage> <!-- rounded down -->
                         <AdditionalCapacityUsedPerDamageMult>0</AdditionalCapacityUsedPerDamageMult> <!-- how much more missiles used per rounded down AdditionalCapacityUsedPerDamage value -->
 
                         <PercentagePowerUsageCharging>0</PercentagePowerUsageCharging> <!-- percentage of total reactor recharge used per block -->
                         <PercentagePowerUsageResting>0</PercentagePowerUsageResting> <!-- percentage of total reactor recharge used per block -->
 
-                        <LockOnTimeSec>2</LockOnTimeSec> <!-- how long it takes to lock on missiles -->
-                        <LockedOnExpireTimeSec>2</LockedOnExpireTimeSec> <!-- how long it takes for target to expire when looking away after lock on -->
+                        <LockOnTimeSec>3</LockOnTimeSec> <!-- how long it takes to lock on missiles -->
+                        <LockedOnExpireTimeSec>3</LockedOnExpireTimeSec> <!-- how long it takes for target to expire when looking away after lock on -->
 
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
-                        <Radius>200</Radius> <!--this a maximum blast radius -->
-                        <Speed>20</Speed>
-                        <ReloadMs>5000</ReloadMs><!-- default 15000 -->
+                        <Radius>12</Radius> <!--this a maximum blast radius -->
+                        <Speed>25</Speed>
+                        <ReloadMs>2000</ReloadMs><!-- default 15000 -->
                         <PowerConsumption>1500</PowerConsumption> <!-- (defualt 1500) deviates from 10 power/1damage formula, missiles can easily be shot down -->
                         <AdditionalPowerConsumptionPerUnitMult>0.0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
                         <ChasingTurnSpeedWithTargetInFront>7.0</ChasingTurnSpeedWithTargetInFront>
                         <ChasingTurnSpeedWithTargetInBack>8.0</ChasingTurnSpeedWithTargetInBack>
 
                         <MissileHPCalcStyle>EXP</MissileHPCalcStyle> <!-- LINEAR, EXP, LOG -->
-                        <PossibleZoom>6</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
+                        <PossibleZoom>0.5</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
 
 
                         <MissileHPMin>1</MissileHPMin>
@@ -1039,15 +1039,15 @@
                 </BasicValues>
                 <Combination>
                         <Cannon> <!-- Originally heat-seekers. Trying to see if they will work with lock-on mechanics. -->
-                             <Damage style="buff" value="0" linear="true"/>
-                             <Reload style="buff" value="1"/>
-                             <Distance style="nerf" value="1.2"/>
+                             <Damage style="skip"/>
+                             <Reload style="skip"/>
+                             <Distance style="skip"/>
                              <LockOnTimeSec style="skip"/>
 
                              <BlastRadius style="nerf" value="2"/>
-                             <Speed style="nerf" value="1.5"/>
-                             <Split style="buff" value="9"/><!-- Spam spam spam spam. Lovely spam! Wonderful spam! (this is the original value) -->
-                             <Mode style="set" value="2"/><!-- Lock-on Missile - was originally 1 for heat seeking, but why would you have a useless weapon in the game? Possibilities are meaningless if they aren't usable possibilities. -->
+                             <Speed style="skip"/>
+                             <Split style="buff" value="10"/><!-- Spam spam spam spam. Lovely spam! Wonderful spam! (this is the original value) -->
+                             <Mode style="set" value="1"/><!-- Lock-on Missile - was originally 1 for heat seeking, but why would you have a useless weapon in the game? Possibilities are meaningless if they aren't usable possibilities. -->
                              <PowerConsumption style="skip" linear="true"/>
 
                              <AdditionalCapacityUsedPerDamage style="skip"/><!-- rounded down -->
@@ -1058,37 +1058,36 @@
                              <PossibleZoom style="nerf" value="2"/>
                         </Cannon>
                         <Missile> <!-- Bomb -->
-                            <Damage style="buff" value="11.5" linear="true"/><!-- Originally 49 -->
-                            <Reload style="buff" value="3"/>
-                            <Distance style="nerf" value="6"/>
+                            <Damage style="buff" value="3.08" linear="true"/><!-- Originally 49 -->
+                            <Reload style="buff" value="6.5"/>
+                            <Distance style="buff" value="0.5"/>
                             <LockOnTimeSec style="skip"/>
 
                             <BlastRadius style="buff" value="1"/>
-                            <Speed style="buff" value="1.0"/>
+                            <Speed style="buff" value="0.5"/>
                             <Split style="skip"/>
-                            <Mode style="set" value="3"/> <!-- Bomb Missile -->
+                            <Mode style="set" value="2"/> <!-- Bomb Missile -->
                             <PowerConsumption style="skip" linear="true"/>
 
                             <AdditionalCapacityUsedPerDamage style="skip"/>  <!-- rounded down <AdditionalCapacityUsedPerDamage style="set" value="10000"/> -->
                             <AdditionalCapacityUsedPerDamageMult style="skip"/> <!-- how much more missiles used per rounded down AdditionalCapacityUsedPerDamage value <AdditionalCapacityUsedPerDamageMult style="set" value="10"/>-->
-                            <PercentagePowerUsageResting style="set" value="0.005"/><!-- percentage of total reactor recharge used per block -->
-                            <PercentagePowerUsageCharging style="set" value="0.005"/><!-- percentage of total reactor recharge used per block -->
+                            <PercentagePowerUsageResting style="skip"/><!-- percentage of total reactor recharge used per block -->
+                            <PercentagePowerUsageCharging style="skip"/><!-- percentage of total reactor recharge used per block -->
 
-                            <PossibleZoom style="set" value="0"/>
+                            <PossibleZoom style="set" value="2"/>
                         </Missile>
                         <Beam> <!-- Slow/Strong lock on missile -->
-                            <Damage style="nerf" value="1.33" linear="true" />
-                            <Reload style="buff" value="1"/>
-                            <Distance style="buff" value="1"/>
-                            <LockOnTimeSec style="buff" value="3"/>
+                            <Damage style="nerf" value="1.74" />
+                            <Reload style="buff" value="1.5"/>
+                            <Distance style="buff" value ="1.67"/>
+                            <LockOnTimeSec style="nerf" value="7.5"/>
 
 
                             <BlastRadius style="buff" value="1.0"/>
                             <Speed style="nerf" value="2"/>
                             <Split style="skip"/>
                             <Mode style="set" value="2"/><!-- Smart Missile -->
-                            
-							<PowerConsumption style="nerf" inverse="true" linear="true" value="2" version="noreactor"/>
+                            <PowerConsumption style="nerf" inverse="true" linear="true" value="2" version="noreactor"/>
                             <PowerConsumption style="skip" linear="true"/>
 
                             <AdditionalCapacityUsedPerDamage style="skip"/><!-- rounded down -->
@@ -1096,7 +1095,7 @@
                             <PercentagePowerUsageResting style="skip"/><!-- percentage of total reactor recharge used per block -->
                             <PercentagePowerUsageCharging style="skip"/><!-- percentage of total reactor recharge used per block -->
 
-                            <PossibleZoom style="nerf" value="2"/>
+                            <PossibleZoom style="set" value="2"/>
                         </Beam>
                 </Combination>
         </Missile>
@@ -1104,15 +1103,15 @@
                 <BasicValues>
                         <DamagePerHit version="noreactor">10</DamagePerHit>
 
-                        <DamagePerHit>28</DamagePerHit>
+                        <DamagePerHit>161.84</DamagePerHit>
                         <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>70.0</ReactorPowerConsumptionCharging>
+                        <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
 
-                        <PowerConsumptionPerTick>50</PowerConsumptionPerTick>
-                        <Distance>1.5</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
+                        <PowerConsumptionPerTick>60</PowerConsumptionPerTick>
+                        <Distance>1.0</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
                         <TickRate>0.0999</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
-                        <CoolDown>5.0</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
-                        <BurstTime>1.5</BurstTime> <!-- Time the beam will fire -->
+                        <CoolDown>7.5</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
+                        <BurstTime>5.0</BurstTime> <!-- Time the beam will fire -->
                         <InitialTicks>0</InitialTicks> <!-- Ticks to do at the initial contact of beam with a block -->
                         <AdditionalPowerConsumptionPerUnitMult>0.0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
                         <RailHitMultiplierParent>0</RailHitMultiplierParent> <!-- Damage percent done to target in own Rail Chain when target is equal or closer to root than this entitiy-->
@@ -1132,7 +1131,7 @@
 
                         <MaxEffectiveValue>0.0</MaxEffectiveValue> <!-- effectiveness (*damage) of beam at max efficiency range -->
                         <MaxEffectiveRange>1.0</MaxEffectiveRange> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
-                        <PossibleZoom>4</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
+                        <PossibleZoom>0.5</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
 
                         <EffectConfiguration>
                         	<Kinetic>0.3</Kinetic>
@@ -1143,22 +1142,22 @@
                 <Combination>
                         <Cannon> <!-- unlatched beam -->
                             <HitSpeed style="skip"/> <!-- 0.1 tick rate-->
-                            <Distance style="nerf" value="1.5"/>
+                            <Distance style="nerf" value="2.0"/>
 
                             <PowerConsumptionResting style="buff" inverse="true" linear="true" value="5" version="noreactor"/>
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="nerf" value="1.56" linear="true"/> <!-- 5 - This is the damage per hit -->
-                            <CoolDown style="nerf" value="5"/> <!-- 1.5 - Time it takes to fire beam again from the start-time it first activated -->
-                            <BurstTime style="nerf" value=".3"/> <!-- Time the beam will fire -->
+                            <PowerPerHit style="buff" linear="true" value="0.89"/> <!-- 5 - This is the damage per hit -->
+                            <CoolDown style="nerf" value="7.5"/> <!-- 1.5 - Time it takes to fire beam again from the start-time it first activated -->
+                            <BurstTime style="nerf" value="5"/> <!-- Time the beam will fire -->
 
                             <InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 
                             <LatchOn style="set" value="0"/>
                             <CheckLatchConnection style="set" value="1"/>
                             <Penetration style="set" value="0"/>
-                            <AcidDamagePercentage style="set" value="0.5"/><!-- restdamage of a tick when a block was killed -->
+                            <AcidDamagePercentage style="skip"/><!-- restdamage of a tick when a block was killed -->
                             <FriendlyFire style="set" value="0"/>
                             <Aimable style="set" value="1"/>
 
@@ -1173,24 +1172,22 @@
                         </Cannon>
                         <Missile><!-- arc beam -->
                             <HitSpeed style="skip"/> <!-- 0.05 tick rate-->
-                            <Distance style="nerf" value="1.5"/>
-							
-							<PowerConsumptionResting style="nerf" inverse="true" linear="true" value="2" version="noreactor"/>
+                            <Distance style="buff" value="1.0"/>
 
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="buff" value=".29" linear="true"/> <!-- linear is needed here -->
-                            <CoolDown style="buff" value="2"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
-                            <BurstTime style="buff" value="2.3333"/> <!-- Time the beam will fire -->
+                            <PowerPerHit style="buff" linear="true" value="10.79"/> <!-- linear is needed here -->
+                            <CoolDown style="nerf" value="1.5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
+                            <BurstTime style="nerf" value="2"/> <!-- Time the beam will fire -->
 
                             <InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 
 
                             <LatchOn style="set" value="0"/>
-                            <CheckLatchConnection style="set" value="0"/>
+                            <CheckLatchConnection style="set" value="1"/>
                             <Penetration style="set" value="0"/>
-                            <AcidDamagePercentage style="set" value="0.5"/> <!-- restdamage of a tick when a block was killed -->
+                            <AcidDamagePercentage style="skip"/> <!-- restdamage of a tick when a block was killed -->
                             <FriendlyFire style="set" value="0"/>
                             <Aimable style="set" value="1"/>
 
@@ -1204,16 +1201,16 @@
                             <PossibleZoom style="set" value="0.0"/>
                         </Missile>
                         <Beam> <!-- no more death beam but long range beam -->
-                            <HitSpeed style="skip"/> <!-- 0.05 tick rate-->
-                            <Distance style="buff" value=".3333"/>
+                            <HitSpeed style="nerf" value="2"/> <!-- 0.05 tick rate-->
+                            <Distance style="buff" value="2.0"/>
 
-                            
-                            <PowerConsumptionResting style="set" linear="true" value="7.5"/>
+                            <PowerConsumptionResting style="nerf" inverse="true" linear="true" value="2" version="noreactor"/>
+                            <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="buff" value="18.29" linear="true"/>
-                            <CoolDown style="buff" value="1"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
-                            <BurstTime style="nerf" value="15"/> <!-- Time the beam will fire -->
+                            <PowerPerHit style="buff" value="5.42" linear="true"/>
+                            <CoolDown style="nerf" value="1.5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
+                            <BurstTime style="nerf" value="100"/> <!-- Time the beam will fire -->
 
                             <InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 
