@@ -863,9 +863,9 @@
                             <!-- PROS: Higher fire rate and faster projectile speed -->
                             <!-- CONS: Less damage per power consumed, less impact force per damage -->
 
-                            <Damage style="nerf" linear="true" value="2.15"/>
+                            <Damage style="nerf" value="2.15"/>
                             <Reload style="nerf" value="10"/>
-                            <Distance style="nerf" linear="true" value="3.0"/>
+                            <Distance style="nerf" value="3.0"/>
                             <Speed style="skip"/>
                             <Recoil style="skip"/>
                             <ImpactForce style="nerf" value="2"/>
@@ -893,9 +893,9 @@
                             <!-- Charge Cannon -->
                             <!-- PROS: High efficiency when fired at full charge, fire rate is changeable -->
                             <!-- CONS: Bad efficiency when fired at low charge -->
-                            <Damage style="buff" linear="true" value="3.94"/>
+                            <Damage style="buff" value="3.94"/>
                             <Reload style="buff" value="1"/>
-                            <Distance style="nerf" linear="true" value="1.5"/>
+                            <Distance style="nerf" value="1.5"/>
                             <Speed style="skip"/>
                             <Recoil style="skip"/>
                             <ImpactForce style="buff" value="4.0"/>
@@ -923,7 +923,7 @@
                             <!-- Artillery Cannon -->
                             <!-- PROS: Highest dps, big hole on hit -->
                             <!-- CONS: slow to reload and slower projectile speed -->
-                            <Damage style="buff" linear="true" value="2.97"/> <!-- 1 + 36.5 = 600 damage -->
+                            <Damage style="buff" value="2.97"/> <!-- 1 + 36.5 = 600 damage -->
                             <Reload style="buff" value="6"/> <!-- 1 + 14 = 15000ms -->
                             <Distance style="buff" value="0.5"/>
                             <Speed style="skip"/> <!-- 7.5 -->
