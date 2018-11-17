@@ -1058,7 +1058,7 @@
                              <PossibleZoom style="nerf" value="2"/>
                         </Cannon>
                         <Missile> <!-- Bomb -->
-                            <Damage style="buff" value="1.83" linear="true"/><!-- Originally 49 -->
+                            <Damage style="buff" value="1.83"/><!-- Originally 49 -->
                             <Reload style="buff" value="4.0"/>
                             <Distance style="buff" value="0.5"/>
                             <LockOnTimeSec style="skip"/>
@@ -1127,7 +1127,7 @@
                         <ChargeTime>0</ChargeTime> <!-- how long weapon must be charged before fire (0 for off) -->
                         <DropShieldsOnCharging>false</DropShieldsOnCharging> <!-- drop shields when beam is charging -->
                         <MinEffectiveValue>1.0</MinEffectiveValue> <!-- effectiveness (*damage) of beam at min efficiency range -->
-                        <MinEffectiveRange>0.5</MinEffectiveRange> <!-- at what % of beam length or less the beam uses the MinEffectiveValue-->
+                        <MinEffectiveRange>0.4</MinEffectiveRange> <!-- at what % of beam length or less the beam uses the MinEffectiveValue-->
 
                         <MaxEffectiveValue>0.0</MaxEffectiveValue> <!-- effectiveness (*damage) of beam at max efficiency range -->
                         <MaxEffectiveRange>1.0</MaxEffectiveRange> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
@@ -1148,7 +1148,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="buff" linear="true" value="0.76"/> <!-- 5 - This is the damage per hit -->
+                            <PowerPerHit style="buff" value="0.76"/> <!-- 5 - This is the damage per hit -->
                             <CoolDown style="nerf" value="7.5"/> <!-- 1.5 - Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="5"/> <!-- Time the beam will fire -->
 
@@ -1177,7 +1177,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="buff" linear="true" value="11.63"/> <!-- linear is needed here -->
+                            <PowerPerHit style="buff" value="11.63"/> <!-- linear is needed here -->
                             <CoolDown style="nerf" value="1.5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="2"/> <!-- Time the beam will fire -->
 
@@ -1208,7 +1208,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="buff" value="6.16" linear="true"/>
+                            <PowerPerHit style="buff" value="6.16"/>
                             <CoolDown style="nerf" value="1.5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="100"/> <!-- Time the beam will fire -->
 
