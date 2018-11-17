@@ -48,7 +48,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -113,7 +113,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -178,7 +178,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -243,7 +243,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -308,7 +308,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -374,7 +374,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -440,7 +440,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -506,7 +506,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -578,7 +578,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -643,7 +643,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -708,7 +708,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -773,7 +773,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -838,7 +838,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -904,7 +904,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -970,7 +970,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1036,7 +1036,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1109,7 +1109,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1174,7 +1174,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1239,7 +1239,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1304,7 +1304,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1369,7 +1369,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1435,7 +1435,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1501,7 +1501,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1567,7 +1567,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1639,7 +1639,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1704,7 +1704,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1769,7 +1769,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1834,7 +1834,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1899,7 +1899,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -1965,7 +1965,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2031,7 +2031,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2097,7 +2097,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2169,7 +2169,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2234,7 +2234,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2299,7 +2299,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2364,7 +2364,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2429,7 +2429,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2495,7 +2495,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2561,7 +2561,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2627,7 +2627,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2699,7 +2699,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2764,7 +2764,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2829,7 +2829,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2894,7 +2894,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -2959,7 +2959,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3025,7 +3025,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3091,7 +3091,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3157,7 +3157,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3229,7 +3229,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3294,7 +3294,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3359,7 +3359,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3424,7 +3424,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3489,7 +3489,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3555,7 +3555,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3621,7 +3621,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3687,7 +3687,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3760,7 +3760,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3825,7 +3825,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3890,7 +3890,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -3955,7 +3955,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4020,7 +4020,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4086,7 +4086,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4152,7 +4152,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4218,7 +4218,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4290,7 +4290,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4355,7 +4355,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4420,7 +4420,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4485,7 +4485,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4550,7 +4550,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4616,7 +4616,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4682,7 +4682,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4748,7 +4748,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4820,7 +4820,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4885,7 +4885,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -4950,7 +4950,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5015,7 +5015,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5080,7 +5080,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5146,7 +5146,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5212,7 +5212,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5278,7 +5278,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5351,7 +5351,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5416,7 +5416,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5481,7 +5481,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5546,7 +5546,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5611,7 +5611,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5677,7 +5677,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5743,7 +5743,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5809,7 +5809,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5881,7 +5881,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -5946,7 +5946,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6011,7 +6011,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6076,7 +6076,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6141,7 +6141,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6207,7 +6207,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6273,7 +6273,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6339,7 +6339,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6413,7 +6413,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6478,7 +6478,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6543,7 +6543,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6608,7 +6608,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6673,7 +6673,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6739,7 +6739,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6805,7 +6805,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6871,7 +6871,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -6944,7 +6944,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -7012,7 +7012,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -7080,7 +7080,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -7148,7 +7148,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -7216,7 +7216,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -7283,7 +7283,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -7350,7 +7350,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -7417,7 +7417,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.02</Mass>
+              <Mass>0.04</Mass>
               <Volume>0.05</Volume>
               <Hitpoints>400</Hitpoints>
               <Placable>true</Placable>
@@ -7491,7 +7491,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -7558,7 +7558,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -7625,7 +7625,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -7692,7 +7692,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -7759,7 +7759,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -7825,7 +7825,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -7891,7 +7891,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -7957,7 +7957,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8029,7 +8029,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8096,7 +8096,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8163,7 +8163,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8230,7 +8230,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8297,7 +8297,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8363,7 +8363,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8429,7 +8429,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8495,7 +8495,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8567,7 +8567,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8632,7 +8632,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8697,7 +8697,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8762,7 +8762,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8827,7 +8827,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8893,7 +8893,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -8959,7 +8959,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9025,7 +9025,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9097,7 +9097,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9164,7 +9164,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9231,7 +9231,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9298,7 +9298,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9365,7 +9365,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9431,7 +9431,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9497,7 +9497,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9563,7 +9563,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9635,7 +9635,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9702,7 +9702,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9769,7 +9769,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9836,7 +9836,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9903,7 +9903,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -9969,7 +9969,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10035,7 +10035,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10101,7 +10101,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10173,7 +10173,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10240,7 +10240,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10307,7 +10307,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10374,7 +10374,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10441,7 +10441,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10507,7 +10507,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10573,7 +10573,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10639,7 +10639,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10711,7 +10711,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10778,7 +10778,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10845,7 +10845,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10912,7 +10912,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -10979,7 +10979,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11045,7 +11045,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11111,7 +11111,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11177,7 +11177,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11249,7 +11249,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11314,7 +11314,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11379,7 +11379,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11444,7 +11444,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11509,7 +11509,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11575,7 +11575,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11641,7 +11641,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11707,7 +11707,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11779,7 +11779,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11846,7 +11846,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11913,7 +11913,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -11980,7 +11980,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12047,7 +12047,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12113,7 +12113,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12179,7 +12179,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12245,7 +12245,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12317,7 +12317,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12384,7 +12384,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12451,7 +12451,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12518,7 +12518,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12585,7 +12585,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12651,7 +12651,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12717,7 +12717,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12783,7 +12783,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12855,7 +12855,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12920,7 +12920,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -12985,7 +12985,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13050,7 +13050,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13115,7 +13115,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13181,7 +13181,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13247,7 +13247,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13313,7 +13313,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13385,7 +13385,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13452,7 +13452,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13519,7 +13519,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13586,7 +13586,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13653,7 +13653,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13719,7 +13719,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13785,7 +13785,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13851,7 +13851,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13923,7 +13923,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -13990,7 +13990,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -14057,7 +14057,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -14124,7 +14124,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -14191,7 +14191,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -14257,7 +14257,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -14323,7 +14323,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -14389,7 +14389,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.06</Mass>
+              <Mass>0.12</Mass>
               <Volume>0.15</Volume>
               <Hitpoints>2000</Hitpoints>
               <Placable>true</Placable>
@@ -14463,7 +14463,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -14530,7 +14530,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -14597,7 +14597,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -14664,7 +14664,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -14731,7 +14731,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -14797,7 +14797,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -14863,7 +14863,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -14929,7 +14929,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15001,7 +15001,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15068,7 +15068,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15135,7 +15135,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15202,7 +15202,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15269,7 +15269,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15335,7 +15335,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15401,7 +15401,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15467,7 +15467,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15537,7 +15537,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15602,7 +15602,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15667,7 +15667,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15732,7 +15732,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15797,7 +15797,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15863,7 +15863,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15929,7 +15929,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -15995,7 +15995,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16067,7 +16067,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16132,7 +16132,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16197,7 +16197,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16262,7 +16262,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16327,7 +16327,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16393,7 +16393,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16459,7 +16459,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16525,7 +16525,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16597,7 +16597,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16664,7 +16664,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16731,7 +16731,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16798,7 +16798,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16865,7 +16865,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16931,7 +16931,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -16997,7 +16997,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17063,7 +17063,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17133,7 +17133,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17198,7 +17198,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17263,7 +17263,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17328,7 +17328,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17393,7 +17393,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17459,7 +17459,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17525,7 +17525,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17591,7 +17591,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17663,7 +17663,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17730,7 +17730,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17797,7 +17797,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17864,7 +17864,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17931,7 +17931,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -17997,7 +17997,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18063,7 +18063,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18129,7 +18129,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18199,7 +18199,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18264,7 +18264,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18329,7 +18329,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18394,7 +18394,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18459,7 +18459,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18525,7 +18525,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18591,7 +18591,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18657,7 +18657,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18729,7 +18729,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18796,7 +18796,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18863,7 +18863,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18930,7 +18930,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -18997,7 +18997,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19063,7 +19063,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19129,7 +19129,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19195,7 +19195,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19265,7 +19265,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19330,7 +19330,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19395,7 +19395,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19460,7 +19460,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19525,7 +19525,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19591,7 +19591,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19657,7 +19657,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19723,7 +19723,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19795,7 +19795,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19862,7 +19862,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19929,7 +19929,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -19996,7 +19996,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20063,7 +20063,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20129,7 +20129,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20195,7 +20195,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20261,7 +20261,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20331,7 +20331,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20396,7 +20396,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20461,7 +20461,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20526,7 +20526,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20591,7 +20591,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20657,7 +20657,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20723,7 +20723,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20789,7 +20789,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20861,7 +20861,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20926,7 +20926,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -20991,7 +20991,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21056,7 +21056,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21121,7 +21121,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21187,7 +21187,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21253,7 +21253,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21319,7 +21319,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21390,7 +21390,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21455,7 +21455,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21520,7 +21520,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21585,7 +21585,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21650,7 +21650,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21716,7 +21716,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21782,7 +21782,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21848,7 +21848,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21920,7 +21920,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -21987,7 +21987,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22054,7 +22054,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22121,7 +22121,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22188,7 +22188,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22254,7 +22254,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22320,7 +22320,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22386,7 +22386,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22456,7 +22456,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22521,7 +22521,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22586,7 +22586,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22651,7 +22651,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22716,7 +22716,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22782,7 +22782,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22848,7 +22848,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22914,7 +22914,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -22986,7 +22986,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23053,7 +23053,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23120,7 +23120,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23187,7 +23187,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23254,7 +23254,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23320,7 +23320,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23386,7 +23386,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23452,7 +23452,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23522,7 +23522,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23587,7 +23587,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23652,7 +23652,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23717,7 +23717,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23782,7 +23782,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23848,7 +23848,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23914,7 +23914,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -23980,7 +23980,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24052,7 +24052,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24117,7 +24117,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24182,7 +24182,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24247,7 +24247,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24312,7 +24312,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24378,7 +24378,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24444,7 +24444,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24510,7 +24510,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24581,7 +24581,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24646,7 +24646,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24711,7 +24711,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24776,7 +24776,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24841,7 +24841,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24907,7 +24907,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -24973,7 +24973,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25039,7 +25039,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25111,7 +25111,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25178,7 +25178,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25245,7 +25245,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25312,7 +25312,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25379,7 +25379,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25445,7 +25445,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25511,7 +25511,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25577,7 +25577,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25647,7 +25647,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25712,7 +25712,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25777,7 +25777,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25842,7 +25842,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25907,7 +25907,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -25973,7 +25973,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26039,7 +26039,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26105,7 +26105,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26177,7 +26177,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26244,7 +26244,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26311,7 +26311,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26378,7 +26378,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26445,7 +26445,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26511,7 +26511,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26577,7 +26577,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26643,7 +26643,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26714,7 +26714,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26779,7 +26779,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26844,7 +26844,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26909,7 +26909,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -26974,7 +26974,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -27040,7 +27040,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -27106,7 +27106,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -27172,7 +27172,7 @@
               <ReactorHp>0</ReactorHp>
               <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
               <Enterable>false</Enterable>
-              <Mass>0.10</Mass>
+              <Mass>0.20</Mass>
               <Volume>0.25</Volume>
               <Hitpoints>10000</Hitpoints>
               <Placable>true</Placable>
@@ -34088,7 +34088,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -34153,7 +34153,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -34219,7 +34219,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -34285,7 +34285,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -34351,7 +34351,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -36431,7 +36431,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -36496,7 +36496,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -36561,7 +36561,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -36626,7 +36626,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -36691,7 +36691,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -36761,7 +36761,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -36826,7 +36826,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -36891,7 +36891,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -36956,7 +36956,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -37021,7 +37021,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -37087,7 +37087,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -37153,7 +37153,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -37219,7 +37219,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -37285,7 +37285,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -37351,7 +37351,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
@@ -37417,7 +37417,7 @@
             <ReactorHp>0</ReactorHp>
             <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
             <Enterable>false</Enterable>
-            <Mass>0.06</Mass>
+            <Mass>0.12</Mass>
             <Volume>0.15</Volume>
             <Hitpoints>2000</Hitpoints>
             <Placable>true</Placable>
