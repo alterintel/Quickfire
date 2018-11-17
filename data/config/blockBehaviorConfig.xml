@@ -1103,7 +1103,7 @@
                 <BasicValues>
                         <DamagePerHit version="noreactor">10</DamagePerHit>
 
-                        <DamagePerHit>172.47</DamagePerHit>
+                        <DamagePerHit>25.84</DamagePerHit>
                         <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
 
