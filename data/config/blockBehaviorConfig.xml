@@ -863,7 +863,7 @@
                             <!-- PROS: Higher fire rate and faster projectile speed -->
                             <!-- CONS: Less damage per power consumed, less impact force per damage -->
 
-                            <Damage style="nerf" value="2.15"/>
+                            <Damage style="nerf" linear="true" value="2.15"/>
                             <Reload style="nerf" value="10"/>
                             <Distance style="nerf" value="3.0"/>
                             <Speed style="skip"/>
@@ -893,7 +893,7 @@
                             <!-- Charge Cannon -->
                             <!-- PROS: High efficiency when fired at full charge, fire rate is changeable -->
                             <!-- CONS: Bad efficiency when fired at low charge -->
-                            <Damage style="buff" value="3.94"/>
+                            <Damage style="buff" linear="true" value="3.94"/>
                             <Reload style="buff" value="1"/>
                             <Distance style="nerf" value="1.5"/>
                             <Speed style="skip"/>
@@ -923,7 +923,7 @@
                             <!-- Artillery Cannon -->
                             <!-- PROS: Highest dps, big hole on hit -->
                             <!-- CONS: slow to reload and slower projectile speed -->
-                            <Damage style="buff" value="2.97"/> <!-- 1 + 36.5 = 600 damage -->
+                            <Damage style="buff" linear="true" value="2.97"/> <!-- 1 + 36.5 = 600 damage -->
                             <Reload style="buff" value="6"/> <!-- 1 + 14 = 15000ms -->
                             <Distance style="buff" value="0.5"/>
                             <Speed style="skip"/> <!-- 7.5 -->
@@ -1039,7 +1039,7 @@
                 </BasicValues>
                 <Combination>
                         <Cannon> <!-- Originally heat-seekers. Trying to see if they will work with lock-on mechanics. -->
-                             <Damage style="skip"/>
+                             <Damage style="skip" linear="true"/>
                              <Reload style="skip"/>
                              <Distance style="skip"/>
                              <LockOnTimeSec style="skip"/>
@@ -1058,7 +1058,7 @@
                              <PossibleZoom style="nerf" value="2"/>
                         </Cannon>
                         <Missile> <!-- Bomb -->
-                            <Damage style="buff" value="1.83"/><!-- Originally 49 -->
+                            <Damage style="buff" linear="true" value="1.83"/><!-- Originally 49 -->
                             <Reload style="buff" value="4.0"/>
                             <Distance style="buff" value="0.5"/>
                             <LockOnTimeSec style="skip"/>
@@ -1077,7 +1077,7 @@
                             <PossibleZoom style="set" value="2"/>
                         </Missile>
                         <Beam> <!-- Slow/Strong lock on missile -->
-                            <Damage style="nerf" value="1.58" />
+                            <Damage style="nerf" linear="true" value="1.58" />
                             <Reload style="buff" value="1.5"/>
                             <Distance style="buff" value ="1.67"/>
                             <LockOnTimeSec style="nerf" value="7.5"/>
@@ -1148,7 +1148,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="buff" value="0.76"/> <!-- 5 - This is the damage per hit -->
+                            <PowerPerHit style="buff" linear="true" value="0.76"/> <!-- 5 - This is the damage per hit -->
                             <CoolDown style="nerf" value="7.5"/> <!-- 1.5 - Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="5"/> <!-- Time the beam will fire -->
 
@@ -1177,9 +1177,9 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="buff" value="11.63"/> <!-- linear is needed here -->
+                            <PowerPerHit style="buff" linear="true" value="11.63"/> <!-- linear is needed here -->
                             <CoolDown style="nerf" value="1.5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
-                            <BurstTime style="nerf" value="2"/> <!-- Time the beam will fire -->
+                            <BurstTime style="nerf" linear="true" value="2"/> <!-- Time the beam will fire -->
 
                             <InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 
@@ -1208,9 +1208,9 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="buff" value="6.16"/>
+                            <PowerPerHit style="buff" linear="true" value="6.16"/>
                             <CoolDown style="nerf" value="1.5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
-                            <BurstTime style="nerf" value="100"/> <!-- Time the beam will fire -->
+                            <BurstTime style="nerf" linear="true" value="100"/> <!-- Time the beam will fire -->
 
                             <InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 
