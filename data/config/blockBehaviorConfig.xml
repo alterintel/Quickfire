@@ -925,7 +925,7 @@
                             <!-- CONS: slow to reload and slower projectile speed -->
                             <Damage style="buff" linear="true" value="2.97"/> <!-- 1 + 36.5 = 600 damage -->
                             <Reload style="buff" value="6"/> <!-- 1 + 14 = 15000ms -->
-                            <Distance style="buff" linear="true" value="0.5"/>
+                            <Distance style="skip"/>
                             <Speed style="skip"/> <!-- 7.5 -->
                             <Recoil style="skip"/>
                             <ImpactForce style="buff" value="9"/>
