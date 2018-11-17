@@ -113,8 +113,8 @@
 
                   <!-- NEW POWER -->
                         <!-- Shields -->
-                        <ShieldLocalCapacityPerBlock>500</ShieldLocalCapacityPerBlock>
-                        <ShieldLocalRechargePerBlock>12.5</ShieldLocalRechargePerBlock>
+                        <ShieldLocalCapacityPerBlock>200</ShieldLocalCapacityPerBlock>
+                        <ShieldLocalRechargePerBlock>10.0</ShieldLocalRechargePerBlock>
                         <ShieldLocalDefaultCapacity>0</ShieldLocalDefaultCapacity>
 
                         <ShieldLocalRadiusCalcStyle>EXP</ShieldLocalRadiusCalcStyle> <!-- LINEAR, EXP, LOG -->
@@ -133,8 +133,8 @@
 
                         <ShieldUpkeepPerSecondOfTotalCapacity>0.04</ShieldUpkeepPerSecondOfTotalCapacity>
 
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>0.36</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>2.4</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>0.45</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>3</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
 
                         <ShieldLocalRechargeUnderFireModeSec>30.0</ShieldLocalRechargeUnderFireModeSec> <!-- how long after being hit a recharge nerf based on shield status applies -->
                         <ShieldLocalRechargeUnderFireMinPercent>0.5</ShieldLocalRechargeUnderFireMinPercent> <!-- minimum recharge under fire -->
@@ -459,10 +459,10 @@
                         <!-- NEW POWER -->
                         <MulTotalThrust>4.0</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
                         <PowTotalThrust>0.8</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
-                        <UnitCalcMult>1</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
+                        <UnitCalcMult>2</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
 
-                        <ReactorPowerPowerConsumptionPerBlockResting>0.4</ReactorPowerPowerConsumptionPerBlockResting> <!-- power used when no thrust is applied -->
-                        <ReactorPowerPowerConsumptionPerBlockInUse>4.0</ReactorPowerPowerConsumptionPerBlockInUse> <!-- power used when thrusters in use -->
+                        <ReactorPowerPowerConsumptionPerBlockResting>0.8</ReactorPowerPowerConsumptionPerBlockResting> <!-- power used when no thrust is applied -->
+                        <ReactorPowerPowerConsumptionPerBlockInUse>8.0</ReactorPowerPowerConsumptionPerBlockInUse> <!-- power used when thrusters in use -->
 
                         <ThrusterMinReactorPower>0.05</ThrusterMinReactorPower> <!-- minimum power of thrusters (minimum value to be multiplied with thrust to not completely render ships without movement when power fails) -->
                         <MaxThrustToMassAcceleration>10.0</MaxThrustToMassAcceleration>
@@ -1103,7 +1103,7 @@
                 <BasicValues>
                         <DamagePerHit version="noreactor">10</DamagePerHit>
 
-                        <DamagePerHit>68.20</DamagePerHit>
+                        <DamagePerHit>172.47</DamagePerHit>
                         <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
 
