@@ -925,12 +925,12 @@
                             <!-- CONS: slow to reload and slower projectile speed -->
                             <Damage style="buff" linear="true" value="2.97"/> <!-- 1 + 36.5 = 600 damage -->
                             <Reload style="buff" value="6"/> <!-- 1 + 14 = 15000ms -->
-                            <Distance style="skip"/>
+                            <Distance style="buff" value="0.5"/>
                             <Speed style="skip"/> <!-- 7.5 -->
                             <Recoil style="skip"/>
                             <ImpactForce style="buff" value="9"/>
                             <PowerConsumption style="nerf" inverse="true" linear="true" value="30" version="noreactor"/> <!-- 1+3 = 4x power consumption -->
-                            <PowerConsumption style="nerf" linear="true" value="4.5"/>
+                            <PowerConsumption style="skip"/>
                             <ProjectileWidth style="skip"/>
                             <AcidFormula style="set" value="1"/>
                             <ChargeMax style="skip"/>
