@@ -484,11 +484,11 @@
 
                         <MaxRotationalForceX>10.0</MaxRotationalForceX> <!-- Maximum rotational force -->
                         <MaxRotationalForceY>10.0</MaxRotationalForceY> <!-- Maximum rotational force -->
-                        <MaxRotationalForceZ>100.0</MaxRotationalForceZ> <!-- Maximum rotational force --> <!-- Originally 10.0 - hopefully this is the roll axis. -->
+                        <MaxRotationalForceZ>0.0</MaxRotationalForceZ> <!-- Maximum rotational force --> <!-- Originally 10.0 - hopefully this is the roll axis. -->
 
                         <BaseRotationalForceX>10.0</BaseRotationalForceX> <!-- Base rotational force -->
                         <BaseRotationalForceY>10.0</BaseRotationalForceY> <!-- Base rotational force -->
-                        <BaseRotationalForceZ>100.0</BaseRotationalForceZ> <!-- Base rotational force --> <!--Ditto.-->
+                        <BaseRotationalForceZ>0.0</BaseRotationalForceZ> <!-- Base rotational force --> <!--Ditto.-->
 
 
                 </BasicValues>
