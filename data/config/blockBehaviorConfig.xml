@@ -849,7 +849,7 @@
                         <DamageChargeMax>0.0</DamageChargeMax> <!-- value > 0 means the weapon charges its damage up to this value (damage multiplied by)-->
                         <DamageChargeSpeed>0.0</DamageChargeSpeed> <!-- Speed of charging. 1.0 equals 1.0 multiplier/sec -->
 
-                        <PossibleZoom>0.5</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
+                        <PossibleZoom>1.0</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
                         <Aimable>1</Aimable> <!-- 1 = aimable with cursor. 0 = weapon only fires straight -->
 			<EffectConfiguration>
                         	<Kinetic>2.1</Kinetic>
@@ -916,7 +916,7 @@
                             <CursorRecoilMaxY style="buff" value="2"/> <!-- Max cursor recoil value -->
                             <CursorRecoilDirY style="skip"/> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
 
-                            <PossibleZoom style="nerf" value="2"/>
+                            <PossibleZoom style="skip"/>
                             <Aimable style="skip"/> <!-- 1 = aimable with cursor. 0 = weapon only fires straight -->
                         </Missile>
                         <Beam>
@@ -946,7 +946,7 @@
                             <CursorRecoilMaxY style="buff" value="2"/> <!-- Max cursor recoil value -->
                             <CursorRecoilDirY style="skip"/> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
 
-                            <PossibleZoom style="buff" value="2"/>
+                            <PossibleZoom style="buff" value="2.5"/>
                             <Aimable style="skip"/> <!-- 1 = aimable with cursor. 0 = weapon only fires straight -->
                         </Beam>
                 </Combination>
@@ -1012,7 +1012,7 @@
                         <ChasingTurnSpeedWithTargetInBack>8.0</ChasingTurnSpeedWithTargetInBack>
 
                         <MissileHPCalcStyle>EXP</MissileHPCalcStyle> <!-- LINEAR, EXP, LOG -->
-                        <PossibleZoom>0.5</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
+                        <PossibleZoom>1.0</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
 
 
                         <MissileHPMin>1</MissileHPMin>
@@ -1055,7 +1055,7 @@
                              <PercentagePowerUsageResting style="skip"/><!-- percentage of total reactor recharge used per block -->
                              <PercentagePowerUsageCharging style="skip"/><!-- percentage of total reactor recharge used per block -->
 
-                             <PossibleZoom style="nerf" value="2"/>
+                             <PossibleZoom style="set" value="2"/>
                         </Cannon>
                         <Missile> <!-- Bomb -->
                             <Damage style="buff" linear="true" value="1.83"/><!-- Originally 49 -->
@@ -1074,7 +1074,7 @@
                             <PercentagePowerUsageResting style="skip"/><!-- percentage of total reactor recharge used per block -->
                             <PercentagePowerUsageCharging style="skip"/><!-- percentage of total reactor recharge used per block -->
 
-                            <PossibleZoom style="set" value="2"/>
+                            <PossibleZoom style="set" value="0"/>
                         </Missile>
                         <Beam> <!-- Slow/Strong lock on missile -->
                             <Damage style="nerf" linear="true" value="1.58" />
@@ -1095,7 +1095,7 @@
                             <PercentagePowerUsageResting style="skip"/><!-- percentage of total reactor recharge used per block -->
                             <PercentagePowerUsageCharging style="skip"/><!-- percentage of total reactor recharge used per block -->
 
-                            <PossibleZoom style="set" value="2"/>
+                            <PossibleZoom style="set" value="0"/>
                         </Beam>
                 </Combination>
         </Missile>
@@ -1131,7 +1131,7 @@
 
                         <MaxEffectiveValue>0.0</MaxEffectiveValue> <!-- effectiveness (*damage) of beam at max efficiency range -->
                         <MaxEffectiveRange>1.0</MaxEffectiveRange> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
-                        <PossibleZoom>0.5</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
+                        <PossibleZoom>0.0</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
 
                         <EffectConfiguration>
                         	<Kinetic>0.3</Kinetic>
@@ -1198,7 +1198,7 @@
                             <MaxEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at max efficiency range -->
                             <MaxEffectiveRange style="skip"/> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
 
-                            <PossibleZoom style="set" value="0.0"/>
+                            <PossibleZoom style="skip"/>
                         </Missile>
                         <Beam> <!-- no more death beam but long range beam -->
                             <HitSpeed style="nerf" value="2"/> <!-- 0.05 tick rate-->
@@ -1228,7 +1228,7 @@
                             <MaxEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at max efficiency range -->
                             <MaxEffectiveRange style="skip"/> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
 
-                            <PossibleZoom style="buff" value="2"/>
+                            <PossibleZoom style="skip"/>
                         </Beam>
                 </Combination>
         </DamageBeam>
