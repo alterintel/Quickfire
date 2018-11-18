@@ -133,7 +133,7 @@
 
                         <ShieldUpkeepPerSecondOfTotalCapacity>0.04</ShieldUpkeepPerSecondOfTotalCapacity>
 
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>0.5</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>2.5</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
                         <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>2.5</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
 
                         <ShieldLocalRechargeUnderFireModeSec>30.0</ShieldLocalRechargeUnderFireModeSec> <!-- how long after being hit a recharge nerf based on shield status applies -->
