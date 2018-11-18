@@ -133,8 +133,8 @@
 
                         <ShieldUpkeepPerSecondOfTotalCapacity>0.04</ShieldUpkeepPerSecondOfTotalCapacity>
 
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>0.45</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>3</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>0.5</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>2.5</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
 
                         <ShieldLocalRechargeUnderFireModeSec>30.0</ShieldLocalRechargeUnderFireModeSec> <!-- how long after being hit a recharge nerf based on shield status applies -->
                         <ShieldLocalRechargeUnderFireMinPercent>0.5</ShieldLocalRechargeUnderFireMinPercent> <!-- minimum recharge under fire -->
@@ -461,8 +461,8 @@
                         <PowTotalThrust>0.8</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
                         <UnitCalcMult>2</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
 
-                        <ReactorPowerPowerConsumptionPerBlockResting>0.8</ReactorPowerPowerConsumptionPerBlockResting> <!-- power used when no thrust is applied -->
-                        <ReactorPowerPowerConsumptionPerBlockInUse>8.0</ReactorPowerPowerConsumptionPerBlockInUse> <!-- power used when thrusters in use -->
+                        <ReactorPowerPowerConsumptionPerBlockResting>1.0</ReactorPowerPowerConsumptionPerBlockResting> <!-- power used when no thrust is applied -->
+                        <ReactorPowerPowerConsumptionPerBlockInUse>10.0</ReactorPowerPowerConsumptionPerBlockInUse> <!-- power used when thrusters in use -->
 
                         <ThrusterMinReactorPower>0.05</ThrusterMinReactorPower> <!-- minimum power of thrusters (minimum value to be multiplied with thrust to not completely render ships without movement when power fails) -->
                         <MaxThrustToMassAcceleration>10.0</MaxThrustToMassAcceleration>
@@ -790,8 +790,8 @@
 
                         <!-- NEW -->
                         <Damage>52.92</Damage>
-                        <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
+                        <ReactorPowerConsumptionResting>10.0</ReactorPowerConsumptionResting>
+                        <ReactorPowerConsumptionCharging>50.0</ReactorPowerConsumptionCharging>
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Speed>25</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>1000</ReloadMs>
@@ -991,8 +991,8 @@
                         <Damage version="noreactor">300</Damage>
 
                         <Damage>423.39</Damage>
-                        <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
+                        <ReactorPowerConsumptionResting>10.0</ReactorPowerConsumptionResting>
+                        <ReactorPowerConsumptionCharging>50.0</ReactorPowerConsumptionCharging>
                         <AdditionalCapacityUsedPerDamage>0</AdditionalCapacityUsedPerDamage> <!-- rounded down -->
                         <AdditionalCapacityUsedPerDamageMult>0</AdditionalCapacityUsedPerDamageMult> <!-- how much more missiles used per rounded down AdditionalCapacityUsedPerDamage value -->
 
@@ -1104,10 +1104,10 @@
                         <DamagePerHit version="noreactor">10</DamagePerHit>
 
                         <DamagePerHit>25.84</DamagePerHit>
-                        <ReactorPowerConsumptionResting>9.0</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>60.0</ReactorPowerConsumptionCharging>
+                        <ReactorPowerConsumptionResting>10.0</ReactorPowerConsumptionResting>
+                        <ReactorPowerConsumptionCharging>50.0</ReactorPowerConsumptionCharging>
 
-                        <PowerConsumptionPerTick>60</PowerConsumptionPerTick>
+                        <PowerConsumptionPerTick>50</PowerConsumptionPerTick>
                         <Distance>1.0</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
                         <TickRate>0.0999</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
                         <CoolDown>7.5</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
@@ -1210,7 +1210,7 @@
 
                             <PowerPerHit style="buff" linear="true" value="6.16"/>
                             <CoolDown style="nerf" value="1.5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
-                            <BurstTime style="nerf" linear="true" value="100"/> <!-- Time the beam will fire -->
+                            <BurstTime style="nerf" value="100"/> <!-- Time the beam will fire -->
 
                             <InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 
