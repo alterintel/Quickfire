@@ -1221,7 +1221,7 @@
                             <FriendlyFire style="set" value="0"/>
                             <Aimable style="set" value="1"/>
 
-                            <ChargeTime style="set" value ="2"/> <!-- how long weapon must be charged before fire (0 for off) -->
+                            <ChargeTime style="skip"/> <!-- how long weapon must be charged before fire (0 for off) -->
                             <MinEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at min efficiency range -->
                             <MinEffectiveRange style="skip"/> <!-- at what % of beam length or less the beam uses the MinEffectiveValue-->
 
