@@ -792,7 +792,7 @@
                         <Damage>56.49</Damage>
                         <ReactorPowerConsumptionResting>10.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>50.0</ReactorPowerConsumptionCharging>
-                        <Distance>6.75</Distance> <!-- 1 is equal to 100% sector radius -->
+                        <Distance>4.5</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Speed>56.25</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>1000</ReloadMs>
                         <AdditionalPowerConsumptionPerUnitMult>0.0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
@@ -926,7 +926,7 @@
                             <Damage style="buff" linear="true" value="2.72"/> <!-- 1 + 36.5 = 600 damage -->
                             <Reload style="buff" value="6"/> <!-- 1 + 14 = 15000ms -->
                             <Distance style="buff" value="0.78"/>
-                            <Speed style="skip"/> <!-- 7.5 -->
+                            <Speed style="buff" value="0.7778"/> <!-- 7.5 -->
                             <Recoil style="skip"/>
                             <ImpactForce style="buff" value="9"/>
                             <PowerConsumption style="nerf" inverse="true" linear="true" value="30" version="noreactor"/> <!-- 1+3 = 4x power consumption -->
