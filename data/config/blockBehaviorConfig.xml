@@ -822,7 +822,7 @@
                         <CursorRecoilSpeedOutAddMod>0.0</CursorRecoilSpeedOutAddMod> <!-- 0=off; range of which pow is applied speed *= pow((1.0f-percentofRecoil)*speedPowMult + speedAdd, 2); -->
                         <CursorRecoilSpeedOutPowMult>0.0</CursorRecoilSpeedOutPowMult>
 
-                        <ProjectileWidth>50.0</ProjectileWidth> <!-- Projectile width multiplier per block built from the weapon output-->
+                        <ProjectileWidth>1.0</ProjectileWidth> <!-- Projectile width multiplier per block built from the weapon output-->
 
                         <BasicPenetrationDepth>1</BasicPenetrationDepth>
                         <PenetrationDepthExp>0.35</PenetrationDepthExp>
