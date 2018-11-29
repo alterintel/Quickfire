@@ -1028,7 +1028,7 @@
                         <MissileHPLogOffset>0</MissileHPLogOffset>
                         <MissileHPLogFactor>1</MissileHPLogFactor>
 
-                        <BombActivationTimeSec>1.25</BombActivationTimeSec>
+                        <BombActivationTimeSec>1.25</BombActivationTimeSec> <!--Original value is insane and effectively prevents any bomb from ever doing damage-->
 
                         <!-- Dumb = 0, Heat = 1, TargetChasing = 2, Bomb = 3 -->
                         <EffectConfiguration>
@@ -1038,7 +1038,7 @@
                         </EffectConfiguration>
                 </BasicValues>
                 <Combination>
-                        <Cannon> <!-- Originally heat-seekers. Trying to see if they will work with lock-on mechanics. -->
+                        <Cannon> <!--Heat-seeking swarmers-->
                              <Damage style="skip" linear="true"/>
                              <Reload style="skip"/>
                              <Distance style="skip"/>
@@ -1046,8 +1046,8 @@
 
                              <BlastRadius style="nerf" value="2"/>
                              <Speed style="skip"/>
-                             <Split style="buff" value="10"/><!-- Spam spam spam spam. Lovely spam! Wonderful spam! (this is the original value) -->
-                             <Mode style="set" value="1"/><!-- Lock-on Missile - was originally 1 for heat seeking, but why would you have a useless weapon in the game? Possibilities are meaningless if they aren't usable possibilities. -->
+                             <Split style="buff" value="10"/> <!-- Spam spam spam spam. Lovely spam! Wonderful spam! (this is the original value) -->
+                             <Mode style="set" value="1"/> <!-- Heat seeking missile -->
                              <PowerConsumption style="skip" linear="true"/>
 
                              <AdditionalCapacityUsedPerDamage style="skip"/><!-- rounded down -->
@@ -1058,15 +1058,15 @@
                              <PossibleZoom style="set" value="2"/>
                         </Cannon>
                         <Missile> <!-- Bomb -->
-                            <Damage style="buff" linear="true" value="0.09"/><!-- Originally 49 -->
+                            <Damage style="buff" linear="true" value="100"/><!-- If we can't tune armor explosion mitigation for individual weapons, there is no choice but to just boost the damage by a ton. -->
                             <Reload style="buff" value="4.0"/>
-                            <Distance style="buff" value="3.0"/>
+                            <Distance style="skip"/>
                             <LockOnTimeSec style="skip"/>
 
-                            <BlastRadius style="buff" value="1"/>
-                            <Speed style="buff" value="0.5"/>
+                            <BlastRadius style="buff" value="3"/> <!--Tentative value. No idea how much this ought to be for a bomb.-->
+                            <Speed style="skip"/> <!--Overridden by bomb behaviour-->
                             <Split style="skip"/>
-                            <Mode style="set" value="2"/> <!-- Bomb Missile -->
+                            <Mode style="set" value="3"/> <!-- Bomb Missile -->
                             <PowerConsumption style="skip" linear="true"/>
 
                             <AdditionalCapacityUsedPerDamage style="skip"/>  <!-- rounded down <AdditionalCapacityUsedPerDamage style="set" value="10000"/> -->
