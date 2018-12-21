@@ -291,7 +291,7 @@
                 <value>0.75</value>
             </P>
         </E>
-    </Group> <!--Schine's reserved 'heat shield' group for the inaccessible heat shielding chamber - not used here-->
+    </Group>
     <Group id="defense - shield type alpha 1">
         <E modtype="set" priority="-1" type="shield_hotspot_alpha">
             <P name="value" type="boolean">
@@ -315,40 +315,12 @@
                 <value>true</value>
             </P>
         </E>
-        <E modtype="set" priority="-1" type="shield_hotspot_percentage"> <!--Relevant value-->
+        <E modtype="set" priority="-1" type="shield_hotspot_percentage">
             <P name="value" type="float">
-                <value>0.0</value>
+                <value>0.5</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="shield_hotspot_range">
-            <P name="value" type="float">
-                <value>0.0</value>
-            </P>
-        </E>
-    </Group>
-	    <Group id="defense - kinetic shield 1">
-        <E modtype="add" priority="0" type="shield_defense_kinetic">
-            <P name="value" type="float">
-                <value>0.35</value>
-            </P>
-        </E>
-    </Group>
-    <Group id="defense - kinetic shield 2">
-        <E modtype="add" priority="0" type="shield_defense_kinetic">
-            <P name="value" type="float">
-                <value>0.35</value>
-            </P>
-        </E>
-    </Group>
-	    <Group id="defense - heat shield 1">
-        <E modtype="add" priority="0" type="shield_defense_heat">
-            <P name="value" type="float">
-                <value>0.25</value>
-            </P>
-        </E>
-    </Group>
-    <Group id="defense - heat shield 2">
-        <E modtype="add" priority="0" type="shield_defense_heat">
             <P name="value" type="float">
                 <value>0.25</value>
             </P>
@@ -815,7 +787,7 @@
     <Group id="defense - shield type dps 2">
         <E modtype="add" priority="0" type="shield_hotspot_range">
             <P name="value" type="float">
-                <value>0.0</value>
+                <value>0.25</value>
             </P>
         </E>
     </Group>

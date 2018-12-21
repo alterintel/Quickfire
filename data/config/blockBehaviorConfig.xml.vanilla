@@ -97,7 +97,11 @@
                         <ShipRebootTimeMinSec>30.0</ShipRebootTimeMinSec> <!-- Minimum time in secs a reboot will take -->
 
 
-                        <ArmorThicknessBonus>0.1</ArmorThicknessBonus> <!-- 0 is normal sum. totalArmorValue = sum(armorBlockInLine.armorValue + (armorBlockInLine.armorValue * (armorBlockInLine.indexInLine+1)*ArmorThicknessBonus))  -->
+                        <ArmorThicknessBonus>0.5</ArmorThicknessBonus> <!-- 0 is normal sum. totalArmorValue = sum(armorBlockInLine.armorValue + (armorBlockInLine.armorValue * (armorBlockInLine.indexInLine+1)*ArmorThicknessBonus))  -->
+                        <ArmorBeamDamageResistance>0.2</ArmorBeamDamageResistance> <!-- %Amount of armor value is subtracted from the damage of a tick of beam damage  -->
+                        <ArmorFlatDamageReduction>0.025</ArmorFlatDamageReduction> <!-- damage = damage - (damage*ArmorFlatDamageReduction)  -->
+                        <ArmorThicknessDamageReduction>0.0</ArmorThicknessDamageReduction> <!-- damage = damage - (damage*thicknessInBlocks*ArmorThicknessDamageReduction) (reduction additionally to ArmorFlatDamageReduction)  -->
+                        
                         <AcidDamageArmorStoppedMargin>0.5</AcidDamageArmorStoppedMargin> <!-- what % of total armor value along armor depth is a stop, from that to 100% acid damage is applied linearly -->
                         <ArmorOverPenetrationMarginMultiplicator>20.0</ArmorOverPenetrationMarginMultiplicator> <!-- if(damage > totalArmorValue*ArmorOverPenetrationMarginMultiplicator) -> OVER PENETRATION -->
                         <NonArmorOverpenetrationMargin>2500.0</NonArmorOverpenetrationMargin> <!-- Minimum damage to cause overpenetration on non armor blocks -->
@@ -182,6 +186,15 @@
 
                         <ReactorModuleDischargeMargin>0.9</ReactorModuleDischargeMargin> <!-- at which percentage of resting consumption available a module (weapon) starts to discharge -->
 
+                       <!-- ### REACTOR LEVEL CALCULATIONS ### -->
+						<ReactorLevelCalcStyle>LOG10</ReactorLevelCalcStyle> <!-- LOG10 (default), LINEAR (levels per set amount of blocks) -->
+						
+      					 	<!-- LINEAR -->
+							<ReactorLevelCalcLinearBlocksNeededPerLevel>100</ReactorLevelCalcLinearBlocksNeededPerLevel> <!-- how many blocks needed per linear -->
+						<!-- ################################## -->
+
+
+						<!-- ### REACTOR DISTANCE CALCULATIONS ### -->
                         <ReactorCalcStyle>EXP</ReactorCalcStyle> <!-- LINEAR, EXP, LOG, LOG_LEVELED -->
 
                             <!-- LINEAR -->
@@ -204,6 +217,7 @@
                             <ReactorStabilizerDistanceLogLeveledMultiplier>10</ReactorStabilizerDistanceLogLeveledMultiplier> <!-- ReactorStabilizerStartingDistance + (ReactorLevel^ReactorStabilizerDistanceLogLeveledExp * ReactorStabilizerDistanceLogLeveledMultiplier) -->
                             <ReactorStabilizerDistanceLogLeveledExp>2</ReactorStabilizerDistanceLogLeveledExp> <!-- ReactorStabilizerStartingDistance + (ReactorLevel^ReactorStabilizerDistanceLogLeveledExp * ReactorStabilizerDistanceLogLeveledMultiplier) -->
 
+						<!-- ##################################### -->
                         <ReactorStabilizerStartingDistance>-7.5</ReactorStabilizerStartingDistance> <!-- inital distance -->
                         <ReactorStabilizerLinearFalloffOne>1.0</ReactorStabilizerLinearFalloffOne> <!-- percentage of distance at which or farther away the stabilizer counts as 1 -->
                         <ReactorStabilizerLinearFalloffZero>0.0</ReactorStabilizerLinearFalloffZero> <!-- percentage of distance at which or closer the stabilizer counts as 0 -->
@@ -489,7 +503,7 @@
                         
                         <BaseRotationalForceX>10.0</BaseRotationalForceX> <!-- Base rotational force -->
                         <BaseRotationalForceY>10.0</BaseRotationalForceY> <!-- Base rotational force -->
-                        <BaseRotationalForceZ>10.0</BaseRotationalForceZ> <!-- Base rotational force -->
+                        <BaseRotationalForceZ>0.5</BaseRotationalForceZ> <!-- Base rotational force -->
                         
                         	
                 </BasicValues>
@@ -793,13 +807,16 @@
                         <Damage>20</Damage>                        
                         <ReactorPowerConsumptionResting>3.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>20.0</ReactorPowerConsumptionCharging>
+                        
                         <Distance>2.0</Distance> <!-- 1 is equal to 100% sector radius -->
-                        <Speed>25</Speed> <!-- In relation % to server max speed  1 = 100% -->
+                        <Speed>40</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>1000</ReloadMs>
                         <AdditionalPowerConsumptionPerUnitMult>0.1</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
 
-			<Recoil>4.0</Recoil> <!-- Recoil in force per damage. Applied from the ship cannons point of origin in the opposite firing direction (multiplied with damage of projectile)-->
-                        <ImpactForce>1.0</ImpactForce> <!-- Impact force on target in force per damage.  (multiplied with damage of projectile)-->
+ 						<Recoil>4.0</Recoil>  --><!-- Recoil in force per damage. Applied from the ship cannons point of origin in the opposite firing direction (multiplied with damage of projectile)-->
+						<ImpactForce>1.0</ImpactForce>  --><!-- Impact force on target in force per damage.  (multiplied with damage of projectile)-->
+						<Recoil>0</Recoil> <!-- Recoil in force per damage. Applied from the ship cannons point of origin in the opposite firing direction (multiplied with damage of projectile)-->
+                        <ImpactForce>0</ImpactForce> <!-- Impact force on target in force per damage.  (multiplied with damage of projectile)-->
                         
                         <!-- 5 times more vertical recoil, horizontal recoil can go left or right -->
                         <!-- Horizontal Cursor Recoil -->
@@ -809,8 +826,8 @@
                         <CursorRecoilDirX>0.0</CursorRecoilDirX> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                         
                         <!-- Vertical Cursor Recoil -->
-                        <CursorRecoilY>0.000008</CursorRecoilY> <!-- Cursor movement force multiplied with damage -->
-                        <CursorRecoilMinY>0.000008</CursorRecoilMinY> <!-- Min cursor recoil value -->
+                        <CursorRecoilY>0.000004</CursorRecoilY> <!-- Cursor movement force multiplied with damage -->
+                        <CursorRecoilMinY>0.000004</CursorRecoilMinY> <!-- Min cursor recoil value -->
                         <CursorRecoilMaxY>0.08</CursorRecoilMaxY> <!-- Max cursor recoil value -->
                         <CursorRecoilDirY>1.0</CursorRecoilDirY> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                         
@@ -1002,7 +1019,7 @@
                         
                         <LockOnTimeSec>15</LockOnTimeSec> <!-- how long it takes to lock on missiles -->
                         <LockedOnExpireTimeSec>3</LockedOnExpireTimeSec> <!-- how long it takes for target to expire when looking away after lock on -->
-            
+                        
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Radius>12</Radius> <!--this a maximum blast radius -->
                         <Speed>6</Speed>               
