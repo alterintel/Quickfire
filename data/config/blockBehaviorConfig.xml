@@ -463,7 +463,7 @@
                         <UnitCalcStyle>LINEAR</UnitCalcStyle> <!-- LINEAR, BOX_DIM_MULT, BOX_DIM_ADD -->
                         
                         <MinThrustMassRatio>0.0</MinThrustMassRatio> <!-- minimum thrust to mass ratio multiplied with server max speed -->
-                        <MaxThrustMassRatio>3.0</MaxThrustMassRatio> <!-- maximum thrust to mass ratio multiplied with server max speed -->
+                        <MaxThrustMassRatio>2.5</MaxThrustMassRatio> <!-- maximum thrust to mass ratio multiplied with server max speed -->
                         <ThrustMassRatioMaxSpeedAddition>0.5</ThrustMassRatioMaxSpeedAddition> <!-- additional add to ratio -->
                         <ThrustMassRatioMaxSpeedMultiplier>1.0</ThrustMassRatioMaxSpeedMultiplier> <!-- additional multiplier of ratio -->
 
@@ -472,12 +472,12 @@
                         <ThrustBalanceChangeApplyTimeInSecs>15.0</ThrustBalanceChangeApplyTimeInSecs> <!-- how much time it takes for a thrust balance change to take effect-->                       
                         
                         <!-- NEW POWER -->
-                        <MulTotalThrust>4.0</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
-                        <PowTotalThrust>0.79</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+                        <MulTotalThrust>8.0</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+                        <PowTotalThrust>0.85</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
                         <UnitCalcMult>1</UnitCalcMult> <!-- multiplied with result of UnitCalcStyle -->
                         
-                        <ReactorPowerPowerConsumptionPerBlockResting>1.0</ReactorPowerPowerConsumptionPerBlockResting> <!-- power used when no thrust is applied -->
-                        <ReactorPowerPowerConsumptionPerBlockInUse>10.0</ReactorPowerPowerConsumptionPerBlockInUse> <!-- power used when thrusters in use -->
+                        <ReactorPowerPowerConsumptionPerBlockResting>0.0</ReactorPowerPowerConsumptionPerBlockResting> <!-- power used when no thrust is applied -->
+                        <ReactorPowerPowerConsumptionPerBlockInUse>4.0</ReactorPowerPowerConsumptionPerBlockInUse> <!-- power used when thrusters in use -->
                      
                         <ThrusterMinReactorPower>0.05</ThrusterMinReactorPower> <!-- minimum power of thrusters (minimum value to be multiplied with thrust to not completely render ships without movement when power fails) -->
                         <MaxThrustToMassAcceleration>10.0</MaxThrustToMassAcceleration>
