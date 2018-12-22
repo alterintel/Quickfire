@@ -5,7 +5,7 @@
 	 as that is only a template that gets copied on first startup, so a server's config doesn't get replaced on update.
 	 Any new features of this config will have to be copied over manually first-->
 	<StartingGear>
-		<Credits>50001</Credits>
+		<Credits>50000</Credits>
 		
 		<Block>
 			<Id>598</Id> <!-- grey basic hull -->
