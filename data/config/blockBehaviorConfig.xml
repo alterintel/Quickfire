@@ -416,7 +416,7 @@
                         
                          <!-- NEW POWER -->
                         <HpConditionTriggerList>              
-                            <Item conditionhp="0.50">
+                            <Item conditionhp="0.5">
                                 <Type>CONTROL_LOSS</Type>
                             </Item>
 						   
@@ -965,7 +965,7 @@
                             <CursorRecoilDirY style="skip"/> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                             
                             <PossibleZoom style="buff" value="2.5"/>
-                            <Aimable style="skip"/> <!-- 1 = aimable with cursor. 0 = weapon only fires straight -->
+                            <Aimable style="set" value="1"/> <!-- 1 = aimable with cursor. 0 = weapon only fires straight -->
                         </Beam>
                 </Combination>
         </Cannon>
@@ -1209,7 +1209,7 @@
                             <FriendlyFire style="set" value="0"/>
                             <Aimable style="set" value="1"/>
                             
-                            <ChargeTime style="set value="2"/> <!-- how long weapon must be charged before fire (0 for off) -->
+                            <ChargeTime style="set" value="2"/> <!-- how long weapon must be charged before fire (0 for off) -->
                             <MinEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at min efficiency range -->
                             <MinEffectiveRange style="skip"/> <!-- at what % of beam length or less the beam uses the MinEffectiveValue-->
 
