@@ -171,7 +171,7 @@
                         <ReactorStabilizationMultiplier>1.0</ReactorStabilizationMultiplier> <!-- for capacity, multiply amount of main reactor blocks with this (capacity = min(reactorBlocks, stabilization)). stabilization is +1 for each optimal distance stabilizer, falls off when closer -->
 
  						
-						<ReactorExplosionStabilityMargin>0.5</ReactorExplosionStabilityMargin> <!-- 1 == 100% stability. Anything lower than this value (ecluding the value iself) explodes-->
+			<ReactorExplosionStabilityMargin>0.5</ReactorExplosionStabilityMargin> <!-- 1 == 100% stability. Anything lower than this value (ecluding the value iself) explodes-->
                         <ReactorExplosionStabilityLossMult>2.0</ReactorExplosionStabilityLossMult> <!-- multiplies stabilization loss factor for damage calculation -->
                         <ReactorExplosionCountMaxPercent>0.001</ReactorExplosionCountMaxPercent> <!-- max explosions per group, % of group size-->
                         <ReactorExplosionCountPerBlocksInGroup>0.1</ReactorExplosionCountPerBlocksInGroup> <!-- explosions per group, % of group size -->
@@ -869,7 +869,7 @@
                         
                         <PossibleZoom>1.0</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
                         <Aimable>1</Aimable> <!-- 1 = aimable with cursor. 0 = weapon only fires straight -->
-						<EffectConfiguration>
+			<EffectConfiguration>
                         	<Kinetic>2.1</Kinetic>
                         	<Heat>0.3</Heat>
                         	<EM>0.6</EM>
@@ -1196,7 +1196,7 @@
                             
                             <PowerPerHit style="buff" linear="true" value="104.65"/> <!-- linear is needed here -->
                             <CoolDown style="nerf" value="1.5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
-                            <BurstTime style="nerf" linear="true" value="2"/> <!-- Time the beam will fire -->
+                            <BurstTime style="nerf" value="2"/> <!-- Time the beam will fire -->
 
                             <InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
                             
@@ -1234,7 +1234,7 @@
                             <LatchOn style="set" value ="0"/>
                             <CheckLatchConnection style="set" value ="1"/>
                             <Penetration style="set" value ="0"/>
-                            <AcidDamagePercentage style="set" value="0.5"/>
+                            <AcidDamagePercentage style="skip"/>
                             <FriendlyFire style="set" value ="0"/>
                             <Aimable style="set" value ="1"/>
                             
