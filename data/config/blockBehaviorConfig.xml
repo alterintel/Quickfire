@@ -1137,7 +1137,7 @@
                         <LatchOn>0</LatchOn> <!-- 0 for off. not 0 for on -->
                         <CheckLatchConnection>1</CheckLatchConnection> <!-- 0 for off. not 0 for on. If on, the beam checks for a direct line of sight to the latched-on block. If off, the beam will keep hitting that area even if the ship is turned around (arc beam)-->
                         <Penetration>0</Penetration> <!-- 0 for off. not 0 for on -->
-                        <AcidDamagePercentage>1.0</AcidDamagePercentage> <!-- percentage of overflow damage into acid --> <!--TBH, this setting should not even exist; that number should always be 1.0. "Let's add a mechanic so that damage isn't lost if it overflows past one block, then set the beams to lose 50% of the damage!"-->
+                        <AcidDamagePercentage>1.0</AcidDamagePercentage> <!-- percentage of overflow damage into acid. TBH, this setting should not even exist; that number should always be 1.0. "Let's add a mechanic so that damage isn't lost if it overflows past one block, then set the beams to lose 50% of the damage!"-->
                         <FriendlyFire>0</FriendlyFire> <!-- 0 for off. not 0 for on -->
                         <Aimable>1</Aimable> <!-- 0 for off. not 0 for on -->
                         
