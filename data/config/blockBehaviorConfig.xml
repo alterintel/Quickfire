@@ -118,8 +118,8 @@
                   
                   <!-- NEW POWER -->
                         <!-- Shields -->
-                        <ShieldLocalCapacityPerBlock>100</ShieldLocalCapacityPerBlock>
-                        <ShieldLocalRechargePerBlock>4.0</ShieldLocalRechargePerBlock>
+                        <ShieldLocalCapacityPerBlock>50</ShieldLocalCapacityPerBlock>
+                        <ShieldLocalRechargePerBlock>2.0</ShieldLocalRechargePerBlock>
                         <ShieldLocalDefaultCapacity>0</ShieldLocalDefaultCapacity>
 
                         <ShieldLocalRadiusCalcStyle>EXP</ShieldLocalRadiusCalcStyle> <!-- LINEAR, EXP, LOG -->
@@ -138,8 +138,8 @@
 
                         <ShieldUpkeepPerSecondOfTotalCapacity>0.01</ShieldUpkeepPerSecondOfTotalCapacity>
                         
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>6.25</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>6.25</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>12.5</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>12.5</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
 
                         <ShieldLocalRechargeUnderFireModeSec>30.0</ShieldLocalRechargeUnderFireModeSec> <!-- how long after being hit a recharge nerf based on shield status applies -->
                         <ShieldLocalRechargeUnderFireMinPercent>0.5</ShieldLocalRechargeUnderFireMinPercent> <!-- minimum recharge under fire -->
