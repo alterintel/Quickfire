@@ -1206,7 +1206,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
                             
-                            <PowerPerHit style="buff" linear="true" value="81.28"/> <!-- linear is needed here -->
+                            <PowerPerHit style="buff" linear="true" value="2.254"/> <!-- linear is needed here -->
                             <CoolDown style="nerf" value="1.5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="2"/> <!-- Time the beam will fire -->
 
