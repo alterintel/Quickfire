@@ -1130,6 +1130,9 @@
         </Missile>
         <DamageBeam>
                 <BasicValues>
+                
+                	<ArmorDamageReductionPerKilledArmorValue>0.1</ArmorDamageReductionPerKilledArmorValue> <!-- Armor reduction for armor blocks killed in a row (accumulated over all beam outputs of a beam weapon). Formula: beamPower = beamPower / Math.max(1f, killedArmorValue * ArmorDamageReductionPerKilledArmorValue) -->
+                        
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
                         <DamagePerHit>5.93</DamagePerHit>  
