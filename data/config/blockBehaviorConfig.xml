@@ -101,6 +101,7 @@
                         <ArmorBeamDamageResistance>0.2</ArmorBeamDamageResistance> <!-- %Amount of armor value is subtracted from the damage of a tick of beam damage  -->
                         <ArmorFlatDamageReduction>0.05</ArmorFlatDamageReduction> <!-- damage = damage - (damage*ArmorFlatDamageReduction)  -->
                         <ArmorThicknessDamageReduction>0.01</ArmorThicknessDamageReduction> <!-- damage = damage - (damage*thicknessInBlocks*ArmorThicknessDamageReduction) (reduction additionally to ArmorFlatDamageReduction)  -->
+			<ArmorThicknessDamageReductionMax>0.99</ArmorThicknessDamageReductionMax> <!-- Cap for damage reduction percent  -->
                         
                         <AcidDamageArmorStoppedMargin>0.5</AcidDamageArmorStoppedMargin> <!-- what % of total armor value along armor depth is a stop, from that to 100% acid damage is applied linearly -->
                         <ArmorOverPenetrationMarginMultiplicator>20.0</ArmorOverPenetrationMarginMultiplicator> <!-- if(damage > totalArmorValue*ArmorOverPenetrationMarginMultiplicator) -> OVER PENETRATION -->
