@@ -1,6 +1,9 @@
 #Works only in python 3
 import xml.etree.ElementTree
 
+global SectorRange
+SectorRange = 2000
+
 def GetBlocksConfig():
 	Tree = xml.etree.ElementTree.ElementTree()
 	Tree.parse("/home/starmade/starmade/StarMade/data/config/BlockConfig.xml")
@@ -52,65 +55,96 @@ def GetBlockValue(Tree, Xpath):
 	
 def GetBlockBehaviorConfig():
 	Tree = xml.etree.ElementTree.ElementTree()
-	Tree.parse("blockBehaviorConfig.xml")
-	Xpath = ".//Cannon/BasicValues/Damage"
-	CDamage = GetBaseWeaponDamage(Tree, Xpath)
+	Tree.parse("/home/starmade/starmade/StarMade/data/config/blockBehaviorConfig.xml")
+	WeaponsList = "Cannon", "Missile"
+	for i in WeaponsList:
+		Xpath = ".//" + i
+		print ("\n\n>>>>>> For " + i + " :")
+		BaseDamage = GetWeaponStats(Tree, Xpath)
 		
-	print (CDamage)
 	return
 	
-def GetBaseWeaponDamage(Tree, Xpath):
-	Links = Tree.iterfind(Xpath)
+def GetWeaponStats(Tree, Xpath):
+	XpathBase = Xpath + "/BasicValues"
+	# Part for the damage
+	XpathDamage = XpathBase + "/Damage"
+	Links = Tree.iterfind(XpathDamage)
 	for Iterations in Links:
 		try:
-			Iterations.attrib['version'] # will throw an exception for the 2nd exception where there is no version attribute
+			Iterations.attrib['version'] # will throw an exception for the 2nd iteration where there is no version attribute
 		except:
-			Damage = Iterations.text
-		
-	return Damage
+			BaseDamage = Iterations.text
+	# Part for the power consumption
+	XpathPowerConsumptionResting = XpathBase + "/ReactorPowerConsumptionResting"
+	Links = Tree.find(XpathPowerConsumptionResting)
+	BasePowerConsumptionResting = Links.text
+	XpathPowerConsumptionCharging = XpathBase + "/ReactorPowerConsumptionCharging"
+	Links = Tree.find(XpathPowerConsumptionCharging)
+	BasePowerConsumptionCharging = Links.text
+	# Part for the distance
+	XpathRange = XpathBase + "/Distance"
+	Links = Tree.find(XpathRange)
+	BaseRange = Links.text
+	# Part for the speed
+	XpathSpeed = XpathBase + "/Speed"
+	Links = Tree.find(XpathSpeed)
+	BaseSpeed = Links.text
+	# Part for the reload time
+	XpathReload = XpathBase + "/ReloadMs"
+	Links = Tree.find(XpathReload)
+	BaseReload = Links.text
+	# Pretty printing base values
+	print (">>> Base weapon :")
+	print ("- Power consumption when resting : " + str(BasePowerConsumptionResting))
+	print ("- Power consumption when charging : " + str(BasePowerConsumptionCharging))
+	print ("- Damage per shot : " + str(BaseDamage))
+	print ("- Reload time of : " + str(BaseReload))
+	BaseDPS = (float(BaseDamage)*1000)/(float(BaseReload))
+	print ("- Damage per seconds of : " + str(BaseDPS))
+	FinalRange = float(BaseRange) * SectorRange
+	print ("- Range of : " + str(FinalRange))
+	print ("- Projectile speed of : " + str(BaseSpeed))
+	
+	# Part for the slaves
+	XpathCombination = Xpath + "/Combination/"
+	ListWeaponCombination = "Cannon", "Missile", "Beam"
+	for i in ListWeaponCombination:
+		XpathDamage = XpathCombination + i + "/Damage"
+		Damage = GetStats(Tree, XpathDamage, BaseDamage)
+		XpathReload = XpathCombination + i + "/Reload"
+		Reload = GetStats(Tree, XpathReload, BaseReload)
+		XpathRange = XpathCombination + i + "/Distance"
+		Range = GetStats(Tree, XpathRange, BaseRange)
+		XpathSpeed = XpathCombination + i + "/Speed"
+		Speed = GetStats(Tree, XpathSpeed, BaseSpeed)
+		# Pretty printing slave
+		print (">>> " + i + " slave :")
+		print ("- Damage per shot : " + str(Damage))
+		print ("- Reload time of : " + str(Reload))
+		DPS = (float(Damage)*1000)/(float(Reload))
+		print ("- Damage per seconds of : " + str(DPS))
+		FinalRange = float(Range) * SectorRange
+		print ("- Range of : " + str(FinalRange))
+		print ("- Projectile speed of : " + str(Speed))
+	return
 
+def GetStats(Tree, Xpath, BaseValue):
+	Links = Tree.find(Xpath)
+	if (Links.attrib['style'] == "nerf"):
+		Value = float(BaseValue) / float(Links.attrib['value'])
+	elif (Links.attrib['style'] == "buff"):
+		Value = float(BaseValue) * ( 1 + float(Links.attrib['value']))
+	else:
+		Value = BaseValue
+	return Value
+	
+def GetWeaponDamage(Tree, Xpath):
+	XpathCannon = Xpath + "Cannon"
+	XpathBeam = Xpath + "Beam"
+	XpathMissile = Xpath + "Missile"
+	return CannonDamage, BeamDamage, MissileDamage
 
 if __name__ == "__main__":
 	GetBlocksConfig()
-	#GetBlockBehaviorConfig()
-	
-	'''
-	# Basic armor
-	Xpath = ".//Basic/Grey/Block/Mass"
-	Links = Tree.find(Xpath)
-	BasicArmorMass = Links.text
-	Xpath = ".//Basic/Grey/Block/Hitpoints"
-	Links = Tree.find(Xpath)
-	BasicArmorHp = Links.text
-	Xpath = ".//Basic/Grey/Block/ArmorValue"
-	Links = Tree.find(Xpath)
-	BasicArmorArmorValue = Links.text
-	BasicArmor = ">>> Basic armor :\nMass : " + BasicArmorMass + "\nHitpoints : " + BasicArmorHp + "\nArmorValue : " + BasicArmorArmorValue
-	print (BasicArmor)
-	
-	# Standard armor
-	Xpath = ".//Standard/Grey/Block/Mass"
-	Links = Tree.find(Xpath)
-	StandardArmorMass = Links.text
-	Xpath = ".//Standard/Grey/Block/Hitpoints"
-	Links = Tree.find(Xpath)
-	StandardArmorHp = Links.text
-	Xpath = ".//Standard/Grey/Block/ArmorValue"
-	Links = Tree.find(Xpath)
-	StandardArmorArmorValue = Links.text
-	StandardArmor = ">>> Standard armor :\nMass : " + StandardArmorMass + "\nHitpoints : " + StandardArmorHp + "\nArmorValue : " + StandardArmorArmorValue
-	print (StandardArmor)
-	
-	# Advanced armor
-	Xpath = ".//Advanced/Grey/Block/Mass"
-	Links = Tree.find(Xpath)
-	AdvancedArmorMass = Links.text
-	Xpath = ".//Advanced/Grey/Block/Hitpoints"
-	Links = Tree.find(Xpath)
-	AdvancedArmorHp = Links.text
-	Xpath = ".//Advanced/Grey/Block/ArmorValue"
-	Links = Tree.find(Xpath)
-	AdvancedArmorArmorValue = Links.text
-	AdvancedArmor = ">>> Advanced armor :\nMass : " + AdvancedArmorMass + "\nHitpoints : " + AdvancedArmorHp + "\nArmorValue : " + AdvancedArmorArmorValue
-	print (AdvancedArmor)
-	'''
+	print ("\nRemember that for all weapons the numbers are given for 1 module")
+	GetBlockBehaviorConfig()
