@@ -130,6 +130,55 @@
                   
                   <!-- NEW POWER -->
                         <!-- Shields -->
+                        
+                        
+                        <!-- depending on what type is hit, attack effect of the weapon is put against the defence of the entity  -->
+                        <!-- 
+                        	attack consists of:
+                        	Effect on the weapon 
+                        	+ possible chamber effects
+                        	+ effects from other sources (sector effect) 
+                        	+ effect modifiers
+                        	
+                        	defense consists of:
+                        	Global depending on type hit (armor, basic, shield) (below) 
+                        	+ possible chamber effects
+                        	+ effects from other sources (sector effect)
+                        	+ individual block defence (set in BlockConfig.xml per block)
+                        	
+                        	The damage done for effect type (kinetic, heat, em): 
+                        	max(0, ((attackHeat - defenseHeat)*damage + (attackKinetic - defenseKinetic)*damage + (attackEM - defenseEM)*damage) / 3)
+                        	
+                        	an attack of (1,1,1) vs a defense of (0,0,0) would mean that 100% of the damage would hit
+                        	
+                        	an attack of (1,1,1) vs a defense of (1,1,1) would mean that 0% of the damage would hit
+                        	
+                        	an attack of (0,0,3) vs a defense of (0,0,0) would mean that 100% of the damage would hit (all as one effect)
+                        	
+                         -->
+                        
+                        <!-- global modifier for shield hits (attack minus defense). -->
+                        <ShieldEffectConfiguration>
+                        	<Kinetic>0.0</Kinetic>
+                        	<Heat>0.0</Heat>
+                        	<EM>1.2</EM>
+                        </ShieldEffectConfiguration>
+                        <IndividualBlockEffectArmorOnShieldHit>false</IndividualBlockEffectArmorOnShieldHit> <!-- if the individual block defence is added for shield its -->
+                        
+                        
+                        <!-- global modifier for non-armor defense (attack minus defense). -->
+                        <BasicEffectConfiguration>
+                        	<Kinetic>0.0</Kinetic>
+                        	<Heat>0.0</Heat>
+                        	<EM>0.0</EM>
+                        </BasicEffectConfiguration>
+                        
+                        <!-- global modifier for armor defense (attack minus defense).-->
+                        <ArmorEffectConfiguration>
+                        	<Kinetic>0.2</Kinetic>
+                        	<Heat>0.2</Heat>
+                        	<EM>0.2</EM>
+                        </ArmorEffectConfiguration>
                         <ShieldLocalCapacityPerBlock>50</ShieldLocalCapacityPerBlock>
                         <ShieldLocalRechargePerBlock>2.0</ShieldLocalRechargePerBlock>
                         <ShieldLocalDefaultCapacity>0</ShieldLocalDefaultCapacity>
@@ -1131,7 +1180,7 @@
         <DamageBeam>
                 <BasicValues>
                 
-                	<ArmorDamageReductionPerKilledArmorValue>0.1</ArmorDamageReductionPerKilledArmorValue> <!-- Armor reduction for armor blocks killed in a row (accumulated over all beam outputs of a beam weapon). Formula: beamPower = beamPower / Math.max(1f, killedArmorValue * ArmorDamageReductionPerKilledArmorValue) -->
+						<DamageReductionPerArmorValueMult>1.0</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
                         
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
