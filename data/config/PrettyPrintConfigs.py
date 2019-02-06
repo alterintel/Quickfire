@@ -57,7 +57,7 @@ def GetBlockValue(Tree, Xpath):
 def GetBlockBehaviorConfig():
 	Tree = xml.etree.ElementTree.ElementTree()
 	Tree.parse("/home/starmade/starmade/StarMade/data/config/blockBehaviorConfig.xml")
-	WeaponsList = "Cannon", "Missile"
+	WeaponsList = "Cannon", "Missile", "Beam"
 	for i in WeaponsList:
 		Xpath = ".//" + i
 		print ("**" + i + "**```md\n")
