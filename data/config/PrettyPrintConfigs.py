@@ -146,5 +146,5 @@ def GetWeaponDamage(Tree, Xpath):
 
 if __name__ == "__main__":
 	GetBlocksConfig()
-	print ("\nRemember that for all weapons the numbers are given for 1 module")
+	print ("\n*Remember that for all weapons the numbers are given for 1 module*")
 	GetBlockBehaviorConfig()
