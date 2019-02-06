@@ -60,7 +60,7 @@ def GetBlockBehaviorConfig():
 	WeaponsList = "Cannon", "Missile"
 	for i in WeaponsList:
 		Xpath = ".//" + i
-		print ("```md\n< *" + i + "* >")
+		print ("**" + i + "**```md\n")
 		BaseDamage = GetWeaponStats(Tree, Xpath)
 		print ("```")
 		
