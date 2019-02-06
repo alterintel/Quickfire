@@ -258,6 +258,11 @@
                 <value>0.9090909</value>
             </P>
         </E>
+		<E modtype="set" priority="0" type="shield_hotspot_recharge_mode">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
     </Group>
     <Group id="defense - shield capacity 1">
         <E modtype="add" priority="0" type="shield_capacity">
