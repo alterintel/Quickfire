@@ -11,7 +11,7 @@ def GetBlocksConfig():
 	# Basic armor
 	Xpath = ".//Basic/Grey/Block"
 	Mass, HP, Armor = GetArmorBlockValue(Tree, Xpath)
-	BasicArmor = ">>> Basic armor :\nMass : " + Mass + "\nHitpoints : " + HP + "\nArmorValue : " + Armor
+	BasicArmor = "```md\n>>> Basic armor :\nMass : " + Mass + "\nHitpoints : " + HP + "\nArmorValue : " + Armor
 	# Standard armor
 	Xpath = ".//Standard/Grey/Block"
 	Mass, HP, Armor = GetArmorBlockValue(Tree, Xpath)
@@ -19,7 +19,7 @@ def GetBlocksConfig():
 	# Advanced armor
 	Xpath = ".//Advanced/Grey/Block"
 	Mass, HP, Armor = GetArmorBlockValue(Tree, Xpath)
-	AdvancedArmor = ">>> Advanced armor :\nMass : " + Mass + "\nHitpoints : " + HP + "\nArmorValue : " + Armor
+	AdvancedArmor = ">>> Advanced armor :\nMass : " + Mass + "\nHitpoints : " + HP + "\nArmorValue : " + Armor + "```"
 	
 	print (BasicArmor)
 	print (StandardArmor)
