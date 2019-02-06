@@ -96,16 +96,16 @@ def GetWeaponStats(Tree, Xpath):
 	Links = Tree.find(XpathReload)
 	BaseReload = Links.text
 	# Pretty printing base values
-	print (">>> Base weapon :")
-	print ("- Power consumption when resting : " + str(BasePowerConsumptionResting))
-	print ("- Power consumption when charging : " + str(BasePowerConsumptionCharging))
-	print ("- Damage per shot : " + str(BaseDamage))
-	print ("- Reload time of : " + str(BaseReload))
+	print ("< Base weapon >")
+	print ("[Power consumption when resting][" + str(BasePowerConsumptionResting) + "]")
+	print ("[Power consumption when charging][" + str(BasePowerConsumptionCharging) + "]")
+	print ("[Damage per shot][" + str(BaseDamage) + "]")
+	print ("[Reload time of][" + str(BaseReload + "]"))
 	BaseDPS = (float(BaseDamage)*1000)/(float(BaseReload))
-	print ("- Damage per seconds of : " + str(BaseDPS))
+	print ("[Damage per seconds of][" + str(BaseDPS) + "]")
 	FinalRange = float(BaseRange) * SectorRange
-	print ("- Range of : " + str(FinalRange))
-	print ("- Projectile speed of : " + str(BaseSpeed))
+	print ("[Range of][" + str(FinalRange) + "]")
+	print ("[Projectile speed of][" + str(BaseSpeed) + "]")
 	
 	# Part for the slaves
 	XpathCombination = Xpath + "/Combination/"
