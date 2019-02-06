@@ -128,7 +128,7 @@ def GetWeaponStats(Tree, Xpath):
 		print ("- Range of : " + str(FinalRange))
 		print ("- Projectile speed of : " + str(Speed))
 	return
-	print("```")
+	print("```\n")
 
 def GetStats(Tree, Xpath, BaseValue):
 	Links = Tree.find(Xpath)
