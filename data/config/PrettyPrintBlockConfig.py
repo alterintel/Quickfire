@@ -3,7 +3,7 @@ import xml.etree.ElementTree
 
 def GetBlocksConfig():
 	Tree = xml.etree.ElementTree.ElementTree()
-	Tree.parse("BlockConfig.xml")
+	Tree.parse("/home/starmade/starmade/StarMade/data/config/BlockConfig.xml")
 
 	# Basic armor
 	Xpath = ".//Basic/Grey/Block"
