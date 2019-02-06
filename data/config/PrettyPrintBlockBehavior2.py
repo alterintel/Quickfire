@@ -6,7 +6,7 @@ SectorRange = 2000
 
 def GetBlockBehaviorConfigWeapons():
 	Tree = xml.etree.ElementTree.ElementTree()
-	Tree.parse("blockBehaviorConfig.xml")
+	Tree.parse("/home/starmade/starmade/StarMade/data/config/blockBehaviorConfig.xml")
 	WeaponsList = "Cannon", "Missile"
 	for i in WeaponsList:
 		Xpath = ".//" + i
