@@ -62,6 +62,7 @@ def GetBlockBehaviorConfig():
 		Xpath = ".//" + i
 		print ("```md\n< *" + i + "* >")
 		BaseDamage = GetWeaponStats(Tree, Xpath)
+		print ("```")
 		
 	return
 	
@@ -128,7 +129,7 @@ def GetWeaponStats(Tree, Xpath):
 		print ("- Range of : " + str(FinalRange))
 		print ("- Projectile speed of : " + str(Speed))
 	return
-	print("```\n")
+
 
 def GetStats(Tree, Xpath, BaseValue):
 	Links = Tree.find(Xpath)
