@@ -120,14 +120,14 @@ def GetWeaponStats(Tree, Xpath):
 		XpathSpeed = XpathCombination + i + "/Speed"
 		Speed = GetStats(Tree, XpathSpeed, BaseSpeed)
 		# Pretty printing slave
-		print (">>> " + i + " slave :")
-		print ("- Damage per shot : " + str(Damage))
-		print ("- Reload time of : " + str(Reload))
+		print ("< " + i + " slave >")
+		print ("[Damage per shot][" + str(Damage) + "]")
+		print ("[Reload time of][" + str(Reload) + "]")
 		DPS = (float(Damage)*1000)/(float(Reload))
-		print ("- Damage per seconds of : " + str(DPS))
+		print ("[Damage per seconds of][" + str(DPS) + "]")
 		FinalRange = float(Range) * SectorRange
-		print ("- Range of : " + str(FinalRange))
-		print ("- Projectile speed of : " + str(Speed))
+		print ("[Range of][" + str(FinalRange) + "]")
+		print ("[Projectile speed of][" + str(Speed) + "]")
 	return
 
 
@@ -149,5 +149,5 @@ def GetWeaponDamage(Tree, Xpath):
 
 if __name__ == "__main__":
 	GetBlocksConfig()
-	print ("*Remember that for all weapons the numbers are given for 1 module*")
+	print ("*Remember that for all weapons the numbers are given for 1 module*\n")
 	GetBlockBehaviorConfig()
