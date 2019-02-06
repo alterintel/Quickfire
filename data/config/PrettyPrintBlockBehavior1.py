@@ -142,7 +142,7 @@ def GetStats(Tree, Xpath, BaseValue):
 def GetBlockBehaviorConfigSystems():
 	print ("***Systems***")
 	Tree = xml.etree.ElementTree.ElementTree()
-	Tree.parse("blockBehaviorConfig.xml")
+	Tree.parse("/home/starmade/starmade/StarMade/data/config/blockBehaviorConfig.xml")
 	Xpath = ".//Thruster/BasicValues/"
 	GetThrustersConfig(Tree, Xpath)
 	Xpath = ".//General/BasicValues/"
@@ -152,7 +152,7 @@ def GetBlockBehaviorConfigSystems():
 
 def GetBlockBehaviorConfigWeapons():
 	Tree = xml.etree.ElementTree.ElementTree()
-	Tree.parse("blockBehaviorConfig.xml")
+	Tree.parse("/home/starmade/starmade/StarMade/data/config/blockBehaviorConfig.xml")
 	print ("\n*Remember that for all weapons the numbers are given for 1 module*")
 	print ("**Damage Beam**")
 	print ("```md")
