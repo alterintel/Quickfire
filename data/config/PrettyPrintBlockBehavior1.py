@@ -96,6 +96,15 @@ def GetBeamStats(Tree, Xpath):
 	XpathRange = XpathBase + "/Distance"
 	Links = Tree.find(XpathRange)
 	BaseRange = Links.text
+	# Part for the distance fall off
+	Links = Tree.find(XpathBase + "/MinEffectiveValue")
+	BaseMinEffectiveValue = Links.text
+	Links = Tree.find(XpathBase + "/MinEffectiveRange")
+	BaseMinEffectiveRange = Links.text
+	Links = Tree.find(XpathBase + "/MaxEffectiveValue")
+	BaseMaxEffectiveValue = Links.text
+	Links = Tree.find(XpathBase + "/MaxEffectiveRange")
+	BaseMaxEffectiveRange = Links.text
 	# Pretty printing base values
 	print ("< Base weapon >")
 	print ("[Power consumption when resting][" + str(BasePowerConsumptionResting) + "]")
@@ -108,6 +117,11 @@ def GetBeamStats(Tree, Xpath):
 	DPS = ((float(BaseBurstTime)/float(BaseTickRate))*float(BaseDamage))/float(BaseCooldown)
 	print ("[Damage per seconds of][" + str(DPS) + "]")
 	print ("[Range of][" + str(float(BaseRange) * SectorRange) + "]")
+	BaseMinEffectiveValuePercent = float(BaseMinEffectiveValue) * 100
+	BaseMinEffectiveRangeValue = float(BaseMinEffectiveRange) * SectorRange * float(BaseRange)
+	BaseMaxEffectiveValuePercent = float(BaseMaxEffectiveValue) * 100
+	BaseMaxEffectiveRangeValue = float(BaseMaxEffectiveRange) * SectorRange * float(BaseRange)
+	print ("[Range fall-off]\n- " + str(BaseMinEffectiveValuePercent) + "% at " + str(BaseMinEffectiveRangeValue) + "\n- " + str(BaseMaxEffectiveValuePercent) + "% at " + str(BaseMaxEffectiveRangeValue))
 	
 	XpathCombination = Xpath + "/Combination/"
 	ListWeaponCombination = "Cannon", "Missile", "Beam"
@@ -117,6 +131,10 @@ def GetBeamStats(Tree, Xpath):
 		TickRate = GetStats(Tree, XpathCombination + i + "/HitSpeed", BaseTickRate)
 		BurstTime = GetStats(Tree, XpathCombination + i + "/BurstTime", BaseDamage)
 		Cooldown = GetStats(Tree, XpathCombination + i + "/CoolDown", BaseDamage)
+		MinEffectiveValue = GetStats(Tree, XpathCombination + i + "/MinEffectiveValue", BaseMinEffectiveValue)
+		MinEffectiveRange = GetStats(Tree, XpathCombination + i + "/MinEffectiveRange", BaseMinEffectiveRange)
+		MaxEffectiveValue = GetStats(Tree, XpathCombination + i + "/MaxEffectiveValue", BaseMaxEffectiveValue)
+		MaxEffectiveRange = GetStats(Tree, XpathCombination + i + "/MaxEffectiveRange", BaseMaxEffectiveRange)
 		# Pretty printing slave
 		print ("< " + i + " slave >")
 		print ("[Damage per tick][" + str(Damage) + "]")
@@ -126,6 +144,12 @@ def GetBeamStats(Tree, Xpath):
 		DPS = ((float(BurstTime)/float(TickRate))*float(Damage))/float(Cooldown)
 		print ("[Damage per seconds of][" + str(DPS) + "]")
 		print ("[Range of][" + str(float(BaseRange) * SectorRange) + "]")
+		MinEffectiveValuePercent = float(MinEffectiveValue) * 100
+		MinEffectiveRangeValue = float(MinEffectiveRange) * SectorRange * float(Range)
+		MaxEffectiveValuePercent = float(MaxEffectiveValue) * 100
+		MaxEffectiveRangeValue = float(MaxEffectiveRange) * SectorRange * float(Range)
+		print ("[Range fall-off]\n- " + str(MinEffectiveValuePercent) + "% at " + str(MinEffectiveRangeValue) + "\n- " + str(MaxEffectiveValuePercent) + "% at " + str(MaxEffectiveRangeValue))
+
 	
 	return
 
