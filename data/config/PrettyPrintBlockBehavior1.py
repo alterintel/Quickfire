@@ -116,7 +116,6 @@ def GetBeamStats(Tree, Xpath):
 	print ("[Cooldown time][" + str(BaseCooldown) + "]")
 	DPS = ((float(BaseBurstTime)/float(BaseTickRate))*float(BaseDamage))/float(BaseCooldown)
 	print ("[Damage per seconds of][" + str(DPS) + "]")
-	print ("[Range of][" + str(float(BaseRange) * SectorRange) + "]")
 	BaseMinEffectiveValuePercent = float(BaseMinEffectiveValue) * 100
 	BaseMinEffectiveRangeValue = float(BaseMinEffectiveRange) * SectorRange * float(BaseRange)
 	BaseMaxEffectiveValuePercent = float(BaseMaxEffectiveValue) * 100
@@ -143,7 +142,6 @@ def GetBeamStats(Tree, Xpath):
 		print ("[Cooldown time][" + str(Cooldown) + "]")
 		DPS = ((float(BurstTime)/float(TickRate))*float(Damage))/float(Cooldown)
 		print ("[Damage per seconds of][" + str(DPS) + "]")
-		print ("[Range of][" + str(float(BaseRange) * SectorRange) + "]")
 		MinEffectiveValuePercent = float(MinEffectiveValue) * 100
 		MinEffectiveRangeValue = float(MinEffectiveRange) * SectorRange * float(Range)
 		MaxEffectiveValuePercent = float(MaxEffectiveValue) * 100
