@@ -200,8 +200,8 @@
 
                         <ShieldUpkeepPerSecondOfTotalCapacity>0.02</ShieldUpkeepPerSecondOfTotalCapacity>
                         
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>1</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>1</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>5</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>5</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
 
                         <ShieldLocalRechargeUnderFireModeSec>30.0</ShieldLocalRechargeUnderFireModeSec> <!-- how long after being hit a recharge nerf based on shield status applies -->
                         <ShieldLocalRechargeUnderFireMinPercent>0.5</ShieldLocalRechargeUnderFireMinPercent> <!-- minimum recharge under fire -->
@@ -1212,7 +1212,7 @@
                         <MinEffectiveValue>1.0</MinEffectiveValue> <!-- effectiveness (*damage) of beam at min efficiency range -->
                         <MinEffectiveRange>0.5</MinEffectiveRange> <!-- at what % of beam length or less the beam uses the MinEffectiveValue-->
                         
-                        <MaxEffectiveValue>0.0</MaxEffectiveValue> <!-- effectiveness (*damage) of beam at max efficiency range -->
+                        <MaxEffectiveValue>0.4</MaxEffectiveValue> <!-- effectiveness (*damage) of beam at max efficiency range -->
                         <MaxEffectiveRange>1.0</MaxEffectiveRange> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
                         <PossibleZoom>0.0</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
                         
