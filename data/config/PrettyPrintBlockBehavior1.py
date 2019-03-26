@@ -165,11 +165,11 @@ def GetBlockBehaviorConfigSystems():
 	print ("***Systems***")
 	Tree = xml.etree.ElementTree.ElementTree()
 	Tree.parse("/home/starmade/starmade/StarMade/data/config/blockBehaviorConfig.xml")
-	Xpath = ".//Thruster/BasicValues/"
-	GetThrustersConfig(Tree, Xpath)
 	Xpath = ".//General/BasicValues/"
 	GetShieldConfig(Tree, Xpath)
 	GetArmorConfig(Tree, Xpath)
+	Xpath = ".//Thruster/BasicValues/"
+	GetThrustersConfig(Tree, Xpath)
 	return
 
 def GetBlockBehaviorConfigWeapons():
