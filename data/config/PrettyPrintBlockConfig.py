@@ -68,12 +68,6 @@ def GetBlocksConfig():
 			HP = Iterations.find("Hitpoints").text
 			WeaponBarrel = "< Weapon Barrel >\n[Mass][" + Mass + "]\n[Hitpoints][" + HP + "]"
 	
-	print ("**ARMOR**")
-	print ("```md")
-	print (BasicArmor)
-	print (StandardArmor)
-	print (AdvancedArmor)
-	print ("```")
 	print ("**SYSTEM BLOCKS**")
 	print ("```md")
 	print (Reactor)
@@ -84,6 +78,12 @@ def GetBlocksConfig():
 	print (Thruster)
 	print (WeaponComputer)
 	print (WeaponBarrel)
+	print ("```")
+	print ("**ARMOR**")
+	print ("```md")
+	print (BasicArmor)
+	print (StandardArmor)
+	print (AdvancedArmor)
 	print ("```")
 	
 	return
