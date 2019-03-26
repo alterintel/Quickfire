@@ -1190,7 +1190,7 @@
                         <ReactorPowerConsumptionResting>25.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging>
                         
-                        <PowerConsumptionPerTick>50</PowerConsumptionPerTick> 
+                        <PowerConsumptionPerTick>100.0</PowerConsumptionPerTick> 
                         <Distance>4.5</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
                         <TickRate>0.1999</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
                         <CoolDown>10.0</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
