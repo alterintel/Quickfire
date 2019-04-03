@@ -36,7 +36,7 @@ def GetArmorConfig(Tree, Xpath):
 	print ("**ARMOR**")
 	print ("```md")
 	print ("Armor formula is : (Incoming_Damage^(" + ArmorExponentialIncomingExponent + "))/(SUM_of_Armor_value_in_line_of_shot^(" + ArmorExponentialArmorValueTotalExponent + ") + Incoming_Damage^(" + ArmorExponentialIncomingDamageAddedExponent + "))")
-	print ("[ArmorEffectConfiguration]")
+	print ("\n[ArmorEffectConfiguration]")
 	print ("[Kinetic][" + ArmorEffectKinetic + "]")
 	print ("[Heat][" + ArmorEffectHeat + "]")
 	print ("[EM][" + ArmorEffectEM + "]")
