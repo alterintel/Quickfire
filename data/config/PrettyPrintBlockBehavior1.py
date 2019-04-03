@@ -4,6 +4,22 @@ import xml.etree.ElementTree
 global SectorRange
 SectorRange = 2000
 
+def GetBasicBlockEffect(Tree, Xpath):
+	Links = Tree.find(Xpath + "BasicEffectConfiguration/Kinetic")
+	BasicEffectKinetic = Links.text
+	Links = Tree.find(Xpath + "BasicEffectConfiguration/Heat")
+	BasicEffectHeat = Links.text
+	Links = Tree.find(Xpath + "BasicEffectConfiguration/EM")
+	BasicEffectEM = Links.text
+	print ("**SYSTEMS**")
+	print ("```md")
+	print ("[BasicEffectConfiguration]")
+	print ("[Kinetic][" + BasicEffectKinetic + "]")
+	print ("[Heat][" + BasicEffectHeat + "]")
+	print ("[EM][" + BasicEffectEM + "]")
+	print ("```")
+	return
+
 def GetArmorConfig(Tree, Xpath):
 	Links = Tree.find(Xpath + "ArmorExponentialIncomingExponent")
 	ArmorExponentialIncomingExponent = Links.text
@@ -11,9 +27,19 @@ def GetArmorConfig(Tree, Xpath):
 	ArmorExponentialArmorValueTotalExponent = Links.text
 	Links = Tree.find(Xpath + "ArmorExponentialIncomingDamageAddedExponent")
 	ArmorExponentialIncomingDamageAddedExponent = Links.text
+	Links = Tree.find(Xpath + "ArmorEffectConfiguration/Kinetic")
+	ArmorEffectKinetic = Links.text
+	Links = Tree.find(Xpath + "ArmorEffectConfiguration/Heat")
+	ArmorEffectHeat = Links.text
+	Links = Tree.find(Xpath + "ArmorEffectConfiguration/EM")
+	ArmorEffectEM = Links.text
 	print ("**ARMOR**")
 	print ("```md")
 	print ("Armor formula is : (Incoming_Damage^(" + ArmorExponentialIncomingExponent + "))/(SUM_of_Armor_value_in_line_of_shot^(" + ArmorExponentialArmorValueTotalExponent + ") + Incoming_Damage^(" + ArmorExponentialIncomingDamageAddedExponent + "))")
+	print ("[ArmorEffectConfiguration]")
+	print ("[Kinetic][" + ArmorEffectKinetic + "]")
+	print ("[Heat][" + ArmorEffectHeat + "]")
+	print ("[EM][" + ArmorEffectEM + "]")
 	print ("```")
 	return
 	
@@ -28,6 +54,12 @@ def GetShieldConfig(Tree, Xpath):
 	ShieldLocalPowerConsumptionPerRechargePerSecondResting = Links.text
 	Links = Tree.find(Xpath + "ShieldLocalPowerConsumptionPerRechargePerSecondCharging")
 	ShieldLocalPowerConsumptionPerRechargePerSecondCharging = Links.text
+	Links = Tree.find(Xpath +  "ShieldEffectConfiguration/Kinetic")
+	ShieldEffectKinetic = Links.text
+	Links = Tree.find(Xpath +  "ShieldEffectConfiguration/Heat")
+	ShieldEffectHeat = Links.text
+	Links = Tree.find(Xpath +  "ShieldEffectConfiguration/EM")
+	ShieldEffectEM = Links.text
 	print ("**SHIELDS**")
 	print ("```md")
 	print ("[Shield capacity per block][" + ShieldLocalCapacityPerBlock + "]")
@@ -35,6 +67,9 @@ def GetShieldConfig(Tree, Xpath):
 	print ("[Shield recharge per block][" + ShieldLocalRechargePerBlock + "]")
 	print ("[Shield power consumption per block when resting][" + str(float(ShieldLocalPowerConsumptionPerRechargePerSecondResting)*float(ShieldLocalRechargePerBlock)) + "]")
 	print ("[Shield power consumption per block when charging][" + str(float(ShieldLocalPowerConsumptionPerRechargePerSecondCharging)*float(ShieldLocalRechargePerBlock)) + "]")
+	print ("[Kinetic][" + ShieldEffectKinetic + "]")
+	print ("[Heat][" + ShieldEffectHeat + "]")
+	print ("[EM][" + ShieldEffectEM + "]")
 	print ("```")
 	return
 	
@@ -168,6 +203,7 @@ def GetBlockBehaviorConfigSystems():
 	Xpath = ".//General/BasicValues/"
 	GetShieldConfig(Tree, Xpath)
 	GetArmorConfig(Tree, Xpath)
+	GetBasicBlockEffect(Tree, Xpath)
 	Xpath = ".//Thruster/BasicValues/"
 	GetThrustersConfig(Tree, Xpath)
 	return
