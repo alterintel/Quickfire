@@ -286,12 +286,51 @@
                         <ReactorStabilizerFreeMainReactorBlocks>0</ReactorStabilizerFreeMainReactorBlocks> <!-- amount of free stabilization added -->
                         <ReactorStabilizerDistanceTotalMult>2.0</ReactorStabilizerDistanceTotalMult>
                         <ReactorStabilizerGroupingProximity>3.0</ReactorStabilizerGroupingProximity>
+                        
+                        
+                        <StabilizerBonusCalc>BY_SIDE</StabilizerBonusCalc> <!-- possible: BY_SIDE, BY_ANGLE -->
+                        <!-- by side is the old method of determining the side of the stabilizer to the reactor and giving bonus based on that -->
+                        <!-- by angle is the new method of calculating the angle between stabilizers to the reactor, and giving bonus based on that -->
 
+			<!-- BY_SIDE config: -->
                         <ReactorStablizationBonus2>0.0</ReactorStablizationBonus2> <!-- bonus stabilization stacking based on percentage of biggest in group -->
                         <ReactorStablizationBonus3>0.0</ReactorStablizationBonus3> <!-- bonus stabilization stacking based on percentage of biggest in group -->
                         <ReactorStablizationBonus4>0.0</ReactorStablizationBonus4> <!-- bonus stabilization stacking based on percentage of biggest in group -->
                         <ReactorStablizationBonus5>0.0</ReactorStablizationBonus5> <!-- bonus stabilization stacking based on percentage of biggest in group -->
                         <ReactorStablizationBonus6>0.0</ReactorStablizationBonus6> <!-- bonus stabilization stacking based on percentage of biggest in group -->
+
+						<!-- BY_ANGLE config: -->
+						<!-- the bonus stacks up to 6 groups (no bonus for a single stab)-->
+						<!-- 
+						First, stabilizers determine the smallest angle they have to any other stabilizer.
+						biggestAngleFirst is the list of stabilizers sorted by the smallest angle they determined, biggest angle first.
+						
+						the bonus is between 0 and 1 times the config value (0 deg -> 0 and 180 deg -> 1) 
+						
+						stabilizationBonus += (biggestAngleFirst.get(0).smallestAngle / FastMath.PI) * ReactorStablizationAngleBonus2Groups;
+						if(biggestAngleFirst.size() > 2) {
+							stabilizationBonus += (biggestAngleFirst.get(1).smallestAngle / FastMath.PI) * ReactorStablizationAngleBonus3Groups;
+						}
+						if(biggestAngleFirst.size() > 3) {
+							stabilizationBonus += (biggestAngleFirst.get(2).smallestAngle / FastMath.PI) * ReactorStablizationAngleBonus4Groups;
+						}
+						if(biggestAngleFirst.size() > 4) {
+							stabilizationBonus += (biggestAngleFirst.get(3).smallestAngle / FastMath.PI) * ReactorStablizationAngleBonus5Groups;
+						}
+						if(biggestAngleFirst.size() > 5) {
+							stabilizationBonus += (biggestAngleFirst.get(4).smallestAngle / FastMath.PI) * ReactorStablizationAngleBonus6Groups;
+						}
+						
+						 -->
+						<ReactorStablizationAngleBonus2Groups>1.0</ReactorStablizationAngleBonus2Groups> <!-- bonus stabilization stacking based on the groups with the biggest angle-->
+                        <ReactorStablizationAngleBonus3Groups>1.0</ReactorStablizationAngleBonus3Groups> <!-- bonus stabilization stacking based on the groups with the 2nd biggest angle-->
+                        <ReactorStablizationAngleBonus4Groups>0.8</ReactorStablizationAngleBonus4Groups> <!-- bonus stabilization stacking based on the groups with the 3rd biggest angle-->
+                        <ReactorStablizationAngleBonus5Groups>0.6</ReactorStablizationAngleBonus5Groups> <!-- bonus stabilization stacking based on the groups with the 4th biggest angle-->
+                        <ReactorStablizationAngleBonus6Groups>0.5</ReactorStablizationAngleBonus6Groups> <!-- bonus stabilization stacking based on the groups with the 5th biggest angle-->
+
+
+
+                        
 
 
 
