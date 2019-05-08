@@ -98,7 +98,7 @@
 
 
                         <ArmorThicknessBonus>0.5</ArmorThicknessBonus> <!-- 0 is normal sum. totalArmorValue = sum(armorBlockInLine.armorValue + (armorBlockInLine.armorValue * (armorBlockInLine.indexInLine+1)*ArmorThicknessBonus))  -->
-                        <ArmorBeamDamageResistance>0.2</ArmorBeamDamageResistance> <!-- %Amount of armor value is subtracted from the damage of a tick of beam damage  -->
+                        <ArmorBeamDamageResistance>0</ArmorBeamDamageResistance> <!-- %Amount of armor value is subtracted from the damage of a tick of beam damage (general block beam resistence on top of other reduction) -->
                         <ArmorFlatDamageReduction>0.025</ArmorFlatDamageReduction> <!-- damage = damage - (damage*ArmorFlatDamageReduction)  -->
                         <ArmorThicknessDamageReduction>0.0</ArmorThicknessDamageReduction> <!-- damage = damage - (damage*min(cap, thicknessInBlocks*ArmorThicknessDamageReduction)) (reduction additionally to ArmorFlatDamageReduction)  -->
                         <ArmorThicknessDamageReductionMax>0.99</ArmorThicknessDamageReductionMax> <!-- Cap for damage reduction percent  -->
@@ -200,8 +200,8 @@
 
                         <ShieldUpkeepPerSecondOfTotalCapacity>0.02</ShieldUpkeepPerSecondOfTotalCapacity>
                         
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>5</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>5</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>5.0</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>5.0</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
 
                         <ShieldLocalRechargeUnderFireModeSec>30.0</ShieldLocalRechargeUnderFireModeSec> <!-- how long after being hit a recharge nerf based on shield status applies -->
                         <ShieldLocalRechargeUnderFireMinPercent>0.5</ShieldLocalRechargeUnderFireMinPercent> <!-- minimum recharge under fire -->
@@ -286,12 +286,51 @@
                         <ReactorStabilizerFreeMainReactorBlocks>0</ReactorStabilizerFreeMainReactorBlocks> <!-- amount of free stabilization added -->
                         <ReactorStabilizerDistanceTotalMult>2.0</ReactorStabilizerDistanceTotalMult>
                         <ReactorStabilizerGroupingProximity>3.0</ReactorStabilizerGroupingProximity>
+                        
+                        
+                        <StabilizerBonusCalc>BY_SIDE</StabilizerBonusCalc> <!-- possible: BY_SIDE, BY_ANGLE -->
+                        <!-- by side is the old method of determining the side of the stabilizer to the reactor and giving bonus based on that -->
+                        <!-- by angle is the new method of calculating the angle between stabilizers to the reactor, and giving bonus based on that -->
 
-                        <ReactorStablizationBonus2>0.0</ReactorStablizationBonus2> <!-- bonus stabilization stacking based on percentage of biggest in group -->
+						<!-- BY_SIDE config: -->
+						<ReactorStablizationBonus2>0.0</ReactorStablizationBonus2> <!-- bonus stabilization stacking based on percentage of biggest in group -->
                         <ReactorStablizationBonus3>0.0</ReactorStablizationBonus3> <!-- bonus stabilization stacking based on percentage of biggest in group -->
                         <ReactorStablizationBonus4>0.0</ReactorStablizationBonus4> <!-- bonus stabilization stacking based on percentage of biggest in group -->
                         <ReactorStablizationBonus5>0.0</ReactorStablizationBonus5> <!-- bonus stabilization stacking based on percentage of biggest in group -->
                         <ReactorStablizationBonus6>0.0</ReactorStablizationBonus6> <!-- bonus stabilization stacking based on percentage of biggest in group -->
+
+						<!-- BY_ANGLE config: -->
+						<!-- the bonus stacks up to 6 groups (no bonus for a single stab)-->
+						<!-- 
+						First, stabilizers determine the smallest angle they have to any other stabilizer.
+						biggestAngleFirst is the list of stabilizers sorted by the smallest angle they determined, biggest angle first.
+						
+						the bonus is between 0 and 1 times the config value (0 deg -> 0 and 180 deg -> 1) 
+						
+						stabilizationBonus += (biggestAngleFirst.get(0).smallestAngle / FastMath.PI) * ReactorStablizationAngleBonus2Groups;
+						if(biggestAngleFirst.size() > 2) {
+							stabilizationBonus += (biggestAngleFirst.get(1).smallestAngle / FastMath.PI) * ReactorStablizationAngleBonus3Groups;
+						}
+						if(biggestAngleFirst.size() > 3) {
+							stabilizationBonus += (biggestAngleFirst.get(2).smallestAngle / FastMath.PI) * ReactorStablizationAngleBonus4Groups;
+						}
+						if(biggestAngleFirst.size() > 4) {
+							stabilizationBonus += (biggestAngleFirst.get(3).smallestAngle / FastMath.PI) * ReactorStablizationAngleBonus5Groups;
+						}
+						if(biggestAngleFirst.size() > 5) {
+							stabilizationBonus += (biggestAngleFirst.get(4).smallestAngle / FastMath.PI) * ReactorStablizationAngleBonus6Groups;
+						}
+						
+						 -->
+						<ReactorStablizationAngleBonus2Groups>1.0</ReactorStablizationAngleBonus2Groups> <!-- bonus stabilization stacking based on the groups with the biggest angle-->
+                        <ReactorStablizationAngleBonus3Groups>1.0</ReactorStablizationAngleBonus3Groups> <!-- bonus stabilization stacking based on the groups with the 2nd biggest angle-->
+                        <ReactorStablizationAngleBonus4Groups>0.8</ReactorStablizationAngleBonus4Groups> <!-- bonus stabilization stacking based on the groups with the 3rd biggest angle-->
+                        <ReactorStablizationAngleBonus5Groups>0.6</ReactorStablizationAngleBonus5Groups> <!-- bonus stabilization stacking based on the groups with the 4th biggest angle-->
+                        <ReactorStablizationAngleBonus6Groups>0.5</ReactorStablizationAngleBonus6Groups> <!-- bonus stabilization stacking based on the groups with the 5th biggest angle-->
+
+
+
+                        
 
 
 
@@ -866,7 +905,7 @@
                         <PowerConsumption>100</PowerConsumption>
 
                         <!-- NEW -->
-                        <Damage>27.44</Damage>                        
+                        <Damage>13.72</Damage>                        
                         <ReactorPowerConsumptionResting>25.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging>
                         
@@ -1071,7 +1110,7 @@
                 <BasicValues>
                         <Damage version="noreactor">300</Damage>
                         
-                        <Damage>171.48</Damage>
+                        <Damage>85.74</Damage>
                         <ReactorPowerConsumptionResting>25.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging> 
                         <AdditionalCapacityUsedPerDamage>0</AdditionalCapacityUsedPerDamage> <!-- rounded down -->
