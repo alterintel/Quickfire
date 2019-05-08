@@ -1225,7 +1225,7 @@
                         <DamageReductionPerArmorValueMult>1.0</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
-                        <DamagePerHit>7.68</DamagePerHit>  
+                        <DamagePerHit>3.84</DamagePerHit>  
                         <ReactorPowerConsumptionResting>25.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging>
                         
@@ -1299,7 +1299,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
                             
-                            <PowerPerHit style="buff" linear="true" value="3.78"/> <!-- linear is needed here -->
+                            <PowerPerHit style="buff" linear="true" value="2.35"/> <!-- linear is needed here -->
                             <CoolDown style="nerf" value="2.0"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="2.0"/> <!-- Time the beam will fire -->
 
