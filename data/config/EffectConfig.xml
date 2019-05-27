@@ -1,4 +1,4 @@
-<Config hash="-7611018716253121823">
+<Config hash="8246705843900142993">
     <Group id="stealth - cloaking">
         <E modtype="set" priority="0" type="stealth_cloak_capability">
             <P name="value" type="boolean">
@@ -258,7 +258,7 @@
                 <value>0.9090909</value>
             </P>
         </E>
-	<E modtype="set" priority="1" type="shield_hotspot_recharge_mode">
+        <E modtype="set" priority="1" type="shield_hotspot_recharge_mode">
             <P name="value" type="boolean">
                 <value>true</value>
             </P>
