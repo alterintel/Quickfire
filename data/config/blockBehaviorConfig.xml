@@ -1148,7 +1148,7 @@
                         <MissileHPLogOffset>0</MissileHPLogOffset>
                         <MissileHPLogFactor>1</MissileHPLogFactor>
 
-                        <BombActivationTimeSec>3.0</BombActivationTimeSec>  
+                        <BombActivationTimeSec>1.5</BombActivationTimeSec>  <!--Default is 3 seconds, which essentially means the bomb will never hit and do damage. In 3s after the bomb launches on its straight trajectory, the enemy will likely have completely changed their velocity vector. If bombs could heat seek, this wouldn't be a problem... but they can't.-->
                         
                         <!-- Dumb = 0, Heat = 1, TargetChasing = 2, Bomb = 3 -->        
                         <EffectConfiguration>
@@ -1158,7 +1158,7 @@
                         </EffectConfiguration>
                 </BasicValues>
                 <Combination>
-                        <Cannon> <!-- Heat -->
+                        <Cannon> <!-- Heat-Seeking Swarm -->
                              <Damage style="buff" value="0.6" linear="true"/>
                              <Reload style="buff" value="1.5"/>
                              <Distance style="buff" value="0.5"/>
@@ -1178,25 +1178,25 @@
                              <PossibleZoom style="skip"/>
                         </Cannon>
                         <Missile> <!-- Bomb -->
-                            <Damage style="buff" value="0.17" linear="true"/>
-                            <Reload style="buff" value="1.5"/>
-                            <Distance style="buff" value="1.0"/>
+                            <Damage style="buff" value="75" linear="true"/> <!--Might be insufficient. The bomb needs A LOT of damage to go through armor. Mechanics changes might be desirable here.-->
+                            <Reload style="buff" value="19"/>
+                            <Distance style="nerf" value="6"/>
                             <LockOnTimeSec style="skip"/>
                             
-                            <BlastRadius style="skip"/>
-                            <Speed style="skip"/>
-                            <Split style="buff" value="5"/>
-                            <Mode style="set" value="2"/> <!-- Bomb Missile -->
+                            <BlastRadius style="buff" value="1"/>
+                            <Speed style="buff" value="1.0"/>
+                            <Split style="skip"/>
+                            <Mode style="set" value="3"/> <!-- Bomb Missile -->
                             <PowerConsumption style="skip" linear="true"/>
                             
                             <AdditionalCapacityUsedPerDamage style="skip"/>  <!-- rounded down <AdditionalCapacityUsedPerDamage style="set" value="10000"/> -->
                             <AdditionalCapacityUsedPerDamageMult style="skip"/> <!-- how much more missiles used per rounded down AdditionalCapacityUsedPerDamage value <AdditionalCapacityUsedPerDamageMult style="set" value="10"/>-->
-                            <PercentagePowerUsageResting style="skip"/><!-- percentage of total reactor recharge used per block -->
-                            <PercentagePowerUsageCharging style="skip"/><!-- percentage of total reactor recharge used per block -->
+                            <PercentagePowerUsageResting style="set" value="0.005"/><!-- percentage of total reactor recharge used per block -->
+                            <PercentagePowerUsageCharging style="set" value="0.005"/><!-- percentage of total reactor recharge used per block -->
                             
-                            <PossibleZoom style="skip"/>
+                            <PossibleZoom style="set" value="0"/>
                         </Missile>
-                        <Beam> <!-- Slow/Strong lock on missile -->
+                        <Beam> <!-- Lock-on Missile -->
                             <Damage style="buff" value="0.17" linear="true" />
                             <Reload style="buff" value="1.5"/>
                             <Distance style="buff" value="1"/>
