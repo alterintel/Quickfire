@@ -1,4 +1,4 @@
-<Config hash="8014093644964189585">
+<Config hash="6200729712819328401">
     <Group id="stealth - cloaking">
         <E modtype="set" priority="0" type="stealth_cloak_capability">
             <P name="value" type="boolean">
@@ -861,12 +861,12 @@
         </E>
         <E modtype="set" priority="-1" type="thruster_blast_cooldown">
             <P name="value" type="float">
-                <value>5.0</value>
+                <value>6.0</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="thruster_blast_strength">
             <P name="value" type="float">
-                <value>50.0</value>
+                <value>35.0</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="thruster_blast_power_consumption_charging">
