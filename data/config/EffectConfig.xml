@@ -1,4 +1,4 @@
-<Config hash="6200729712819328401">
+<Config hash="5543711893940686033">
     <Group id="stealth - cloaking">
         <E modtype="set" priority="0" type="stealth_cloak_capability">
             <P name="value" type="boolean">
@@ -305,7 +305,7 @@
         </E>
         <E modtype="set" priority="-1" type="shield_hotspot_range">
             <P name="value" type="float">
-                <value>0.25</value>
+                <value>0.4</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="shield_hotspot_percentage">
@@ -785,7 +785,7 @@
     <Group id="defense - shield type alpha 2">
         <E modtype="add" priority="0" type="shield_hotspot_range">
             <P name="value" type="float">
-                <value>0.25</value>
+                <value>0.3</value>
             </P>
         </E>
     </Group>
@@ -1452,7 +1452,7 @@
         </E>
         <E modtype="set" priority="-1" type="scan_charge_time">
             <P name="value" type="float">
-                <value>1.0</value>
+                <value>6.0</value>
             </P>
         </E>
         <E modtype="mult" priority="0" type="scan_power_charge_rate">
