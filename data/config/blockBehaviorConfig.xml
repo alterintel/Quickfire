@@ -1083,10 +1083,10 @@
                         <ReactorPowerConsumptionResting>2.5</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>5</ReactorPowerConsumptionCharging>
 
-                        <MissileCapacityCalcStyle>DOUBLE_EXP</MissileCapacityCalcStyle> <!-- LINEAR, EXP, DOUBLE_EXP, LOG -->
+                        <MissileCapacityCalcStyle>LINEAR</MissileCapacityCalcStyle> <!-- LINEAR, EXP, DOUBLE_EXP, LOG -->
                         
                         <!-- LINEAR-->
-                        <MissileCapacityPerBlock>0.5</MissileCapacityPerBlock>
+                        <MissileCapacityPerBlock>0.2</MissileCapacityPerBlock>
                         
                         <!-- EXP -->
                         <MissileCapacityExp>0.5</MissileCapacityExp>
