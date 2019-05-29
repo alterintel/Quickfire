@@ -322,7 +322,7 @@
         </E>
         <E modtype="set" priority="-1" type="shield_hotspot_percentage">
             <P name="value" type="float">
-                <value>0.5</value>
+                <value>0.05</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="shield_hotspot_range">
