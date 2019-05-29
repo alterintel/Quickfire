@@ -1,4 +1,4 @@
-<Config hash="5543711893940686033">
+<Config hash="1807819895983187217">
     <Group id="stealth - cloaking">
         <E modtype="set" priority="0" type="stealth_cloak_capability">
             <P name="value" type="boolean">
