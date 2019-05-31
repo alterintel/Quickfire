@@ -1066,7 +1066,7 @@
                             <CursorRecoilMaxY style="buff" value="2"/> <!-- Max cursor recoil value -->
                             <CursorRecoilDirY style="skip"/> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                             
-                            <PossibleZoom style="skip"/>
+                            <PossibleZoom style="set" value="0.8"/>
                             <Aimable style="skip"/> <!-- 1 = aimable with cursor. 0 = weapon only fires straight -->
                         </Beam>
                 </Combination>
