@@ -1123,7 +1123,7 @@
                         <LockedOnExpireTimeSec>3</LockedOnExpireTimeSec> <!-- how long it takes for target to expire when looking away after lock on -->
                         
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
-                        <Radius>20</Radius> <!--this a maximum blast radius -->
+                        <Radius>40</Radius> <!--this a maximum blast radius -->
                         <Speed>25</Speed>               
                         <ReloadMs>2000</ReloadMs><!-- default 15000 -->
                         <PowerConsumption>1500</PowerConsumption> <!-- (defualt 1500) deviates from 10 power/1damage formula, missiles can easily be shot down -->
