@@ -1081,7 +1081,7 @@
                         <MissileCapacityReloadResetOnFireAI>true</MissileCapacityReloadResetOnFireAI> <!-- reload time of missiles reset when one is fired by an AI (only for ALL mode) [seconds]-->
                          
                         <ReactorPowerConsumptionResting>20</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>20</ReactorPowerConsumptionCharging>
+                        <ReactorPowerConsumptionCharging>0</ReactorPowerConsumptionCharging>
 
                         <MissileCapacityCalcStyle>LINEAR</MissileCapacityCalcStyle> <!-- LINEAR, EXP, DOUBLE_EXP, LOG -->
                         
