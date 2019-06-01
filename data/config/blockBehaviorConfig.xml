@@ -283,7 +283,7 @@
                         <ReactorStabilizerStartingDistance>0.0</ReactorStabilizerStartingDistance> <!-- inital distance -->
                         <ReactorStabilizerLinearFalloffOne>0.0</ReactorStabilizerLinearFalloffOne> <!-- percentage of distance at which or farther away the stabilizer counts as 1 -->
                         <ReactorStabilizerLinearFalloffZero>0.0</ReactorStabilizerLinearFalloffZero> <!-- percentage of distance at which or closer the stabilizer counts as 0 -->
-                        <ReactorStabilizerFreeMainReactorBlocks>0</ReactorStabilizerFreeMainReactorBlocks> <!-- amount of free stabilization added -->
+                        <ReactorStabilizerFreeMainReactorBlocks>10</ReactorStabilizerFreeMainReactorBlocks> <!-- amount of free stabilization added -->
                         <ReactorStabilizerDistanceTotalMult>2.0</ReactorStabilizerDistanceTotalMult>
                         <ReactorStabilizerGroupingProximity>3.0</ReactorStabilizerGroupingProximity>
                         
@@ -1073,20 +1073,20 @@
         </Cannon>
         <MissileCapacity>
         	 <BasicValues>
-                        <BasicMissileCapacity>5.0</BasicMissileCapacity>
+                        <BasicMissileCapacity>10.0</BasicMissileCapacity>
                         <MissileCapacityReloadMode>ALL</MissileCapacityReloadMode> <!-- SINGLE (for one at a time) or ALL (all reloaded when timer reches zero)--> 
                         <MissileCapacityPerSec>0.2</MissileCapacityPerSec> <!-- Added seconds to reload time per missile -->
                         <MissileCapacityReloadConstant>5.0</MissileCapacityReloadConstant> <!-- reload time for ALL mode [seconds]-->
                         <MissileCapacityReloadResetOnFireManual>false</MissileCapacityReloadResetOnFireManual> <!-- reload time of missiles reset when one is fired by a player (only for ALL mode) [seconds]-->
                         <MissileCapacityReloadResetOnFireAI>true</MissileCapacityReloadResetOnFireAI> <!-- reload time of missiles reset when one is fired by an AI (only for ALL mode) [seconds]-->
                          
-                        <ReactorPowerConsumptionResting>2.5</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>5</ReactorPowerConsumptionCharging>
+                        <ReactorPowerConsumptionResting>5</ReactorPowerConsumptionResting>
+                        <ReactorPowerConsumptionCharging>10</ReactorPowerConsumptionCharging>
 
                         <MissileCapacityCalcStyle>LINEAR</MissileCapacityCalcStyle> <!-- LINEAR, EXP, DOUBLE_EXP, LOG -->
                         
                         <!-- LINEAR-->
-                        <MissileCapacityPerBlock>0.2</MissileCapacityPerBlock>
+                        <MissileCapacityPerBlock>0.1</MissileCapacityPerBlock>
                         
                         <!-- EXP -->
                         <MissileCapacityExp>0.5</MissileCapacityExp>
