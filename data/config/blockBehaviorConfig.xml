@@ -1080,8 +1080,8 @@
                         <MissileCapacityReloadResetOnFireManual>false</MissileCapacityReloadResetOnFireManual> <!-- reload time of missiles reset when one is fired by a player (only for ALL mode) [seconds]-->
                         <MissileCapacityReloadResetOnFireAI>true</MissileCapacityReloadResetOnFireAI> <!-- reload time of missiles reset when one is fired by an AI (only for ALL mode) [seconds]-->
                          
-                        <ReactorPowerConsumptionResting>5</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>10</ReactorPowerConsumptionCharging>
+                        <ReactorPowerConsumptionResting>20</ReactorPowerConsumptionResting>
+                        <ReactorPowerConsumptionCharging>20</ReactorPowerConsumptionCharging>
 
                         <MissileCapacityCalcStyle>LINEAR</MissileCapacityCalcStyle> <!-- LINEAR, EXP, DOUBLE_EXP, LOG -->
                         
