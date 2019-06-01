@@ -1126,7 +1126,7 @@
                         <Radius>100</Radius> <!--this a maximum blast radius -->
                         <Speed>25</Speed>               
                         <ReloadMs>2000</ReloadMs><!-- default 15000 -->
-                        <PowerConsumption>1500</PowerConsumption> <!-- (defualt 1500) deviates from 10 power/1damage formula, missiles can easily be shot down -->
+                        <PowerConsumption>1500</PowerConsumption> <!-- OLD POWER -->
                         <AdditionalPowerConsumptionPerUnitMult>0.0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
                         <ChasingTurnSpeedWithTargetInFront>7.0</ChasingTurnSpeedWithTargetInFront> 
                         <ChasingTurnSpeedWithTargetInBack>8.0</ChasingTurnSpeedWithTargetInBack> 
