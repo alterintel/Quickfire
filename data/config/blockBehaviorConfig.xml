@@ -1252,7 +1252,7 @@
                         
                         <MaxEffectiveValue>0.4</MaxEffectiveValue> <!-- effectiveness (*damage) of beam at max efficiency range -->
                         <MaxEffectiveRange>1.0</MaxEffectiveRange> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
-                        <PossibleZoom>0.0</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
+                        <PossibleZoom>1.0</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
                         
                         <EffectConfiguration>
                         	<Kinetic>0.5</Kinetic>
@@ -1261,7 +1261,7 @@
                         </EffectConfiguration>
                 </BasicValues>
                 <Combination>
-                        <Cannon> <!-- unlatched beam -->
+                        <Cannon> <!-- sustained beam -->
                             <HitSpeed style="skip"/> <!-- 0.1 tick rate-->
                             <Distance style="nerf" value="1.5"/>
 
@@ -1291,7 +1291,7 @@
                             
                             <PossibleZoom style="skip"/>
                         </Cannon>
-                        <Missile><!-- arc beam -->
+                        <Missile> <!-- arc beam -->
                             <HitSpeed style="skip"/> <!-- 0.05 tick rate-->
                             <Distance style="nerf" value="3.0"/>
 
@@ -1321,7 +1321,7 @@
                             
                             <PossibleZoom style="set" value="0.0"/>
                         </Missile>
-                        <Beam> <!-- death beam -->
+                        <Beam> <!-- long-range pulse beam -->
                             <HitSpeed style="nerf" value="2"/> <!-- 0.05 tick rate-->
                             <Distance style="buff" value="0.33"/>
 
@@ -1349,7 +1349,7 @@
                             <MaxEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at max efficiency range -->
                             <MaxEffectiveRange style="skip"/> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
                             
-                            <PossibleZoom style="nerf" value="2"/>
+                            <PossibleZoom style="buff" value="1"/>
                         </Beam>
                 </Combination>
         </DamageBeam>
