@@ -1289,7 +1289,7 @@
                             <MaxEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at max efficiency range -->
                             <MaxEffectiveRange style="skip"/> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
                             
-                            <PossibleZoom style="skip"/>
+                            <PossibleZoom style="set" value="0.5"/> <!--WTF IS HAPPENING AAAAAAAAAAAAAAAAAAAAAAAAAAA-->
                         </Cannon>
                         <Missile> <!-- arc beam -->
                             <HitSpeed style="skip"/> <!-- 0.05 tick rate-->
@@ -1349,7 +1349,7 @@
                             <MaxEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at max efficiency range -->
                             <MaxEffectiveRange style="skip"/> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
                             
-                            <PossibleZoom style="set" value="0.25"/>
+                            <PossibleZoom style="set" value="1.0"/>
                         </Beam>
                 </Combination>
         </DamageBeam>
