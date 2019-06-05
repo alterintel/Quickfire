@@ -1252,7 +1252,7 @@
                         
                         <MaxEffectiveValue>0.4</MaxEffectiveValue> <!-- effectiveness (*damage) of beam at max efficiency range -->
                         <MaxEffectiveRange>1.0</MaxEffectiveRange> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
-                        <PossibleZoom>0.25</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
+                        <PossibleZoom>5.0</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
                         
                         <EffectConfiguration>
                         	<Kinetic>0.5</Kinetic>
