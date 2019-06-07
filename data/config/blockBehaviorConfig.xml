@@ -1349,7 +1349,7 @@
                             <MaxEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at max efficiency range -->
                             <MaxEffectiveRange style="skip"/> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
                             
-                            <PossibleZoom style="set" value="1.5"/>
+                            <PossibleZoom style="set" value="0.1"/>
                         </Beam>
                 </Combination>
         </DamageBeam>
