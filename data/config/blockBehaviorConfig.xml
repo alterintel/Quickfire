@@ -1252,7 +1252,7 @@
                         
                         <MaxEffectiveValue>0.4</MaxEffectiveValue> <!-- effectiveness (*damage) of beam at max efficiency range -->
                         <MaxEffectiveRange>1.0</MaxEffectiveRange> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
-                        <PossibleZoom>0.5</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
+                        <PossibleZoom>0.5</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification --> <!--Lower is better.-->
                         
                         <EffectConfiguration>
                         	<Kinetic>0.5</Kinetic>
@@ -1289,7 +1289,7 @@
                             <MaxEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at max efficiency range -->
                             <MaxEffectiveRange style="skip"/> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
                             
-                            <PossibleZoom style="set" value="0.5"/> <!--WTF IS HAPPENING AAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+                            <PossibleZoom style="set" value="0.3"/>
                         </Cannon>
                         <Missile> <!-- arc beam -->
                             <HitSpeed style="skip"/> <!-- 0.05 tick rate-->
@@ -1349,7 +1349,7 @@
                             <MaxEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at max efficiency range -->
                             <MaxEffectiveRange style="skip"/> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
                             
-                            <PossibleZoom style="set" value="0.15"/>
+                            <PossibleZoom style="set" value="0.1"/>
                         </Beam>
                 </Combination>
         </DamageBeam>
