@@ -916,8 +916,6 @@
 
  						<Recoil>4.0</Recoil>  <!-- Recoil in force per damage. Applied from the ship cannons point of origin in the opposite firing direction (multiplied with damage of projectile)-->
 						<ImpactForce>1.0</ImpactForce>  <!-- Impact force on target in force per damage.  (multiplied with damage of projectile)-->
-						<Recoil>0</Recoil> <!-- Recoil in force per damage. Applied from the ship cannons point of origin in the opposite firing direction (multiplied with damage of projectile)-->
-                        <ImpactForce>0</ImpactForce> <!-- Impact force on target in force per damage.  (multiplied with damage of projectile)-->
                         
                         <!-- 5 times more vertical recoil, horizontal recoil can go left or right -->
                         <!-- Horizontal Cursor Recoil -->
