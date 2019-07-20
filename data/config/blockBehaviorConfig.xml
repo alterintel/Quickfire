@@ -381,7 +381,7 @@
                         <ReactorStabilizerPathRadiusDefault>0.25</ReactorStabilizerPathRadiusDefault>
                         <ReactorStabilizerPathRadiusPerLevel>0.025</ReactorStabilizerPathRadiusPerLevel>
 	
-                        <ReactorChamberBlocksPerMainReactor>0.25</ReactorChamberBlocksPerMainReactor> <!-- main-to-chamber block relation per reactor level -->
+                        <ReactorChamberBlocksPerMainReactor>0.10</ReactorChamberBlocksPerMainReactor> <!-- main-to-chamber block relation per reactor level -->
 
                         <!-- Jumpdrive -->
                         <ReactorJumpPowerConsumptionRestingPerMass>0</ReactorJumpPowerConsumptionRestingPerMass> <!-- power consumption when not charging (multiplied by mass)-->
@@ -389,7 +389,7 @@
                         
                         <ReactorJumpDistanceDefault>10</ReactorJumpDistanceDefault> <!-- default sector distance for jump -->
                         <ReactorJumpChargeNeededInSecondsDefault>30</ReactorJumpChargeNeededInSecondsDefault> <!-- default seconds the jump needs to charge for -->
-                        <ReactorJumpChargeNeededInSecondsExtraPerMass>0.001</ReactorJumpChargeNeededInSecondsExtraPerMass> <!-- seconds added the jump needs to charge for (multiplied by mass)-->                        
+                        <ReactorJumpChargeNeededInSecondsExtraPerMass>0.00025</ReactorJumpChargeNeededInSecondsExtraPerMass> <!-- seconds added the jump needs to charge for (multiplied by mass)-->                        
                         <ReactorJumpChargeNeededInSecondsLogFactor>1.0</ReactorJumpChargeNeededInSecondsLogFactor>
                         <ReactorJumpChargeNeededInSecondsLogOffset>0.0</ReactorJumpChargeNeededInSecondsLogOffset>
                         <!-- Scanner -->
