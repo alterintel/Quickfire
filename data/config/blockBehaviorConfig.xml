@@ -1181,7 +1181,7 @@
                             <Distance style="nerf" value="6"/>
                             <LockOnTimeSec style="skip"/>
                             
-                            <BlastRadius style="buff" value="1.0"/> <!--May have to remove this if it results in explosions that exceed the max allowed radius internally-->
+                            <BlastRadius style="skip"/> <!--Default missile is already at approx. max supported blast radius.-->
                             <Speed style="buff" value="1.0"/>
                             <Split style="skip"/>
                             <Mode style="set" value="3"/> <!-- Bomb Missile -->
