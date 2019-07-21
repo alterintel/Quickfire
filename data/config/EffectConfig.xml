@@ -139,17 +139,17 @@
         </E>
     </Group>
     <Group id="defense - base armor enhancement">
-        <E modtype="set" priority="-1" type="armor_defense_kinetic">
+        <E modtype="add" priority="-1" type="armor_defense_kinetic">
             <P name="value" type="float">
                 <value>0.1</value>
             </P>
         </E>
-        <E modtype="set" priority="-1" type="armor_defense_heat">
+        <E modtype="add" priority="-1" type="armor_defense_heat">
             <P name="value" type="float">
                 <value>0.1</value>
             </P>
         </E>
-        <E modtype="set" priority="-1" type="armor_defense_em">
+        <E modtype="add" priority="-1" type="armor_defense_em">
             <P name="value" type="float">
                 <value>0.1</value>
             </P>
