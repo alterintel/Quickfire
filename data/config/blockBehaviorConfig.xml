@@ -1081,13 +1081,13 @@
                         <ReactorPowerConsumptionResting>20</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>0</ReactorPowerConsumptionCharging>
 
-                        <MissileCapacityCalcStyle>LINEAR</MissileCapacityCalcStyle> <!-- LINEAR, EXP, DOUBLE_EXP, LOG -->
+                        <MissileCapacityCalcStyle>EXP</MissileCapacityCalcStyle> <!-- LINEAR, EXP, DOUBLE_EXP, LOG -->
                         
                         <!-- LINEAR-->
                         <MissileCapacityPerBlock>0.1</MissileCapacityPerBlock>
                         
                         <!-- EXP -->
-                        <MissileCapacityExp>0.5</MissileCapacityExp>
+                        <MissileCapacityExp>0.48</MissileCapacityExp>
                         <MissileCapacityExpMult>1.0</MissileCapacityExpMult>
                         
                         <!-- DOUBLE EXP -->
@@ -1100,7 +1100,7 @@
                         <MissileCapacityExpSecondHalf>0.45</MissileCapacityExpSecondHalf>
                         
                         <!-- LOG -->
-                        <MissileCapacityLogFactor>1.0</MissileCapacityLogFactor>
+                        <MissileCapacityLogFactor>20.0</MissileCapacityLogFactor>
                         <MissileCapacityLogOffset>1.0</MissileCapacityLogOffset>            
              </BasicValues>
         </MissileCapacity>
