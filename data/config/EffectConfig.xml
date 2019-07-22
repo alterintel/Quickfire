@@ -1,4 +1,4 @@
-<Config hash="-7995442299374609135">
+<Config hash="7807109169733229841">
     <Group id="stealth - cloaking">
         <E modtype="set" priority="0" type="stealth_cloak_capability">
             <P name="value" type="boolean">
@@ -33,14 +33,14 @@
     <Group id="mobility - top speed 2">
         <E modtype="add" priority="0" type="thruster_top_speed">
             <P name="value" type="float">
-                <value>0.2</value>
+                <value>0.1</value>
             </P>
         </E>
     </Group>
     <Group id="mobility - top speed 3">
         <E modtype="add" priority="0" type="thruster_top_speed">
             <P name="value" type="float">
-                <value>0.3</value>
+                <value>0.15</value>
             </P>
         </E>
     </Group>
