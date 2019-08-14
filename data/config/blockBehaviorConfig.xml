@@ -198,7 +198,7 @@
                             <ShieldLocalRadiusLogFactor>20.0</ShieldLocalRadiusLogFactor>
                             <ShieldLocalRadiusLogOffset>0.0</ShieldLocalRadiusLogOffset>
 
-                        <ShieldUpkeepPerSecondOfTotalCapacity>0.02</ShieldUpkeepPerSecondOfTotalCapacity>
+                        <ShieldUpkeepPerSecondOfTotalCapacity>0.017</ShieldUpkeepPerSecondOfTotalCapacity>
                         
                         <ShieldLocalPowerConsumptionPerRechargePerSecondResting>5.0</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
                         <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>5.0</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
@@ -517,22 +517,22 @@
                         
                          <!-- NEW POWER -->
                         <HpConditionTriggerList>              
-                            <Item conditionhp="0.3">
+                            <Item conditionhp="0.45">
                                 <Type>CONTROL_LOSS</Type>
                             </Item>
 						   
-                            <Item conditionhp="0.25">
+                            <Item conditionhp="0.40">
                                 <Type>OVERHEATING</Type>
                             </Item>
-                            <Item conditionhp="0.25">
+                            <Item conditionhp="0.40">
                                 <Type>POWER</Type>
                                 <Amount>0.0</Amount>
                             </Item>
-                            <Item conditionhp="0.25">
+                            <Item conditionhp="0.40">
                                 <Type>SHIELD</Type>
                                 <Amount>0.0</Amount>
                             </Item>
-                            <Item conditionhp="0.25">
+                            <Item conditionhp="0.40">
                                 <Type>THRUST</Type>
                                 <Amount>0.0</Amount>
                             </Item>
