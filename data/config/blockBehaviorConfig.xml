@@ -113,7 +113,7 @@
 						
 						<!-- EXPONENTIAL:  Damage Dealt = (Damage Incoming^ArmorExponentialIncomingExponent)/((Armour Value In Line of Shot)^ArmorExponentialArmorValueTotalExponent+Damage Incoming^ArmorExponentialIncomingDamageAddedExponent) -->
 						<ArmorExponentialIncomingExponent>4.0</ArmorExponentialIncomingExponent>
-						<ArmorExponentialArmorValueTotalExponent>2.75</ArmorExponentialArmorValueTotalExponent>
+						<ArmorExponentialArmorValueTotalExponent>2.8</ArmorExponentialArmorValueTotalExponent>
 						<ArmorExponentialIncomingDamageAddedExponent>3.0</ArmorExponentialIncomingDamageAddedExponent>
 						
 						
@@ -1219,7 +1219,7 @@
         <DamageBeam>
                 <BasicValues>
                 
-                        <DamageReductionPerArmorValueMult>1.0</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
+                        <DamageReductionPerArmorValueMult>0.9</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
                         <DamagePerHit>3.84</DamagePerHit>  
