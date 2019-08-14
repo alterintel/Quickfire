@@ -356,9 +356,9 @@
                         <!--<ReactorStabilizationBlockDamagePercentToReactorHpMin>0.01</ReactorStabilizationBlockDamagePercentToReactorHpMin> --><!-- minimum % of damage of shield damage done to reactor HP (0 for off) -->
                        <!-- <ReactorStabilizationBlockDamagePercentToReactorHpMax>0.1</ReactorStabilizationBlockDamagePercentToReactorHpMax> --><!-- maximum % of damage of shield damage done to reactor HP (0 for off) -->
 
-                        <ReactorLowStabilizationExtraDamageStart>1.0</ReactorLowStabilizationExtraDamageStart> <!-- stabilization where extra damage starts -->
+                        <ReactorLowStabilizationExtraDamageStart>0.9999</ReactorLowStabilizationExtraDamageStart> <!-- stabilization where extra damage starts -->
                         <ReactorLowStabilizationExtraDamageEnd>0.0</ReactorLowStabilizationExtraDamageEnd> <!-- stabilization where extra damage reaches max (and stays at that) -->
-                        <ReactorLowStabilizationExtraDamageStartDamage>0.25</ReactorLowStabilizationExtraDamageStartDamage> <!-- extra damage (1+x) at start --> <!--QUICKFIRE: Use this as equivalent to the overheat threshold-->
+                        <ReactorLowStabilizationExtraDamageStartDamage>0.0</ReactorLowStabilizationExtraDamageStartDamage> <!-- extra damage (1+x) at start -->
                         <ReactorLowStabilizationExtraDamageEndDamage>2.0</ReactorLowStabilizationExtraDamageEndDamage> <!-- extra damage (1+x) at end (max) -->
                         
                         
@@ -517,22 +517,22 @@
                         
                          <!-- NEW POWER -->
                         <HpConditionTriggerList>              
-                            <Item conditionhp="0.15">
+                            <Item conditionhp="0.3">
                                 <Type>CONTROL_LOSS</Type>
                             </Item>
 						   
-                            <Item conditionhp="0.0">
+                            <Item conditionhp="0.25">
                                 <Type>OVERHEATING</Type>
                             </Item>
-                            <Item conditionhp="0.0">
+                            <Item conditionhp="0.25">
                                 <Type>POWER</Type>
                                 <Amount>0.0</Amount>
                             </Item>
-                            <Item conditionhp="0.0">
+                            <Item conditionhp="0.25">
                                 <Type>SHIELD</Type>
                                 <Amount>0.0</Amount>
                             </Item>
-                            <Item conditionhp="0.0">
+                            <Item conditionhp="0.25">
                                 <Type>THRUST</Type>
                                 <Amount>0.0</Amount>
                             </Item>
