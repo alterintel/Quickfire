@@ -98,7 +98,7 @@
 
 
                         <ArmorThicknessBonus>0.5</ArmorThicknessBonus> <!-- 0 is normal sum. totalArmorValue = sum(armorBlockInLine.armorValue + (armorBlockInLine.armorValue * (armorBlockInLine.indexInLine+1)*ArmorThicknessBonus))  -->
-                        <ArmorBeamDamageResistance>0</ArmorBeamDamageResistance> <!-- %Amount of armor value is subtracted from the damage of a tick of beam damage (general block beam resistence on top of other reduction) -->
+                        <ArmorBeamDamageResistance>0.2</ArmorBeamDamageResistance> <!-- %Amount of armor value is subtracted from the damage of a tick of beam damage (general block beam resistence on top of other reduction) -->
                         <ArmorFlatDamageReduction>0.025</ArmorFlatDamageReduction> <!-- damage = damage - (damage*ArmorFlatDamageReduction)  -->
                         <ArmorThicknessDamageReduction>0.0</ArmorThicknessDamageReduction> <!-- damage = damage - (damage*min(cap, thicknessInBlocks*ArmorThicknessDamageReduction)) (reduction additionally to ArmorFlatDamageReduction)  -->
                         <ArmorThicknessDamageReductionMax>0.99</ArmorThicknessDamageReductionMax> <!-- Cap for damage reduction percent  -->
@@ -1219,7 +1219,7 @@
         <DamageBeam>
                 <BasicValues>
                 
-                        <DamageReductionPerArmorValueMult>1.6</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
+                        <DamageReductionPerArmorValueMult>0.9</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
                         <DamagePerHit>3.84</DamagePerHit>  
