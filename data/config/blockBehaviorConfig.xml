@@ -1219,7 +1219,7 @@
         <DamageBeam>
                 <BasicValues>
                 
-                        <DamageReductionPerArmorValueMult>1.0</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
+                        <DamageReductionPerArmorValueMult>0.75</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
                         <DamagePerHit>3.84</DamagePerHit>  
