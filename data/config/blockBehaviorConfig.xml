@@ -113,7 +113,7 @@
 						
 						<!-- EXPONENTIAL:  Damage Dealt = (Damage Incoming^ArmorExponentialIncomingExponent)/((Armour Value In Line of Shot)^ArmorExponentialArmorValueTotalExponent+Damage Incoming^ArmorExponentialIncomingDamageAddedExponent) -->
 						<ArmorExponentialIncomingExponent>4.0</ArmorExponentialIncomingExponent>
-						<ArmorExponentialArmorValueTotalExponent>2.85</ArmorExponentialArmorValueTotalExponent>
+						<ArmorExponentialArmorValueTotalExponent>2.75</ArmorExponentialArmorValueTotalExponent>
 						<ArmorExponentialIncomingDamageAddedExponent>3.0</ArmorExponentialIncomingDamageAddedExponent>
 						
 						
