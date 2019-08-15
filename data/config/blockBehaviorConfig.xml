@@ -198,7 +198,7 @@
                             <ShieldLocalRadiusLogFactor>20.0</ShieldLocalRadiusLogFactor>
                             <ShieldLocalRadiusLogOffset>0.0</ShieldLocalRadiusLogOffset>
 
-                        <ShieldUpkeepPerSecondOfTotalCapacity>0.017</ShieldUpkeepPerSecondOfTotalCapacity>
+                        <ShieldUpkeepPerSecondOfTotalCapacity>0.015</ShieldUpkeepPerSecondOfTotalCapacity>
                         
                         <ShieldLocalPowerConsumptionPerRechargePerSecondResting>5.0</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
                         <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>5.0</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
@@ -1219,7 +1219,7 @@
         <DamageBeam>
                 <BasicValues>
                 
-                        <DamageReductionPerArmorValueMult>0.75</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
+                        <DamageReductionPerArmorValueMult>0.55</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
                         <DamagePerHit>3.84</DamagePerHit>  
