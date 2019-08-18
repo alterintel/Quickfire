@@ -38,8 +38,18 @@ def GetWeaponStats(Tree, Xpath):
 	# Part for the reload time
 	Links = Tree.find(XpathBase + "/ReloadMs")
 	BaseReload = Links.text
+	# Part for the effects
+	Links = Tree.find(XpathBase + "/EffectConfiguration/Kinetic")
+	KineticEffect = Links.text
+	Links = Tree.find(XpathBase + "/EffectConfiguration/Heat")
+	HeatEffect = Links.text
+	Links = Tree.find(XpathBase + "/EffectConfiguration/EM")
+	EmEffect = Links.text
 	# Pretty printing base values
 	print ("< Base weapon >")
+	print ("[Kinetic][" + str(KineticEffect) + "]")
+	print ("[Heat][" + str(HeatEffect) + "]")
+	print ("[EM][" + str(EmEffect) + "]")
 	print ("[Power consumption when resting][" + str(BasePowerConsumptionResting) + "]")
 	print ("[Power consumption when charging][" + str(BasePowerConsumptionCharging) + "]")
 	print ("[Damage per shot][" + str(BaseDamage) + "]")
