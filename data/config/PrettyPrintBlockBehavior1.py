@@ -140,11 +140,21 @@ def GetBeamStats(Tree, Xpath):
 	BaseMaxEffectiveValue = Links.text
 	Links = Tree.find(XpathBase + "/MaxEffectiveRange")
 	BaseMaxEffectiveRange = Links.text
+	# Part for the effects
+	Links = Tree.find(XpathBase + "/EffectConfiguration/Kinetic")
+	KineticEffect = Links.text
+	Links = Tree.find(XpathBase + "/EffectConfiguration/Heat")
+	HeatEffect = Links.text
+	Links = Tree.find(XpathBase + "/EffectConfiguration/EM")
+	EmEffect = Links.text
 	# Pretty printing base values
 	print ("< Base weapon >")
 	print ("[Power consumption when resting][" + str(BasePowerConsumptionResting) + "]")
 	print ("[Power consumption when charging][" + str(BasePowerConsumptionCharging) + "]")
 	print ("[Power consumption when firing][" + str(BasePowerConsumptionPerTick) + "]")
+	print ("[Kinetic][" + str(KineticEffect) + "]")
+	print ("[Heat][" + str(HeatEffect) + "]")
+	print ("[EM][" + str(EmEffect) + "]")
 	print ("[Damage per tick][" + str(BaseDamage) + "]")
 	print ("[Tick rate][" + str(BaseTickRate) + "]")
 	print ("[Burst time][" + str(BaseBurstTime) + "]")
