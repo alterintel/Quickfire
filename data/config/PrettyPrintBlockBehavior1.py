@@ -67,6 +67,7 @@ def GetShieldConfig(Tree, Xpath):
 	print ("[Shield recharge per block][" + ShieldLocalRechargePerBlock + "]")
 	print ("[Shield power consumption per block when resting][" + str(float(ShieldLocalPowerConsumptionPerRechargePerSecondResting)*float(ShieldLocalRechargePerBlock)) + "]")
 	print ("[Shield power consumption per block when charging][" + str(float(ShieldLocalPowerConsumptionPerRechargePerSecondCharging)*float(ShieldLocalRechargePerBlock)) + "]")
+	print ("")
 	print ("[Kinetic][" + ShieldEffectKinetic + "]")
 	print ("[Heat][" + ShieldEffectHeat + "]")
 	print ("[EM][" + ShieldEffectEM + "]")
@@ -149,12 +150,12 @@ def GetBeamStats(Tree, Xpath):
 	EmEffect = Links.text
 	# Pretty printing base values
 	print ("< Base weapon >")
-	print ("[Power consumption when resting][" + str(BasePowerConsumptionResting) + "]")
-	print ("[Power consumption when charging][" + str(BasePowerConsumptionCharging) + "]")
-	print ("[Power consumption when firing][" + str(BasePowerConsumptionPerTick) + "]")
 	print ("[Kinetic][" + str(KineticEffect) + "]")
 	print ("[Heat][" + str(HeatEffect) + "]")
 	print ("[EM][" + str(EmEffect) + "]")
+	print ("[Power consumption when resting][" + str(BasePowerConsumptionResting) + "]")
+	print ("[Power consumption when charging][" + str(BasePowerConsumptionCharging) + "]")
+	print ("[Power consumption when firing][" + str(BasePowerConsumptionPerTick) + "]")
 	print ("[Damage per tick][" + str(BaseDamage) + "]")
 	print ("[Tick rate][" + str(BaseTickRate) + "]")
 	print ("[Burst time][" + str(BaseBurstTime) + "]")
