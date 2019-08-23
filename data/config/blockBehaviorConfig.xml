@@ -97,11 +97,8 @@
                         <ShipRebootTimeMinSec>30.0</ShipRebootTimeMinSec> <!-- Minimum time in secs a reboot will take -->
 
 
-                        <ArmorThicknessBonus>0.05</ArmorThicknessBonus> <!-- 0 is normal sum. totalArmorValue = sum(armorBlockInLine.armorValue + (armorBlockInLine.armorValue * (armorBlockInLine.indexInLine+1)*ArmorThicknessBonus))  -->
+                        <ArmorThicknessBonus>0.0</ArmorThicknessBonus> <!-- 0 is normal sum. totalArmorValue = sum(armorBlockInLine.armorValue + (armorBlockInLine.armorValue * (armorBlockInLine.indexInLine+1)*ArmorThicknessBonus))  -->
                         <ArmorBeamDamageResistance>0.0</ArmorBeamDamageResistance> <!-- %Amount of armor value is subtracted from the damage of a tick of beam damage (general block beam resistence on top of other reduction) -->
-                        <ArmorFlatDamageReduction>0.0</ArmorFlatDamageReduction> <!-- damage = damage - (damage*ArmorFlatDamageReduction)  -->
-                        <ArmorThicknessDamageReduction>0.0</ArmorThicknessDamageReduction> <!-- damage = damage - (damage*min(cap, thicknessInBlocks*ArmorThicknessDamageReduction)) (reduction additionally to ArmorFlatDamageReduction)  -->
-                        <ArmorThicknessDamageReductionMax>0.99</ArmorThicknessDamageReductionMax> <!-- Cap for damage reduction percent  -->
                         
                         <AcidDamageArmorStoppedMargin>0.5</AcidDamageArmorStoppedMargin> <!-- what % of total armor value along armor depth is a stop, from that to 100% acid damage is applied linearly -->
                         <ArmorOverPenetrationMarginMultiplicator>20.0</ArmorOverPenetrationMarginMultiplicator> <!-- if(damage > totalArmorValue*ArmorOverPenetrationMarginMultiplicator) -> OVER PENETRATION -->
@@ -111,12 +108,30 @@
 						
 						<ArmorCalcStyle>EXPONENTIAL</ArmorCalcStyle> <!-- LINEAR, EXPONENTIAL -->
 						
-						<!-- EXPONENTIAL:  Damage Dealt = (Damage Incoming^ArmorExponentialIncomingExponent)/((Armour Value In Line of Shot)^ArmorExponentialArmorValueTotalExponent+Damage Incoming^ArmorExponentialIncomingDamageAddedExponent) -->
-						<ArmorExponentialIncomingExponent>4.0</ArmorExponentialIncomingExponent>
-						<ArmorExponentialArmorValueTotalExponent>3.0</ArmorExponentialArmorValueTotalExponent>
-						<ArmorExponentialIncomingDamageAddedExponent>3.0</ArmorExponentialIncomingDamageAddedExponent>
+						<!-- CANNON LINEAR -->
+						<CannonArmorFlatDamageReduction>0.0</CannonArmorFlatDamageReduction> <!-- damage = damage - (damage*ArmorFlatDamageReduction)  -->
+                        <CannonArmorThicknessDamageReduction>0.0</CannonArmorThicknessDamageReduction> <!-- damage = damage - (damage*min(cap, thicknessInBlocks*ArmorThicknessDamageReduction)) (reduction additionally to ArmorFlatDamageReduction)  -->
+                        <CannonArmorThicknessDamageReductionMax>0.99</CannonArmorThicknessDamageReductionMax> <!-- Cap for damage reduction percent  -->
+                        
 						
+						<!-- CANNON EXPONENTIAL:  Damage Dealt = (Damage Incoming^ArmorExponentialIncomingExponent)/((Armour Value In Line of Shot)^ArmorExponentialArmorValueTotalExponent+Damage Incoming^ArmorExponentialIncomingDamageAddedExponent) -->
+						<CannonArmorExponentialIncomingExponent>2.0</CannonArmorExponentialIncomingExponent>
+						<CannonArmorExponentialArmorValueTotalExponent>3.0</CannonArmorExponentialArmorValueTotalExponent>
+						<CannonArmorExponentialIncomingDamageAddedExponent>1.0</CannonArmorExponentialIncomingDamageAddedExponent>
 						
+						<!-- BEAM LINEAR -->
+						
+						<BeamArmorFlatDamageReduction>0.0</BeamArmorFlatDamageReduction> <!-- damage = damage - (damage*ArmorFlatDamageReduction)  -->
+                        <BeamArmorThicknessDamageReduction>0.0</BeamArmorThicknessDamageReduction> <!-- damage = damage - (damage*min(cap, thicknessInBlocks*ArmorThicknessDamageReduction)) (reduction additionally to ArmorFlatDamageReduction)  -->
+                        <BeamArmorThicknessDamageReductionMax>0.99</BeamArmorThicknessDamageReductionMax> <!-- Cap for damage reduction percent  -->
+                        
+						
+						<!-- CANNON EXPONENTIAL:  Damage Dealt = (Damage Incoming^ArmorExponentialIncomingExponent)/((Armour Value In Line of Shot)^ArmorExponentialArmorValueTotalExponent+Damage Incoming^ArmorExponentialIncomingDamageAddedExponent) -->
+						<BeamArmorExponentialIncomingExponent>2.0</BeamArmorExponentialIncomingExponent>
+						<BeamArmorExponentialArmorValueTotalExponent>3.0</BeamArmorExponentialArmorValueTotalExponent>
+						<BeamArmorExponentialIncomingDamageAddedExponent>1.0</BeamArmorExponentialIncomingDamageAddedExponent>
+
+
 
                         <ExplosionShieldDamageBonus>0.0</ExplosionShieldDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against shields-->
                         <ExplosionHullDamageBonus>0.0</ExplosionHullDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against blocks (will also hurt armor more)-->
@@ -915,7 +930,7 @@
                         <AdditionalPowerConsumptionPerUnitMult>0.0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
 
  						<Recoil>2.0</Recoil>  <!-- Recoil in force per damage. Applied from the ship cannons point of origin in the opposite firing direction (multiplied with damage of projectile)-->
-						<ImpactForce>0.5</ImpactForce>  <!-- Impact force on target in force per damage.  (multiplied with damage of projectile)-->
+						<ImpactForce>0.75</ImpactForce>  <!-- Impact force on target in force per damage.  (multiplied with damage of projectile)-->
                         
                         <!-- 5 times more vertical recoil, horizontal recoil can go left or right -->
                         <!-- Horizontal Cursor Recoil -->
@@ -1025,13 +1040,13 @@
                             <ChargeSpeed style="set" value="1.0"/>
                             
                             <CursorRecoilX style="skip"/> <!-- Cursor movement force multiplied with damage -->
-                            <CursorRecoilMinX style="buff" value="2"/> <!-- Min cursor recoil value -->
-                            <CursorRecoilMaxX style="buff" value="2"/> <!-- Max cursor recoil value -->
+                            <CursorRecoilMinX style="skip"/> <!-- Min cursor recoil value -->
+                            <CursorRecoilMaxX style="skip"/> <!-- Max cursor recoil value -->
                             <CursorRecoilDirX style="skip"/> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                                 
                             <CursorRecoilY style="skip"/> <!-- Cursor movement force multiplied with damage -->
-                            <CursorRecoilMinY style="buff" value="2"/> <!-- Min cursor recoil value -->
-                            <CursorRecoilMaxY style="buff" value="2"/> <!-- Max cursor recoil value -->
+                            <CursorRecoilMinY style="skip"/> <!-- Min cursor recoil value -->
+                            <CursorRecoilMaxY style="skip"/> <!-- Max cursor recoil value -->
                             <CursorRecoilDirY style="skip"/> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                             
                             <PossibleZoom style="skip"/>
@@ -1046,7 +1061,7 @@
                             <Distance style="buff" value="0.3333" />
                             <Speed style="skip"/> <!-- 7.5 -->
                             <Recoil style="skip"/>
-                            <ImpactForce style="buff" value="9" />
+                            <ImpactForce style="buff" value="5" />
                             <PowerConsumption style="nerf" inverse="true" linear="true" value="30" version="noreactor"/> <!-- 1+3 = 4x power consumption -->
                             <PowerConsumption style="skip" linear="true"/> 
                             <ProjectileWidth style="skip"/>
@@ -1055,13 +1070,13 @@
                             <ChargeSpeed style="skip"/>         
                                 
                             <CursorRecoilX style="skip"/> <!-- Cursor movement force multiplied with damage -->
-                            <CursorRecoilMinX style="buff" value="2"/> <!-- Min cursor recoil value -->
-                            <CursorRecoilMaxX style="buff" value="2"/> <!-- Max cursor recoil value -->
+                            <CursorRecoilMinX style="skip"/> <!-- Min cursor recoil value -->
+                            <CursorRecoilMaxX style="skip"/> <!-- Max cursor recoil value -->
                             <CursorRecoilDirX style="skip"/> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                         		
                             <CursorRecoilY style="skip"/> <!-- Cursor movement force multiplied with damage -->
-                            <CursorRecoilMinY style="buff" value="2"/> <!-- Min cursor recoil value -->
-                            <CursorRecoilMaxY style="buff" value="2"/> <!-- Max cursor recoil value -->
+                            <CursorRecoilMinY style="skip"/> <!-- Min cursor recoil value -->
+                            <CursorRecoilMaxY style="skip"/> <!-- Max cursor recoil value -->
                             <CursorRecoilDirY style="skip"/> <!-- direction of recoil (>0 = up, <0 = down, 0 = random) -->
                             
                             <PossibleZoom style="set" value="0.2"/>
@@ -1140,7 +1155,7 @@
                         
                         <!-- EXP -->
                         <MissileHPExp>0.5</MissileHPExp>
-                        <MissileHPExpMult>10</MissileHPExpMult>
+                        <MissileHPExpMult>8</MissileHPExpMult>
                         
                         <!-- LOG -->
                         <MissileHPLogOffset>0</MissileHPLogOffset>
@@ -1219,7 +1234,7 @@
         <DamageBeam>
                 <BasicValues>
                 
-                        <DamageReductionPerArmorValueMult>0.65</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
+                        <DamageReductionPerArmorValueMult>0.0</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
                         <DamagePerHit>3.84</DamagePerHit>  
