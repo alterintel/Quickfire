@@ -28,7 +28,7 @@ def run():
 	ReplaceEverythingInPath(Tree, ".//Doors/Basic/Block/Mass", Mass)
 
 	# Standard armor
-	Hp = "200"
+	Hp = "300"
 	Armor = "4.4"
 	Mass = "0.1"
 	Description = "Factory processing of basic armor blocks with special hardening compound yields Standard Armor. Standard Armor has less HP per block than basic, but has an internal structure which resists more damage from projectiles and beam weapons when stacked in front of other standard or advanced armor blocks."
@@ -55,7 +55,7 @@ def run():
 	ReplaceEverythingInPath(Tree, ".//Doors/Standard/Block/Mass", Mass)
 
 	# Advanced armor
-	Hp = "100"
+	Hp = "150"
 	Armor = "15.63"
 	Mass = "0.2"
 	Description = "Further processing and hardening of Standard Armor results in Advanced Armor. While fairly brittle in terms of hitpoints, Advanced Armor's hardened composition gives much greater reinforcement per block when layered."
