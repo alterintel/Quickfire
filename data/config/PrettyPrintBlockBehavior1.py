@@ -21,12 +21,18 @@ def GetBasicBlockEffect(Tree, Xpath):
 	return
 
 def GetArmorConfig(Tree, Xpath):
-	Links = Tree.find(Xpath + "ArmorExponentialIncomingExponent")
-	ArmorExponentialIncomingExponent = Links.text
-	Links = Tree.find(Xpath + "ArmorExponentialArmorValueTotalExponent")
-	ArmorExponentialArmorValueTotalExponent = Links.text
-	Links = Tree.find(Xpath + "ArmorExponentialIncomingDamageAddedExponent")
-	ArmorExponentialIncomingDamageAddedExponent = Links.text
+	Links = Tree.find(Xpath + "CannonArmorExponentialIncomingExponent")
+	CannonArmorExponentialIncomingExponent = Links.text
+	Links = Tree.find(Xpath + "CannonArmorExponentialArmorValueTotalExponent")
+	CannonArmorExponentialArmorValueTotalExponent = Links.text
+	Links = Tree.find(Xpath + "CannonArmorExponentialIncomingDamageAddedExponent")
+	CannonArmorExponentialIncomingDamageAddedExponent = Links.text
+	Links = Tree.find(Xpath + "BeamArmorExponentialIncomingExponent")
+	BeamArmorExponentialIncomingExponent = Links.text
+	Links = Tree.find(Xpath + "BeamArmorExponentialArmorValueTotalExponent")
+	BeamArmorExponentialArmorValueTotalExponent = Links.text
+	Links = Tree.find(Xpath + "BeamArmorExponentialIncomingDamageAddedExponent")
+	BeamArmorExponentialIncomingDamageAddedExponent = Links.text
 	Links = Tree.find(Xpath + "ArmorEffectConfiguration/Kinetic")
 	ArmorEffectKinetic = Links.text
 	Links = Tree.find(Xpath + "ArmorEffectConfiguration/Heat")
@@ -35,7 +41,10 @@ def GetArmorConfig(Tree, Xpath):
 	ArmorEffectEM = Links.text
 	print ("**ARMOR**")
 	print ("```md")
-	print ("Armor formula is : (Incoming_Damage^(" + ArmorExponentialIncomingExponent + "))/(SUM_of_Armor_value_in_line_of_shot^(" + ArmorExponentialArmorValueTotalExponent + ") + Incoming_Damage^(" + ArmorExponentialIncomingDamageAddedExponent + "))")
+	print ("Cannon formula :")
+	print ("Armor formula is : (Incoming_Damage^(" + CannonArmorExponentialIncomingExponent + "))/(SUM_of_Armor_value_in_line_of_shot^(" + CannonArmorExponentialArmorValueTotalExponent + ") + Incoming_Damage^(" + CannonArmorExponentialIncomingDamageAddedExponent + "))")
+	print ("Beam formula :")
+	print ("Armor formula is : (Incoming_Damage^(" + BeamArmorExponentialIncomingExponent + "))/(SUM_of_Armor_value_in_line_of_shot^(" + BeamArmorExponentialArmorValueTotalExponent + ") + Incoming_Damage^(" + BeamArmorExponentialIncomingDamageAddedExponent + "))")
 	print ("\n[ArmorEffectConfiguration]")
 	print ("[Kinetic][" + ArmorEffectKinetic + "]")
 	print ("[Heat][" + ArmorEffectHeat + "]")
