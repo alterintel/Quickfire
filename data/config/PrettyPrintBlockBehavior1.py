@@ -41,9 +41,9 @@ def GetArmorConfig(Tree, Xpath):
 	ArmorEffectEM = Links.text
 	print ("**ARMOR**")
 	print ("```md")
-	print ("<Cannon formula>")
+	print ("< Cannon formula >")
 	print ("Armor formula is : (Incoming_Damage^(" + CannonArmorExponentialIncomingExponent + "))/(SUM_of_Armor_value_in_line_of_shot^(" + CannonArmorExponentialArmorValueTotalExponent + ") + Incoming_Damage^(" + CannonArmorExponentialIncomingDamageAddedExponent + "))\n")
-	print ("<Beam formula>")
+	print ("< Beam formula >")
 	print ("Armor formula is : (Incoming_Damage^(" + BeamArmorExponentialIncomingExponent + "))/(SUM_of_Armor_value_in_line_of_shot^(" + BeamArmorExponentialArmorValueTotalExponent + ") + Incoming_Damage^(" + BeamArmorExponentialIncomingDamageAddedExponent + "))\n")
 	print ("[ArmorEffectConfiguration]")
 	print ("[Kinetic][" + ArmorEffectKinetic + "]")
