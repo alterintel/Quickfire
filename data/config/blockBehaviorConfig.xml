@@ -196,7 +196,7 @@
                         </ArmorEffectConfiguration>
                         
                         <ShieldLocalCapacityPerBlock>250</ShieldLocalCapacityPerBlock>
-                        <ShieldLocalRechargePerBlock>10</ShieldLocalRechargePerBlock>
+                        <ShieldLocalRechargePerBlock>5</ShieldLocalRechargePerBlock>
                         <ShieldLocalDefaultCapacity>0</ShieldLocalDefaultCapacity>
 
                         <ShieldLocalRadiusCalcStyle>EXP</ShieldLocalRadiusCalcStyle> <!-- LINEAR, EXP, LOG -->
