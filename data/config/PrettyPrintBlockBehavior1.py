@@ -100,17 +100,17 @@ def GetThrustersConfig(Tree, Xpath):
 			Iterations.attrib['version'] # will throw an exception for the 2nd iteration where there is no version attribute
 		except:
 			PowTotalThrust = Iterations.text
-	Links = Tree.iterfind(Xpath + "UnitCalcMult")
+	'''Links = Tree.iterfind(Xpath + "UnitCalcMult")
 	for Iterations in Links:
 		try:
 			Iterations.attrib['version'] # will throw an exception for the 2nd iteration where there is no version attribute
 		except:
-			UnitCalcMult = Iterations.text
+			UnitCalcMult = Iterations.text'''
 	print ("**THRUSTER**")
 	print ("```md")
 	print ("[ReactorPowerPowerConsumptionPerBlockResting][" + ReactorPowerPowerConsumptionPerBlockResting + "]")
 	print ("[ReactorPowerPowerConsumptionPerBlockInUse][" + ReactorPowerPowerConsumptionPerBlockInUse + "]")
-	print ("Formula is : " + UnitCalcMult + " x (Nbr^(" + PowTotalThrust + ") x " + MulTotalThrust + ")")
+	print ("Formula is : (Nbr^(" + PowTotalThrust + ") x " + MulTotalThrust + ")")
 	print ("```")
 	return
 	
