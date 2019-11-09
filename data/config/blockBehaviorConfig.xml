@@ -1275,7 +1275,7 @@
                 </BasicValues>
                 <Combination>
                         <Cannon> <!-- sustained beam -->
-                            <HitSpeed style="skip"/> <!-- 0.1 tick rate-->
+                            <HitSpeed style="skip"/> <!-- 0.2 tick rate-->
                             <Distance style="nerf" value="1.5"/>
 
                             <PowerConsumptionResting style="buff" inverse="true" linear="true" value="5" version="noreactor"/>
@@ -1305,7 +1305,7 @@
                             <PossibleZoom style="set" value="0.3"/>
                         </Cannon>
                         <Missile> <!-- arc beam -->
-                            <HitSpeed style="skip"/> <!-- 0.05 tick rate-->
+                            <HitSpeed style="skip"/> <!-- 0.02 tick rate-->
                             <Distance style="nerf" value="3.0"/>
 
                             <PowerConsumptionResting style="skip" linear="true"/>
@@ -1335,7 +1335,7 @@
                             <PossibleZoom style="set" value="0.0"/>
                         </Missile>
                         <Beam> <!-- long-range pulse beam -->
-                            <HitSpeed style="nerf" value="2"/> <!-- 0.05 tick rate-->
+                            <HitSpeed style="skip"/> <!-- 0.02 tick rate-->
                             <Distance style="buff" value="0.33"/>
 
                             <PowerConsumptionResting style="nerf" inverse="true" linear="true" value="2" version="noreactor"/>                                
@@ -1344,7 +1344,7 @@
 
                             <PowerPerHit style="buff" value="3.55" linear="true"/>
                             <CoolDown style="nerf" value="2.0"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
-                            <BurstTime style="nerf" value="25.0"/> <!-- Time the beam will fire -->
+                            <BurstTime style="nerf" value="12.5"/> <!-- Time the beam will fire -->
 
                             <InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
                             
