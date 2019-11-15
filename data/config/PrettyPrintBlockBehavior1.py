@@ -175,7 +175,7 @@ def GetBeamStats(Tree, Xpath):
 	print ("[Power consumption when firing][" + str(BasePowerConsumptionPerTick) + "]")
 	#print ("[DropShieldsOnCharging][" + str(DropShieldsOnCharging) + "]")
 	print ("< Base weapon >")
-	print ("[LatchOn][" + str(BaseLatchOn) + "]")
+	#print ("[LatchOn][" + str(BaseLatchOn) + "]")
 	#print ("[Aimable][" + str(BaseAimable) + "]")
 	print ("[ChargeTime][" + str(BaseChargeTime) + "]")
 	print ("[Damage per tick][" + str(BaseDamage) + "]")
@@ -207,7 +207,7 @@ def GetBeamStats(Tree, Xpath):
 		ChargeTime = GetStats(Tree, XpathCombination + i + "/ChargeTime", BaseChargeTime)
 		# Pretty printing slave
 		print ("< " + i + " slave >")
-		print ("[LatchOn][" + str(LatchOn) + "]")
+		#print ("[LatchOn][" + str(LatchOn) + "]")
 		#print ("[Aimable][" + str(Aimable) + "]")
 		print ("[ChargeTime][" + str(ChargeTime) + "]")
 		print ("[Damage per tick][" + str(Damage) + "]")
