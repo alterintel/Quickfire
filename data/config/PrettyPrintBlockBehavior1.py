@@ -231,21 +231,23 @@ def GetStats(Tree, Xpath, BaseValue):
 		Value = float(BaseValue) / float(Links.attrib['value'])
 	elif (Links.attrib['style'] == "buff"):
 		Value = float(BaseValue) * ( 1 + float(Links.attrib['value']))
+	elif (Links.attrib['style'] == "set"):
+		Value = Links.attrib['value']
 	else:
 		Value = BaseValue
 	return Value
 	
 def GetMissileCapacity(Tree, Xpath):
 	# Stats part
-	Links = Tree.iterfind(Xpath + "/BasicMissileCapacity")
+	Links = Tree.find(Xpath + "BasicMissileCapacity")
 	BasicMissileCapacity = Links.text
-	Links = Tree.iterfind(Xpath + "/ReactorPowerConsumptionResting")
+	Links = Tree.find(Xpath + "ReactorPowerConsumptionResting")
 	ReactorPowerConsumptionResting = Links.text
-	Links = Tree.iterfind(Xpath + "/ReactorPowerConsumptionCharging")
+	Links = Tree.find(Xpath + "ReactorPowerConsumptionCharging")
 	ReactorPowerConsumptionCharging = Links.text
-	Links = Tree.iterfind(Xpath + "/MissileCapacityPerSec")
+	Links = Tree.find(Xpath + "MissileCapacityPerSec")
 	MissileCapacityPerSec = Links.text
-	Links = Tree.iterfind(Xpath + "/MissileCapacityReloadMode")
+	Links = Tree.find(Xpath + "MissileCapacityReloadMode")
 	MissileCapacityReloadMode = Links.text
 	print ("**MISSILE CAPACITY**")
 	print ("```md")
@@ -255,51 +257,51 @@ def GetMissileCapacity(Tree, Xpath):
 	print ("[MissileCapacityPerSec][" + MissileCapacityPerSec + "]")
 	print ("[MissileCapacityReloadMode][" + MissileCapacityReloadMode + "]")
 	if (MissileCapacityReloadMode == "ALL"):
-		Links = Tree.iterfind(Xpath + "/MissileCapacityReloadConstant")
+		Links = Tree.find(Xpath + "MissileCapacityReloadConstant")
 		MissileCapacityReloadConstant = Links.text
-		Links = Tree.iterfind(Xpath + "/MissileCapacityReloadResetOnFireManual")
+		Links = Tree.find(Xpath + "MissileCapacityReloadResetOnFireManual")
 		MissileCapacityReloadResetOnFireManual = Links.text
-		Links = Tree.iterfind(Xpath + "/MissileCapacityReloadResetOnFireAI")
+		Links = Tree.find(Xpath + "MissileCapacityReloadResetOnFireAI")
 		MissileCapacityReloadResetOnFireAI = Links.text
 		print ("[MissileCapacityReloadConstant][" + MissileCapacityReloadConstant + "]")
 		print ("[MissileCapacityReloadResetOnFireManual][" + MissileCapacityReloadResetOnFireManual + "]")
 		print ("[MissileCapacityReloadResetOnFireAI][" + MissileCapacityReloadResetOnFireAI + "]")
 	# Formula part
-	Links = Tree.iterfind(Xpath + "/MissileCapacityCalcStyle")
+	Links = Tree.find(Xpath + "MissileCapacityCalcStyle")
 	MissileCapacityCalcStyle = Links.text
 	print ("\n[MissileCapacityCalcStyle][" + MissileCapacityCalcStyle + "]")
 	if (MissileCapacityCalcStyle == "LINEAR"):
-		Links = Tree.iterfind(Xpath + "/MissileCapacityPerBlock")
+		Links = Tree.find(Xpath + "MissileCapacityPerBlock")
 		MissileCapacityPerBlock = Links.text
 		print ("[MissileCapacityPerBlock][" + MissileCapacityPerBlock + "]")
 	elif (MissileCapacityCalcStyle == "EXP"):
-		Links = Tree.iterfind(Xpath + "/MissileCapacityExp")
+		Links = Tree.find(Xpath + "MissileCapacityExp")
 		MissileCapacityExp = Links.text
 		print ("[MissileCapacityExp][" + MissileCapacityExp + "]")
-		Links = Tree.iterfind(Xpath + "/MissileCapacityExpMult")
+		Links = Tree.find(Xpath + "MissileCapacityExpMult")
 		MissileCapacityExpMult = Links.text
 		print ("[MissileCapacityExpMult][" + MissileCapacityExpMult + "]")
 	elif (MissileCapacityCalcStyle == "DOUBLE_EXP"):
-		Links = Tree.iterfind(Xpath + "/MissileCapacityExpMultFirstHalf")
+		Links = Tree.find(Xpath + "MissileCapacityExpMultFirstHalf")
 		MissileCapacityExpMultFirstHalf = Links.text
 		print ("[MissileCapacityExpMultFirstHalf][" + MissileCapacityExpMultFirstHalf + "]")
-		Links = Tree.iterfind(Xpath + "/MissileCapacityExpFirstHalf")
+		Links = Tree.find(Xpath + "MissileCapacityExpFirstHalf")
 		MissileCapacityExpFirstHalf = Links.text
 		print ("[MissileCapacityExpFirstHalf][" + MissileCapacityExpFirstHalf + "]")
-		Links = Tree.iterfind(Xpath + "/MissileCapacityExpThreshold")
+		Links = Tree.find(Xpath + "MissileCapacityExpThreshold")
 		MissileCapacityExpThreshold = Links.text
 		print ("[MissileCapacityExpThreshold][" + MissileCapacityExpThreshold + "]")
-		Links = Tree.iterfind(Xpath + "/MissileCapacityExpMultSecondHalf")
+		Links = Tree.find(Xpath + "MissileCapacityExpMultSecondHalf")
 		MissileCapacityExpMultSecondHalf = Links.text
 		print ("[MissileCapacityExpMultSecondHalf][" + MissileCapacityExpMultSecondHalf + "]")
-		Links = Tree.iterfind(Xpath + "/MissileCapacityExpSecondHalf")
+		Links = Tree.find(Xpath + "MissileCapacityExpSecondHalf")
 		MissileCapacityExpSecondHalf = Links.text
 		print ("[MissileCapacityExpSecondHalf][" + MissileCapacityExpSecondHalf + "]")
 	elif (MissileCapacityCalcStyle == "LOG"):
-		Links = Tree.iterfind(Xpath + "/MissileCapacityLogFactor")
+		Links = Tree.find(Xpath + "MissileCapacityLogFactor")
 		MissileCapacityLogFactor = Links.text
 		print ("[MissileCapacityLogFactor][" + MissileCapacityLogFactor + "]")
-		Links = Tree.iterfind(Xpath + "/MissileCapacityLogOffset")
+		Links = Tree.find(Xpath + "MissileCapacityLogOffset")
 		MissileCapacityLogOffset = Links.text
 		print ("[MissileCapacityLogOffset][" + MissileCapacityLogOffset + "]")
 	print ("```\n")
@@ -316,7 +318,7 @@ def GetBlockBehaviorConfigSystems():
 	GetBasicBlockEffect(Tree, Xpath)
 	Xpath = ".//Thruster/BasicValues/"
 	GetThrustersConfig(Tree, Xpath)
-	Xpath = ".//MissileCapacity/BasicValues"
+	Xpath = ".//MissileCapacity/BasicValues/"
 	GetMissileCapacity(Tree, Xpath)
 	return
 
