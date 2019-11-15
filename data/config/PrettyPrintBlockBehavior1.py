@@ -236,7 +236,7 @@ def GetStats(Tree, Xpath, BaseValue):
 	else:
 		Value = BaseValue
 	return Value
-	
+'''	
 def GetMissileCapacity(Tree, Xpath):
 	# Stats part
 	Links = Tree.find(Xpath + "BasicMissileCapacity")
@@ -305,7 +305,7 @@ def GetMissileCapacity(Tree, Xpath):
 		MissileCapacityLogOffset = Links.text
 		print ("[MissileCapacityLogOffset][" + MissileCapacityLogOffset + "]")
 	print ("```\n")
-	return
+	return'''
 
 	
 def GetBlockBehaviorConfigSystems():
@@ -318,8 +318,8 @@ def GetBlockBehaviorConfigSystems():
 	GetBasicBlockEffect(Tree, Xpath)
 	Xpath = ".//Thruster/BasicValues/"
 	GetThrustersConfig(Tree, Xpath)
-	Xpath = ".//MissileCapacity/BasicValues/"
-	GetMissileCapacity(Tree, Xpath)
+	#Xpath = ".//MissileCapacity/BasicValues/"
+	#GetMissileCapacity(Tree, Xpath)
 	return
 
 def GetBlockBehaviorConfigWeapons():
