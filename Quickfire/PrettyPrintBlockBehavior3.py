@@ -3,3 +3,4 @@ import xml.etree.ElementTree
 
 global SectorRange
 SectorRange = 2000
+print("")
