@@ -1,0 +1,5 @@
+#Works only in python 3
+import xml.etree.ElementTree
+
+global SectorRange
+SectorRange = 2000
