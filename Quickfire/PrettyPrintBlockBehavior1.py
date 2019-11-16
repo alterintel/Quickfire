@@ -100,17 +100,17 @@ def GetThrustersConfig(Tree, Xpath):
 			Iterations.attrib['version'] # will throw an exception for the 2nd iteration where there is no version attribute
 		except:
 			PowTotalThrust = Iterations.text
-	Links = Tree.iterfind(Xpath + "UnitCalcMult")
+	'''Links = Tree.iterfind(Xpath + "UnitCalcMult")
 	for Iterations in Links:
 		try:
 			Iterations.attrib['version'] # will throw an exception for the 2nd iteration where there is no version attribute
 		except:
-			UnitCalcMult = Iterations.text
+			UnitCalcMult = Iterations.text'''
 	print ("**THRUSTER**")
 	print ("```md")
 	print ("[ReactorPowerPowerConsumptionPerBlockResting][" + ReactorPowerPowerConsumptionPerBlockResting + "]")
 	print ("[ReactorPowerPowerConsumptionPerBlockInUse][" + ReactorPowerPowerConsumptionPerBlockInUse + "]")
-	print ("Formula is : " + UnitCalcMult + " x (Nbr^(" + PowTotalThrust + ") x " + MulTotalThrust + ")")
+	print ("Formula is : (Nbr^(" + PowTotalThrust + ") x " + MulTotalThrust + ")")
 	print ("```")
 	return
 	
@@ -157,14 +157,27 @@ def GetBeamStats(Tree, Xpath):
 	HeatEffect = Links.text
 	Links = Tree.find(XpathBase + "/EffectConfiguration/EM")
 	EmEffect = Links.text
+	# Part for effect on beam
+	Links = Tree.find(XpathBase + "/LatchOn")
+	BaseLatchOn = Links.text
+	Links = Tree.find(XpathBase + "/Aimable")
+	BaseAimable = Links.text
+	Links = Tree.find(XpathBase + "/ChargeTime")
+	BaseChargeTime = Links.text
+	Links = Tree.find(XpathBase + "/DropShieldsOnCharging")
+	DropShieldsOnCharging = Links.text
 	# Pretty printing base values
-	print ("< Base weapon >")
 	print ("[Kinetic][" + str(KineticEffect) + "]")
 	print ("[Heat][" + str(HeatEffect) + "]")
 	print ("[EM][" + str(EmEffect) + "]")
 	print ("[Power consumption when resting][" + str(BasePowerConsumptionResting) + "]")
 	print ("[Power consumption when charging][" + str(BasePowerConsumptionCharging) + "]")
 	print ("[Power consumption when firing][" + str(BasePowerConsumptionPerTick) + "]")
+	#print ("[DropShieldsOnCharging][" + str(DropShieldsOnCharging) + "]")
+	print ("< Base weapon >")
+	#print ("[LatchOn][" + str(BaseLatchOn) + "]")
+	#print ("[Aimable][" + str(BaseAimable) + "]")
+	#print ("[ChargeTime][" + str(BaseChargeTime) + "]")
 	print ("[Damage per tick][" + str(BaseDamage) + "]")
 	print ("[Tick rate][" + str(BaseTickRate) + "]")
 	print ("[Burst time][" + str(BaseBurstTime) + "]")
@@ -189,8 +202,14 @@ def GetBeamStats(Tree, Xpath):
 		MinEffectiveRange = GetStats(Tree, XpathCombination + i + "/MinEffectiveRange", BaseMinEffectiveRange)
 		MaxEffectiveValue = GetStats(Tree, XpathCombination + i + "/MaxEffectiveValue", BaseMaxEffectiveValue)
 		MaxEffectiveRange = GetStats(Tree, XpathCombination + i + "/MaxEffectiveRange", BaseMaxEffectiveRange)
+		LatchOn = GetStats(Tree, XpathCombination + i + "/LatchOn", BaseLatchOn)
+		Aimable = GetStats(Tree, XpathCombination + i + "/Aimable", BaseAimable)
+		ChargeTime = GetStats(Tree, XpathCombination + i + "/ChargeTime", BaseChargeTime)
 		# Pretty printing slave
 		print ("< " + i + " slave >")
+		#print ("[LatchOn][" + str(LatchOn) + "]")
+		#print ("[Aimable][" + str(Aimable) + "]")
+		#print ("[ChargeTime][" + str(ChargeTime) + "]")
 		print ("[Damage per tick][" + str(Damage) + "]")
 		print ("[Tick rate][" + str(TickRate) + "]")
 		print ("[Burst time][" + str(BurstTime) + "]")
@@ -212,12 +231,85 @@ def GetStats(Tree, Xpath, BaseValue):
 		Value = float(BaseValue) / float(Links.attrib['value'])
 	elif (Links.attrib['style'] == "buff"):
 		Value = float(BaseValue) * ( 1 + float(Links.attrib['value']))
+	elif (Links.attrib['style'] == "set"):
+		Value = Links.attrib['value']
 	else:
 		Value = BaseValue
 	return Value
+'''	
+def GetMissileCapacity(Tree, Xpath):
+	# Stats part
+	Links = Tree.find(Xpath + "BasicMissileCapacity")
+	BasicMissileCapacity = Links.text
+	Links = Tree.find(Xpath + "ReactorPowerConsumptionResting")
+	ReactorPowerConsumptionResting = Links.text
+	Links = Tree.find(Xpath + "ReactorPowerConsumptionCharging")
+	ReactorPowerConsumptionCharging = Links.text
+	Links = Tree.find(Xpath + "MissileCapacityPerSec")
+	MissileCapacityPerSec = Links.text
+	Links = Tree.find(Xpath + "MissileCapacityReloadMode")
+	MissileCapacityReloadMode = Links.text
+	print ("**MISSILE CAPACITY**")
+	print ("```md")
+	print ("[ReactorPowerConsumptionResting][" + ReactorPowerConsumptionResting + "]")
+	print ("[ReactorPowerConsumptionCharging][" + ReactorPowerConsumptionCharging + "]")
+	print ("\n[BasicMissileCapacity][" + BasicMissileCapacity + "]")
+	print ("[MissileCapacityPerSec][" + MissileCapacityPerSec + "]")
+	print ("[MissileCapacityReloadMode][" + MissileCapacityReloadMode + "]")
+	if (MissileCapacityReloadMode == "ALL"):
+		Links = Tree.find(Xpath + "MissileCapacityReloadConstant")
+		MissileCapacityReloadConstant = Links.text
+		Links = Tree.find(Xpath + "MissileCapacityReloadResetOnFireManual")
+		MissileCapacityReloadResetOnFireManual = Links.text
+		Links = Tree.find(Xpath + "MissileCapacityReloadResetOnFireAI")
+		MissileCapacityReloadResetOnFireAI = Links.text
+		print ("[MissileCapacityReloadConstant][" + MissileCapacityReloadConstant + "]")
+		print ("[MissileCapacityReloadResetOnFireManual][" + MissileCapacityReloadResetOnFireManual + "]")
+		print ("[MissileCapacityReloadResetOnFireAI][" + MissileCapacityReloadResetOnFireAI + "]")
+	# Formula part
+	Links = Tree.find(Xpath + "MissileCapacityCalcStyle")
+	MissileCapacityCalcStyle = Links.text
+	print ("\n[MissileCapacityCalcStyle][" + MissileCapacityCalcStyle + "]")
+	if (MissileCapacityCalcStyle == "LINEAR"):
+		Links = Tree.find(Xpath + "MissileCapacityPerBlock")
+		MissileCapacityPerBlock = Links.text
+		print ("[MissileCapacityPerBlock][" + MissileCapacityPerBlock + "]")
+	elif (MissileCapacityCalcStyle == "EXP"):
+		Links = Tree.find(Xpath + "MissileCapacityExp")
+		MissileCapacityExp = Links.text
+		print ("[MissileCapacityExp][" + MissileCapacityExp + "]")
+		Links = Tree.find(Xpath + "MissileCapacityExpMult")
+		MissileCapacityExpMult = Links.text
+		print ("[MissileCapacityExpMult][" + MissileCapacityExpMult + "]")
+	elif (MissileCapacityCalcStyle == "DOUBLE_EXP"):
+		Links = Tree.find(Xpath + "MissileCapacityExpMultFirstHalf")
+		MissileCapacityExpMultFirstHalf = Links.text
+		print ("[MissileCapacityExpMultFirstHalf][" + MissileCapacityExpMultFirstHalf + "]")
+		Links = Tree.find(Xpath + "MissileCapacityExpFirstHalf")
+		MissileCapacityExpFirstHalf = Links.text
+		print ("[MissileCapacityExpFirstHalf][" + MissileCapacityExpFirstHalf + "]")
+		Links = Tree.find(Xpath + "MissileCapacityExpThreshold")
+		MissileCapacityExpThreshold = Links.text
+		print ("[MissileCapacityExpThreshold][" + MissileCapacityExpThreshold + "]")
+		Links = Tree.find(Xpath + "MissileCapacityExpMultSecondHalf")
+		MissileCapacityExpMultSecondHalf = Links.text
+		print ("[MissileCapacityExpMultSecondHalf][" + MissileCapacityExpMultSecondHalf + "]")
+		Links = Tree.find(Xpath + "MissileCapacityExpSecondHalf")
+		MissileCapacityExpSecondHalf = Links.text
+		print ("[MissileCapacityExpSecondHalf][" + MissileCapacityExpSecondHalf + "]")
+	elif (MissileCapacityCalcStyle == "LOG"):
+		Links = Tree.find(Xpath + "MissileCapacityLogFactor")
+		MissileCapacityLogFactor = Links.text
+		print ("[MissileCapacityLogFactor][" + MissileCapacityLogFactor + "]")
+		Links = Tree.find(Xpath + "MissileCapacityLogOffset")
+		MissileCapacityLogOffset = Links.text
+		print ("[MissileCapacityLogOffset][" + MissileCapacityLogOffset + "]")
+	print ("```\n")
+	return'''
+
 	
 def GetBlockBehaviorConfigSystems():
-	print ("***Systems***")
+	print ("\n***Systems***")
 	Tree = xml.etree.ElementTree.ElementTree()
 	Tree.parse("/home/starmade/starmade/StarMade/data/config/blockBehaviorConfig.xml")
 	Xpath = ".//General/BasicValues/"
@@ -226,12 +318,14 @@ def GetBlockBehaviorConfigSystems():
 	GetBasicBlockEffect(Tree, Xpath)
 	Xpath = ".//Thruster/BasicValues/"
 	GetThrustersConfig(Tree, Xpath)
+	#Xpath = ".//MissileCapacity/BasicValues/"
+	#GetMissileCapacity(Tree, Xpath)
 	return
 
 def GetBlockBehaviorConfigWeapons():
 	Tree = xml.etree.ElementTree.ElementTree()
 	Tree.parse("/home/starmade/starmade/StarMade/data/config/blockBehaviorConfig.xml")
-	print ("\n*Remember that for all weapons the numbers are given for 1 module*")
+	print ("*Remember that for all weapons the numbers are given for 1 module*")
 	print ("**Damage Beam**")
 	print ("```md")
 	Xpath = ".//DamageBeam"
