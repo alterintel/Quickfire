@@ -128,7 +128,7 @@ def GetStats(Tree, Xpath, BaseValue):
 def GetBlockBehaviorConfigWeapons():
 	Tree = xml.etree.ElementTree.ElementTree()
 	Tree.parse("/home/starmade/starmade/StarMade/data/config/blockBehaviorConfig.xml")
-	print ("\n*Remember that for all weapons the numbers are given for 1 module*")
+	print ("*Remember that for all weapons the numbers are given for 1 module*")
 	print ("**Damage Beam**")
 	print ("```md")
 	Xpath = ".//DamageBeam"
