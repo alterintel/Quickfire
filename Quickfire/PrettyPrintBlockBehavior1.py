@@ -199,7 +199,7 @@ def GetMissileCapacity(Tree, Xpath):
 
 	
 def GetBlockBehaviorConfigSystems():
-	print ("\n***Systems***")
+	print ("***Systems***")
 	Tree = xml.etree.ElementTree.ElementTree()
 	Tree.parse("/home/starmade/starmade/StarMade/data/config/blockBehaviorConfig.xml")
 	Xpath = ".//General/BasicValues/"
