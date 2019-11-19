@@ -1102,7 +1102,7 @@
                         <MissileCapacityPerBlock>0.1</MissileCapacityPerBlock>
                         
                         <!-- EXP -->
-                        <MissileCapacityExp>0.61</MissileCapacityExp>
+                        <MissileCapacityExp>0.48</MissileCapacityExp>
                         <MissileCapacityExpMult>1.0</MissileCapacityExpMult>
                         
                         <!-- DOUBLE EXP -->
