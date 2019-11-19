@@ -1,7 +1,7 @@
 <GameConfig  version="1">
 
 
-<!-- IMPORTANT: to change the config, please edit ./GameConfig.xml, and NOT ./data/config/GameConfigDefault.xml -testing git-auto-deply
+<!-- IMPORTANT: to change the config, please edit ./GameConfig.xml, and NOT ./data/config/GameConfigDefault.xml
 	 as that is only a template that gets copied on first startup, so a server's config doesn't get replaced on update.
 	 Any new features of this config will have to be copied over manually first-->
 	<StartingGear>
