@@ -1004,7 +1004,7 @@
                             <ImpactForce style="nerf" value="2" />
                             <PowerConsumption style="buff" inverse="true" linear="true" value="10" version="noreactor"/>
                             <PowerConsumption style="skip" linear="true"/>
-                            <AcidFormula style="set" value="1"/>
+                            <AcidFormula style="skip"/>
                             <ProjectileWidth style="skip"/>
                             <ChargeMax style="skip"/>
                             <ChargeSpeed style="skip"/>
@@ -1086,15 +1086,15 @@
         </Cannon>
         <MissileCapacity>
         	 <BasicValues>
-                        <BasicMissileCapacity>10.0</BasicMissileCapacity>
+                        <BasicMissileCapacity>0.0</BasicMissileCapacity>
                         <MissileCapacityReloadMode>ALL</MissileCapacityReloadMode> <!-- SINGLE (for one at a time) or ALL (all reloaded when timer reches zero)--> 
                         <MissileCapacityPerSec>0.2</MissileCapacityPerSec> <!-- Added seconds to reload time per missile -->
                         <MissileCapacityReloadConstant>5.0</MissileCapacityReloadConstant> <!-- reload time for ALL mode [seconds]-->
                         <MissileCapacityReloadResetOnFireManual>false</MissileCapacityReloadResetOnFireManual> <!-- reload time of missiles reset when one is fired by a player (only for ALL mode) [seconds]-->
-                        <MissileCapacityReloadResetOnFireAI>true</MissileCapacityReloadResetOnFireAI> <!-- reload time of missiles reset when one is fired by an AI (only for ALL mode) [seconds]-->
+                        <MissileCapacityReloadResetOnFireAI>false</MissileCapacityReloadResetOnFireAI> <!-- reload time of missiles reset when one is fired by an AI (only for ALL mode) [seconds]-->
                          
                         <ReactorPowerConsumptionResting>20</ReactorPowerConsumptionResting>
-                        <ReactorPowerConsumptionCharging>0</ReactorPowerConsumptionCharging>
+                        <ReactorPowerConsumptionCharging>20</ReactorPowerConsumptionCharging>
 
                         <MissileCapacityCalcStyle>EXP</MissileCapacityCalcStyle> <!-- LINEAR, EXP, DOUBLE_EXP, LOG -->
                         
@@ -1102,7 +1102,7 @@
                         <MissileCapacityPerBlock>0.1</MissileCapacityPerBlock>
                         
                         <!-- EXP -->
-                        <MissileCapacityExp>0.48</MissileCapacityExp>
+                        <MissileCapacityExp>0.61</MissileCapacityExp>
                         <MissileCapacityExpMult>1.0</MissileCapacityExpMult>
                         
                         <!-- DOUBLE EXP -->
