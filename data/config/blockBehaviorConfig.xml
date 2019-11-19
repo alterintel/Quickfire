@@ -1154,8 +1154,8 @@
                         <MissileHPPerDamage>0.0</MissileHPPerDamage>
                         
                         <!-- EXP -->
-                        <MissileHPExp>0.5</MissileHPExp>
-                        <MissileHPExpMult>8</MissileHPExpMult>
+                        <MissileHPExp>0.7</MissileHPExp>
+                        <MissileHPExpMult>2</MissileHPExpMult>
                         
                         <!-- LOG -->
                         <MissileHPLogOffset>0</MissileHPLogOffset>
