@@ -1087,9 +1087,9 @@
         <MissileCapacity>
         	 <BasicValues>
                         <BasicMissileCapacity>0.0</BasicMissileCapacity>
-                        <MissileCapacityReloadMode>SINGLE</MissileCapacityReloadMode> <!-- SINGLE (for one at a time) or ALL (all reloaded when timer reches zero)--> 
+                        <MissileCapacityReloadMode>ALL</MissileCapacityReloadMode> <!-- SINGLE (for one at a time) or ALL (all reloaded when timer reches zero)--> 
                         <MissileCapacityPerSec>0.2</MissileCapacityPerSec> <!-- Added seconds to reload time per missile -->
-                        <MissileCapacityReloadConstant>0.0</MissileCapacityReloadConstant> <!-- reload time for ALL mode [seconds]-->
+                        <MissileCapacityReloadConstant>10.0</MissileCapacityReloadConstant> <!-- reload time for ALL mode [seconds]-->
                         <MissileCapacityReloadResetOnFireManual>false</MissileCapacityReloadResetOnFireManual> <!-- reload time of missiles reset when one is fired by a player (only for ALL mode) [seconds]-->
                         <MissileCapacityReloadResetOnFireAI>false</MissileCapacityReloadResetOnFireAI> <!-- reload time of missiles reset when one is fired by an AI (only for ALL mode) [seconds]-->
                          
