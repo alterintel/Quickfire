@@ -1,4 +1,4 @@
-<Config hash="-7611018716253121823">
+<Config hash="7807109169733229841">
     <Group id="stealth - cloaking">
         <E modtype="set" priority="0" type="stealth_cloak_capability">
             <P name="value" type="boolean">
@@ -33,14 +33,14 @@
     <Group id="mobility - top speed 2">
         <E modtype="add" priority="0" type="thruster_top_speed">
             <P name="value" type="float">
-                <value>0.2</value>
+                <value>0.1</value>
             </P>
         </E>
     </Group>
     <Group id="mobility - top speed 3">
         <E modtype="add" priority="0" type="thruster_top_speed">
             <P name="value" type="float">
-                <value>0.3</value>
+                <value>0.15</value>
             </P>
         </E>
     </Group>
@@ -139,17 +139,17 @@
         </E>
     </Group>
     <Group id="defense - base armor enhancement">
-        <E modtype="set" priority="-1" type="armor_defense_kinetic">
+        <E modtype="add" priority="-1" type="armor_defense_kinetic">
             <P name="value" type="float">
                 <value>0.1</value>
             </P>
         </E>
-        <E modtype="set" priority="-1" type="armor_defense_heat">
+        <E modtype="add" priority="-1" type="armor_defense_heat">
             <P name="value" type="float">
                 <value>0.1</value>
             </P>
         </E>
-        <E modtype="set" priority="-1" type="armor_defense_em">
+        <E modtype="add" priority="-1" type="armor_defense_em">
             <P name="value" type="float">
                 <value>0.1</value>
             </P>
@@ -300,12 +300,12 @@
         </E>
         <E modtype="set" priority="-1" type="shield_hotspot_range">
             <P name="value" type="float">
-                <value>0.25</value>
+                <value>0.4</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="shield_hotspot_percentage">
             <P name="value" type="float">
-                <value>0.5</value>
+                <value>0.35</value>
             </P>
         </E>
     </Group>
@@ -317,7 +317,7 @@
         </E>
         <E modtype="set" priority="-1" type="shield_hotspot_percentage">
             <P name="value" type="float">
-                <value>0.5</value>
+                <value>0.1</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="shield_hotspot_range">
@@ -780,7 +780,7 @@
     <Group id="defense - shield type alpha 2">
         <E modtype="add" priority="0" type="shield_hotspot_range">
             <P name="value" type="float">
-                <value>0.25</value>
+                <value>0.3</value>
             </P>
         </E>
     </Group>
@@ -856,12 +856,12 @@
         </E>
         <E modtype="set" priority="-1" type="thruster_blast_cooldown">
             <P name="value" type="float">
-                <value>20.0</value>
+                <value>6.0</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="thruster_blast_strength">
             <P name="value" type="float">
-                <value>25.0</value>
+                <value>35.0</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="thruster_blast_power_consumption_charging">
@@ -1447,7 +1447,7 @@
         </E>
         <E modtype="set" priority="-1" type="scan_charge_time">
             <P name="value" type="float">
-                <value>1.0</value>
+                <value>3.0</value>
             </P>
         </E>
         <E modtype="mult" priority="0" type="scan_power_charge_rate">
