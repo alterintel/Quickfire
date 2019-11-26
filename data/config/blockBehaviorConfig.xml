@@ -74,11 +74,11 @@
                        
                        <!-- Rails -->
                         <RailMassEnhancerFreeMass>50.0</RailMassEnhancerFreeMass>   <!-- mass that is free to place without the need of a rail mass enhancer -->
-                        <RailMassEnhancerMassPerEnhancer>5.0</RailMassEnhancerMassPerEnhancer>   <!-- how much mass is free to place for each rail mass enhancer in the structure -->
+                        <RailMassEnhancerMassPerEnhancer>50.0</RailMassEnhancerMassPerEnhancer>   <!-- how much mass is free to place for each rail mass enhancer in the structure -->
                         <RailMassEnhancerPowerConsumedPerEnhancer>50.0</RailMassEnhancerPowerConsumedPerEnhancer>   <!-- How much power per second is consumed my rail enhancer blocks -->
                         <RailMassEnhancerPercentCostPerMassAboveEnhancerProvided>0.05</RailMassEnhancerPercentCostPerMassAboveEnhancerProvided>   <!-- how much % of mass speed (between 0 and 1) is subtracted for every one mass placed on a dock that is above the current mass limit (free blocks + enhancers) (e.g. at 0.1, for every block placed the speed is one percent slower)-->
-                        <RailMassEnhancerReactorPowerConsumptionResting>0.0</RailMassEnhancerReactorPowerConsumptionResting>
-                        <RailMassEnhancerReactorPowerConsumptionCharging>1.0</RailMassEnhancerReactorPowerConsumptionCharging>
+                        <RailMassEnhancerReactorPowerConsumptionResting>10.0</RailMassEnhancerReactorPowerConsumptionResting>
+                        <RailMassEnhancerReactorPowerConsumptionCharging>10.0</RailMassEnhancerReactorPowerConsumptionCharging>
                         
                         <AITurretMinOrientationSpeed>0.5</AITurretMinOrientationSpeed> <!-- Minimum turret orientation speed by mass used by AI (still depends on enhancer) -->
                         <AITurretMaxOrientationSpeed>3.5</AITurretMaxOrientationSpeed> <!-- Maximum turret orientation speed by mass used by AI (still depends on enhancer) -->
