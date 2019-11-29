@@ -1,4 +1,4 @@
-<Config hash="8504817460426416785">
+<Config hash="-5178247320688491535">
     <Group id="stealth - cloaking">
         <E modtype="set" priority="0" type="stealth_cloak_capability">
             <P name="value" type="boolean">
@@ -1135,7 +1135,7 @@
         </E>
         <E modtype="set" priority="-1" type="warp_interdiction_power_consumption">
             <P name="value" type="float">
-                <value>0.5</value>
+                <value>0.025</value>
             </P>
         </E>
         <E modtype="set" priority="-2" type="warp_interdiction">
