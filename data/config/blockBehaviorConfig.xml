@@ -579,8 +579,8 @@
                         <UnitCalcStyle>LINEAR</UnitCalcStyle> <!-- LINEAR, BOX_DIM_MULT, BOX_DIM_ADD -->
                         
                         <MinThrustMassRatio>0.0</MinThrustMassRatio> <!-- minimum thrust to mass ratio multiplied with server max speed -->
-                        <MaxThrustMassRatio>6</MaxThrustMassRatio> <!-- maximum thrust to mass ratio multiplied with server max speed -->
-                        <ThrustMassRatioMaxSpeedAddition>0.0</ThrustMassRatioMaxSpeedAddition> <!-- additional add to ratio -->
+                        <MaxThrustMassRatio>5.0</MaxThrustMassRatio> <!-- maximum thrust to mass ratio multiplied with server max speed -->
+                        <ThrustMassRatioMaxSpeedAddition>1.0</ThrustMassRatioMaxSpeedAddition> <!-- additional add to ratio -->
                         <ThrustMassRatioMaxSpeedMultiplier>1.0</ThrustMassRatioMaxSpeedMultiplier> <!-- additional multiplier of ratio -->
 
                        
@@ -925,7 +925,7 @@
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging>
                         
                         <Distance>4.5</Distance> <!-- 1 is equal to 100% sector radius -->
-                        <Speed>98</Speed> <!-- In relation % to server max speed  1 = 100% -->
+                        <Speed>90</Speed> <!-- In relation % to server max speed  1 = 100% -->
                         <ReloadMs>1000</ReloadMs>
                         <AdditionalPowerConsumptionPerUnitMult>0.0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
 
@@ -1137,7 +1137,7 @@
                         
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
                         <Radius>100</Radius> <!--this a maximum blast radius -->
-                        <Speed>33</Speed>               
+                        <Speed>30</Speed>               
                         <ReloadMs>2000</ReloadMs><!-- default 15000 -->
                         <PowerConsumption>1500</PowerConsumption> <!-- OLD POWER -->
                         <AdditionalPowerConsumptionPerUnitMult>0.0</AdditionalPowerConsumptionPerUnitMult> <!-- Nerf based on amount of groups connected to the same controller: powerConsumption * (1+countGroups*thisValue); 0 to turn off nerf-->
