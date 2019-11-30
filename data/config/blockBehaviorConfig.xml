@@ -1175,8 +1175,7 @@
                              <Reload style="buff" value="1.5"/>
                              <Distance style="buff" value="0.5"/>
                              <LockOnTimeSec style="skip"/>
-                             
-                             <BlastRadius style="skip"/> 
+                              
                              <Speed style="skip"/>
                              <Split style="buff" value="10"/>
                              <Mode style="set" value="1"/><!-- Heat Seeker Missile -->
@@ -1195,7 +1194,6 @@
                             <Distance style="nerf" value="6"/>
                             <LockOnTimeSec style="skip"/>
                             
-                            <BlastRadius style="skip"/> <!--Default missile is already at approx. max supported blast radius.-->
                             <Speed style="buff" value="1.0"/>
                             <Split style="skip"/>
                             <Mode style="set" value="3"/> <!-- Bomb Missile -->
@@ -1214,7 +1212,6 @@
                             <Distance style="buff" value="1"/>
                             <LockOnTimeSec style="nerf" value="7.5"/>
                             
-                            <BlastRadius style="skip"/>
                             <Speed style="skip"/>
                             <Split style="skip"/>
                             <Mode style="set" value="2"/><!-- Smart Missile -->
