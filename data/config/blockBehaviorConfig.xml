@@ -1143,14 +1143,14 @@
                         <ChasingTurnSpeedWithTargetInFront>7.0</ChasingTurnSpeedWithTargetInFront> 
                         <ChasingTurnSpeedWithTargetInBack>8.0</ChasingTurnSpeedWithTargetInBack> 
                         
-                        <MissileHPCalcStyle>EXP</MissileHPCalcStyle> <!-- LINEAR, EXP, LOG -->
+                        <MissileHPCalcStyle>LINEAR</MissileHPCalcStyle> <!-- LINEAR, EXP, LOG -->
                         <PossibleZoom>0.4</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification -->
                         
                         
                         <MissileHPMin>1</MissileHPMin>
                         
                         <!-- LINEAR-->
-                        <MissileHPPerDamage>0.0</MissileHPPerDamage>
+                        <MissileHPPerDamage>0.01</MissileHPPerDamage>
                         
                         <!-- EXP -->
                         <MissileHPExp>0.7</MissileHPExp>
