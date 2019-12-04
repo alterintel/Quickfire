@@ -62,7 +62,8 @@ def GetWeaponStats(Tree, Xpath):
 		if (MissileHPCalcStyle == "LINEAR"):
 			Links = Tree.find(XpathBase + "/MissileHPPerDamage")
 			MissileHPPerDamage = Links.text
-			print ("[MissileHPPerDamage][" + str(MissileHPPerDamage) + "]")
+			#print ("[MissileHPPerDamage][" + str(MissileHPPerDamage) + "]")
+			print ("MissileHP = MissileDamage * " + str(MissileHPPerDamage))
 		if (MissileHPCalcStyle == "EXP"):
 			Links = Tree.find(XpathBase + "/MissileHPExp")
 			MissileHPExp = Links.text
