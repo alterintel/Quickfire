@@ -1278,14 +1278,14 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="nerf" linear="true" value="2.24"/> <!-- 5 - This is the damage per hit -->
+                            <PowerPerHit style="nerf" linear="true" value="1.28"/> <!-- 5 - This is the damage per hit -->
                             <CoolDown style="nerf" value="10"/> <!-- 1.5 - Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="5"/> <!-- Time the beam will fire -->
 
                             <InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 
-                            <LatchOn style="set" value ="1"/>
-                            <CheckLatchConnection style="set" value ="1"/>
+                            <LatchOn style="skip"/>
+                            <CheckLatchConnection style="skip"/>
                             <Penetration style="set" value ="0"/>
                             <AcidDamagePercentage style="skip"/><!-- restdamage of a tick when a block was killed -->
                             <FriendlyFire style="set" value ="0"/>
