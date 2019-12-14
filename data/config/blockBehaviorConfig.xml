@@ -920,7 +920,7 @@
                         <PowerConsumption>100</PowerConsumption>
 
                         <!-- NEW -->
-                        <Damage>13.72</Damage>                        
+                        <Damage>13.53</Damage>                        
                         <ReactorPowerConsumptionResting>25.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging>
                         
@@ -996,7 +996,7 @@
                             <!-- PROS: Higher fire rate and faster projectile speed -->
                             <!-- CONS: Less damage per power consumed, less impact force per damage -->
 
-                            <Damage style="nerf" linear="true" value="6.4"/>
+                            <Damage style="nerf" linear="true" value="6.53"/>
                             <Reload style="nerf" value= "10"/>
                             <Distance style="nerf" value="1.5"/>
                             <Speed style="skip"/>
@@ -1026,7 +1026,7 @@
                             <!-- Charge Cannon -->
                             <!-- PROS: High efficiency when fired at full charge, fire rate is changeable -->
                             <!-- CONS: Bad efficiency when fired at low charge -->        
-                            <Damage style="buff" linear="true" value ="13.06"/>
+                            <Damage style="buff" linear="true" value ="8.51"/>
                             <Reload style="buff" value="2" /> 
                             <Distance style="nerf" value="3.0"/>
                             <Speed style="skip"/>
@@ -1036,7 +1036,7 @@
                             <PowerConsumption style="skip" linear="true"/>
                             <ProjectileWidth style="buff" value ="1"/>
                             <AcidFormula style="set" value="2"/>
-                            <ChargeMax style="set" value="3.0"/>
+                            <ChargeMax style="set" value="1.3"/>
                             <ChargeSpeed style="set" value="1.0"/>
                             
                             <CursorRecoilX style="skip"/> <!-- Cursor movement force multiplied with damage -->
@@ -1056,7 +1056,7 @@
                             <!-- Artillery Cannon -->
                             <!-- PROS: Highest dps, big hole on hit -->
                             <!-- CONS: slow to reload and slower projectile speed -->      
-                            <Damage style="buff" linear="true" value="6.29" /> <!-- 1 + 36.5 = 600 damage -->
+                            <Damage style="buff" linear="true" value="6.39" /> <!-- 1 + 36.5 = 600 damage -->
                             <Reload style="buff" value="9.0" /> <!-- 1 + 14 = 15000ms -->
                             <Distance style="buff" value="0.3333" />
                             <Speed style="skip"/> <!-- 7.5 -->
@@ -1123,7 +1123,7 @@
                 <BasicValues>
                         <Damage version="noreactor">300</Damage>
                         
-                        <Damage>94.3</Damage>
+                        <Damage>82.82</Damage>
                         <ReactorPowerConsumptionResting>25.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging> 
                         <AdditionalCapacityUsedPerDamage>0</AdditionalCapacityUsedPerDamage> <!-- rounded down -->
@@ -1171,7 +1171,7 @@
                 </BasicValues>
                 <Combination>
                         <Cannon> <!-- Heat-Seeking Swarm -->
-                             <Damage style="buff" value="0.6" linear="true"/>
+                             <Damage style="buff" value="0.63" linear="true"/>
                              <Reload style="buff" value="1.5"/>
                              <Distance style="buff" value="0.5"/>
                              <LockOnTimeSec style="skip"/>
@@ -1207,7 +1207,7 @@
                             <PossibleZoom style="set" value="0.5"/>
                         </Missile>
                         <Beam> <!-- Lock-on Missile -->
-                            <Damage style="buff" value="0.17" linear="true" />
+                            <Damage style="buff" value="0.21" linear="true" />
                             <Reload style="buff" value="1.5"/>
                             <Distance style="buff" value="1"/>
                             <LockOnTimeSec style="nerf" value="7.5"/>
@@ -1233,7 +1233,7 @@
                         <DamageReductionPerArmorValueMult>0.0</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
-                        <DamagePerHit>3.84</DamagePerHit>  
+                        <DamagePerHit>3.79</DamagePerHit>  
                         <ReactorPowerConsumptionResting>25.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging>
                         
@@ -1278,7 +1278,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="nerf" linear="true" value="1.28"/> <!-- 5 - This is the damage per hit -->
+                            <PowerPerHit style="nerf" linear="true" value="1.31"/> <!-- 5 - This is the damage per hit -->
                             <CoolDown style="nerf" value="10"/> <!-- 1.5 - Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="5"/> <!-- Time the beam will fire -->
 
@@ -1307,7 +1307,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
                             
-                            <PowerPerHit style="buff" linear="true" value="2.35"/> <!-- linear is needed here -->
+                            <PowerPerHit style="buff" linear="true" value="2.17"/> <!-- linear is needed here -->
                             <CoolDown style="nerf" value="2.0"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="2.0"/> <!-- Time the beam will fire -->
 
@@ -1338,7 +1338,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="buff" value="3.55" linear="true"/>
+                            <PowerPerHit style="buff" value="3.62" linear="true"/>
                             <CoolDown style="nerf" value="2.0"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="12.5"/> <!-- Time the beam will fire -->
 
