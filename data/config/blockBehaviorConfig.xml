@@ -1132,7 +1132,7 @@
                         <PercentagePowerUsageCharging>0</PercentagePowerUsageCharging> <!-- percentage of total reactor recharge used per block -->
                         <PercentagePowerUsageResting>0</PercentagePowerUsageResting> <!-- percentage of total reactor recharge used per block -->
                         
-                        <LockOnTimeSec>5</LockOnTimeSec> <!-- how long it takes to lock on missiles -->
+                        <LockOnTimeSec>0.5</LockOnTimeSec> <!-- how long it takes to lock on missiles -->
                         <LockedOnExpireTimeSec>3</LockedOnExpireTimeSec> <!-- how long it takes for target to expire when looking away after lock on -->
                         
                         <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius -->
@@ -1210,7 +1210,7 @@
                             <Damage style="buff" value="0.21" linear="true" />
                             <Reload style="buff" value="1.5"/>
                             <Distance style="buff" value="1"/>
-                            <LockOnTimeSec style="nerf" value="7.5"/>
+                            <LockOnTimeSec style="skip"/>
                             
                             <Speed style="skip"/>
                             <Split style="skip"/>
