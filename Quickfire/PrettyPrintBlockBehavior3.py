@@ -147,7 +147,7 @@ def GetWeaponStats(Tree, Xpath):
 		if ("Missile" in Xpath):
 			Mode = GetStats(Tree, XpathCombination + i + "/Mode", 0)
 			Links = Tree.find(XpathCombination + "/LockOnTimeSec")
-			LockOnTimeSec = GetStats(Tree, XpathCombination + i + "/Mode", BaseLockOnTimeSec)
+			LockOnTimeSec = GetStats(Tree, XpathCombination + i + "/LockOnTimeSec", BaseLockOnTimeSec)
 			#<!-- Dumb = 0, Heat = 1, TargetChasing = 2, Bomb = 3 -->
 			if (Mode == "0"):
 				print ("[Mode][Dumbfire]")
