@@ -778,8 +778,8 @@
 	                <MissileAmmo>4</MissileAmmo>
                         
                     <!-- Proximity: one time heatseeker, bypasses shields -->
-	                <ProximityDamage>500.0</ProximityDamage>
-	                <ProximitySpeed>0.5</ProximitySpeed> <!-- in universe max speed -->
+	                <ProximityDamage>2000.0</ProximityDamage>
+	                <ProximitySpeed>0.75</ProximitySpeed> <!-- in universe max speed -->
 
 
 					<!-- DAMAGE MULTIPLIERS PER STRENGTH LVL (multiplied with base damage of that mine)-->
