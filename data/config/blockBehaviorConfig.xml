@@ -1025,7 +1025,7 @@
                         <Missile>
                             <!-- Charge Cannon -->
                             <!-- PROS: High efficiency when fired at full charge, fire rate is changeable -->
-                            <!-- CONS: Bad efficiency when fired at low charge -->        
+                            <!-- CONS: Bad efficiency when fired at low charge, slow recharge -->        
                             <Damage style="buff" linear="true" value ="8.51"/>
                             <Reload style="buff" value="2" /> 
                             <Distance style="nerf" value="3.0"/>
@@ -1054,8 +1054,8 @@
                         </Missile>
                         <Beam> 
                             <!-- Artillery Cannon -->
-                            <!-- PROS: Highest dps, big hole on hit -->
-                            <!-- CONS: slow to reload and slower projectile speed -->      
+                            <!-- PROS: Highest range, big hole on hit -->
+                            <!-- CONS: slow to reload, lowest DPS -->      
                             <Damage style="buff" linear="true" value="6.39" /> <!-- 1 + 36.5 = 600 damage -->
                             <Reload style="buff" value="9.0" /> <!-- 1 + 14 = 15000ms -->
                             <Distance style="buff" value="0.3333" />
@@ -1270,7 +1270,7 @@
                         </EffectConfiguration>
                 </BasicValues>
                 <Combination>
-                        <Cannon> <!-- sustained beam -->
+                        <Cannon> <!-- Sustained Beam -->
                             <HitSpeed style="skip"/> <!-- 0.2 tick rate-->
                             <Distance style="nerf" value="1.5"/>
 
@@ -1300,7 +1300,7 @@
                             
                             <PossibleZoom style="set" value="0.3"/>
                         </Cannon>
-                        <Missile> <!-- arc beam -->
+                        <Missile> <!-- Short-range Charge Beam -->
                             <HitSpeed style="skip"/> <!-- 0.02 tick rate-->
                             <Distance style="nerf" value="3.0"/>
 
@@ -1330,7 +1330,7 @@
                             
                             <PossibleZoom style="set" value="0.0"/>
                         </Missile>
-                        <Beam> <!-- long-range pulse beam -->
+                        <Beam> <!-- Long-Range Pulse Beam -->
                             <HitSpeed style="skip"/> <!-- 0.02 tick rate-->
                             <Distance style="buff" value="0.33"/>
 
