@@ -1,4 +1,4 @@
-<Config hash="-5178247320688491535">
+<Config hash="-7992978000761930723">
     <Group id="stealth - cloaking">
         <E modtype="set" priority="0" type="stealth_cloak_capability">
             <P name="value" type="boolean">
@@ -52,21 +52,21 @@
         </E>
         <E modtype="add" priority="0" type="thruster_turn_rate">
             <P name="value" type="float">
-                <value>0.125</value>
+                <value>0.075</value>
             </P>
         </E>
     </Group>
     <Group id="mobility - turn rate 2">
         <E modtype="add" priority="0" type="thruster_turn_rate">
             <P name="value" type="float">
-                <value>0.125</value>
+                <value>0.075</value>
             </P>
         </E>
     </Group>
     <Group id="mobility - turn rate 3">
         <E modtype="add" priority="0" type="thruster_turn_rate">
             <P name="value" type="float">
-                <value>0.25</value>
+                <value>0.1</value>
             </P>
         </E>
     </Group>
