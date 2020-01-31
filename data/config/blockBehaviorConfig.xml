@@ -615,11 +615,11 @@
                         
                         <MaxRotationalForceX>10.0</MaxRotationalForceX> <!-- Maximum rotational force -->
                         <MaxRotationalForceY>10.0</MaxRotationalForceY> <!-- Maximum rotational force -->
-                        <MaxRotationalForceZ>1.0</MaxRotationalForceZ> <!-- Maximum rotational force -->
+                        <MaxRotationalForceZ>0.75</MaxRotationalForceZ> <!-- Maximum rotational force -->
                         
                         <BaseRotationalForceX>10.0</BaseRotationalForceX> <!-- Base rotational force -->
                         <BaseRotationalForceY>10.0</BaseRotationalForceY> <!-- Base rotational force -->
-                        <BaseRotationalForceZ>0.75</BaseRotationalForceZ> <!-- Base rotational force -->
+                        <BaseRotationalForceZ>0.10</BaseRotationalForceZ> <!-- Base rotational force -->
                         
                         	
                 </BasicValues>
