@@ -619,7 +619,7 @@
                         
                         <BaseRotationalForceX>10.0</BaseRotationalForceX> <!-- Base rotational force -->
                         <BaseRotationalForceY>10.0</BaseRotationalForceY> <!-- Base rotational force -->
-                        <BaseRotationalForceZ>0.75</BaseRotationalForceZ> <!-- Base rotational force -->
+                        <BaseRotationalForceZ>0.70</BaseRotationalForceZ> <!-- Base rotational force -->
                         
                         	
                 </BasicValues>
