@@ -611,15 +611,15 @@
                          -->
                         
                         <ThrustRotPercentMult>50.0</ThrustRotPercentMult> <!-- additional multiplier of ratio -->
-                        <InertiaPow>0.20</InertiaPow> <!-- additional multiplier of ratio -->
+                        <InertiaPow>0.25</InertiaPow> <!-- additional multiplier of ratio -->
                         
                         <MaxRotationalForceX>10.0</MaxRotationalForceX> <!-- Maximum rotational force -->
                         <MaxRotationalForceY>10.0</MaxRotationalForceY> <!-- Maximum rotational force -->
-                        <MaxRotationalForceZ>1.0</MaxRotationalForceZ> <!-- Maximum rotational force -->
+                        <MaxRotationalForceZ>1.5</MaxRotationalForceZ> <!-- Maximum rotational force -->
                         
                         <BaseRotationalForceX>10.0</BaseRotationalForceX> <!-- Base rotational force -->
                         <BaseRotationalForceY>10.0</BaseRotationalForceY> <!-- Base rotational force -->
-                        <BaseRotationalForceZ>2.0</BaseRotationalForceZ> <!-- Base rotational force -->
+                        <BaseRotationalForceZ>1.0</BaseRotationalForceZ> <!-- Base rotational force -->
                         
                         	
                 </BasicValues>
