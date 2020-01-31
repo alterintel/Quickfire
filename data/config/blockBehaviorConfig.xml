@@ -611,7 +611,7 @@
                          -->
                         
                         <ThrustRotPercentMult>50.0</ThrustRotPercentMult> <!-- additional multiplier of ratio -->
-                        <InertiaPow>0.25</InertiaPow> <!-- additional multiplier of ratio -->
+                        <InertiaPow>0.5</InertiaPow> <!-- additional multiplier of ratio -->
                         
                         <MaxRotationalForceX>10.0</MaxRotationalForceX> <!-- Maximum rotational force -->
                         <MaxRotationalForceY>10.0</MaxRotationalForceY> <!-- Maximum rotational force -->
