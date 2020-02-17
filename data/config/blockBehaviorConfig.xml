@@ -174,8 +174,8 @@
                         
                         <!-- global modifier for shield hits (attack minus defense). -->
                         <ShieldEffectConfiguration>
-                        	<Kinetic>0.2</Kinetic>
-                        	<Heat>0.2</Heat>
+                        	<Kinetic>0.45</Kinetic>
+                        	<Heat>0.45</Heat>
                         	<EM>0.0</EM>
                         </ShieldEffectConfiguration>
                         <IndividualBlockEffectArmorOnShieldHit>false</IndividualBlockEffectArmorOnShieldHit> <!-- if the individual block defence is added for shield its -->
@@ -184,15 +184,15 @@
                         <!-- global modifier for non-armor defense (attack minus defense). -->
                         <BasicEffectConfiguration>
                         	<Kinetic>0.0</Kinetic>
-                        	<Heat>0.2</Heat>
-                        	<EM>0.2</EM>
+                        	<Heat>0.45</Heat>
+                        	<EM>0.45</EM>
                         </BasicEffectConfiguration>
                         
                         <!-- global modifier for armor defense (attack minus defense).-->
                         <ArmorEffectConfiguration>
-                        	<Kinetic>0.2</Kinetic>
+                        	<Kinetic>0.45</Kinetic>
                         	<Heat>0.0</Heat>
-                        	<EM>0.2</EM>
+                        	<EM>0.45</EM>
                         </ArmorEffectConfiguration>
                         
                         <ShieldLocalCapacityPerBlock>250</ShieldLocalCapacityPerBlock>
