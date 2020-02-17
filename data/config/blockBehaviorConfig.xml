@@ -920,7 +920,7 @@
                         <PowerConsumption>100</PowerConsumption>
 
                         <!-- NEW -->
-                        <Damage>13.53</Damage>                        
+                        <Damage>16.91</Damage>                        
                         <ReactorPowerConsumptionResting>25.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging>
                         
@@ -1036,7 +1036,7 @@
                             <PowerConsumption style="skip" linear="true"/>
                             <ProjectileWidth style="buff" value ="1"/>
                             <AcidFormula style="set" value="2"/>
-                            <ChargeMax style="set" value="1.3"/>
+                            <ChargeMax style="set" value="1.4"/>
                             <ChargeSpeed style="set" value="1.0"/>
                             
                             <CursorRecoilX style="skip"/> <!-- Cursor movement force multiplied with damage -->
@@ -1123,7 +1123,7 @@
                 <BasicValues>
                         <Damage version="noreactor">300</Damage>
                         
-                        <Damage>82.82</Damage>
+                        <Damage>103.53</Damage>
                         <ReactorPowerConsumptionResting>25.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging> 
                         <AdditionalCapacityUsedPerDamage>0</AdditionalCapacityUsedPerDamage> <!-- rounded down -->
@@ -1233,7 +1233,7 @@
                         <DamageReductionPerArmorValueMult>0.0</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
-                        <DamagePerHit>3.79</DamagePerHit>  
+                        <DamagePerHit>4.73</DamagePerHit>  
                         <ReactorPowerConsumptionResting>25.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging>
                         
@@ -1247,7 +1247,7 @@
                         <RailHitMultiplierParent>0</RailHitMultiplierParent> <!-- Damage percent done to target in own Rail Chain when target is equal or closer to root than this entitiy-->
                         <RailHitMultiplierChild>0</RailHitMultiplierChild> <!-- Damage percent done to target in own Rail Chain when target is further from root than this entity --> 						
                         
-                        <LatchOn>0</LatchOn> <!-- 0 for off. not 0 for on -->
+                        <LatchOn>1</LatchOn> <!-- 0 for off. not 0 for on -->
                         <CheckLatchConnection>1</CheckLatchConnection> <!-- 0 for off. not 0 for on. If on, the beam checks for a direct line of sight to the latched-on block. If off, the beam will keep hitting that area even if the ship is turned around (arc beam)-->
                         <Penetration>0</Penetration> <!-- 0 for off. not 0 for on -->
                         <AcidDamagePercentage>1.0</AcidDamagePercentage> <!-- percentage of overflow damage into acid -->
@@ -1272,7 +1272,7 @@
                 <Combination>
                         <Cannon> <!-- Sustained Beam -->
                             <HitSpeed style="skip"/> <!-- 0.2 tick rate-->
-                            <Distance style="nerf" value="1.5"/>
+                            <Distance style="nerf" value="1.14"/>
 
                             <PowerConsumptionResting style="buff" inverse="true" linear="true" value="5" version="noreactor"/>
                             <PowerConsumptionResting style="skip" linear="true"/>
@@ -1284,12 +1284,12 @@
 
                             <InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 
-                            <LatchOn style="skip"/>
+                            <LatchOn style="set" value="0"/>
                             <CheckLatchConnection style="skip"/>
-                            <Penetration style="set" value ="0"/>
+                            <Penetration style="skip"/>
                             <AcidDamagePercentage style="skip"/><!-- restdamage of a tick when a block was killed -->
-                            <FriendlyFire style="set" value ="0"/>
-                            <Aimable style="set" value ="1"/>
+                            <FriendlyFire style="skip"/>
+                            <Aimable style="skip"/>
 
                             <ChargeTime style="skip"/> <!-- how long weapon must be charged before fire (0 for off) -->
                             <MinEffectiveValue style="skip"/>> <!-- effectiveness (*damage) of beam at min efficiency range -->
@@ -1307,7 +1307,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
                             
-                            <PowerPerHit style="buff" linear="true" value="2.17"/> <!-- linear is needed here -->
+                            <PowerPerHit style="buff" linear="true" value="2.62"/> <!-- linear is needed here -->
                             <CoolDown style="nerf" value="2.0"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="2.0"/> <!-- Time the beam will fire -->
 
@@ -1315,11 +1315,11 @@
                             
                           
                             <LatchOn style="set" value ="0"/>
-                            <CheckLatchConnection style="set" value ="1"/>
-                            <Penetration style="set" value ="0"/>
+                            <CheckLatchConnection style="skip"/>
+                            <Penetration style="skip"/>
                             <AcidDamagePercentage style="skip"/> <!-- restdamage of a tick when a block was killed -->
-                            <FriendlyFire style="set" value ="0"/>
-                            <Aimable style="set" value ="1"/>
+                            <FriendlyFire style="skip"/>
+                            <Aimable style="skip"/>
                             
                             <ChargeTime style="set" value="3.0"/> <!-- how long weapon must be charged before fire (0 for off) -->
                             <MinEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at min efficiency range -->
@@ -1338,18 +1338,18 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="buff" value="3.62" linear="true"/>
+                            <PowerPerHit style="buff" value="4.28" linear="true"/>
                             <CoolDown style="nerf" value="2.0"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="12.5"/> <!-- Time the beam will fire -->
 
                             <InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
                             
                             <LatchOn style="set" value ="0"/>
-                            <CheckLatchConnection style="set" value ="1"/>
+                            <CheckLatchConnection style="skip"/>
                             <Penetration style="skip"/>
                             <AcidDamagePercentage style="skip"/>
-                            <FriendlyFire style="set" value ="0"/>
-                            <Aimable style="set" value ="1"/>
+                            <FriendlyFire style="skip"/>
+                            <Aimable style="skip"/>
                             
                             <ChargeTime style="skip"/> <!-- how long weapon must be charged before fire (0 for off) -->
                             <MinEffectiveValue style="skip"/>> <!-- effectiveness (*damage) of beam at min efficiency range -->
