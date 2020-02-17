@@ -1164,9 +1164,9 @@
                         
                         <!-- Dumb = 0, Heat = 1, TargetChasing = 2, Bomb = 3 -->        
                         <EffectConfiguration>
-                        	<Kinetic>0.5</Kinetic>
+                        	<Kinetic>1.0</Kinetic>
                         	<Heat>1.5</Heat>
-                        	<EM>1.0</EM>
+                        	<EM>0.0</EM>
                         </EffectConfiguration>
                 </BasicValues>
                 <Combination>
