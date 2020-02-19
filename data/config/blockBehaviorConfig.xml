@@ -1189,7 +1189,7 @@
                              <PossibleZoom style="set" value="0"/> <!-- useless anyway -->
                         </Cannon>
                         <Missile> <!-- Bomb -->
-                            <Damage style="buff" value="80" linear="true"/> <!--Might be insufficient. The bomb needs A LOT of damage to go through armor. Mechanics changes might be desirable here.-->
+                            <Damage style="buff" value="20" linear="true"/>
                             <Reload style="buff" value="19"/>
                             <Distance style="nerf" value="6"/>
                             <LockOnTimeSec style="skip"/>
