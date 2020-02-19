@@ -1170,14 +1170,14 @@
                         </EffectConfiguration>
                 </BasicValues>
                 <Combination>
-                        <Cannon> <!-- Heat-Seeking Swarm -->
+                        <Cannon> <!-- Heat-Seeking Missile -->
                              <Damage style="buff" value="0.63" linear="true"/>
                              <Reload style="buff" value="1.5"/>
                              <Distance style="buff" value="0.5"/>
                              <LockOnTimeSec style="skip"/>
                               
                              <Speed style="skip"/>
-                             <Split style="buff" value="10"/>
+                             <Split style="skip"/><!--Unnecessary with no multigroup penalty-->
                              <Mode style="set" value="1"/><!-- Heat Seeker Missile -->
                              <PowerConsumption style="skip" linear="true"/>
                              
