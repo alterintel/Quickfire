@@ -920,7 +920,7 @@
                         <PowerConsumption>100</PowerConsumption>
 
                         <!-- NEW -->
-                        <Damage>16.91</Damage>                        
+                        <Damage>14.88</Damage>                        
                         <ReactorPowerConsumptionResting>25.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging>
                         
@@ -1123,7 +1123,7 @@
                 <BasicValues>
                         <Damage version="noreactor">300</Damage>
                         
-                        <Damage>103.53</Damage>
+                        <Damage>62.12</Damage>
                         <ReactorPowerConsumptionResting>25.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging> 
                         <AdditionalCapacityUsedPerDamage>0</AdditionalCapacityUsedPerDamage> <!-- rounded down -->
@@ -1189,7 +1189,7 @@
                              <PossibleZoom style="set" value="0"/> <!-- useless anyway -->
                         </Cannon>
                         <Missile> <!-- Bomb -->
-                            <Damage style="buff" value="20" linear="true"/>
+                            <Damage style="buff" value="14" linear="true"/>
                             <Reload style="buff" value="19"/>
                             <Distance style="nerf" value="6"/>
                             <LockOnTimeSec style="skip"/>
@@ -1233,7 +1233,7 @@
                         <DamageReductionPerArmorValueMult>0.0</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
-                        <DamagePerHit>4.73</DamagePerHit>  
+                        <DamagePerHit>3.79</DamagePerHit>  
                         <ReactorPowerConsumptionResting>25.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging>
                         
@@ -1272,13 +1272,13 @@
                 <Combination>
                         <Cannon> <!-- Sustained Beam -->
                             <HitSpeed style="skip"/> <!-- 0.2 tick rate-->
-                            <Distance style="nerf" value="1.14"/>
+                            <Distance style="nerf" value="1.50"/>
 
                             <PowerConsumptionResting style="buff" inverse="true" linear="true" value="5" version="noreactor"/>
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="nerf" linear="true" value="1.31"/> <!-- 5 - This is the damage per hit -->
+                            <PowerPerHit style="nerf" linear="true" value="1.14"/> <!-- 5 - This is the damage per hit -->
                             <CoolDown style="nerf" value="10"/> <!-- 1.5 - Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="5"/> <!-- Time the beam will fire -->
 
