@@ -1233,12 +1233,12 @@
                         <DamageReductionPerArmorValueMult>0.0</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
-                        <DamagePerHit>3.79</DamagePerHit>  
+                        <DamagePerHit>5.79</DamagePerHit>  
                         <ReactorPowerConsumptionResting>25.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging>
                         
                         <PowerConsumptionPerTick>100</PowerConsumptionPerTick> 
-                        <Distance>4.5</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
+                        <Distance>3.0</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
                         <TickRate>0.1999</TickRate>  <!-- tick time in seconds, beam must remain on target entity or this timer resets -->
                         <CoolDown>10.0</CoolDown> <!-- Time it takes to fire beam again from the start-time it first activated -->
                         <BurstTime>5.0</BurstTime> <!-- Time the beam will fire -->
@@ -1261,7 +1261,7 @@
                         
                         <MaxEffectiveValue>0.4</MaxEffectiveValue> <!-- effectiveness (*damage) of beam at max efficiency range -->
                         <MaxEffectiveRange>1.0</MaxEffectiveRange> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
-                        <PossibleZoom>0.5</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification --> <!--Lower is better.-->
+                        <PossibleZoom>0.3</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification --> <!--Lower is better.-->
                         
                         <EffectConfiguration>
                         	<Kinetic>0.5</Kinetic>
@@ -1272,7 +1272,7 @@
                 <Combination>
                         <Cannon> <!-- Sustained Beam -->
                             <HitSpeed style="skip"/> <!-- 0.2 tick rate-->
-                            <Distance style="nerf" value="1.50"/>
+                            <Distance style="buff" value="0.5"/>
 
                             <PowerConsumptionResting style="buff" inverse="true" linear="true" value="5" version="noreactor"/>
                             <PowerConsumptionResting style="skip" linear="true"/>
@@ -1298,16 +1298,16 @@
                             <MaxEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at max efficiency range -->
                             <MaxEffectiveRange style="skip"/> <!-- at what % of beam length or more the beam uses the MaxEffectiveValue-->
                             
-                            <PossibleZoom style="set" value="0.3"/>
+                            <PossibleZoom style="set" value="0.5"/>
                         </Cannon>
                         <Missile> <!-- Short-range Charge Beam -->
                             <HitSpeed style="skip"/> <!-- 0.02 tick rate-->
-                            <Distance style="nerf" value="3.0"/>
+                            <Distance style="nerf" value="2.0"/>
 
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
                             
-                            <PowerPerHit style="buff" linear="true" value="2.62"/> <!-- linear is needed here -->
+                            <PowerPerHit style="buff" linear="true" value="1.37"/> <!-- linear is needed here -->
                             <CoolDown style="nerf" value="2.0"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="2.0"/> <!-- Time the beam will fire -->
 
@@ -1332,13 +1332,13 @@
                         </Missile>
                         <Beam> <!-- Long-Range Pulse Beam -->
                             <HitSpeed style="skip"/> <!-- 0.02 tick rate-->
-                            <Distance style="buff" value="0.33"/>
+                            <Distance style="buff" value="1.0"/>
 
                             <PowerConsumptionResting style="nerf" inverse="true" linear="true" value="2" version="noreactor"/>                                
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="buff" value="4.28" linear="true"/>
+                            <PowerPerHit style="buff" value="2.45" linear="true"/>
                             <CoolDown style="nerf" value="2.0"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="12.5"/> <!-- Time the beam will fire -->
 
