@@ -196,7 +196,7 @@
                         </ArmorEffectConfiguration>
                         
                         <ShieldLocalCapacityPerBlock>200</ShieldLocalCapacityPerBlock>
-                        <ShieldLocalRechargePerBlock>2</ShieldLocalRechargePerBlock>
+                        <ShieldLocalRechargePerBlock>1</ShieldLocalRechargePerBlock>
                         <ShieldLocalDefaultCapacity>0</ShieldLocalDefaultCapacity>
 
                         <ShieldLocalRadiusCalcStyle>EXP</ShieldLocalRadiusCalcStyle> <!-- LINEAR, EXP, LOG -->
@@ -213,7 +213,7 @@
                             <ShieldLocalRadiusLogFactor>20.0</ShieldLocalRadiusLogFactor>
                             <ShieldLocalRadiusLogOffset>0.0</ShieldLocalRadiusLogOffset>
 
-                        <ShieldUpkeepPerSecondOfTotalCapacity>0.004</ShieldUpkeepPerSecondOfTotalCapacity>
+                        <ShieldUpkeepPerSecondOfTotalCapacity>0.002</ShieldUpkeepPerSecondOfTotalCapacity>
                         
                         <ShieldLocalPowerConsumptionPerRechargePerSecondResting>25.0</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
                         <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>25.0</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
