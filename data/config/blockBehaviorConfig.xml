@@ -195,8 +195,8 @@
                         	<EM>0.45</EM>
                         </ArmorEffectConfiguration>
                         
-                        <ShieldLocalCapacityPerBlock>100</ShieldLocalCapacityPerBlock>
-                        <ShieldLocalRechargePerBlock>1</ShieldLocalRechargePerBlock>
+                        <ShieldLocalCapacityPerBlock>200</ShieldLocalCapacityPerBlock>
+                        <ShieldLocalRechargePerBlock>2</ShieldLocalRechargePerBlock>
                         <ShieldLocalDefaultCapacity>0</ShieldLocalDefaultCapacity>
 
                         <ShieldLocalRadiusCalcStyle>EXP</ShieldLocalRadiusCalcStyle> <!-- LINEAR, EXP, LOG -->
@@ -213,10 +213,10 @@
                             <ShieldLocalRadiusLogFactor>20.0</ShieldLocalRadiusLogFactor>
                             <ShieldLocalRadiusLogOffset>0.0</ShieldLocalRadiusLogOffset>
 
-                        <ShieldUpkeepPerSecondOfTotalCapacity>0.004</ShieldUpkeepPerSecondOfTotalCapacity>
+                        <ShieldUpkeepPerSecondOfTotalCapacity>0.002</ShieldUpkeepPerSecondOfTotalCapacity>
                         
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>100.0</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
-                        <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>100.0</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondResting>50.0</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
+                        <ShieldLocalPowerConsumptionPerRechargePerSecondCharging>50.0</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
 
                         <ShieldLocalRechargeUnderFireModeSec>30.0</ShieldLocalRechargeUnderFireModeSec> <!-- how long after being hit a recharge nerf based on shield status applies -->
                         <ShieldLocalRechargeUnderFireMinPercent>0.5</ShieldLocalRechargeUnderFireMinPercent> <!-- minimum recharge under fire -->
@@ -920,7 +920,7 @@
                         <PowerConsumption>100</PowerConsumption>
 
                         <!-- NEW -->
-                        <Damage>10</Damage> <!-- 0.1 dps;power -->                       
+                        <Damage>20</Damage> <!-- 0.2 dps;power -->                       
                         <ReactorPowerConsumptionResting>0.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging>
                         
@@ -1123,7 +1123,7 @@
                 <BasicValues>
                         <Damage version="noreactor">300</Damage>
                         
-                        <Damage>55</Damage> <!-- 0.11 dps;power -->
+                        <Damage>110</Damage> <!-- 0.22 dps;power -->
                         <ReactorPowerConsumptionResting>0.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging> 
                         <AdditionalCapacityUsedPerDamage>0</AdditionalCapacityUsedPerDamage> <!-- rounded down -->
@@ -1216,7 +1216,7 @@
 			     <!-- fast consistent pokey boi -->
 			     <!-- pros: long range, fast -->
                              <!-- cons: low dps;power -->
-                             <Damage style="buff" value="0.2" linear="true" /> <!-- 0.6 dps;power -->
+                             <Damage style="buff" value="0.2" linear="true" /> <!-- 0.12 dps;power -->
                              <Reload style="buff" value="1"/> <!-- 10 sec -->
                              <Distance style="buff" value="0.25"/> <!-- 10km -->
                              <LockOnTimeSec style="skip"/>
@@ -1242,7 +1242,7 @@
                         <DamageReductionPerArmorValueMult>0.0</DamageReductionPerArmorValueMult> <!-- beam damage = damage / (1+(totalThicknessArmorValueAtHitpoint * DamageReductionPerArmorValueMult))-->
                         <DamagePerHit version="noreactor">10</DamagePerHit>
                         
-                        <DamagePerHit>16</DamagePerHit> <!-- 0.08 dps;power --> 
+                        <DamagePerHit>32</DamagePerHit> <!-- 0.16 dps;power --> 
                         <ReactorPowerConsumptionResting>0.0</ReactorPowerConsumptionResting>
                         <ReactorPowerConsumptionCharging>100.0</ReactorPowerConsumptionCharging>
                         
@@ -1290,7 +1290,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="nerf" linear="true" value="26.6666"/> <!-- 0.06dps;power -->
+                            <PowerPerHit style="nerf" linear="true" value="26.6666"/> <!-- 0.12dps;power -->
                             <CoolDown style="set" value="0.1"/> 
                             <BurstTime style="set" value="0.1"/>
 
@@ -1322,7 +1322,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
                             
-                            <PowerPerHit style="buff" linear="true" value="36.5"/> <!-- 0.1 dps;power -->
+                            <PowerPerHit style="buff" linear="true" value="36.5"/> <!-- 0.2 dps;power -->
                             <CoolDown style="set" value="30"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="set" value="5"/> <!-- Time the beam will fire -->
 
@@ -1356,7 +1356,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="nerf" value="1.25" linear="true"/> <!-- 0.04 dps;power -->
+                            <PowerPerHit style="nerf" value="1.25" linear="true"/> <!-- 0.08 dps;power -->
                             <CoolDown style="set" value="5"/> <!-- Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="set" value="0.5"/> <!-- Time the beam will fire -->
 
