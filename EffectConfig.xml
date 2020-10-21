@@ -1,4 +1,4 @@
-<Config hash="-7241055243812585125">
+<Config hash="7807109169733229841">
     <Group id="stealth - cloaking">
         <E modtype="set" priority="0" type="stealth_cloak_capability">
             <P name="value" type="boolean">
@@ -146,17 +146,17 @@
         </E>
         <E modtype="add" priority="-1" type="armor_defense_heat">
             <P name="value" type="float">
-                <value>0.3</value>
+                <value>0.1</value>
             </P>
         </E>
         <E modtype="add" priority="-1" type="armor_defense_em">
             <P name="value" type="float">
-                <value>0.3</value>
+                <value>0.1</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="armor_defense_environmental">
             <P name="value" type="float">
-                <value>0.3</value>
+                <value>0.1</value>
             </P>
         </E>
     </Group>
@@ -300,12 +300,12 @@
         </E>
         <E modtype="set" priority="-1" type="shield_hotspot_range">
             <P name="value" type="float">
-                <value>0.0</value>
+                <value>0.4</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="shield_hotspot_percentage">
             <P name="value" type="float">
-                <value>0.0</value>
+                <value>0.35</value>
             </P>
         </E>
     </Group>
@@ -317,12 +317,12 @@
         </E>
         <E modtype="set" priority="-1" type="shield_hotspot_percentage">
             <P name="value" type="float">
-                <value>0.0</value>
+                <value>0.1</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="shield_hotspot_range">
             <P name="value" type="float">
-                <value>0.0</value>
+                <value>0.25</value>
             </P>
         </E>
     </Group>
@@ -780,14 +780,14 @@
     <Group id="defense - shield type alpha 2">
         <E modtype="add" priority="0" type="shield_hotspot_range">
             <P name="value" type="float">
-                <value>0.0</value>
+                <value>0.3</value>
             </P>
         </E>
     </Group>
     <Group id="defense - shield type dps 2">
         <E modtype="add" priority="0" type="shield_hotspot_range">
             <P name="value" type="float">
-                <value>0.0</value>
+                <value>0.25</value>
             </P>
         </E>
     </Group>
@@ -1104,11 +1104,6 @@
                 <value>1.0</value>
             </P>
         </E>
-        <E modtype="set" priority="0" type="jump_auto_charge">
-            <P name="value" type="boolean">
-                <value>true</value>
-            </P>
-        </E>
     </Group>
     <Group id="ftl - base warp gate">
         <E modtype="set" priority="-1" type="warp_power_efficiency">
@@ -1140,7 +1135,7 @@
         </E>
         <E modtype="set" priority="-1" type="warp_interdiction_power_consumption">
             <P name="value" type="float">
-                <value>0.025</value>
+                <value>0.5</value>
             </P>
         </E>
         <E modtype="set" priority="-2" type="warp_interdiction">
@@ -1193,7 +1188,7 @@
     <Group id="ftl - warp interdiction 0 sector">
         <E modtype="set" priority="-1" type="warp_interdiction_strength">
             <P name="value" type="int">
-                <value>1666</value>
+                <value>5</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="warp_interdiction_distance">
@@ -1210,7 +1205,7 @@
     <Group id="ftl - warp interdiction 1 sector">
         <E modtype="set" priority="0" type="warp_interdiction_strength">
             <P name="value" type="int">
-                <value>3332</value>
+                <value>10</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="warp_interdiction_distance">
@@ -1227,7 +1222,7 @@
     <Group id="ftl - warp interdiction 2 sector">
         <E modtype="set" priority="1" type="warp_interdiction_strength">
             <P name="value" type="int">
-                <value>4998</value>
+                <value>15</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="warp_interdiction_distance">
@@ -1244,7 +1239,7 @@
     <Group id="ftl - warp interdiction 3 sector">
         <E modtype="set" priority="2" type="warp_interdiction_strength">
             <P name="value" type="int">
-                <value>6664</value>
+                <value>20</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="warp_interdiction_distance">
@@ -1261,7 +1256,7 @@
     <Group id="ftl - warp interdiction 4 sector">
         <E modtype="set" priority="3" type="warp_interdiction_strength">
             <P name="value" type="int">
-                <value>8330</value>
+                <value>25</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="warp_interdiction_distance">
@@ -1278,7 +1273,7 @@
     <Group id="ftl - warp interdiction 5 sector">
         <E modtype="set" priority="4" type="warp_interdiction_strength">
             <P name="value" type="int">
-                <value>11662</value>
+                <value>30</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="warp_interdiction_distance">
@@ -1295,7 +1290,7 @@
     <Group id="ftl - warp interdiction 6 sector">
         <E modtype="set" priority="5" type="warp_interdiction_strength">
             <P name="value" type="int">
-                <value>13328</value>
+                <value>35</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="warp_interdiction_distance">
@@ -1312,7 +1307,7 @@
     <Group id="ftl - warp interdiction 7 sector">
         <E modtype="set" priority="6" type="warp_interdiction_strength">
             <P name="value" type="int">
-                <value>19449</value>
+                <value>40</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="warp_interdiction_distance">
@@ -1329,7 +1324,7 @@
     <Group id="ftl - warp interdiction 8 sector">
         <E modtype="set" priority="-1" type="warp_interdiction_strength">
             <P name="value" type="int">
-                <value>16660</value>
+                <value>45</value>
             </P>
         </E>
         <E modtype="set" priority="7" type="warp_interdiction_distance">
@@ -1346,7 +1341,7 @@
     <Group id="ftl - warp interdiction 9 sector">
         <E modtype="set" priority="8" type="warp_interdiction_strength">
             <P name="value" type="int">
-                <value>18326</value>
+                <value>50</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="warp_interdiction_distance">
@@ -1530,42 +1525,42 @@
     <Group id="defense - heat armor 1">
         <E modtype="add" priority="0" type="armor_defense_heat">
             <P name="value" type="float">
-                <value>0.18</value>
+                <value>0.25</value>
             </P>
         </E>
     </Group>
     <Group id="defense - heat armor 2">
         <E modtype="add" priority="0" type="armor_defense_heat">
             <P name="value" type="float">
-                <value>0.27</value>
+                <value>0.25</value>
             </P>
         </E>
     </Group>
     <Group id="defense - em armor 1">
         <E modtype="add" priority="0" type="armor_defense_em">
             <P name="value" type="float">
-                <value>0.18</value>
+                <value>0.25</value>
             </P>
         </E>
     </Group>
     <Group id="defense - em armor 2">
         <E modtype="add" priority="0" type="armor_defense_em">
             <P name="value" type="float">
-                <value>0.27</value>
+                <value>0.25</value>
             </P>
         </E>
     </Group>
     <Group id="defense - kinetic armor 1">
         <E modtype="add" priority="0" type="armor_defense_kinetic">
             <P name="value" type="float">
-                <value>0.18</value>
+                <value>0.25</value>
             </P>
         </E>
     </Group>
     <Group id="defense - kinetic armor 2">
         <E modtype="add" priority="0" type="armor_defense_kinetic">
             <P name="value" type="float">
-                <value>0.27</value>
+                <value>0.25</value>
             </P>
         </E>
     </Group>
