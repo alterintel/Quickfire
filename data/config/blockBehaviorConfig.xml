@@ -185,7 +185,7 @@
                         <BasicEffectConfiguration>
                         	<Kinetic>0.0</Kinetic>
                         	<Heat>0.15</Heat>
-                        	<EM>0.1</EM>
+                        	<EM>-1000.0</EM> <!--normally 0.1-->
                         </BasicEffectConfiguration>
                         
                         <!-- global modifier for armor defense (attack minus defense).-->
@@ -1414,8 +1414,8 @@
         <Kinetic>
             <BasicValues>  
                 <EffectConfiguration>
-                    <Kinetic>0.333</Kinetic>
-                    <Heat>-0.1666</Heat>
+                    <Kinetic>-0.1666</Kinetic>
+                    <Heat>0.333</Heat>
                     <EM>-0.1666</EM>
                 </EffectConfiguration>
             </BasicValues>
