@@ -1,4 +1,4 @@
-<Config hash="7807109169733229841">
+<Config hash="-7271157326625175197">
     <Group id="stealth - cloaking">
         <E modtype="set" priority="0" type="stealth_cloak_capability">
             <P name="value" type="boolean">
@@ -1525,42 +1525,42 @@
     <Group id="defense - heat armor 1">
         <E modtype="add" priority="0" type="armor_defense_heat">
             <P name="value" type="float">
-                <value>0.25</value>
+                <value>0.2</value>
             </P>
         </E>
     </Group>
     <Group id="defense - heat armor 2">
         <E modtype="add" priority="0" type="armor_defense_heat">
             <P name="value" type="float">
-                <value>0.25</value>
+                <value>0.2</value>
             </P>
         </E>
     </Group>
     <Group id="defense - em armor 1">
         <E modtype="add" priority="0" type="armor_defense_em">
             <P name="value" type="float">
-                <value>0.25</value>
+                <value>0.2</value>
             </P>
         </E>
     </Group>
     <Group id="defense - em armor 2">
         <E modtype="add" priority="0" type="armor_defense_em">
             <P name="value" type="float">
-                <value>0.25</value>
+                <value>0.2</value>
             </P>
         </E>
     </Group>
     <Group id="defense - kinetic armor 1">
         <E modtype="add" priority="0" type="armor_defense_kinetic">
             <P name="value" type="float">
-                <value>0.25</value>
+                <value>0.2</value>
             </P>
         </E>
     </Group>
     <Group id="defense - kinetic armor 2">
         <E modtype="add" priority="0" type="armor_defense_kinetic">
             <P name="value" type="float">
-                <value>0.25</value>
+                <value>0.2</value>
             </P>
         </E>
     </Group>
